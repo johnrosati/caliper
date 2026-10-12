@@ -1,0 +1,7250 @@
+{
+  "job": "2605",
+  "sourceName": "26-0527_UMG stair asmJR2.STEP",
+  "sourceSha256": "13f5c27c29302adcf31ece4545312b69403203f32269eee3104783f11d917442",
+  "previousSourceSha256": "84d08432ba8137f6f274b1eff2b3727ea8d47ae433dc1b7aa816f377e9bf2a8c",
+  "refresh": {
+    "matched": 502,
+    "added": [
+      "body-0502"
+    ],
+    "removed": []
+  },
+  "format": "STEP AP214",
+  "units": "mm",
+  "conversionSeconds": 20.721,
+  "meshes": 503,
+  "triangles": 264284,
+  "assemblyNodes": 20,
+  "bodies": [
+    {
+      "id": "body-0000",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0001",
+      "name": "26-0527_steel substreadJR_5-6 BTM Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0002",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0003",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 4",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 3164,
+      "color": null
+    },
+    {
+      "id": "body-0004",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 764,
+      "color": null
+    },
+    {
+      "id": "body-0005",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 6",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 540,
+      "color": null
+    },
+    {
+      "id": "body-0006",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 7",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 500,
+      "color": null
+    },
+    {
+      "id": "body-0007",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 8",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 616,
+      "color": null
+    },
+    {
+      "id": "body-0008",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 9",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 2212,
+      "color": null
+    },
+    {
+      "id": "body-0009",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 10",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 472,
+      "color": null
+    },
+    {
+      "id": "body-0010",
+      "name": "26-0713_btm wall mending plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1592,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0011",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0012",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0013",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0014",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0015",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0016",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0017",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0018",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0019",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0020",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0021",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0022",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0023",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0024",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0025",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0026",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0027",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0028",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0029",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0030",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0031",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0032",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0033",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0034",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0035",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0036",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0037",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0038",
+      "name": "26-0527_steel substreadJR_5-6 SPLICE Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 492,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0039",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0040",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0041",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 42",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 392,
+      "color": null
+    },
+    {
+      "id": "body-0042",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 43",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 136,
+      "color": null
+    },
+    {
+      "id": "body-0043",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0044",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0045",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0046",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0047",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0048",
+      "name": "26-0527_steel substreadJR_5-6 SPLICE Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 728,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0049",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0050",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0051",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0052",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0053",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0054",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 55",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 540,
+      "color": null
+    },
+    {
+      "id": "body-0055",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 56",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 500,
+      "color": null
+    },
+    {
+      "id": "body-0056",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 57",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 540,
+      "color": null
+    },
+    {
+      "id": "body-0057",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 58",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 500,
+      "color": null
+    },
+    {
+      "id": "body-0058",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 59",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 400,
+      "color": null
+    },
+    {
+      "id": "body-0502",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 60",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 592,
+      "color": null
+    },
+    {
+      "id": "body-0059",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 61",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 472,
+      "color": null
+    },
+    {
+      "id": "body-0060",
+      "name": "26-0713_btm wall mending plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1592,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0061",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0062",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0063",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0064",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0065",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0066",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0067",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 69",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 84,
+      "color": null
+    },
+    {
+      "id": "body-0068",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 70",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 368,
+      "color": null
+    },
+    {
+      "id": "body-0069",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 71",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 3852,
+      "color": null
+    },
+    {
+      "id": "body-0070",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 72",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1360,
+      "color": null
+    },
+    {
+      "id": "body-0071",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 73",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1268,
+      "color": null
+    },
+    {
+      "id": "body-0072",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 74",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1260,
+      "color": null
+    },
+    {
+      "id": "body-0073",
+      "name": "26-0527_structure box asmJR_BTM 5-6 body 75",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 1684,
+      "color": null
+    },
+    {
+      "id": "body-0074",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0075",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0076",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0077",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0078",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0079",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0080",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0081",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0082",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0083",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0084",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0085",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0086",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0087",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0088",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0089",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0090",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0091",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0092",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0093",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0094",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0095",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0096",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0097",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0098",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0099",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0100",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0101",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0102",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0103",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0104",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0105",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0106",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0107",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0108",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0109",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0110",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0111",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0112",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0113",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0114",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0115",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_BTM 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0116",
+      "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall A",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 100,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0117",
+      "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall B",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 748,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0118",
+      "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 120",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 348,
+      "color": null
+    },
+    {
+      "id": "body-0119",
+      "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 121",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0120",
+      "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 122",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0121",
+      "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 123",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0122",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0123",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0124",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0125",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0126",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0127",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0128",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0129",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0130",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0131",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0132",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0133",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0134",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0135",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0136",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0137",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0138",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0139",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0140",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0141",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0142",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0143",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0144",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0145",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0146",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0147",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0148",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0149",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0150",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0151",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0152",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0153",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0154",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0155",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0156",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0157",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0158",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0159",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0160",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0161",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0162",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0163",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0164",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0165",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0166",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0167",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0168",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0169",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0170",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0171",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0172",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0173",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0174",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0175",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 BTM"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0176",
+      "name": "26-0527_steel substreadJR_5-6 SPLICE Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 492,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0177",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0178",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0179",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 181",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 392,
+      "color": null
+    },
+    {
+      "id": "body-0180",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 182",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 136,
+      "color": null
+    },
+    {
+      "id": "body-0181",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0182",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0183",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0184",
+      "name": "0.375-16_GRADE 5 STEEL FLANGED HEX HEAD CAP SCREWJR_1.25in Length",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 824,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0185",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 187",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 1032,
+      "color": null
+    },
+    {
+      "id": "body-0186",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 188",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 3240,
+      "color": null
+    },
+    {
+      "id": "body-0187",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 189",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 740,
+      "color": null
+    },
+    {
+      "id": "body-0188",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 190",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 600,
+      "color": null
+    },
+    {
+      "id": "body-0189",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 191",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 2320,
+      "color": null
+    },
+    {
+      "id": "body-0190",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 192",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 584,
+      "color": null
+    },
+    {
+      "id": "body-0191",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 193",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 76,
+      "color": null
+    },
+    {
+      "id": "body-0192",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 194",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 656,
+      "color": null
+    },
+    {
+      "id": "body-0193",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 195",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0194",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 196",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0195",
+      "name": "26-0713_btm wall mending plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 1592,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0196",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0197",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0198",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0199",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0200",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0201",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0202",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0203",
+      "name": "26-0527_steel substreadJR_5-6 SPLICE Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 728,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0204",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0205",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0206",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0207",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0208",
+      "name": "0.375-16_Square Weld Nut with projectionsJR_93975A300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0209",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0210",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0211",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0212",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0213",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0214",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0215",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0216",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0217",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0218",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0219",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0220",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0221",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0222",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0223",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0224",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0225",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0226",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0227",
+      "name": "26-0527_steel substreadJR_5-6 TYP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0228",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0229",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0230",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 232",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 740,
+      "color": null
+    },
+    {
+      "id": "body-0231",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 233",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 600,
+      "color": null
+    },
+    {
+      "id": "body-0232",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 234",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 740,
+      "color": null
+    },
+    {
+      "id": "body-0233",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 235",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 600,
+      "color": null
+    },
+    {
+      "id": "body-0234",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 236",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 592,
+      "color": null
+    },
+    {
+      "id": "body-0235",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 237",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 368,
+      "color": null
+    },
+    {
+      "id": "body-0236",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 238",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 76,
+      "color": null
+    },
+    {
+      "id": "body-0237",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 239",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 656,
+      "color": null
+    },
+    {
+      "id": "body-0238",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 240",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0239",
+      "name": "26-0527_structure box asmJR_TOP 5-6 body 241",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0240",
+      "name": "26-0713_btm wall mending plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 1592,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0241",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0242",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0243",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0244",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0245",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0246",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.25-20x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0247",
+      "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall E",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 516,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0248",
+      "name": "26-0527_steel substreadJR_5-6 TOP Tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 504,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0249",
+      "name": "26-0527_steel substreadJR_5-6 TYP Riser",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0250",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0251",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0252",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0253",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0254",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0255",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0256",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0257",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0258",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0259",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0260",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0261",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0262",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0263",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0264",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0265",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0266",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0267",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0268",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0269",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0270",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0271",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0272",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0273",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0274",
+      "name": "0.5-13_93975A400_Square Weld NutJR_93975A400",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 488,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0275",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0276",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0277",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0278",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0279",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0280",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0281",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0282",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0283",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0284",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0285",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0286",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0287",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0288",
+      "name": "26-0714_mid landig cross rib plateJR_Box CL",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 124,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0289",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0290",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0291",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0292",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0293",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0294",
+      "name": "26-0714_mid landig cross rib plateJR_Stringer Interior",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0295",
+      "name": "26-0701_base shoe top mount plateJR_Tread-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_structure box asmJR_TOP 5-6"
+      ],
+      "triangles": 412,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0296",
+      "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall A",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 88,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0297",
+      "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall B",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0298",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0299",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 301",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0300",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 302",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0301",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 303",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0302",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 304",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0303",
+      "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 305",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0304",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0305",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0306",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0307",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0308",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0309",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0310",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0311",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0312",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0313",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0314",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0315",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0316",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0317",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0318",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0319",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0320",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0321",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0322",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0323",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0324",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0325",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0326",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0327",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0328",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0329",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0330",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0331",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0332",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0333",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0334",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0335",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0336",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0337",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0338",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0339",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0340",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0341",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0342",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0343",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0344",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0345",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0346",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0347",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0348",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0349",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0350",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0351",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0352",
+      "name": "socket button head cap screw_ai_SBHCSCREW 0.25-20x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 490,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0353",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0354",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0355",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0356",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0357",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0358",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0359",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0360",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 428,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0361",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0362",
+      "name": "26-0701_base shoe top mount plateJR_Shoe-Side",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 564,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0363",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.3125-18x0.75x0.75-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0527_base shoe stringer asmJR_5-6 TOP"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0364",
+      "name": "26-0528_corner stringerJR_TYP Downhill Interior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0365",
+      "name": "26-0528_corner stringerJR_TYP Downhill Exterior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0366",
+      "name": "26-0528_corner stringerJR_TYP Downhill HORZ Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 200,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0367",
+      "name": "26-0528_corner stringerJR_TYP Downhill BTM Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0368",
+      "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 788,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0369",
+      "name": "26-0528_corner stringerJR_TYP Uphill Interior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Uphill"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0370",
+      "name": "26-0528_corner stringerJR_TYP Uphill Exterior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Uphill"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0371",
+      "name": "26-0528_corner stringerJR_TYP Uphill HORZ Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Uphill"
+      ],
+      "triangles": 200,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0372",
+      "name": "26-0528_corner stringerJR_TYP Uphill BTM Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Uphill"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0373",
+      "name": "26-0528_corner stringerJR_TYP Uphill MNT Flange",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Uphill"
+      ],
+      "triangles": 788,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0374",
+      "name": "26-0528_corner stringerJR_TYP Downhill Interior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0375",
+      "name": "26-0528_corner stringerJR_TYP Downhill Exterior VERT Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 156,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0376",
+      "name": "26-0528_corner stringerJR_TYP Downhill HORZ Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 200,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0377",
+      "name": "26-0528_corner stringerJR_TYP Downhill BTM Wall",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0378",
+      "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0528_corner stringer asmJR_TYP Downhill"
+      ],
+      "triangles": 788,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0379",
+      "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 904,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0380",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0381",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0382",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0383",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0384",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0385",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0386",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0387",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0388",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0389",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0390",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0391",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0392",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0393",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR_glazed edge"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0394",
+      "name": "26-0701_mid landing cross beamJR_Beam Tube",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 256,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0395",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0396",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0397",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0398",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0399",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0400",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0401",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0402",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0403",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0404",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0405",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0406",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0407",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0408",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0409",
+      "name": "26-0701_mid landing cross beamJR_Beam Tube",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 256,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0410",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0411",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0412",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0413",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0414",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0415",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0416",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0417",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0418",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0419",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0420",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0421",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0422",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0423",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0424",
+      "name": "26-0701_mid landing cross beamJR_Beam Tube",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 256,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0425",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0426",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0427",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0428",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0429",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0430",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0431",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0432",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0433",
+      "name": "26-0701_mid landing cross beamJR_MNT Plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 660,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0434",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0435",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0436",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0437",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0438",
+      "name": "0.5-13 Grade 5 Zinc Plated Flanged Hex Head Scrw_CS02JR_0.5-13x1.5\" Flanged HEX Head Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0701_mid landing beamJR"
+      ],
+      "triangles": 1012,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0439",
+      "name": "26-0710_top conn mount finJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 252,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0440",
+      "name": "26-0710_top conn mount finJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 252,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0441",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0442",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0443",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0444",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0445",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0446",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0447",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0448",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0449",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0450",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0451",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0452",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0453",
+      "name": "26-0710_top conn mount finJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 252,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0454",
+      "name": "26-0710_top conn mount finJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 252,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0455",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0456",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0457",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0458",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0459",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0460",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0461",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0462",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0463",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0464",
+      "name": "hex nut_ai_HNUT 0.5000-13-D-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 500,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0465",
+      "name": "90185A716_GR5 Steel Square-Neck Carriage Bolt 2605JR_90185A720",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 1368,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0466",
+      "name": "flat washer type a narrow_aiJR_Preferred Narrow FW 0.5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0710_mount fin conn asmJR"
+      ],
+      "triangles": 208,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0467",
+      "name": "26-0714_Base PlateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 2180,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0468",
+      "name": "26-0714_Base Plate ASMJR body 470",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0469",
+      "name": "26-0714_Base Plate ASMJR body 471",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0470",
+      "name": "26-0714_Base Plate ASMJR body 472",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0471",
+      "name": "26-0714_Base Plate ASMJR body 473",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0472",
+      "name": "26-0714_Base Plate ASMJR body 474",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0473",
+      "name": "26-0714_Base Plate ASMJR body 475",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0474",
+      "name": "26-0714_Base Plate ASMJR body 476",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0475",
+      "name": "26-0714_Base Plate ASMJR body 477",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0476",
+      "name": "26-0714_Base Plate ASMJR body 478",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0477",
+      "name": "26-0714_Base Plate ASMJR body 479",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0478",
+      "name": "26-0714_Base Plate ASMJR body 480",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0479",
+      "name": "26-0714_Base Plate ASMJR body 481",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0480",
+      "name": "26-0714_Base Plate ASMJR body 482",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0481",
+      "name": "26-0714_Base Plate ASMJR body 483",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0482",
+      "name": "26-0714_Base Plate ASMJR body 484",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0483",
+      "name": "26-0714_Base Plate ASMJR body 485",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0484",
+      "name": "26-0714_Base Plate ASMJR body 486",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0485",
+      "name": "26-0714_Base Plate ASMJR body 487",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0486",
+      "name": "26-0714_Base Plate ASMJR body 488",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0487",
+      "name": "26-0714_Base Plate ASMJR body 489",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0488",
+      "name": "26-0714_Base Plate ASMJR body 490",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0489",
+      "name": "26-0714_Base Plate ASMJR body 491",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 128,
+      "color": null
+    },
+    {
+      "id": "body-0490",
+      "name": "26-0714_Base Plate ASMJR body 492",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0491",
+      "name": "26-0714_Base Plate ASMJR body 493",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 164,
+      "color": null
+    },
+    {
+      "id": "body-0492",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0493",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0494",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0495",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0496",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0497",
+      "name": "hex bolt_aiJR_HBOLT 0.3750-16x1.25x1-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "26-0714_Base Plate ASMJR"
+      ],
+      "triangles": 260,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0498",
+      "name": "Hilti Kwik-Con II FLHD TorxJR_Kwik-Con II+ 14-234 TFH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "Hilti Kwik-Con II FLHD TorxJR_Kwik-Con II+ 14-234 TFH"
+      ],
+      "triangles": 4912,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0499",
+      "name": "Hilti Kwik-Con II FLHD TorxJR_Kwik-Con II+ 14-234 TFH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "Hilti Kwik-Con II FLHD TorxJR_Kwik-Con II+ 14-234 TFH"
+      ],
+      "triangles": 4912,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0500",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.19-32x0.375x0.375-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "socket countersunk head cap screw_ai_SCHCSCREW 0.19-32x0.375x0.375-HX-N"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    },
+    {
+      "id": "body-0501",
+      "name": "socket countersunk head cap screw_ai_SCHCSCREW 0.19-32x0.375x0.375-HX-N",
+      "assemblyPath": [
+        "Assembly",
+        "26-0527_UMG stair asmJR2",
+        "socket countersunk head cap screw_ai_SCHCSCREW 0.19-32x0.375x0.375-HX-N"
+      ],
+      "triangles": 416,
+      "color": [
+        1,
+        0.8879231214523315,
+        0.8069522380828857
+      ]
+    }
+  ]
+}

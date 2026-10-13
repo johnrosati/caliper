@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2605 · Stair bucket viewer</title>
   <link rel="stylesheet" href="./style.css?v=20261012-readonly1">
+  <link rel="stylesheet" href="./bucket-explorer.css?v=20261013-bucket">
   <script type="importmap">
     {"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}
   </script>
@@ -15,6 +16,7 @@
     <span class="view-only-label">VIEW ONLY</span><nav class="mode-toggle" aria-label="Viewer mode">
       <button id="mode-planning" type="button" class="active" aria-pressed="true">Planning</button>
       <button id="mode-overview" type="button" aria-pressed="false" disabled>Overview</button>
+      <button id="mode-bucket" type="button" aria-pressed="false" disabled>Bucket</button>
     </nav>
   </header>
   <main id="planning-view">
@@ -135,6 +137,25 @@
         </div>
       </div>
       <button id="overview-details-open" class="overview-details-open" type="button">Open in planning</button>
+    </aside>
+  </section>
+  <section id="bucket-view" aria-label="Bucket workspace" hidden>
+    <nav class="bucket-nav" aria-label="Work order buckets">
+      <div class="bucket-section-label">Work orders <span id="bucket-nav-count">00</span></div>
+      <div id="bucket-nav-list" class="bucket-nav-list"></div>
+      <div class="bucket-nav-footer">Drag the grip to reorder</div>
+    </nav>
+    <section class="bucket-center" aria-label="Selected bucket viewer">
+      <div class="bucket-center-head"><small id="bucket-view-id"></small><h1 id="bucket-view-name"></h1><p id="bucket-view-count"></p></div>
+      <div id="bucket-stage" class="bucket-stage" aria-label="Orbit view of selected work order"></div>
+      <div class="bucket-explode-bar"><button id="bucket-explode" type="button" aria-pressed="false">Explode</button><input id="bucket-distance" type="range" min="0" max="4" step="0.05" value="0" aria-label="Explode selected bucket"><output id="bucket-distance-value" for="bucket-distance">0.0×</output></div>
+      <div class="bucket-focus-caption" aria-live="polite"><span class="bucket-focus-dot"></span><div><strong id="bucket-focused-name"></strong><small id="bucket-focused-qty"></small></div></div>
+    </section>
+    <aside id="bucket-body-menu" class="bucket-body-menu" aria-label="Unique bodies" tabindex="0">
+      <div class="bucket-section-label">Unique bodies <span id="bucket-unique-count">00</span></div>
+      <div class="bucket-body-subtitle">Scroll or drag to explore</div>
+      <div id="bucket-wheel" class="bucket-wheel"></div><div id="bucket-wheel-empty" class="bucket-wheel-empty" hidden>Assign bodies to this bucket in Planning.</div>
+      <div class="bucket-wheel-controls"><button id="bucket-previous-body" type="button" aria-label="Previous unique body">↑</button><output id="bucket-wheel-position">00 / 00</output><button id="bucket-next-body" type="button" aria-label="Next unique body">↓</button></div>
     </aside>
   </section>
   <script type="module" src="./planning-app.js?v=20261012-readonly1"></script>

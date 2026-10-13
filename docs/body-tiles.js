@@ -76,7 +76,7 @@ export function broadFaceView(geometry) {
   return { center, facing, up, spans: max.map((value, index) => value - min[index]) };
 }
 
-export function createBodyTileRenderer() {
+export function createBodyTileRenderer({ background = '#1b2923', bodyColor = 0xa8c2b4, edgeColor = 0x4d7562 } = {}) {
   const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
   renderer.setPixelRatio(1);
   renderer.setSize(240, 170, false);
@@ -84,13 +84,13 @@ export function createBodyTileRenderer() {
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.2;
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color('#1b2923');
+  scene.background = new THREE.Color(background);
   scene.add(new THREE.HemisphereLight(0xeaf5ed, 0x536d60, 1.8));
   const light = new THREE.DirectionalLight(0xffffff, 1.7);
   scene.add(light);
   const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 100000);
-  const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0xa8c2b4, metalness: 0.08, roughness: 0.8, side: THREE.DoubleSide });
-  const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x4d7562, transparent: true, opacity: 0.7 });
+  const bodyMaterial = new THREE.MeshStandardMaterial({ color: bodyColor, metalness: 0.08, roughness: 0.8, side: THREE.DoubleSide });
+  const edgeMaterial = new THREE.LineBasicMaterial({ color: edgeColor, transparent: true, opacity: 0.7 });
 
   return {
     render(geometry, edgesGeometry) {

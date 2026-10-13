@@ -5,6 +5,7 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
+import { createBucketExplorer } from './bucket-explorer.js?v=20261013-bucket';
 import { createOverview } from './bucket-overview.js?v=20260930-status1';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
@@ -284,6 +285,7 @@ let report;
 let plan;
 let sharedPlan;
 let overview;
+let bucketExplorer;
 let isolatedBucketId = null;
 let isolatedBodyId = null;
 let expandedBucketId = null;
@@ -313,20 +315,24 @@ function renameBucket(bucketId, proposedName) {
 }
 
 function setMode(mode) {
-  if (mode === 'overview' && !overview) return;
-  const planning = mode === 'planning';
-  document.getElementById('planning-view').hidden = !planning;
-  document.getElementById('overview').hidden = planning;
-  for (const name of ['planning', 'overview']) {
+  if (mode === 'overview' && !overview || mode === 'bucket' && !bucketExplorer) return;
+  document.getElementById('planning-view').hidden = mode !== 'planning';
+  document.getElementById('overview').hidden = mode !== 'overview';
+  document.getElementById('bucket-view').hidden = mode !== 'bucket';
+  document.body.classList.toggle('bucket-mode', mode === 'bucket');
+  for (const name of ['planning', 'overview', 'bucket']) {
     const button = document.getElementById(`mode-${name}`);
     button.classList.toggle('active', name === mode);
     button.setAttribute('aria-pressed', String(name === mode));
   }
-  if (planning) { overview?.hide(); resize(); }
-  else overview.show();
+  overview?.hide(); bucketExplorer?.hide();
+  if (mode === 'planning') resize();
+  if (mode === 'overview') overview.show();
+  if (mode === 'bucket') bucketExplorer.show();
 }
-document.getElementById('mode-planning').addEventListener('click', () => setMode('planning'));
-document.getElementById('mode-overview').addEventListener('click', () => setMode('overview'));
+for (const mode of ['planning', 'overview', 'bucket']) {
+  document.getElementById(`mode-${mode}`).addEventListener('click', () => setMode(mode));
+}
 
 function updateViewControls() {
   const button = document.getElementById('explode');
@@ -1096,6 +1102,8 @@ async function load() {
         overview.refresh();
       }
     });
+    bucketExplorer = createBucketExplorer({ objectById, report, getPlan: () => plan, radialTargets, readOnly: true });
+    document.getElementById('mode-bucket').disabled = false;
     document.getElementById('mode-overview').disabled = false;
     document.getElementById('loading').classList.add('hidden');
     setMode('overview');

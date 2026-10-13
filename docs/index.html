@@ -61,7 +61,7 @@
       <div id="loading" class="loading">Preparing the stair…</div>
     </section>
     <div id="sidebar-width-resize" class="sidebar-width-resize" role="separator" tabindex="0" aria-label="Resize planning panel width" aria-orientation="vertical" title="Drag to widen the planning panel"><span></span></div>
-    <aside id="planning-sidebar">
+    <aside id="planning-sidebar" class="parts-collapsed">
       <div class="stats"><span id="source">—</span><span id="triangles">—</span></div>
       <div class="rule"></div>
       <div class="bucket-create"><input id="bucket-name" class="input" type="text" placeholder="New bucket name" aria-label="New bucket name"><button id="add-bucket" type="button">Add</button></div>
@@ -71,7 +71,7 @@
       <div id="bucket-list-resize" class="list-resize-handle" role="separator" tabindex="0" aria-label="Resize work order buckets and parts lists" aria-orientation="horizontal" title="Drag to resize the lists"><span></span></div>
       <button id="export-plan" class="export-plan" type="button">Export bucket plan</button>
       <div class="rule"></div>
-      <div class="section-heading"><h2><button id="toggle-parts" class="parts-heading-toggle" type="button" aria-expanded="true" aria-controls="part-search hardware-filter part-list part-list-resize selection-panel"><span class="parts-chevron" aria-hidden="true">▾</span>Parts and bodies</button></h2><div class="part-heading-actions"><button id="show-new-bodies" type="button" hidden></button><span id="part-count">—</span></div></div>
+      <div class="section-heading"><h2><button id="toggle-parts" class="parts-heading-toggle" type="button" aria-expanded="false" aria-controls="part-search hardware-filter part-list part-list-resize selection-panel"><span class="parts-chevron" aria-hidden="true">▾</span>Parts and bodies</button></h2><div class="part-heading-actions"><button id="show-new-bodies" type="button" hidden></button><span id="part-count">—</span></div></div>
       <input id="part-search" class="input" type="search" placeholder="Search names or assemblies" aria-label="Search parts and bodies">
       <label id="hardware-filter" class="check-row"><input id="hide-hardware" type="checkbox" checked> Hide small hardware</label>
       <div id="part-list" class="part-list" aria-label="Parts and bodies"></div>
@@ -159,6 +159,6 @@
       <div class="bucket-wheel-controls"><button id="bucket-previous-body" type="button" aria-label="Previous unique body">↑</button><output id="bucket-wheel-position">00 / 00</output><button id="bucket-next-body" type="button" aria-label="Next unique body">↓</button></div>
     </aside>
   </section>
-  <script type="module" src="./planning-app.js?v=20261013-light1"></script>
+  <script type="module" src="./planning-app.js?v=20261013-collapsed1"></script>
 </body>
 </html>

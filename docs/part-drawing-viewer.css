@@ -1,0 +1,20 @@
+.bucket-center.drawing-mode #bucket-stage,.bucket-center.drawing-mode .bucket-explode-bar{display:none}
+.part-drawing-panel{flex:1;min-height:300px;min-width:0;display:flex;flex-direction:column;margin:22px 24px 24px;border:1px solid #e1e9ef;border-radius:6px;background:#f2f5f8;overflow:hidden}
+.part-drawing-panel[hidden]{display:none}
+.part-drawing-panel.drawing-expanded{position:fixed;inset:85px 3vw 25px;margin:0;z-index:100;box-shadow:0 12px 80px #35536b30}
+.part-drawing-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 14px;background:#ffffffeb;border-bottom:1px solid #e1e8ee}
+.part-drawing-label{flex:1;min-width:110px}.part-drawing-label small{display:block;font-size:8px;letter-spacing:.12em;color:#96a8b6}.part-drawing-label strong{display:block;font-weight:500;color:#516e84;font-size:11px;margin-top:5px}
+.part-drawing-exports,.part-drawing-zoom{display:flex;gap:5px}
+#bucket-view .part-drawing-toolbar button,.part-drawing-exports a{display:inline-flex;align-items:center;justify-content:center;height:27px;min-width:27px;padding:4px 8px;border:1px solid #dce5ec;border-radius:4px;font-size:10px;font-weight:500;background:#fff;color:#637e93;text-decoration:none;cursor:pointer}
+.part-drawing-exports a:hover{background:#edf3f8;border-color:#aabfcc}
+.part-drawing-paper{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain}
+.part-drawing-sheet{display:flex;align-items:center;justify-content:center;padding:15px;box-sizing:border-box}
+.part-drawing-sheet img{display:block;flex:none;background:white;box-shadow:0 3px 14px #38566d12;max-width:none}
+#bucket-view .bucket-wheel-focus{display:flex;align-items:center;gap:8px;padding:0;width:100%;height:100%;border:0;background:transparent;text-align:left;min-width:0;border-radius:4px}
+#bucket-view .bucket-wheel-focus:hover{background:transparent}
+#bucket-view .bucket-drawing-toggle{position:absolute;top:6px;right:6px;width:23px;height:23px;display:grid;place-items:center;padding:4px;border:1px solid transparent;border-radius:4px;background:#ffffffcf;color:#91a5b5;z-index:3}
+#bucket-view .bucket-drawing-toggle:hover{border-color:#c8d8e4;background:#edf3f8;color:#567b97}
+#bucket-view .bucket-drawing-toggle[aria-pressed=true]{background:#e7eff6;border-color:#a8c1d5;color:#466e8e}
+.bucket-drawing-toggle svg{width:13px;height:13px}
+.bucket-wheel-item:has(.bucket-drawing-toggle) .bucket-wheel-copy{padding-top:8px}
+@media(max-width:1000px){.part-drawing-panel{margin:18px 12px}.part-drawing-toolbar{gap:8px;padding:10px}.part-drawing-label{min-width:90px}}

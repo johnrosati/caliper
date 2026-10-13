@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
 import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket2';
+import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261013-drawing1';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
 const cleanName = name => name.replace(/^26-\d+_/, '').replace(/JR_?/g, ' ').replace(/_/g, ' ').trim();
@@ -43,6 +44,8 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x536c7e, transparent: true, opacity: 0.6 });
   const selectedEdges = new THREE.LineBasicMaterial({ color: 0x98691c });
   const raycaster = new THREE.Raycaster();
+  let drawingMode = false;
+  const drawingViewer = createPartDrawingViewer({ center: root.querySelector('.bucket-center'), sourceSha256: report.sourceSha256, onReady: () => { renderWheel(); updateFocus(); } });
 
   function bucketsInOrder() {
     const buckets = [...getPlan().buckets];
@@ -165,7 +168,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     positionMeshes(); clearTimeout(refitTimer); refitTimer = setTimeout(fit, 140);
   }
   function selectBucket(id) {
-    if (bucketId !== id) { bucketId = id; membership = ''; focusIndex = 0; distance = 0; camera.position.set(0.75, 0.55, 1); controls.target.set(0, 0, 0); }
+    if (bucketId !== id) { drawingMode = false; drawingViewer.hide(); bucketId = id; membership = ''; focusIndex = 0; distance = 0; camera.position.set(0.75, 0.55, 1); controls.target.set(0, 0, 0); }
     refresh();
   }
   function refresh() {
@@ -198,15 +201,26 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     carousel.replaceChildren();
     const pending = [];
     groups.forEach((group, index) => {
-      const button = document.createElement('button'); button.type = 'button'; button.className = 'bucket-wheel-item';
-      button.dataset.groupId = group.id; button.title = group.name;
+      const card = document.createElement('div'); card.className = 'bucket-wheel-item'; card.dataset.groupId = group.id;
+      const button = document.createElement('button'); button.type = 'button'; button.className = 'bucket-wheel-focus'; button.title = group.name;
       button.setAttribute('aria-label', `Focus ${cleanName(group.name)}, quantity ${group.ids.length}`);
       const preview = document.createElement('span'); preview.className = 'bucket-wheel-preview';
       const copy = document.createElement('span'); copy.className = 'bucket-wheel-copy';
       const qty = document.createElement('small'); qty.textContent = `QTY ${String(group.ids.length).padStart(2, '0')}`;
       const name = document.createElement('strong'); name.textContent = cleanName(group.name);
-      copy.append(qty, name); button.append(preview, copy); carousel.append(button);
+      copy.append(qty, name); button.append(preview, copy); card.append(button); carousel.append(card);
       button.addEventListener('click', () => focusGroup(index));
+      if (bucketId === '2605-56-B02' && drawingViewer.available(group)) {
+        const pencil = document.createElement('button'); pencil.type = 'button'; pencil.className = 'bucket-drawing-toggle';
+        pencil.setAttribute('aria-label', `Drawing for ${cleanName(group.name)}`); pencil.setAttribute('aria-pressed', 'false'); pencil.title = 'Toggle part drawing';
+        pencil.innerHTML = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m12.5 3.5 4 4M3 17l1-5L13 3a2 2 0 0 1 3 0l1 1a2 2 0 0 1 0 3l-9 9-5 1Z"/><path d="m4 12 4 4"/></svg>';
+        pencil.addEventListener('click', () => {
+          const close = drawingMode && focusIndex === index;
+          drawingMode = !close; focusGroup(index);
+          if (close) { drawingViewer.hide(); resize(); }
+        });
+        card.append(pencil);
+      }
       const url = previews.get(group.id);
       if (url) showPreview(preview, url, group.name); else pending.push({group, preview});
     });
@@ -236,8 +250,10 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       if (groups.length > 5) { if (delta > groups.length / 2) delta -= groups.length; if (delta < -groups.length / 2) delta += groups.length; }
       button.hidden = Math.abs(delta) > 2;
       button.style.setProperty('--slot', delta); button.style.setProperty('--offset', `${delta * delta * 17}px`);
-      button.classList.toggle('focused', delta === 0); button.setAttribute('aria-pressed', String(delta === 0));
-      button.tabIndex = delta === 0 ? 0 : -1;
+      button.classList.toggle('focused', delta === 0);
+      const focus = button.querySelector('.bucket-wheel-focus');
+      focus.setAttribute('aria-pressed', String(delta === 0)); focus.tabIndex = delta === 0 ? 0 : -1;
+      button.querySelector('.bucket-drawing-toggle')?.setAttribute('aria-pressed', String(drawingMode && delta === 0));
     }
     document.getElementById('bucket-focused-name').textContent = group ? cleanName(group.name) : 'This bucket has no bodies';
     document.getElementById('bucket-focused-name').title = group?.name || '';
@@ -246,13 +262,15 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     document.getElementById('bucket-wheel-empty').hidden = groups.length > 0;
     document.getElementById('bucket-previous-body').disabled = groups.length < 2;
     document.getElementById('bucket-next-body').disabled = groups.length < 2;
+    if (drawingMode) { if (!drawingViewer.show(group)) drawingMode = false; }
+    else drawingViewer.hide();
   }
   function resize() {
     if (!active) return;
     const rect = stage.getBoundingClientRect(); if (!rect.width || !rect.height) return;
     renderer.setSize(rect.width, rect.height, false); camera.aspect = rect.width / rect.height; camera.updateProjectionMatrix();
   }
-  function draw() { if (!active) return; frame = requestAnimationFrame(draw); controls.update(); renderer.render(scene, camera); }
+  function draw() { if (!active) return; frame = requestAnimationFrame(draw); if (!drawingMode) { controls.update(); renderer.render(scene, camera); } }
   new ResizeObserver(() => { resize(); if (active) fit(); }).observe(stage);
   slider.addEventListener('input', () => setDistance(Number(slider.value)));
   explode.addEventListener('click', () => setDistance(distance > 0 ? 0 : 1));
@@ -261,7 +279,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const bodyMenu = document.getElementById('bucket-body-menu'); let lastWheel = 0, dragStart = null;
   bodyMenu.addEventListener('wheel', e => { e.preventDefault(); if (Math.abs(e.deltaY) < 3 || performance.now() - lastWheel < 150) return; lastWheel = performance.now(); focusGroup(focusIndex + Math.sign(e.deltaY)); }, {passive:false});
   bodyMenu.addEventListener('keydown', e => { if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)) { e.preventDefault(); focusGroup(focusIndex + (['ArrowUp','ArrowLeft'].includes(e.key) ? -1 : 1)); } });
-  carousel.addEventListener('pointerdown', e => { if (e.button !== 0) return; e.preventDefault(); carousel.setPointerCapture(e.pointerId); dragStart = {y:e.clientY, index:focusIndex, moved:false, pick:[...carousel.children].findIndex(button => button.contains(e.target))}; });
+  carousel.addEventListener('pointerdown', e => { if (e.button !== 0 || e.target.closest('.bucket-drawing-toggle')) { dragStart = null; return; } e.preventDefault(); carousel.setPointerCapture(e.pointerId); dragStart = {y:e.clientY, index:focusIndex, moved:false, pick:[...carousel.children].findIndex(button => button.contains(e.target))}; });
   carousel.addEventListener('pointerup', () => { if (dragStart && !dragStart.moved && dragStart.pick >= 0) focusGroup(dragStart.pick); });
   carousel.addEventListener('pointercancel', () => { dragStart = null; });
   carousel.addEventListener('pointermove', e => { if (!dragStart || !e.buttons) return; const steps = Math.round((dragStart.y - e.clientY) / 70); if (steps) { dragStart.moved = true; focusGroup(dragStart.index + steps); } });
@@ -275,7 +293,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     if (hit) { const index = groups.findIndex(g => g.ids.includes(hit.object.userData.bodyId)); if (index >= 0) focusGroup(index); }
   });
   return {
-    show() { active = true; refresh(); generation++; renderWheel(); updateFocus(); resize(); fit(); if (frame === null) draw(); },
+    show() { active = true; drawingViewer.load(); refresh(); generation++; renderWheel(); updateFocus(); resize(); fit(); if (frame === null) draw(); },
     hide() { active = false; generation++; if (frame !== null) cancelAnimationFrame(frame); frame = null; clearTimeout(refitTimer); },
     refresh() { if (active) refresh(); }
   };

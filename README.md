@@ -49,3 +49,7 @@ The pencil toggle now applies throughout all 12 buckets: 106 unique drawing type
 All 636 holes, slots and mortises have checked size, longitudinal and transverse location constraints. TOP RUN uses actual riser-plane pitches and separates the end bay. Curved shoe walls retain model radii and source sections; tube drilling identifies the actual wall penetration. Countersinks include entrance/exit sizes and modeled included angles. Dense landing-plate drilling layouts use larger face views. These are model-derived review drawings; material, finish and fabrication tolerances are not invented.
 
 Drawings are checked against the STEP source hash, bucket identity and exact grouped instance membership. Revisions and reassignment require regenerated assets. A saved batch workflow derives new job/bucket names, quantities and geometry rather than copying this job's dimensions.
+
+### Drawing revision 05: clear leaders and measured corner cuts
+
+Callouts follow the side of the face they describe: upper mortises above and lower-edge notches below. Caption bands are reserved and crossed feature/profile leaders are rejected. Modeled corner chamfers receive a counted size/angle callout; unequal cuts retain both X and Y setbacks. The top connection mount fin is measured at 0.6645-inch X setback by 0.6600-inch Y setback, 44.8 degrees to length, at two matching corners. No nominal 45-degree replacement was made. PDF, SVG and DXF share these annotations.

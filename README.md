@@ -35,3 +35,9 @@ Drawings are tied to the STEP source SHA. A mismatched model hides these drawing
 ### Drawing revision 02: feature locations
 
 Every hole/mortise now has an on-view X location from END A and a transverse dimension from the marked EDGE C. Shared columns and regular row spacing remain consolidated, and slot/mortise long-axis orientation is stated. The mount plate hole row is 1/2 inch from its main straight edge, 1-1/2 inches from END A to the first center, and 2 inches between centers. The short projecting tab is not the hole-layout datum. All 35 pilot features were checked against source positions. Revision-specific files preserve the prior sheets and avoid stale cached drawings.
+
+### Drawing revision 03: stair run and full-body span
+
+Stair run is now measured between successive installed riser planes through the interrupted/notched tread profile. The five current stair-profile bodies have eight typical 11-inch bays and one distinct 10-3/4-inch end bay. Their actual repeated rise is 6.7143 inches; decimal precision avoids cumulative fraction rounding. Body 70 now uses horizontal/vertical stair references in its drawing.
+
+Aligned P-Q dimensions measure the maximum direct span over the entire 3D body, including thickness; Face A shows projected endpoints. Body 58 has an exact span of 114.9329 inches (114-15/16 rounded to 1/64). Width and height remain separate. The geometry audit also checks curved extremities and rigid rotation invariance, and front outlines include actual source end projections. Earlier hole/mortise location checks still pass.

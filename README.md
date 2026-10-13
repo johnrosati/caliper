@@ -53,3 +53,7 @@ Drawings are checked against the STEP source hash, bucket identity and exact gro
 ### Drawing revision 05: clear leaders and measured corner cuts
 
 Callouts follow the side of the face they describe: upper mortises above and lower-edge notches below. Caption bands are reserved and crossed feature/profile leaders are rejected. Modeled corner chamfers receive a counted size/angle callout; unequal cuts retain both X and Y setbacks. The top connection mount fin is measured at 0.6645-inch X setback by 0.6600-inch Y setback, 44.8 degrees to length, at two matching corners. No nominal 45-degree replacement was made. PDF, SVG and DXF share these annotations.
+
+### Drawing revision 06: shorter radius leaders
+
+Radius callouts choose the closest clear equivalent visible arc rather than the first STEP edge. A lower notch corner is preferred for a below-view caption when it shares the same radius as the upper corner. Matching radii use a single TYP callout; distinct sizes remain separate. Source arc identity, points and exact radius are verified for flat, dense and formed views.

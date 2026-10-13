@@ -15,9 +15,9 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   const image = panel.querySelector('img');
   const [pdf, dxf] = panel.querySelectorAll('a');
   let manifest = null, loading = null, current = null, zoom = 1;
-  function entry(group) {
+  function entry(group, bucketId) {
     if (!manifest || !group) return null;
-    return Object.values(manifest.drawings).find(d => d.instanceIds.some(id => group.ids.includes(id))) || null;
+    return Object.values(manifest.drawings).find(d => (!bucketId || !d.bucketId || d.bucketId === bucketId) && d.instanceIds.length === group.ids.length && d.instanceIds.every(id => group.ids.includes(id))) || null;
   }
   function layout() {
     if (panel.hidden || !paper.clientWidth || !paper.clientHeight) return;
@@ -38,8 +38,8 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
     }).catch(error => { console.warn(error.message); });
     return loading;
   }
-  function show(group) {
-    const drawing = entry(group);
+  function show(group, bucketId) {
+    const drawing = entry(group, bucketId);
     if (!drawing) { hide(); return false; }
     panel.hidden = false; center.classList.add('drawing-mode');
     if (current !== drawing.mark) {
@@ -64,5 +64,5 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   expand.addEventListener('click', () => { const large = panel.classList.toggle('drawing-expanded'); expand.setAttribute('aria-label', large ? 'Collapse drawing' : 'Expand drawing'); zoom = 1; layout(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && panel.classList.contains('drawing-expanded')) { panel.classList.remove('drawing-expanded'); expand.setAttribute('aria-label','Expand drawing'); zoom = 1; layout(); } });
   new ResizeObserver(layout).observe(paper);
-  return { load, show, hide, available: group => Boolean(entry(group)), get visible() { return !panel.hidden; } };
+  return { load, show, hide, available: (group, bucketId) => Boolean(entry(group, bucketId)), get visible() { return !panel.hidden; } };
 }

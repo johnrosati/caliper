@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
 import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket2';
-import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261013-drawing3';
+import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261013-drawing4';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
 const cleanName = name => name.replace(/^26-\d+_/, '').replace(/JR_?/g, ' ').replace(/_/g, ' ').trim();
@@ -210,7 +210,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       const name = document.createElement('strong'); name.textContent = cleanName(group.name);
       copy.append(qty, name); button.append(preview, copy); card.append(button); carousel.append(card);
       button.addEventListener('click', () => focusGroup(index));
-      if (bucketId === '2605-56-B02' && drawingViewer.available(group)) {
+      if (drawingViewer.available(group, bucketId)) {
         const pencil = document.createElement('button'); pencil.type = 'button'; pencil.className = 'bucket-drawing-toggle';
         pencil.setAttribute('aria-label', `Drawing for ${cleanName(group.name)}`); pencil.setAttribute('aria-pressed', 'false'); pencil.title = 'Toggle part drawing';
         pencil.innerHTML = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m12.5 3.5 4 4M3 17l1-5L13 3a2 2 0 0 1 3 0l1 1a2 2 0 0 1 0 3l-9 9-5 1Z"/><path d="m4 12 4 4"/></svg>';
@@ -262,7 +262,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     document.getElementById('bucket-wheel-empty').hidden = groups.length > 0;
     document.getElementById('bucket-previous-body').disabled = groups.length < 2;
     document.getElementById('bucket-next-body').disabled = groups.length < 2;
-    if (drawingMode) { if (!drawingViewer.show(group)) drawingMode = false; }
+    if (drawingMode) { if (!drawingViewer.show(group, bucketId)) drawingMode = false; }
     else drawingViewer.hide();
   }
   function resize() {

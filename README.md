@@ -41,3 +41,11 @@ Every hole/mortise now has an on-view X location from END A and a transverse dim
 Stair run is now measured between successive installed riser planes through the interrupted/notched tread profile. The five current stair-profile bodies have eight typical 11-inch bays and one distinct 10-3/4-inch end bay. Their actual repeated rise is 6.7143 inches; decimal precision avoids cumulative fraction rounding. Body 70 now uses horizontal/vertical stair references in its drawing.
 
 Aligned P-Q dimensions measure the maximum direct span over the entire 3D body, including thickness; Face A shows projected endpoints. Body 58 has an exact span of 114.9329 inches (114-15/16 rounded to 1/64). Width and height remain separate. The geometry audit also checks curved extremities and rigid rotation invariance, and front outlines include actual source end projections. Earlier hole/mortise location checks still pass.
+
+### Drawing revision 04: all work orders
+
+The pencil toggle now applies throughout all 12 buckets: 106 unique drawing types covering 226 assigned body instances. Each drawing has PDF/DXF downloads. The full review set has 118 pages, including an installed-position assembly and part schedule for every bucket.
+
+All 636 holes, slots and mortises have checked size, longitudinal and transverse location constraints. TOP RUN uses actual riser-plane pitches and separates the end bay. Curved shoe walls retain model radii and source sections; tube drilling identifies the actual wall penetration. Countersinks include entrance/exit sizes and modeled included angles. Dense landing-plate drilling layouts use larger face views. These are model-derived review drawings; material, finish and fabrication tolerances are not invented.
+
+Drawings are checked against the STEP source hash, bucket identity and exact grouped instance membership. Revisions and reassignment require regenerated assets. A saved batch workflow derives new job/bucket names, quantities and geometry rather than copying this job's dimensions.

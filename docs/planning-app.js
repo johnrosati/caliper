@@ -6,7 +6,7 @@ import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
 import { createBucketExplorer } from './bucket-explorer.js?v=20261013-bucket2';
-import { createOverview } from './bucket-overview.js?v=20260930-status1';
+import { createOverview } from './bucket-overview.js?v=20261013-light1';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -110,13 +110,13 @@ for (const handle of planningSidebar.querySelectorAll('.list-resize-handle')) {
 
 const container = document.getElementById('canvas');
 const scene = new THREE.Scene();
-scene.background = new THREE.Color('#17221c');
+scene.background = null;
 const camera = new THREE.PerspectiveCamera(42, 1, 10, 100000);
-const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1.15;
+renderer.toneMappingExposure = 1.05;
 container.appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
@@ -162,12 +162,12 @@ function orientationFace(name) {
   const canvas = document.createElement('canvas');
   canvas.width = canvas.height = 256;
   const context = canvas.getContext('2d');
-  context.fillStyle = ['top', 'front', 'right'].includes(name) ? '#dcebbf' : '#a9c4a8';
+  context.fillStyle = ['top', 'front', 'right'].includes(name) ? '#f4f8fb' : '#dfe9f1';
   context.fillRect(0, 0, 256, 256);
-  context.strokeStyle = '#4d7456';
+  context.strokeStyle = '#9fb5c6';
   context.lineWidth = 11;
   context.strokeRect(7, 7, 242, 242);
-  context.fillStyle = '#213c2a';
+  context.fillStyle = '#5f7b92';
   context.font = 'bold 39px system-ui, sans-serif';
   context.textAlign = 'center';
   context.textBaseline = 'middle';
@@ -180,7 +180,7 @@ const orientationGeometry = new THREE.BoxGeometry(1.5, 1.5, 1.5);
 const orientationMesh = new THREE.Mesh(orientationGeometry, cubeFaces.map(orientationFace));
 orientationMesh.add(new THREE.LineSegments(
   new THREE.EdgesGeometry(orientationGeometry),
-  new THREE.LineBasicMaterial({ color: 0x355540 })
+  new THREE.LineBasicMaterial({ color: 0x829eB3 })
 ));
 orientationScene.add(orientationMesh);
 function snapOrientation(name) {
@@ -258,11 +258,11 @@ function updateOrientationWidget() {
   }
 }
 
-scene.add(new THREE.HemisphereLight(0xdceaff, 0x405548, 1.3));
+scene.add(new THREE.HemisphereLight(0xffffff, 0xa6b4c3, 1.8));
 const key = new THREE.DirectionalLight(0xffffff, 1.5);
 key.position.set(4000, 9000, 6000);
 scene.add(key);
-const fill = new THREE.DirectionalLight(0xbde0c8, 0.7);
+const fill = new THREE.DirectionalLight(0xffffff, 0.7);
 fill.position.set(-8000, 3000, -4000);
 scene.add(fill);
 
@@ -273,11 +273,11 @@ const measuredEdges = [];
 let measurementConnector = null;
 let lastEdgePick = null;
 const edgeChains = new WeakMap();
-const mat = new THREE.MeshStandardMaterial({ color: 0x9bb5aa, metalness: 0.1, roughness: 0.8, side: THREE.DoubleSide });
-const hardwareMat = new THREE.MeshStandardMaterial({ color: 0x697d72, metalness: 0.15, roughness: 0.8, side: THREE.DoubleSide });
-const selectedMat = new THREE.MeshStandardMaterial({ color: 0xf2c66c, metalness: 0.12, roughness: 0.65, side: THREE.DoubleSide });
-const edgeMat = new THREE.LineBasicMaterial({ color: 0x2a483c, transparent: true, opacity: 0.55 });
-const measureEdgeMat = new THREE.LineBasicMaterial({ color: 0xe4c177, transparent: true, opacity: 0.85 });
+const mat = new THREE.MeshStandardMaterial({ color: 0xb9c6d0, metalness: 0.1, roughness: 0.8, side: THREE.DoubleSide });
+const hardwareMat = new THREE.MeshStandardMaterial({ color: 0x96aabb, metalness: 0.15, roughness: 0.8, side: THREE.DoubleSide });
+const selectedMat = new THREE.MeshStandardMaterial({ color: 0xf5c664, metalness: 0.12, roughness: 0.65, side: THREE.DoubleSide });
+const edgeMat = new THREE.LineBasicMaterial({ color: 0x536c7e, transparent: true, opacity: 0.55 });
+const measureEdgeMat = new THREE.LineBasicMaterial({ color: 0x859dad, transparent: true, opacity: 0.85 });
 const hardwarePattern = /screw|nut|bolt|washer|anchor|hilti|threaded rod/i;
 const objectById = new Map();
 const selectedIds = new Set();
@@ -1013,8 +1013,10 @@ function fit() {
   const center = viewBounds.getCenter(new THREE.Vector3());
   const size = viewBounds.getSize(new THREE.Vector3());
   const radius = size.length() / 2;
-  const distance = radius / Math.sin(THREE.MathUtils.degToRad(camera.fov / 2)) * 1.18;
-  camera.position.copy(center).add(new THREE.Vector3(distance * .65, distance * .44, distance * .78));
+  const verticalHalfFov = THREE.MathUtils.degToRad(camera.fov / 2);
+  const limitingHalfFov = Math.min(verticalHalfFov, Math.atan(Math.tan(verticalHalfFov) * camera.aspect));
+  const distance = radius / Math.sin(limitingHalfFov) * 1.18;
+  camera.position.copy(center).addScaledVector(new THREE.Vector3(.65, .44, .78).normalize(), distance);
   controls.target.copy(center);
   camera.near = Math.max(1, distance / 1000);
   camera.far = distance * 20;
@@ -1067,10 +1069,10 @@ async function load() {
     }
     const min = bounds.min.y;
     const center = bounds.getCenter(new THREE.Vector3());
-    const grid = new THREE.GridHelper(13000, 26, 0x486851, 0x314738);
+    const grid = new THREE.GridHelper(13000, 26, 0xc3d3df, 0xdce5ed);
     grid.position.set(center.x, min - 70, center.z);
     grid.material.transparent = true;
-    grid.material.opacity = .33;
+    grid.material.opacity = .22;
     scene.add(grid);
     document.getElementById('triangles').textContent = `${report.triangles.toLocaleString()} triangles`;
     document.getElementById('source').textContent = report.sourceName.replace(/JR\.STEP$/i, '');

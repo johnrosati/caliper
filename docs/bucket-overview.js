@@ -1,16 +1,16 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { createBodyTileRenderer } from './body-tiles.js?v=20260925-tiles1';
-import { createFocusedBodyViewer } from './focused-body-viewer.js?v=20260925-tilefocus1';
+import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
+import { createFocusedBodyViewer } from './focused-body-viewer.js?v=20261013-light1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const eyeClosedIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M4.2 8.2C2.7 10 2 12 2 12s3.6 6 10 6c1.8 0 3.4-.5 4.7-1.1M9.4 6.3c.8-.2 1.7-.3 2.6-.3 6.4 0 10 6 10 6s-.7 1.2-2 2.5"/></svg>';
 const workStages = [
-  { id: 'design', short: 'D', name: 'Design', color: '#6379c8', background: '#202b48' },
-  { id: 'waterjet', short: 'W', name: 'Waterjet', color: '#2989a6', background: '#173745' },
-  { id: 'fabrication', short: 'F', name: 'Fabrication', color: '#bd812e', background: '#40301e' },
-  { id: 'finishing', short: 'FF', name: 'Finishing', color: '#9a69ad', background: '#35263e' },
-  { id: 'complete', short: 'C', name: 'Complete', color: '#559365', background: '#1d3a2a' }
+  { id: 'design', short: 'D', name: 'Design', color: '#7e91c4', background: '#f2f5fc' },
+  { id: 'waterjet', short: 'W', name: 'Waterjet', color: '#789fae', background: '#eff7fa' },
+  { id: 'fabrication', short: 'F', name: 'Fabrication', color: '#b49a73', background: '#faf5ed' },
+  { id: 'finishing', short: 'FF', name: 'Finishing', color: '#a28eb6', background: '#f6f2fa' },
+  { id: 'complete', short: 'C', name: 'Complete', color: '#7da38c', background: '#eff7f2' }
 ];
 
 // One WebGL canvas draws every visible card. The bucket meshes share the loaded
@@ -52,19 +52,19 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.15;
-  const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0x9bb5aa, metalness: 0.1, roughness: 0.8, side: THREE.DoubleSide });
-  const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x29483a, transparent: true, opacity: 0.62 });
-  const selectedMaterial = new THREE.MeshStandardMaterial({ color: 0xf2c66c, metalness: 0.1, roughness: 0.7, side: THREE.DoubleSide });
+  renderer.toneMappingExposure = 1.05;
+  const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0xb9c6d0, metalness: 0.1, roughness: 0.8, side: THREE.DoubleSide });
+  const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x536c7e, transparent: true, opacity: 0.62 });
+  const selectedMaterial = new THREE.MeshStandardMaterial({ color: 0xf5c664, metalness: 0.1, roughness: 0.7, side: THREE.DoubleSide });
   const detailsRenderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
   detailsRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   detailsRenderer.outputColorSpace = THREE.SRGBColorSpace;
   detailsRenderer.toneMapping = THREE.ACESFilmicToneMapping;
-  detailsRenderer.toneMappingExposure = 1.15;
+  detailsRenderer.toneMappingExposure = 1.05;
   detailsStage.prepend(detailsRenderer.domElement);
   const detailsScene = new THREE.Scene();
-  detailsScene.background = new THREE.Color('#19241e');
-  detailsScene.add(new THREE.HemisphereLight(0xdceaff, 0x405548, 1.45));
+  detailsScene.background = new THREE.Color('#f5f8fa');
+  detailsScene.add(new THREE.HemisphereLight(0xffffff, 0xa6b4c3, 1.8));
   const detailsLight = new THREE.DirectionalLight(0xffffff, 1.6);
   detailsLight.position.set(4000, 9000, 6000);
   detailsScene.add(detailsLight);
@@ -315,7 +315,7 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
     const bucket = getPlan().buckets.find(item => item.id === bucketId);
     if (!bucket) return;
     if (detailsBucketId !== bucketId && tileMode) setTileMode(false);
-    detailsScene.background.set(workStages.find(stage => stage.id === bucket.stage)?.background || '#19241e');
+    detailsScene.background.set(workStages.find(stage => stage.id === bucket.stage)?.background || '#f5f8fa');
     const changingBucket = detailsBucketId !== bucketId;
     if (changingBucket) {
       renameForm.hidden = true;
@@ -527,8 +527,8 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
     article.append(header, stage, actions);
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color('#19241e');
-    scene.add(new THREE.HemisphereLight(0xdceaff, 0x405548, 1.45));
+    scene.background = new THREE.Color('#f5f8fa');
+    scene.add(new THREE.HemisphereLight(0xffffff, 0xa6b4c3, 1.8));
     const light = new THREE.DirectionalLight(0xffffff, 1.6);
     light.position.set(4000, 9000, 6000);
     scene.add(light);
@@ -643,14 +643,14 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
       card.stages.setAttribute('aria-label', `Work stage for ${bucket.name}`);
       const workStage = workStages.find(stage => stage.id === bucket.stage);
       card.stageLabel.textContent = workStage?.name || 'Stage not set';
-      card.stage.style.setProperty('--stage-background', workStage?.background || '#19241e');
+      card.stage.style.setProperty('--stage-background', workStage?.background || '#f5f8fa');
       card.stage.style.setProperty('--stage-accent', workStage?.color || '#829587');
-      card.scene.background.set(workStage?.background || '#19241e');
+      card.scene.background.set(workStage?.background || '#f5f8fa');
       for (const [stageId, button] of card.stageButtons) {
         button.setAttribute('aria-pressed', String(stageId === workStage?.id));
         button.setAttribute('aria-label', `${workStages.find(stage => stage.id === stageId).name} stage for ${bucket.name}`);
       }
-      if (detailsBucketId === bucket.id) detailsScene.background.set(workStage?.background || '#19241e');
+      if (detailsBucketId === bucket.id) detailsScene.background.set(workStage?.background || '#f5f8fa');
       const ids = report.bodies.filter(body => plan.assignments[body.id] === bucket.id).map(body => body.id);
       card.count.textContent = `${ids.length} bod${ids.length === 1 ? 'y' : 'ies'}`;
       card.stage.classList.toggle('empty', ids.length === 0);

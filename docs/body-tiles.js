@@ -76,16 +76,16 @@ export function broadFaceView(geometry) {
   return { center, facing, up, spans: max.map((value, index) => value - min[index]) };
 }
 
-export function createBodyTileRenderer({ background = '#1b2923', bodyColor = 0xa8c2b4, edgeColor = 0x4d7562 } = {}) {
+export function createBodyTileRenderer({ background = '#f5f8fa', bodyColor = 0xb9c6d0, edgeColor = 0x536c7e } = {}) {
   const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
   renderer.setPixelRatio(1);
   renderer.setSize(240, 170, false);
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.2;
+  renderer.toneMappingExposure = 1.05;
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(background);
-  scene.add(new THREE.HemisphereLight(0xeaf5ed, 0x536d60, 1.8));
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xa6b4c3, 1.8));
   const light = new THREE.DirectionalLight(0xffffff, 1.7);
   scene.add(light);
   const camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 100000);

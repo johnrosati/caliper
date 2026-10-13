@@ -3,7 +3,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
-import { broadFaceView } from './body-tiles.js?v=20260925-tiles1';
+import { broadFaceView } from './body-tiles.js?v=20261013-light1';
 import { closestPointsBetweenSegments, straightEdgePoints } from './measurement-geometry.js?v=20260925-tilefocus1';
 
 export function createFocusedBodyViewer() {
@@ -20,11 +20,11 @@ export function createFocusedBodyViewer() {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   renderer.outputColorSpace = THREE.SRGBColorSpace;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1.15;
+  renderer.toneMappingExposure = 1.05;
   stage.prepend(renderer.domElement);
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color('#19241e');
-  scene.add(new THREE.HemisphereLight(0xe5f0e8, 0x4b6252, 1.5));
+  scene.background = new THREE.Color('#f5f8fa');
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xa6b4c3, 1.8));
   const light = new THREE.DirectionalLight(0xffffff, 1.6);
   scene.add(light);
   const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100000);
@@ -35,9 +35,9 @@ export function createFocusedBodyViewer() {
   controls.zoomToCursor = true;
   controls.minDistance = 1;
   controls.maxDistance = 100000;
-  const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0xa8c2b4, metalness: 0.08, roughness: 0.8, side: THREE.DoubleSide });
-  const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x3d614e, transparent: true, opacity: 0.72 });
-  const measureEdgeMaterial = new THREE.LineBasicMaterial({ color: 0xf3c982, transparent: true, opacity: 0.95 });
+  const bodyMaterial = new THREE.MeshStandardMaterial({ color: 0xb9c6d0, metalness: 0.08, roughness: 0.8, side: THREE.DoubleSide });
+  const edgeMaterial = new THREE.LineBasicMaterial({ color: 0x536c7e, transparent: true, opacity: 0.72 });
+  const measureEdgeMaterial = new THREE.LineBasicMaterial({ color: 0x859dad, transparent: true, opacity: 0.95 });
   const raycaster = new THREE.Raycaster();
   const pointer = new THREE.Vector2();
   const chainCache = new WeakMap();
@@ -237,7 +237,7 @@ export function createFocusedBodyViewer() {
       panel.style.left = '';
       panel.style.top = '';
       panel.style.right = '';
-      scene.background.set(background || '#19241e');
+      scene.background.set(background || '#f5f8fa');
       mesh = new THREE.Mesh(geometry, bodyMaterial);
       edges = new THREE.LineSegments(edgesGeometry || new THREE.EdgesGeometry(geometry, 38), edgeMaterial);
       mesh.add(edges);

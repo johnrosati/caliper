@@ -31,3 +31,7 @@ In Bucket, select BTM RUN and toggle the pencil on a unique-body card. The middl
 The 12 drawing types cover the 34 BTM RUN body instances in the published plan. SVG and vector PDF use ANSI D sheets. DXF is an inch-based multi-view drawing with annotation and outline layers, not a cutting layout. Straight dimensions are rounded to 1/64 inch; modeled bore and mortise sizes remain decimal, and repeated pitches retain decimal precision when fraction rounding would accumulate. Material, finish and tolerances remain release inputs.
 
 Drawings are tied to the STEP source SHA. A mismatched model hides these drawing toggles rather than displaying stale dimensions. New model versions need regenerated and checked drawing assets.
+
+### Drawing revision 02: feature locations
+
+Every hole/mortise now has an on-view X location from END A and a transverse dimension from the marked EDGE C. Shared columns and regular row spacing remain consolidated, and slot/mortise long-axis orientation is stated. The mount plate hole row is 1/2 inch from its main straight edge, 1-1/2 inches from END A to the first center, and 2 inches between centers. The short projecting tab is not the hole-layout datum. All 35 pilot features were checked against source positions. Revision-specific files preserve the prior sheets and avoid stale cached drawings.

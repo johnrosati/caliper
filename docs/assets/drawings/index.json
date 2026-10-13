@@ -1,11 +1,12 @@
 {
   "sourceSha256": "13f5c27c29302adcf31ece4545312b69403203f32269eee3104783f11d917442",
   "bucketId": "2605-56-B02",
+  "revision": "02",
   "review": true,
   "units": "inches",
   "drawings": {
     "body-0000": {
-      "mark": "2605-B02-P01",
+      "mark": "2605-B02-P01-R02",
       "name": "26-0527_steel substreadJR_5-6 TYP Tread",
       "quantity": 8,
       "instanceIds": [
@@ -18,9 +19,9 @@
         "body-0032",
         "body-0035"
       ],
-      "svg": "2605-B02-P01.svg",
-      "pdf": "2605-B02-P01.pdf",
-      "dxf": "2605-B02-P01.dxf",
+      "svg": "2605-B02-P01-R02.svg",
+      "pdf": "2605-B02-P01-R02.pdf",
+      "dxf": "2605-B02-P01-R02.dxf",
       "boundsInches": [
         67.1875000000002,
         11.250000000000039,
@@ -37,7 +38,8 @@
             0.38700000000026336,
             2.0120000000001568
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -49,7 +51,8 @@
             0.3870000000000786,
             2.012000000000107
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -61,7 +64,8 @@
             0.3870000000001852,
             2.0120000000001603
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -73,7 +77,8 @@
             0.38700000000010704,
             2.0120000000001106
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -85,7 +90,8 @@
             0.38700000000025625,
             2.01200000000005
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -97,29 +103,262 @@
             0.3870000000001106,
             2.0120000000001568
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         }
-      ]
+      ],
+      "locationAudit": {
+        "datumC": {
+          "y": 11.25,
+          "physical": true,
+          "anchor": [
+            65.50299999999999,
+            11.25
+          ],
+          "edges": [
+            {
+              "edge": 35810,
+              "x1": 1.2079226507921703e-13,
+              "x2": 1.806500000000117
+            },
+            {
+              "edge": 139229,
+              "x1": 3.8185000000001175,
+              "x2": 9.30650000000016
+            },
+            {
+              "edge": 50245,
+              "x1": 11.318500000000164,
+              "x2": 16.8065000000004
+            },
+            {
+              "edge": 125120,
+              "x1": 18.818500000000398,
+              "x2": 24.306500000000355
+            },
+            {
+              "edge": 173365,
+              "x1": 26.31850000000033,
+              "x2": 31.806500000000334
+            },
+            {
+              "edge": 51175,
+              "x1": 33.818500000000334,
+              "x2": 39.30650000000033
+            },
+            {
+              "edge": 91432,
+              "x1": 41.318500000000334,
+              "x2": 46.80650000000034
+            },
+            {
+              "edge": 122766,
+              "x1": 48.818500000000114,
+              "x2": 54.30649999999998
+            },
+            {
+              "edge": 150103,
+              "x1": 56.318499999999986,
+              "x2": 61.806499999999986
+            },
+            {
+              "edge": 11763,
+              "x1": 63.818499999999986,
+              "x2": 67.18749999999999
+            }
+          ]
+        },
+        "groups": [
+          {
+            "label": "F01",
+            "indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "key": [
+              "RECT",
+              [
+                0.387,
+                2.012
+              ],
+              true,
+              90.0
+            ]
+          }
+        ],
+        "xChains": [
+          {
+            "id": "X01",
+            "xs": [
+              16.125,
+              45.8125,
+              61.8125
+            ],
+            "rows": [
+              1.75,
+              8.75
+            ],
+            "indices": [
+              0,
+              1,
+              4,
+              2,
+              3,
+              5
+            ],
+            "labels": [
+              "F01"
+            ]
+          }
+        ],
+        "yChain": [
+          {
+            "id": "Y01",
+            "from": 11.25,
+            "to": 8.75,
+            "count": 1,
+            "pitch": 2.5,
+            "rows": [
+              8.75
+            ]
+          },
+          {
+            "id": "Y02",
+            "from": 8.75,
+            "to": 1.75,
+            "count": 1,
+            "pitch": 7.0,
+            "rows": [
+              1.75
+            ]
+          }
+        ],
+        "features": [
+          {
+            "feature": 0,
+            "kind": "RECT",
+            "center": [
+              45.812500000000085,
+              1.7499999999999787
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.500000000000021
+          },
+          {
+            "feature": 1,
+            "kind": "RECT",
+            "center": [
+              61.812500000000114,
+              1.7499999999999822
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.500000000000018
+          },
+          {
+            "feature": 2,
+            "kind": "RECT",
+            "center": [
+              61.81250000000005,
+              8.74999999999998
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.5000000000000195
+          },
+          {
+            "feature": 3,
+            "kind": "RECT",
+            "center": [
+              45.8125,
+              8.749999999999856
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.500000000000144
+          },
+          {
+            "feature": 4,
+            "kind": "RECT",
+            "center": [
+              16.125000000000135,
+              1.749999999999968
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.500000000000032
+          },
+          {
+            "feature": 5,
+            "kind": "RECT",
+            "center": [
+              16.125000000000057,
+              8.749999999999865
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.500000000000135
+          }
+        ]
+      }
     },
     "body-0001": {
-      "mark": "2605-B02-P02",
+      "mark": "2605-B02-P02-R02",
       "name": "26-0527_steel substreadJR_5-6 BTM Riser",
       "quantity": 1,
       "instanceIds": [
         "body-0001"
       ],
-      "svg": "2605-B02-P02.svg",
-      "pdf": "2605-B02-P02.pdf",
-      "dxf": "2605-B02-P02.dxf",
+      "svg": "2605-B02-P02-R02.svg",
+      "pdf": "2605-B02-P02-R02.pdf",
+      "dxf": "2605-B02-P02-R02.dxf",
       "boundsInches": [
         67.18750000000001,
         5.276785714285715,
         0.2500000000000391
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 5.276786,
+          "physical": true,
+          "anchor": [
+            33.59375000000001,
+            5.276786
+          ],
+          "edges": [
+            {
+              "edge": 193706,
+              "x1": 0.0,
+              "x2": 67.18750000000001
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0002": {
-      "mark": "2605-B02-P03",
+      "mark": "2605-B02-P03-R02",
       "name": "26-0701_base shoe top mount plateJR_Tread-Side",
       "quantity": 9,
       "instanceIds": [
@@ -133,9 +372,9 @@
         "body-0037",
         "body-0040"
       ],
-      "svg": "2605-B02-P03.svg",
-      "pdf": "2605-B02-P03.pdf",
-      "dxf": "2605-B02-P03.dxf",
+      "svg": "2605-B02-P03-R02.svg",
+      "pdf": "2605-B02-P03-R02.pdf",
+      "dxf": "2605-B02-P03-R02.dxf",
       "boundsInches": [
         5.0,
         2.6875,
@@ -152,7 +391,8 @@
             0.257,
             0.257
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -164,54 +404,221 @@
             0.257,
             0.257
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         }
-      ]
+      ],
+      "locationAudit": {
+        "datumC": {
+          "y": 2.5,
+          "physical": true,
+          "anchor": [
+            4.199999999999999,
+            2.5
+          ],
+          "edges": [
+            {
+              "edge": 186595,
+              "x1": 0.10000000000000142,
+              "x2": 1.5
+            },
+            {
+              "edge": 149574,
+              "x1": 3.5,
+              "x2": 4.899999999999999
+            }
+          ]
+        },
+        "groups": [
+          {
+            "label": "F01",
+            "indices": [
+              0,
+              1
+            ],
+            "key": [
+              "HOLE",
+              [
+                0.257,
+                0.257
+              ],
+              true,
+              0
+            ]
+          }
+        ],
+        "xChains": [
+          {
+            "id": "X01",
+            "xs": [
+              1.5,
+              3.5
+            ],
+            "rows": [
+              2.0
+            ],
+            "indices": [
+              0,
+              1
+            ],
+            "labels": [
+              "F01"
+            ]
+          }
+        ],
+        "yChain": [
+          {
+            "id": "Y01",
+            "from": 2.5,
+            "to": 2.0,
+            "count": 1,
+            "pitch": 0.5,
+            "rows": [
+              2.0
+            ]
+          }
+        ],
+        "features": [
+          {
+            "feature": 0,
+            "kind": "HOLE",
+            "center": [
+              1.5,
+              2.0000000000000018
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999999982
+          },
+          {
+            "feature": 1,
+            "kind": "HOLE",
+            "center": [
+              3.5,
+              2.0000000000000018
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999999982
+          }
+        ]
+      }
     },
     "body-0004": {
-      "mark": "2605-B02-P04",
+      "mark": "2605-B02-P04-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 5",
       "quantity": 1,
       "instanceIds": [
         "body-0004"
       ],
-      "svg": "2605-B02-P04.svg",
-      "pdf": "2605-B02-P04.pdf",
-      "dxf": "2605-B02-P04.dxf",
+      "svg": "2605-B02-P04-R02.svg",
+      "pdf": "2605-B02-P04-R02.pdf",
+      "dxf": "2605-B02-P04-R02.dxf",
       "boundsInches": [
         99.07562596862472,
         59.05357142857103,
         0.3750000000000071
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 58.803571,
+          "physical": true,
+          "anchor": [
+            10.450625968624479,
+            58.803571
+          ],
+          "edges": [
+            {
+              "edge": 138622,
+              "x1": 0.32562596862442206,
+              "x2": 0.8256259686244363
+            },
+            {
+              "edge": 8271,
+              "x1": 2.8256259686244363,
+              "x2": 4.3196259686244645
+            },
+            {
+              "edge": 191007,
+              "x1": 6.331625968624479,
+              "x2": 7.825625968624479
+            },
+            {
+              "edge": 71931,
+              "x1": 9.825625968624479,
+              "x2": 11.075625968624479
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0006": {
-      "mark": "2605-B02-P05",
+      "mark": "2605-B02-P05-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 7",
       "quantity": 1,
       "instanceIds": [
         "body-0006"
       ],
-      "svg": "2605-B02-P05.svg",
-      "pdf": "2605-B02-P05.pdf",
-      "dxf": "2605-B02-P05.dxf",
+      "svg": "2605-B02-P05-R02.svg",
+      "pdf": "2605-B02-P05-R02.pdf",
+      "dxf": "2605-B02-P05-R02.dxf",
       "boundsInches": [
         99.07562596862496,
         59.05357142857083,
         0.3750000000001634
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 58.803571,
+          "physical": true,
+          "anchor": [
+            10.450625968624415,
+            58.803571
+          ],
+          "edges": [
+            {
+              "edge": 38446,
+              "x1": 0.325625968624351,
+              "x2": 0.825625968624351
+            },
+            {
+              "edge": 155464,
+              "x1": 2.825625968624422,
+              "x2": 7.825625968624394
+            },
+            {
+              "edge": 34544,
+              "x1": 9.825625968624422,
+              "x2": 11.075625968624408
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0008": {
-      "mark": "2605-B02-P06",
+      "mark": "2605-B02-P06-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 9",
       "quantity": 1,
       "instanceIds": [
         "body-0008"
       ],
-      "svg": "2605-B02-P06.svg",
-      "pdf": "2605-B02-P06.pdf",
-      "dxf": "2605-B02-P06.dxf",
+      "svg": "2605-B02-P06-R02.svg",
+      "pdf": "2605-B02-P06-R02.pdf",
+      "dxf": "2605-B02-P06-R02.dxf",
       "boundsInches": [
         98.63950927299993,
         16.00000000000031,
@@ -228,7 +635,8 @@
             0.20099999999998833,
             0.20099999999998833
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -240,7 +648,8 @@
             0.2009999999999879,
             0.2009999999999879
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -252,7 +661,8 @@
             0.2009999999999879,
             0.2009999999999879
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -264,7 +674,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -276,7 +687,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -288,7 +700,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -300,7 +713,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -312,7 +726,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -324,7 +739,8 @@
             0.2009999999999879,
             0.2009999999999879
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -336,7 +752,8 @@
             0.2009999999999879,
             0.2009999999999879
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -348,7 +765,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -360,7 +778,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -372,7 +791,8 @@
             0.2009999999999902,
             0.2009999999999902
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -384,7 +804,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -396,7 +817,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -408,7 +830,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -420,7 +843,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -432,12 +856,450 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         }
-      ]
+      ],
+      "locationAudit": {
+        "datumC": {
+          "y": 15.8125,
+          "physical": true,
+          "anchor": [
+            96.52064635898651,
+            15.8125
+          ],
+          "edges": [
+            {
+              "edge": 120796,
+              "x1": 0.0,
+              "x2": 3.600493822306902
+            },
+            {
+              "edge": 202640,
+              "x1": 4.600493822306902,
+              "x2": 16.487760120985683
+            },
+            {
+              "edge": 11423,
+              "x1": 17.487760120985683,
+              "x2": 29.37502641966438
+            },
+            {
+              "edge": 117794,
+              "x1": 30.375026419664366,
+              "x2": 42.26229271834315
+            },
+            {
+              "edge": 38431,
+              "x1": 43.26229271834315,
+              "x2": 55.149559017021886
+            },
+            {
+              "edge": 191944,
+              "x1": 56.1495590170219,
+              "x2": 68.03682531570067
+            },
+            {
+              "edge": 58851,
+              "x1": 69.03682531570067,
+              "x2": 80.92409161437942
+            },
+            {
+              "edge": 137082,
+              "x1": 81.92409161437942,
+              "x2": 93.81135791305817
+            },
+            {
+              "edge": 133896,
+              "x1": 94.81135791305817,
+              "x2": 98.22993480491486
+            }
+          ]
+        },
+        "groups": [
+          {
+            "label": "F01",
+            "indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17
+            ],
+            "key": [
+              "HOLE",
+              [
+                0.201,
+                0.201
+              ],
+              true,
+              0
+            ]
+          }
+        ],
+        "xChains": [
+          {
+            "id": "X01",
+            "xs": [
+              6.7678,
+              19.65507,
+              32.54233,
+              45.4296,
+              58.31687,
+              71.20413,
+              84.0914,
+              96.97866
+            ],
+            "rows": [
+              15.3125
+            ],
+            "indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "labels": [
+              "F01"
+            ]
+          },
+          {
+            "id": "X02",
+            "xs": [
+              8.7678,
+              21.65507,
+              34.54233,
+              47.4296,
+              60.31687,
+              73.20413,
+              86.0914
+            ],
+            "rows": [
+              15.3125
+            ],
+            "indices": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14
+            ],
+            "labels": [
+              "F01"
+            ]
+          },
+          {
+            "id": "X03",
+            "xs": [
+              2.0
+            ],
+            "rows": [
+              8.0,
+              3.0,
+              13.0
+            ],
+            "indices": [
+              15,
+              16,
+              17
+            ],
+            "labels": [
+              "F01"
+            ]
+          }
+        ],
+        "yChain": [
+          {
+            "id": "Y01",
+            "from": 15.8125,
+            "to": 15.3125,
+            "count": 1,
+            "pitch": 0.5,
+            "rows": [
+              15.3125
+            ]
+          },
+          {
+            "id": "Y02",
+            "from": 15.3125,
+            "to": 13.0,
+            "count": 1,
+            "pitch": 2.3125,
+            "rows": [
+              13.0
+            ]
+          },
+          {
+            "id": "Y03",
+            "from": 13.0,
+            "to": 3.0,
+            "count": 2,
+            "pitch": 5.0,
+            "rows": [
+              8.0,
+              3.0
+            ]
+          }
+        ],
+        "features": [
+          {
+            "feature": 0,
+            "kind": "HOLE",
+            "center": [
+              96.97866430620432,
+              15.312500000000309
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999996909
+          },
+          {
+            "feature": 1,
+            "kind": "HOLE",
+            "center": [
+              84.09139800752557,
+              15.312500000000275
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999972466
+          },
+          {
+            "feature": 2,
+            "kind": "HOLE",
+            "center": [
+              71.20413170884682,
+              15.312500000000231
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999997691
+          },
+          {
+            "feature": 3,
+            "kind": "HOLE",
+            "center": [
+              58.31686541016806,
+              15.312500000000187
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999998135
+          },
+          {
+            "feature": 4,
+            "kind": "HOLE",
+            "center": [
+              45.429599111489324,
+              15.312500000000137
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999998632
+          },
+          {
+            "feature": 5,
+            "kind": "HOLE",
+            "center": [
+              32.542332812810535,
+              15.312500000000103
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999989697
+          },
+          {
+            "feature": 6,
+            "kind": "HOLE",
+            "center": [
+              19.65506651413181,
+              15.312500000000057
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999994316
+          },
+          {
+            "feature": 7,
+            "kind": "HOLE",
+            "center": [
+              6.767800215453036,
+              15.31250000000002
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999998046
+          },
+          {
+            "feature": 8,
+            "kind": "HOLE",
+            "center": [
+              86.09139800752557,
+              15.312500000000279
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999997211
+          },
+          {
+            "feature": 9,
+            "kind": "HOLE",
+            "center": [
+              73.20413170884682,
+              15.312500000000236
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999976374
+          },
+          {
+            "feature": 10,
+            "kind": "HOLE",
+            "center": [
+              60.31686541016806,
+              15.312500000000194
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999998064
+          },
+          {
+            "feature": 11,
+            "kind": "HOLE",
+            "center": [
+              47.429599111489324,
+              15.312500000000158
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999998419
+          },
+          {
+            "feature": 12,
+            "kind": "HOLE",
+            "center": [
+              34.54233281281056,
+              15.31250000000011
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999988987
+          },
+          {
+            "feature": 13,
+            "kind": "HOLE",
+            "center": [
+              21.655066514131825,
+              15.31250000000007
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.4999999999999307
+          },
+          {
+            "feature": 14,
+            "kind": "HOLE",
+            "center": [
+              8.767800215453043,
+              15.312500000000027
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X02",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 0.49999999999997335
+          },
+          {
+            "feature": 15,
+            "kind": "HOLE",
+            "center": [
+              1.9999999999999716,
+              7.999999999999808
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X03",
+            "yDimension": "Y03",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 7.812500000000192
+          },
+          {
+            "feature": 16,
+            "kind": "HOLE",
+            "center": [
+              2.000000000000014,
+              2.9999999999998046
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X03",
+            "yDimension": "Y03",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 12.812500000000195
+          },
+          {
+            "feature": 17,
+            "kind": "HOLE",
+            "center": [
+              1.9999999999999716,
+              12.999999999999808
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X03",
+            "yDimension": "Y02",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 2.812500000000192
+          }
+        ]
+      }
     },
     "body-0018": {
-      "mark": "2605-B02-P07",
+      "mark": "2605-B02-P07-R02",
       "name": "26-0527_steel substreadJR_5-6 TYP Riser",
       "quantity": 8,
       "instanceIds": [
@@ -450,26 +1312,47 @@
         "body-0036",
         "body-0039"
       ],
-      "svg": "2605-B02-P07.svg",
-      "pdf": "2605-B02-P07.pdf",
-      "dxf": "2605-B02-P07.dxf",
+      "svg": "2605-B02-P07-R02.svg",
+      "pdf": "2605-B02-P07-R02.pdf",
+      "dxf": "2605-B02-P07-R02.dxf",
       "boundsInches": [
         67.18750000000041,
         6.641785714285751,
         0.2500000000002771
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 6.641786,
+          "physical": true,
+          "anchor": [
+            33.59375000000007,
+            6.641786
+          ],
+          "edges": [
+            {
+              "edge": 207343,
+              "x1": 8.526512829121202e-14,
+              "x2": 67.18750000000006
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0038": {
-      "mark": "2605-B02-P08",
+      "mark": "2605-B02-P08-R02",
       "name": "26-0527_steel substreadJR_5-6 SPLICE Tread",
       "quantity": 1,
       "instanceIds": [
         "body-0038"
       ],
-      "svg": "2605-B02-P08.svg",
-      "pdf": "2605-B02-P08.pdf",
-      "dxf": "2605-B02-P08.dxf",
+      "svg": "2605-B02-P08-R02.svg",
+      "pdf": "2605-B02-P08-R02.pdf",
+      "dxf": "2605-B02-P08-R02.dxf",
       "boundsInches": [
         67.18750000000006,
         11.000000000000028,
@@ -486,7 +1369,8 @@
             0.38700000000003243,
             2.0120000000000147
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -498,7 +1382,8 @@
             0.3870000000000111,
             2.0120000000000147
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -510,7 +1395,8 @@
             0.38700000000001467,
             2.0120000000000005
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -522,7 +1408,8 @@
             0.3870000000000644,
             2.0120000000000005
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -534,7 +1421,8 @@
             0.38700000000001467,
             2.0120000000000005
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         },
         {
           "kind": "RECT",
@@ -546,54 +1434,328 @@
             0.38700000000000756,
             2.0120000000000005
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": 90.0
         }
-      ]
+      ],
+      "locationAudit": {
+        "datumC": {
+          "y": 11.0,
+          "physical": true,
+          "anchor": [
+            65.50300000000007,
+            11.0
+          ],
+          "edges": [
+            {
+              "edge": 50741,
+              "x1": 2.1316282072803006e-14,
+              "x2": 1.8065000000000175
+            },
+            {
+              "edge": 197376,
+              "x1": 3.8185000000000215,
+              "x2": 9.306500000000025
+            },
+            {
+              "edge": 198652,
+              "x1": 11.318500000000025,
+              "x2": 16.80650000000002
+            },
+            {
+              "edge": 86794,
+              "x1": 18.81850000000002,
+              "x2": 24.306500000000018
+            },
+            {
+              "edge": 60089,
+              "x1": 26.318500000000018,
+              "x2": 31.80650000000002
+            },
+            {
+              "edge": 106267,
+              "x1": 33.81850000000002,
+              "x2": 39.30650000000003
+            },
+            {
+              "edge": 86009,
+              "x1": 41.31850000000003,
+              "x2": 46.80650000000003
+            },
+            {
+              "edge": 57550,
+              "x1": 48.81850000000002,
+              "x2": 54.30650000000006
+            },
+            {
+              "edge": 155032,
+              "x1": 56.318500000000064,
+              "x2": 61.806500000000064
+            },
+            {
+              "edge": 99002,
+              "x1": 63.81850000000007,
+              "x2": 67.18750000000006
+            }
+          ]
+        },
+        "groups": [
+          {
+            "label": "F01",
+            "indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "key": [
+              "RECT",
+              [
+                0.387,
+                2.012
+              ],
+              true,
+              90.0
+            ]
+          }
+        ],
+        "xChains": [
+          {
+            "id": "X01",
+            "xs": [
+              16.125,
+              45.8125,
+              61.8125
+            ],
+            "rows": [
+              8.5,
+              1.5
+            ],
+            "indices": [
+              0,
+              2,
+              3,
+              1,
+              4,
+              5
+            ],
+            "labels": [
+              "F01"
+            ]
+          }
+        ],
+        "yChain": [
+          {
+            "id": "Y01",
+            "from": 11.0,
+            "to": 8.5,
+            "count": 1,
+            "pitch": 2.5,
+            "rows": [
+              8.5
+            ]
+          },
+          {
+            "id": "Y02",
+            "from": 8.5,
+            "to": 1.5,
+            "count": 1,
+            "pitch": 7.0,
+            "rows": [
+              1.5
+            ]
+          }
+        ],
+        "features": [
+          {
+            "feature": 0,
+            "kind": "RECT",
+            "center": [
+              16.125000000000043,
+              8.500000000000007
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.499999999999993
+          },
+          {
+            "feature": 1,
+            "kind": "RECT",
+            "center": [
+              16.12500000000002,
+              1.5000000000000213
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.499999999999979
+          },
+          {
+            "feature": 2,
+            "kind": "RECT",
+            "center": [
+              45.81250000000003,
+              8.5
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.5
+          },
+          {
+            "feature": 3,
+            "kind": "RECT",
+            "center": [
+              61.8125,
+              8.5
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 2.5
+          },
+          {
+            "feature": 4,
+            "kind": "RECT",
+            "center": [
+              61.81250000000002,
+              1.5
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.5
+          },
+          {
+            "feature": 5,
+            "kind": "RECT",
+            "center": [
+              45.81250000000003,
+              1.5000000000000284
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": 90.0,
+            "offsetFromEdgeC": 9.499999999999972
+          }
+        ]
+      }
     },
     "body-0055": {
-      "mark": "2605-B02-P09",
+      "mark": "2605-B02-P09-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 56",
       "quantity": 1,
       "instanceIds": [
         "body-0055"
       ],
-      "svg": "2605-B02-P09.svg",
-      "pdf": "2605-B02-P09.pdf",
-      "dxf": "2605-B02-P09.dxf",
+      "svg": "2605-B02-P09-R02.svg",
+      "pdf": "2605-B02-P09-R02.pdf",
+      "dxf": "2605-B02-P09-R02.dxf",
       "boundsInches": [
         99.07562596862496,
         59.053571428570834,
         0.3750000000001634
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 58.803571,
+          "physical": true,
+          "anchor": [
+            10.450625968624415,
+            58.803571
+          ],
+          "edges": [
+            {
+              "edge": 38446,
+              "x1": 0.325625968624351,
+              "x2": 0.825625968624351
+            },
+            {
+              "edge": 155464,
+              "x1": 2.825625968624422,
+              "x2": 7.825625968624394
+            },
+            {
+              "edge": 34544,
+              "x1": 9.825625968624422,
+              "x2": 11.075625968624408
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0057": {
-      "mark": "2605-B02-P10",
+      "mark": "2605-B02-P10-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 58",
       "quantity": 1,
       "instanceIds": [
         "body-0057"
       ],
-      "svg": "2605-B02-P10.svg",
-      "pdf": "2605-B02-P10.pdf",
-      "dxf": "2605-B02-P10.dxf",
+      "svg": "2605-B02-P10-R02.svg",
+      "pdf": "2605-B02-P10-R02.pdf",
+      "dxf": "2605-B02-P10-R02.dxf",
       "boundsInches": [
         99.07562596862496,
         59.05357142857083,
         0.3750000000001634
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 58.803571,
+          "physical": true,
+          "anchor": [
+            10.450625968624415,
+            58.803571
+          ],
+          "edges": [
+            {
+              "edge": 38446,
+              "x1": 0.325625968624351,
+              "x2": 0.825625968624351
+            },
+            {
+              "edge": 155464,
+              "x1": 2.825625968624422,
+              "x2": 7.825625968624394
+            },
+            {
+              "edge": 34544,
+              "x1": 9.825625968624422,
+              "x2": 11.075625968624408
+            }
+          ]
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     },
     "body-0502": {
-      "mark": "2605-B02-P11",
+      "mark": "2605-B02-P11-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 60",
       "quantity": 1,
       "instanceIds": [
         "body-0502"
       ],
-      "svg": "2605-B02-P11.svg",
-      "pdf": "2605-B02-P11.pdf",
-      "dxf": "2605-B02-P11.dxf",
+      "svg": "2605-B02-P11-R02.svg",
+      "pdf": "2605-B02-P11-R02.pdf",
+      "dxf": "2605-B02-P11-R02.dxf",
       "boundsInches": [
         98.63950927299993,
         16.00000000000025,
@@ -610,7 +1772,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -622,7 +1785,8 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         },
         {
           "kind": "HOLE",
@@ -634,26 +1798,204 @@
             0.2009999999999707,
             0.2009999999999707
           ],
-          "through": true
+          "through": true,
+          "orientationDeg": null
         }
-      ]
+      ],
+      "locationAudit": {
+        "datumC": {
+          "y": 15.8125,
+          "physical": true,
+          "anchor": [
+            96.52064635898653,
+            15.8125
+          ],
+          "edges": [
+            {
+              "edge": 168126,
+              "x1": 2.842170943040401e-14,
+              "x2": 3.600493822306902
+            },
+            {
+              "edge": 119169,
+              "x1": 4.600493822306888,
+              "x2": 16.487760120985683
+            },
+            {
+              "edge": 100094,
+              "x1": 17.487760120985683,
+              "x2": 29.375026419664408
+            },
+            {
+              "edge": 45471,
+              "x1": 30.375026419664394,
+              "x2": 42.262292718343176
+            },
+            {
+              "edge": 67496,
+              "x1": 43.262292718343176,
+              "x2": 55.149559017021915
+            },
+            {
+              "edge": 101041,
+              "x1": 56.14955901702193,
+              "x2": 68.03682531570068
+            },
+            {
+              "edge": 161933,
+              "x1": 69.0368253157007,
+              "x2": 80.92409161437944
+            },
+            {
+              "edge": 91433,
+              "x1": 81.92409161437944,
+              "x2": 93.81135791305817
+            },
+            {
+              "edge": 91718,
+              "x1": 94.81135791305817,
+              "x2": 98.22993480491488
+            }
+          ]
+        },
+        "groups": [
+          {
+            "label": "F01",
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "key": [
+              "HOLE",
+              [
+                0.201,
+                0.201
+              ],
+              true,
+              0
+            ]
+          }
+        ],
+        "xChains": [
+          {
+            "id": "X01",
+            "xs": [
+              2.0
+            ],
+            "rows": [
+              8.0,
+              3.0,
+              13.0
+            ],
+            "indices": [
+              0,
+              1,
+              2
+            ],
+            "labels": [
+              "F01"
+            ]
+          }
+        ],
+        "yChain": [
+          {
+            "id": "Y01",
+            "from": 15.8125,
+            "to": 13.0,
+            "count": 1,
+            "pitch": 2.8125,
+            "rows": [
+              13.0
+            ]
+          },
+          {
+            "id": "Y02",
+            "from": 13.0,
+            "to": 3.0,
+            "count": 2,
+            "pitch": 5.0,
+            "rows": [
+              8.0,
+              3.0
+            ]
+          }
+        ],
+        "features": [
+          {
+            "feature": 0,
+            "kind": "HOLE",
+            "center": [
+              1.9999999999999432,
+              8.00000000000006
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 7.81249999999994
+          },
+          {
+            "feature": 1,
+            "kind": "HOLE",
+            "center": [
+              1.9999999999999574,
+              3.000000000000046
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y02",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 12.812499999999954
+          },
+          {
+            "feature": 2,
+            "kind": "HOLE",
+            "center": [
+              1.9999999999999716,
+              13.00000000000005
+            ],
+            "sizeCallout": "F01",
+            "xDimension": "X01",
+            "yDimension": "Y01",
+            "orientationDeg": null,
+            "offsetFromEdgeC": 2.8124999999999503
+          }
+        ]
+      }
     },
     "body-0068": {
-      "mark": "2605-B02-P12",
+      "mark": "2605-B02-P12-R02",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 70",
       "quantity": 1,
       "instanceIds": [
         "body-0068"
       ],
-      "svg": "2605-B02-P12.svg",
-      "pdf": "2605-B02-P12.pdf",
-      "dxf": "2605-B02-P12.dxf",
+      "svg": "2605-B02-P12-R02.svg",
+      "pdf": "2605-B02-P12-R02.pdf",
+      "dxf": "2605-B02-P12-R02.dxf",
       "boundsInches": [
         114.92538023705475,
         8.552521659839819,
         0.2500000000000284
       ],
-      "features": []
+      "features": [],
+      "locationAudit": {
+        "datumC": {
+          "y": 8.552521659839819,
+          "physical": false,
+          "anchor": [
+            114.92538023705475,
+            8.552521659839819
+          ],
+          "edges": []
+        },
+        "groups": [],
+        "xChains": [],
+        "yChain": [],
+        "features": []
+      }
     }
-  }
+  },
+  "combinedPdf": "2605-BTM-RUN-review-set-R02.pdf"
 }

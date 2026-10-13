@@ -29,7 +29,7 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   }
   async function load() {
     if (loading) return loading;
-    loading = fetch(new URL('index.json', assetRoot)).then(r => {
+    loading = fetch(new URL('index.json', assetRoot), { cache: 'no-cache' }).then(r => {
       if (!r.ok) throw new Error('Drawing preview unavailable');
       return r.json();
     }).then(data => {

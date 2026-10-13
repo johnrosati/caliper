@@ -20,7 +20,7 @@ function setPartsCollapsed(collapsed) {
   partsToggle.setAttribute('aria-expanded', String(!collapsed));
   localStorage.setItem(partsCollapsedKey, String(collapsed));
 }
-setPartsCollapsed(localStorage.getItem(partsCollapsedKey) === 'true');
+setPartsCollapsed(true);
 partsToggle.addEventListener('click', () => setPartsCollapsed(!planningSidebar.classList.contains('parts-collapsed')));
 const planningView = document.getElementById('planning-view');
 const sidebarWidthHandle = document.getElementById('sidebar-width-resize');

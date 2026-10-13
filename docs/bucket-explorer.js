@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { createBodyTileRenderer } from './body-tiles.js?v=20261013-bucket';
-import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket';
+import { createBodyTileRenderer } from './body-tiles.js?v=20261013-bucket2';
+import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket2';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
 const cleanName = name => name.replace(/^26-\d+_/, '').replace(/JR_?/g, ' ').replace(/_/g, ' ').trim();
@@ -223,7 +223,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     }
     requestAnimationFrame(nextBatch);
   }
-  function showPreview(element, url, name) { const image = document.createElement('img'); image.src = url; image.alt = `Face view of ${name}`; element.replaceChildren(image); }
+  function showPreview(element, url, name) { const image = document.createElement('img'); image.src = url; image.draggable = false; image.alt = `Face view of ${name}`; element.replaceChildren(image); }
   function focusGroup(index) {
     if (!groups.length) return;
     focusIndex = (index + groups.length) % groups.length; updateFocus();
@@ -261,7 +261,9 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const bodyMenu = document.getElementById('bucket-body-menu'); let lastWheel = 0, dragStart = null;
   bodyMenu.addEventListener('wheel', e => { e.preventDefault(); if (Math.abs(e.deltaY) < 3 || performance.now() - lastWheel < 150) return; lastWheel = performance.now(); focusGroup(focusIndex + Math.sign(e.deltaY)); }, {passive:false});
   bodyMenu.addEventListener('keydown', e => { if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)) { e.preventDefault(); focusGroup(focusIndex + (['ArrowUp','ArrowLeft'].includes(e.key) ? -1 : 1)); } });
-  carousel.addEventListener('pointerdown', e => { if (e.button !== 0) return; dragStart = {y:e.clientY, index:focusIndex, moved:false}; });
+  carousel.addEventListener('pointerdown', e => { if (e.button !== 0) return; e.preventDefault(); carousel.setPointerCapture(e.pointerId); dragStart = {y:e.clientY, index:focusIndex, moved:false, pick:[...carousel.children].findIndex(button => button.contains(e.target))}; });
+  carousel.addEventListener('pointerup', () => { if (dragStart && !dragStart.moved && dragStart.pick >= 0) focusGroup(dragStart.pick); });
+  carousel.addEventListener('pointercancel', () => { dragStart = null; });
   carousel.addEventListener('pointermove', e => { if (!dragStart || !e.buttons) return; const steps = Math.round((dragStart.y - e.clientY) / 70); if (steps) { dragStart.moved = true; focusGroup(dragStart.index + steps); } });
   carousel.addEventListener('click', e => { if (dragStart?.moved) { e.preventDefault(); e.stopPropagation(); } dragStart = null; }, true);
   const pointer = new THREE.Vector2(); let start;

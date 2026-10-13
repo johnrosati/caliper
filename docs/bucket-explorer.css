@@ -11,3 +11,5 @@ body.bucket-mode{background:#f7f9fb;color:#253342}body.bucket-mode header{backgr
 @media(prefers-reduced-motion:reduce){#bucket-view .bucket-wheel-item{transition:none}}
 
 body.bucket-mode .view-only-label{color:#91a1ad}
+
+@media(max-width:680px){.bucket-wheel{overflow:hidden;min-height:260px}.bucket-body-menu{min-height:380px}.bucket-section-label,.bucket-body-subtitle{position:relative;z-index:2;background:#fff}}

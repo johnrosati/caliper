@@ -92,3 +92,22 @@ wire closure, formed/isometric edge endpoints and whole-body spans; shuffled
 near-duplicate corners and real bevels are regression fixtures. Native Hole Wizard
 metadata, 73 tap locations, all planning assignments and quantities are retained.
 PDF, SVG and DXF exports use R09; previous R08 exports remain available.
+
+## Drawing review R10: attached form-depth and thickness annotations
+
+A form-depth leader previously pointed to the midpoint of the projected bounding
+rectangle. On curved profiles that point can be empty space. Eight formed sheets
+now use two-ended depth dimensions with extension lines tied to exact source
+extrema. Fifteen plate thickness leaders move onto the actual source side edge,
+including sloped/beveled ends. Radius leaders respect the depth-caption clearance
+band; short depth dimensions use a horizontal caption when vertical text cannot fit.
+
+Every part has an annotation audit with source edge IDs, source points, projection
+coordinates and rendered SVG checks. Geometry, native tapping callouts and all
+planning assignments/quantities remain intact. All 106 part types pass the shared
+projection/closure, location, source-reference and annotation-clearance gates.
+All 118 review-set pages were rendered and inspected.
+
+23 revised part sheets use R10; 83 unchanged reviewed sheets retain R09. All 12
+bucket review PDFs and the complete review set are R10 and include those sheet
+revisions. Earlier files remain available for rollback.

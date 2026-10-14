@@ -2,7 +2,7 @@
   "sourceSha256": "13f5c27c29302adcf31ece4545312b69403203f32269eee3104783f11d917442",
   "planSha256": "e9ffeb329b5e97edb019b9537e80fdeebad47bcd2ab4a18d00295af7334ccb85",
   "bucketId": "2605-56-B02",
-  "revision": "09",
+  "revision": "10",
   "review": true,
   "units": "inches",
   "fractionDenominator": 32,
@@ -418,7 +418,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 16146,
+              "sourcePoint": [
+                -34.87500000000012,
+                5.089285714286483,
+                34.375000000000135
+              ],
+              "localPoint": [
+                67.1875000000002,
+                0.0,
+                0.1250000000001652
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000018,
+              802.250000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000003295,
+          "scale": 18.0,
+          "origin": [
+            385.3124999999982,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -731,7 +763,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 142933,
+              "sourcePoint": [
+                -23.750000000000043,
+                -0.1250000000000059,
+                34.37499999999996
+              ],
+              "localPoint": [
+                67.18749999999997,
+                5.276785714285715,
+                0.12500000000002132
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6874999999995,
+              802.2500000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000391,
+          "scale": 18.0,
+          "origin": [
+            385.3124999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -1085,7 +1149,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 99981,
+              "sourcePoint": [
+                -27.12500000000002,
+                4.839285714285714,
+                -30.1
+              ],
+              "localPoint": [
+                5.0,
+                0.10000000000000142,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1170.0,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 72.0,
+          "origin": [
+            810.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -1659,7 +1755,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 21294,
+              "sourcePoint": [
+                -23.875000000000014,
+                -0.1250000000000234,
+                -32.6875
+              ],
+              "localPoint": [
+                99.07562596862472,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.7658953478922,
+              800.9642857142857
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000071,
+          "scale": 5.142857142857143,
+          "origin": [
+            735.2341046521078,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -2210,7 +2338,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 115311,
+              "sourcePoint": [
+                -23.875000000000032,
+                -0.1250000000000234,
+                -16.687499999999982
+              ],
+              "localPoint": [
+                99.07562596862493,
+                1.1102230246251565e-16,
+                0.1875000000000817
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.7658953478926,
+              800.9642857142861
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001634,
+          "scale": 5.142857142857143,
+          "origin": [
+            735.2341046521072,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -2353,16 +2513,16 @@
       ]
     },
     "body-0008": {
-      "mark": "2605-B02-P06-R09",
+      "mark": "2605-B02-P06-R10",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 9",
       "bucketId": "2605-56-B02",
       "quantity": 1,
       "instanceIds": [
         "body-0008"
       ],
-      "svg": "2605-B02-P06-R09.svg",
-      "pdf": "2605-B02-P06-R09.pdf",
-      "dxf": "2605-B02-P06-R09.dxf",
+      "svg": "2605-B02-P06-R10.svg",
+      "pdf": "2605-B02-P06-R10.pdf",
+      "dxf": "2605-B02-P06-R10.dxf",
       "boundsInches": [
         98.63950927299993,
         16.00000000000031,
@@ -3794,7 +3954,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 10654,
+              "sourcePoint": [
+                -38.67060411503495,
+                -0.1249999999999622,
+                -32.499999999999986
+              ],
+              "localPoint": [
+                98.43472203895732,
+                15.812500000000309,
+                0.12500000000006395
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1697.255530595386,
+              801.8000000000009
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000013145,
+          "scale": 14.4,
+          "origin": [
+            279.7955332344005,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -4175,7 +4367,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 106983,
+              "sourcePoint": [
+                -34.750000000000156,
+                11.678571428572198,
+                34.37500000000007
+              ],
+              "localPoint": [
+                67.18750000000028,
+                0.1875000000000835,
+                0.125000000000135
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000014,
+              802.2500000000024
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000002771,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999625,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -4649,7 +4873,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 95909,
+              "sourcePoint": [
+                -111.625,
+                58.803571428571516,
+                34.37500000000004
+              ],
+              "localPoint": [
+                67.18750000000006,
+                11.000000000000028,
+                0.12500000000006395
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000005,
+              802.2500000000011
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.250000000000135,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999955,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -5302,7 +5558,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 115311,
+              "sourcePoint": [
+                -23.875000000000032,
+                -0.1250000000000234,
+                13.000000000000014
+              ],
+              "localPoint": [
+                99.07562596862493,
+                1.1102230246251565e-16,
+                0.1875000000000817
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.7658953478926,
+              800.9642857142861
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001634,
+          "scale": 5.142857142857143,
+          "origin": [
+            735.2341046521072,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -5853,7 +6141,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 115311,
+              "sourcePoint": [
+                -23.875000000000032,
+                -0.1250000000000234,
+                29.00000000000001
+              ],
+              "localPoint": [
+                99.07562596862493,
+                1.1102230246251565e-16,
+                0.1875000000000817
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.7658953478926,
+              800.9642857142861
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001634,
+          "scale": 5.142857142857143,
+          "origin": [
+            735.2341046521072,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -5996,16 +6316,16 @@
       ]
     },
     "body-0502": {
-      "mark": "2605-B02-P11-R09",
+      "mark": "2605-B02-P11-R10",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 60",
       "bucketId": "2605-56-B02",
       "quantity": 1,
       "instanceIds": [
         "body-0502"
       ],
-      "svg": "2605-B02-P11-R09.svg",
-      "pdf": "2605-B02-P11-R09.pdf",
-      "dxf": "2605-B02-P11-R09.dxf",
+      "svg": "2605-B02-P11-R10.svg",
+      "pdf": "2605-B02-P11-R10.pdf",
+      "dxf": "2605-B02-P11-R10.dxf",
       "boundsInches": [
         98.63950927299993,
         16.00000000000025,
@@ -6372,7 +6692,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 21855,
+              "sourcePoint": [
+                -38.67060411503496,
+                -0.1249999999999622,
+                13.187500000000007
+              ],
+              "localPoint": [
+                98.43472203895732,
+                15.812500000000014,
+                0.1250000000000604
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1697.255530595386,
+              801.8000000000009
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000001137,
+          "scale": 14.4,
+          "origin": [
+            279.7955332344005,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -6970,7 +7322,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 162915,
+              "sourcePoint": [
+                -23.875000000000032,
+                4.964285714285709,
+                34.18750000000001
+              ],
+              "localPoint": [
+                98.75000000000001,
+                5.089285714285715,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1243.9285714285716,
+              800.6428571428572
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 5.142857142857143,
+          "origin": [
+            736.0714285714286,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -7725,7 +8109,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 158080,
+              "sourcePoint": [
+                5.75,
+                126.75000000000021,
+                -90.56249999999953
+              ],
+              "localPoint": [
+                115.2499999999999,
+                55.87427798606103,
+                0.18750000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1249.3124999999998,
+              800.8437500000002
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001137,
+          "scale": 4.5,
+          "origin": [
+            730.6875000000002,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -8519,7 +8935,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 37970,
+              "sourcePoint": [
+                5.749999999999972,
+                133.25000000000023,
+                -106.56249999999955
+              ],
+              "localPoint": [
+                115.25000000000013,
+                62.37427798606049,
+                0.18750000000009948
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1249.3125000000002,
+              800.8437500000005
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000021316,
+          "scale": 4.5,
+          "origin": [
+            730.6874999999997,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -8715,16 +9163,16 @@
       ]
     },
     "body-0189": {
-      "mark": "2605-B01-P03-R09",
+      "mark": "2605-B01-P03-R10",
       "name": "26-0527_structure box asmJR_TOP 5-6 body 191",
       "bucketId": "2605-56-B01",
       "quantity": 1,
       "instanceIds": [
         "body-0189"
       ],
-      "svg": "2605-B01-P03-R09.svg",
-      "pdf": "2605-B01-P03-R09.pdf",
-      "dxf": "2605-B01-P03-R09.dxf",
+      "svg": "2605-B01-P03-R10.svg",
+      "pdf": "2605-B01-P03-R10.pdf",
+      "dxf": "2605-B01-P03-R10.dxf",
       "boundsInches": [
         107.41965292821475,
         16.000000000000142,
@@ -10224,7 +10672,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 7531,
+              "sourcePoint": [
+                -17.776204395603386,
+                127.25000000000018,
+                -106.37499999999956
+              ],
+              "localPoint": [
+                107.38451765137762,
+                15.81250000000017,
+                0.12500000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1634.096294247243,
+              801.5000000000007
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000995,
+          "scale": 12.0,
+          "origin": [
+            345.48208243071156,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -10881,7 +11361,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 33021,
+              "sourcePoint": [
+                -98.99400000000001,
+                85.6607142857141,
+                -90.43749999999946
+              ],
+              "localPoint": [
+                67.1875000000002,
+                10.506000000000057,
+                0.12500000000017053
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000018,
+              802.2500000000031
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000032685,
+          "scale": 18.0,
+          "origin": [
+            385.3124999999982,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -11412,7 +11924,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 145753,
+              "sourcePoint": [
+                -109.37500000000006,
+                78.83142857142877,
+                -90.43749999999953
+              ],
+              "localPoint": [
+                67.1875,
+                6.8917857142858026,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875,
+              802.2500000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000004263,
+          "scale": 18.0,
+          "origin": [
+            385.3125,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -11957,7 +12501,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 11526,
+              "sourcePoint": [
+                -101.00000000000006,
+                85.41071428571453,
+                -90.84999999999953
+              ],
+              "localPoint": [
+                5.0,
+                0.2874999999999943,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1170.0,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 72.0,
+          "origin": [
+            810.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -12183,7 +12759,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 153278,
+              "sourcePoint": [
+                -98.37499999999994,
+                85.79571428571413,
+                -90.43749999999947
+              ],
+              "localPoint": [
+                67.18750000000037,
+                6.641785714285746,
+                0.1250000000001421
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000027,
+              802.2500000000025
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000002842,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999625,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -12810,7 +13418,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 37970,
+              "sourcePoint": [
+                5.749999999999972,
+                133.25000000000023,
+                -136.24999999999957
+              ],
+              "localPoint": [
+                115.25000000000013,
+                62.37427798606049,
+                0.1875000000001137
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1249.3125000000002,
+              800.8437500000005
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000002274,
+          "scale": 4.5,
+          "origin": [
+            730.6874999999997,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -13552,7 +14192,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 37970,
+              "sourcePoint": [
+                5.749999999999972,
+                133.25000000000026,
+                -152.24999999999957
+              ],
+              "localPoint": [
+                115.24999999999999,
+                62.374277986060775,
+                0.1875000000001137
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1249.3125,
+              800.8437500000005
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000002274,
+          "scale": 4.5,
+          "origin": [
+            730.6875,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -13748,16 +14420,16 @@
       ]
     },
     "body-0234": {
-      "mark": "2605-B01-P10-R09",
+      "mark": "2605-B01-P10-R10",
       "name": "26-0527_structure box asmJR_TOP 5-6 body 236",
       "bucketId": "2605-56-B01",
       "quantity": 1,
       "instanceIds": [
         "body-0234"
       ],
-      "svg": "2605-B01-P10-R09.svg",
-      "pdf": "2605-B01-P10-R09.pdf",
-      "dxf": "2605-B01-P10-R09.dxf",
+      "svg": "2605-B01-P10-R10.svg",
+      "pdf": "2605-B01-P10-R10.pdf",
+      "dxf": "2605-B01-P10-R10.dxf",
       "boundsInches": [
         107.41965292821476,
         16.00000000000017,
@@ -14124,7 +14796,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 77857,
+              "sourcePoint": [
+                -17.77620439560343,
+                127.25000000000023,
+                -136.43749999999957
+              ],
+              "localPoint": [
+                107.38451765137762,
+                0.18750000000017053,
+                0.12500000000004263
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1634.096294247243,
+              801.5000000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000995,
+          "scale": 12.0,
+          "origin": [
+            345.48208243071144,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -14850,7 +15554,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 64500,
+              "sourcePoint": [
+                5.75,
+                131.00000000000026,
+                -157.43749999999955
+              ],
+              "localPoint": [
+                144.12500000000006,
+                61.64285714285714,
+                0.12500000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1295.2058823529414,
+              800.5294117647061
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000001137,
+          "scale": 4.235294117647059,
+          "origin": [
+            684.7941176470588,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -16897,7 +17633,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 9119,
+              "sourcePoint": [
+                -122.62500000000004,
+                51.266337202658406,
+                -32.6875
+              ],
+              "localPoint": [
+                108.75000000000001,
+                0.5334723315761991,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1642.5,
+              802.25
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000071,
+          "scale": 12.0,
+          "origin": [
+            337.4999999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -17737,7 +18505,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 60147,
+              "sourcePoint": [
+                -122.62500000000011,
+                51.26633720265848,
+                -16.68749999999994
+              ],
+              "localPoint": [
+                108.7500000000002,
+                0.533472331576192,
+                0.18750000000008527
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1642.5000000000011,
+              802.250000000001
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000017053,
+          "scale": 12.0,
+          "origin": [
+            337.49999999999886,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -18469,7 +19269,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 53148,
+              "sourcePoint": [
+                -122.69012519372492,
+                51.1596427363432,
+                -16.875
+              ],
+              "localPoint": [
+                28.24522433792768,
+                0.18750000000003908,
+                0.1250000000000533
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.2070190413492,
+              802.2500000000009
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000011013,
+          "scale": 18.0,
+          "origin": [
+            735.7929809586509,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -18601,16 +19433,16 @@
       ]
     },
     "body-0009": {
-      "mark": "2605-B07-P04-R09",
+      "mark": "2605-B07-P04-R10",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 10",
       "bucketId": "2605-56-B07",
       "quantity": 1,
       "instanceIds": [
         "body-0009"
       ],
-      "svg": "2605-B07-P04-R09.svg",
-      "pdf": "2605-B07-P04-R09.pdf",
-      "dxf": "2605-B07-P04-R09.dxf",
+      "svg": "2605-B07-P04-R10.svg",
+      "pdf": "2605-B07-P04-R10.pdf",
+      "dxf": "2605-B07-P04-R10.dxf",
       "boundsInches": [
         84.6411269064831,
         16.000000000000128,
@@ -19284,7 +20116,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 25045,
+              "sourcePoint": [
+                -146.76900837035404,
+                65.85714285714289,
+                -32.49999999999999
+              ],
+              "localPoint": [
+                84.60599162964601,
+                15.812500000000135,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1598.9101657402243,
+              801.8000000000004
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000007105,
+          "scale": 14.4,
+          "origin": [
+            380.5838862733217,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -19757,7 +20621,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 82120,
+              "sourcePoint": [
+                -122.50000000000003,
+                58.67857142857141,
+                12.186000000000014
+              ],
+              "localPoint": [
+                28.059500000000014,
+                0.1875000000000142,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1495.071,
+              804.5000000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 36.0,
+          "origin": [
+            484.9289999999995,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -20033,7 +20929,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 158688,
+              "sourcePoint": [
+                -122.50000000000003,
+                58.67857142857152,
+                34.05250000000003
+              ],
+              "localPoint": [
+                5.0525000000000055,
+                0.1875,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1171.8900000000003,
+              809.000000000001
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 72.0,
+          "origin": [
+            808.1099999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -20485,7 +21413,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 16146,
+              "sourcePoint": [
+                -133.87500000000014,
+                65.5178571428579,
+                34.375000000000135
+              ],
+              "localPoint": [
+                67.1875000000002,
+                0.0,
+                0.12500000000015632
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000018,
+              802.2500000000028
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000032685,
+          "scale": 18.0,
+          "origin": [
+            385.3124999999982,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -21035,7 +21995,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 150020,
+              "sourcePoint": [
+                -122.75000000000003,
+                65.39285714285721,
+                34.37500000000002
+              ],
+              "localPoint": [
+                67.18750000000003,
+                0.1875,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000002,
+              802.2500000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000004263,
+          "scale": 18.0,
+          "origin": [
+            385.3124999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -21578,7 +22570,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 99981,
+              "sourcePoint": [
+                -126.12500000000003,
+                65.26785714285714,
+                -30.1
+              ],
+              "localPoint": [
+                5.0,
+                0.10000000000000142,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1170.0,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 72.0,
+          "origin": [
+            810.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -22149,7 +23173,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 60147,
+              "sourcePoint": [
+                -122.62500000000011,
+                51.26633720265848,
+                13.000000000000055
+              ],
+              "localPoint": [
+                108.75000000000017,
+                0.533472331576192,
+                0.1875000000000835
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1642.500000000001,
+              802.250000000001
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000016875,
+          "scale": 12.0,
+          "origin": [
+            337.499999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -22777,7 +23833,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 60147,
+              "sourcePoint": [
+                -122.62500000000011,
+                51.26633720265848,
+                29.000000000000053
+              ],
+              "localPoint": [
+                108.75000000000017,
+                0.5334723315761991,
+                0.18750000000008527
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1642.500000000001,
+              802.250000000001
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000017053,
+          "scale": 12.0,
+          "origin": [
+            337.499999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -23341,7 +24429,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 115310,
+              "sourcePoint": [
+                -122.69012519372494,
+                51.15964273634319,
+                28.812500000000025
+              ],
+              "localPoint": [
+                28.24522433792768,
+                0.18749999999996092,
+                0.12500000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1244.2070190413488,
+              802.250000000001
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000001137,
+          "scale": 18.0,
+          "origin": [
+            735.7929809586506,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -23439,16 +24559,16 @@
       "lineBreakAudit": []
     },
     "body-0059": {
-      "mark": "2605-B07-P13-R09",
+      "mark": "2605-B07-P13-R10",
       "name": "26-0527_structure box asmJR_BTM 5-6 body 61",
       "bucketId": "2605-56-B07",
       "quantity": 1,
       "instanceIds": [
         "body-0059"
       ],
-      "svg": "2605-B07-P13-R09.svg",
-      "pdf": "2605-B07-P13-R09.pdf",
-      "dxf": "2605-B07-P13-R09.dxf",
+      "svg": "2605-B07-P13-R10.svg",
+      "pdf": "2605-B07-P13-R10.pdf",
+      "dxf": "2605-B07-P13-R10.dxf",
       "boundsInches": [
         84.64112690648307,
         16.00000000000012,
@@ -24122,7 +25242,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 9924,
+              "sourcePoint": [
+                -146.76900837035407,
+                65.85714285714289,
+                13.187499999999998
+              ],
+              "localPoint": [
+                84.60599162964598,
+                15.81250000000014,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1598.910165740224,
+              801.8000000000004
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000007105,
+          "scale": 14.4,
+          "origin": [
+            380.5838862733219,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -24433,7 +25585,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 39625,
+              "sourcePoint": [
+                -122.62500000000004,
+                55.220384817025796,
+                34.18750000000001
+              ],
+              "localPoint": [
+                27.27972570365614,
+                1.0658141036401503e-14,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1481.0350626658105,
+              804.5000000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 36.0,
+          "origin": [
+            498.9649373341895,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -24518,7 +25702,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 106983,
+              "sourcePoint": [
+                -133.7500000000001,
+                72.10714285714361,
+                34.37500000000007
+              ],
+              "localPoint": [
+                67.18750000000028,
+                0.18750000000007105,
+                0.1250000000001421
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000014,
+              802.2500000000025
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000002558,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999625,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -24704,7 +25920,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 34915,
+              "sourcePoint": [
+                -145.87499999999997,
+                67.60714285714283,
+                28.968750000000032
+              ],
+              "localPoint": [
+                15.937500000000002,
+                4.625,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1276.875,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            703.125,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -24850,7 +26098,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 53863,
+              "sourcePoint": [
+                -145.87499999999997,
+                70.60714285714283,
+                12.968750000000032
+              ],
+              "localPoint": [
+                29.625,
+                1.625,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1523.25,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            456.75,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -25160,7 +26440,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 68853,
+              "sourcePoint": [
+                -125.92607289637454,
+                52.80532762594091,
+                -32.9
+              ],
+              "localPoint": [
+                3.0,
+                1.8999999999999986,
+                0.09375000000002487
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1098.0,
+              806.7500000000018
+            ]
+          ],
+          "label": "3/16\" THICK",
+          "value": 0.18750000000002487,
+          "scale": 72.0,
+          "origin": [
+            882.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -25301,16 +26613,16 @@
       "lineBreakAudit": []
     },
     "body-0379": {
-      "mark": "2605-B09-P01-R09",
+      "mark": "2605-B09-P01-R10",
       "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge",
       "bucketId": "2605-56-B09",
       "quantity": 1,
       "instanceIds": [
         "body-0379"
       ],
-      "svg": "2605-B09-P01-R09.svg",
-      "pdf": "2605-B09-P01-R09.pdf",
-      "dxf": "2605-B09-P01-R09.dxf",
+      "svg": "2605-B09-P01-R10.svg",
+      "pdf": "2605-B09-P01-R10.pdf",
+      "dxf": "2605-B09-P01-R10.dxf",
       "boundsInches": [
         56.125000000000014,
         3.0,
@@ -25835,6 +27147,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 134908,
+              "sourcePoint": [
+                -149.87499999999972,
+                66.10714285714283,
+                -33.562500000001464
+              ],
+              "localPoint": [
+                56.125000000000014,
+                2.625,
+                0.0
+              ]
+            },
+            {
+              "edgeId": 87109,
+              "sourcePoint": [
+                -149.87499999999972,
+                72.10714285714283,
+                -33.562500000001464
+              ],
+              "localPoint": [
+                56.125000000000014,
+                2.625,
+                6.0
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1663.5000000000002,
+              735.0
+            ],
+            [
+              1663.5000000000002,
+              879.0
+            ]
+          ],
+          "dimensionX": 1723.5000000000002,
+          "label": "6\" FORM DEPTH",
+          "textBox": [
+            1736.5000000000002,
+            795.0,
+            1869.1000000000001,
+            816.0
+          ],
+          "value": 6.0,
+          "scale": 24.0,
+          "origin": [
+            316.4999999999998,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 0,
           "offset": 26.378750000000004,
@@ -28597,7 +29965,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 169799,
+              "sourcePoint": [
+                -146.9999999999998,
+                72.10714285714283,
+                -33.31250000000146
+              ],
+              "localPoint": [
+                7.999999999999972,
+                6.500000000000014,
+                0.2500000000000355
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1133.999999999999,
+              809.0000000000013
+            ]
+          ],
+          "label": "1/2\" THICK",
+          "value": 0.500000000000071,
+          "scale": 36.0,
+          "origin": [
+            846.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -28691,7 +30091,7 @@
       ]
     },
     "body-0394": {
-      "mark": "2605-B09-P03-R09",
+      "mark": "2605-B09-P03-R10",
       "name": "26-0701_mid landing cross beamJR_Beam Tube",
       "bucketId": "2605-56-B09",
       "quantity": 3,
@@ -28700,9 +30100,9 @@
         "body-0409",
         "body-0424"
       ],
-      "svg": "2605-B09-P03-R09.svg",
-      "pdf": "2605-B09-P03-R09.pdf",
-      "dxf": "2605-B09-P03-R09.dxf",
+      "svg": "2605-B09-P03-R10.svg",
+      "pdf": "2605-B09-P03-R10.pdf",
+      "dxf": "2605-B09-P03-R10.dxf",
       "boundsInches": [
         56.125000000000036,
         6.0,
@@ -28773,6 +30173,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 80630,
+              "sourcePoint": [
+                -173.99999999999972,
+                71.73214285714283,
+                -33.56250000000148
+              ],
+              "localPoint": [
+                56.125000000000036,
+                0.375,
+                0.0
+              ]
+            },
+            {
+              "edgeId": 22808,
+              "sourcePoint": [
+                -170.99999999999972,
+                66.48214285714283,
+                -33.56250000000148
+              ],
+              "localPoint": [
+                56.12500000000003,
+                5.625,
+                3.0
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1663.5000000000005,
+              735.0
+            ],
+            [
+              1663.5000000000002,
+              807.0
+            ]
+          ],
+          "dimensionX": 1723.5000000000005,
+          "label": "3\" FORM DEPTH",
+          "textBox": [
+            1736.5000000000005,
+            759.0,
+            1869.1000000000004,
+            780.0
+          ],
+          "value": 3.0000000000000853,
+          "scale": 24.0,
+          "origin": [
+            316.49999999999955,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 0,
           "offset": 26.37875000000001,
@@ -31337,7 +32793,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 51944,
+              "sourcePoint": [
+                -109.99400000000006,
+                78.94642857142877,
+                -90.43749999999952
+              ],
+              "localPoint": [
+                67.18750000000006,
+                10.506000000000029,
+                0.12500000000007105
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000005,
+              802.2500000000013
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000001421,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999955,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -31661,7 +33149,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 153278,
+              "sourcePoint": [
+                -120.37499999999993,
+                72.3671428571427,
+                -90.43749999999947
+              ],
+              "localPoint": [
+                67.18750000000036,
+                6.641785714285746,
+                0.1250000000001421
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000027,
+              802.2500000000025
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000002842,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999636,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -32003,7 +33523,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 11526,
+              "sourcePoint": [
+                -112.00000000000006,
+                78.69642857142881,
+                -90.84999999999953
+              ],
+              "localPoint": [
+                5.0,
+                0.2874999999999943,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1170.0,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 72.0,
+          "origin": [
+            810.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -32379,7 +33931,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 86647,
+              "sourcePoint": [
+                -109.62500000000006,
+                76.3214285714288,
+                -107.37649999999955
+              ],
+              "localPoint": [
+                28.059500000000014,
+                2.687500000000014,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1495.071,
+              804.5
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 36.0,
+          "origin": [
+            484.9289999999995,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -32655,7 +34239,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 64898,
+              "sourcePoint": [
+                -109.62500000000006,
+                78.82142857142891,
+                -152.24999999999955
+              ],
+              "localPoint": [
+                5.052500000000009,
+                0.1875000000000142,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1171.8900000000003,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 72.0,
+          "origin": [
+            808.1099999999997,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -34515,7 +36131,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 60048,
+              "sourcePoint": [
+                -109.1743740313756,
+                70.87572201393957,
+                -90.56249999999952
+              ],
+              "localPoint": [
+                122.20062596862445,
+                5.518579156796477,
+                0.1875000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1723.2037558117468,
+              802.2500000000002
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000284,
+          "scale": 12.0,
+          "origin": [
+            256.79624418825324,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -35311,7 +36959,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 175240,
+              "sourcePoint": [
+                -109.17437403137563,
+                70.8757220139396,
+                -106.56249999999957
+              ],
+              "localPoint": [
+                122.20062596862448,
+                5.518579156796491,
+                0.18750000000004263
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1723.2037558117468,
+              802.2500000000005
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000995,
+          "scale": 12.0,
+          "origin": [
+            256.796244188253,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -35529,16 +37209,16 @@
       ]
     },
     "body-0192": {
-      "mark": "2605-B08-P08-R09",
+      "mark": "2605-B08-P08-R10",
       "name": "26-0527_structure box asmJR_TOP 5-6 body 194",
       "bucketId": "2605-56-B08",
       "quantity": 1,
       "instanceIds": [
         "body-0192"
       ],
-      "svg": "2605-B08-P08-R09.svg",
-      "pdf": "2605-B08-P08-R09.pdf",
-      "dxf": "2605-B08-P08-R09.dxf",
+      "svg": "2605-B08-P08-R10.svg",
+      "pdf": "2605-B08-P08-R10.pdf",
+      "dxf": "2605-B08-P08-R10.dxf",
       "boundsInches": [
         113.0541436471912,
         16.000000000000355,
@@ -36428,7 +38108,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 43515,
+              "sourcePoint": [
+                -118.355991629646,
+                65.85714285714313,
+                -90.74999999999952
+              ],
+              "localPoint": [
+                113.01900837035407,
+                0.18750000000036948,
+                0.12500000000004263
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1667.9032385611017,
+              801.5000000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000008527,
+          "scale": 12.0,
+          "origin": [
+            311.67513811685285,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -37117,7 +38829,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 175240,
+              "sourcePoint": [
+                -109.17437403137563,
+                70.8757220139396,
+                -136.24999999999957
+              ],
+              "localPoint": [
+                122.20062596862448,
+                5.518579156796491,
+                0.18750000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1723.2037558117468,
+              802.2500000000007
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001137,
+          "scale": 12.0,
+          "origin": [
+            256.796244188253,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -37720,7 +39464,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 175240,
+              "sourcePoint": [
+                -109.17437403137563,
+                70.8757220139396,
+                -152.24999999999957
+              ],
+              "localPoint": [
+                122.20062596862448,
+                5.518579156796477,
+                0.18750000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1723.2037558117468,
+              802.2500000000007
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000001137,
+          "scale": 12.0,
+          "origin": [
+            256.796244188253,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -37938,16 +39714,16 @@
       ]
     },
     "body-0237": {
-      "mark": "2605-B08-P11-R09",
+      "mark": "2605-B08-P11-R10",
       "name": "26-0527_structure box asmJR_TOP 5-6 body 239",
       "bucketId": "2605-56-B08",
       "quantity": 1,
       "instanceIds": [
         "body-0237"
       ],
-      "svg": "2605-B08-P11-R09.svg",
-      "pdf": "2605-B08-P11-R09.pdf",
-      "dxf": "2605-B08-P11-R09.dxf",
+      "svg": "2605-B08-P11-R10.svg",
+      "pdf": "2605-B08-P11-R10.pdf",
+      "dxf": "2605-B08-P11-R10.dxf",
       "boundsInches": [
         113.05414364719118,
         16.00000000000003,
@@ -38837,7 +40613,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 36446,
+              "sourcePoint": [
+                -118.35599162964598,
+                65.85714285714312,
+                -152.06249999999952
+              ],
+              "localPoint": [
+                113.01900837035407,
+                15.8125,
+                0.12500000000004263
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1667.9032385611017,
+              801.5000000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000995,
+          "scale": 12.0,
+          "origin": [
+            311.67513811685285,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -39248,7 +41056,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 32619,
+              "sourcePoint": [
+                -130.25000000000006,
+                67.60714285714307,
+                -136.2812499999995
+              ],
+              "localPoint": [
+                15.9375,
+                4.625,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1276.875,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            703.125,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -39395,7 +41235,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 143243,
+              "sourcePoint": [
+                -130.25000000000006,
+                70.60714285714307,
+                -106.59374999999953
+              ],
+              "localPoint": [
+                29.625000000000014,
+                1.625,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1523.2500000000002,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            456.7499999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -39722,7 +41594,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 48944,
+              "sourcePoint": [
+                -13.168547408117112,
+                0.1250000000000234,
+                -35.06250000000003
+              ],
+              "localPoint": [
+                145.2852458067121,
+                15.101598743672465,
+                0.1875000000000071
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1737.181264148805,
+              801.9285714285716
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000071,
+          "scale": 10.285714285714286,
+          "origin": [
+            242.81873585119467,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -41276,7 +43180,39 @@
               }
             ]
           }
-        ]
+        ],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 135924,
+              "sourcePoint": [
+                -13.16854740811711,
+                0.1250000000000234,
+                -33.18750000000003
+              ],
+              "localPoint": [
+                145.28524580671214,
+                15.101598743672465,
+                0.1875000000000071
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1737.1812641488054,
+              801.9285714285716
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000071,
+          "scale": 10.285714285714286,
+          "origin": [
+            242.81873585119467,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -41664,16 +43600,16 @@
       ]
     },
     "body-0118": {
-      "mark": "2605-B06-P03-R09",
+      "mark": "2605-B06-P03-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 120",
       "bucketId": "2605-56-B06",
       "quantity": 1,
       "instanceIds": [
         "body-0118"
       ],
-      "svg": "2605-B06-P03-R09.svg",
-      "pdf": "2605-B06-P03-R09.pdf",
-      "dxf": "2605-B06-P03-R09.dxf",
+      "svg": "2605-B06-P03-R10.svg",
+      "pdf": "2605-B06-P03-R10.pdf",
+      "dxf": "2605-B06-P03-R10.dxf",
       "boundsInches": [
         134.80217646995627,
         2.25,
@@ -41763,7 +43699,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 22503,
+              "sourcePoint": [
+                -20.24626147906697,
+                0.1250000000000234,
+                -33.375000000000036
+              ],
+              "localPoint": [
+                134.49499561889237,
+                0.375,
+                0.18750000000004263
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1680.108761663118,
+              801.9285714285719
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000835,
+          "scale": 10.285714285714286,
+          "origin": [
+            296.7316638687963,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -41916,16 +43884,16 @@
       "lineBreakAudit": []
     },
     "body-0119": {
-      "mark": "2605-B06-P04-R09",
+      "mark": "2605-B06-P04-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 121",
       "bucketId": "2605-56-B06",
       "quantity": 1,
       "instanceIds": [
         "body-0119"
       ],
-      "svg": "2605-B06-P04-R09.svg",
-      "pdf": "2605-B06-P04-R09.pdf",
-      "dxf": "2605-B06-P04-R09.dxf",
+      "svg": "2605-B06-P04-R10.svg",
+      "pdf": "2605-B06-P04-R10.pdf",
+      "dxf": "2605-B06-P04-R10.dxf",
       "boundsInches": [
         3.4274520744866663,
         1.5,
@@ -41995,22 +43963,54 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 85403,
+              "sourcePoint": [
+                -135.00025084076907,
+                70.16964285714283,
+                -33.375000000000036
+              ],
+              "localPoint": [
+                3.374749159230987,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1109.593664783111,
+              813.5
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 72.0,
+          "origin": [
+            866.61172531848,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
     },
     "body-0121": {
-      "mark": "2605-B06-P05-R09",
+      "mark": "2605-B06-P05-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 BTM body 123",
       "bucketId": "2605-56-B06",
       "quantity": 1,
       "instanceIds": [
         "body-0121"
       ],
-      "svg": "2605-B06-P05-R09.svg",
-      "pdf": "2605-B06-P05-R09.pdf",
-      "dxf": "2605-B06-P05-R09.dxf",
+      "svg": "2605-B06-P05-R10.svg",
+      "pdf": "2605-B06-P05-R10.pdf",
+      "dxf": "2605-B06-P05-R10.dxf",
       "boundsInches": [
         113.44907300166668,
         1.5,
@@ -42080,7 +44080,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 106606,
+              "sourcePoint": [
+                -41.59936494735652,
+                0.1250000000000234,
+                -34.875000000000036
+              ],
+              "localPoint": [
+                113.14189215060279,
+                1.5,
+                0.18750000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1667.0082677972334,
+              802.2500000000003
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000005684,
+          "scale": 12.0,
+          "origin": [
+            309.3055619899999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -42458,6 +44490,38 @@
               ]
             ]
           ]
+        },
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 46367,
+              "sourcePoint": [
+                -28.12500000000002,
+                5.089285714285715,
+                -32.900000000000034
+              ],
+              "localPoint": [
+                3.0,
+                1.6499999999999986,
+                0.09375000000000089
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1098.0,
+              806.7500000000001
+            ]
+          ],
+          "label": "3/16\" THICK",
+          "value": 0.1875000000000009,
+          "scale": 72.0,
+          "origin": [
+            882.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
         }
       },
       "calloutAudit": [
@@ -42858,7 +44922,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 68853,
+              "sourcePoint": [
+                -48.92607289637303,
+                5.805327625940055,
+                -32.89999999999999
+              ],
+              "localPoint": [
+                3.0,
+                1.8999999999999986,
+                0.09375000000000355
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1097.9999999999998,
+              806.7500000000002
+            ]
+          ],
+          "label": "3/16\" THICK",
+          "value": 0.1875000000000071,
+          "scale": 72.0,
+          "origin": [
+            881.9999999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -43078,22 +45174,54 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 71736,
+              "sourcePoint": [
+                -138.3301996125192,
+                58.857142857142826,
+                -33.375000000000036
+              ],
+              "localPoint": [
+                1.5,
+                0.43017745463771817,
+                0.14460247875317123
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1043.9999999999998,
+              810.4113784702283
+            ]
+          ],
+          "label": "9/32\" THICK",
+          "value": 0.2892049575063709,
+          "scale": 72.0,
+          "origin": [
+            935.9999999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
     },
     "body-0364": {
-      "mark": "2605-B10-P02-R09",
+      "mark": "2605-B10-P02-R10",
       "name": "26-0528_corner stringerJR_TYP Downhill Interior VERT Wall",
       "bucketId": "2605-56-B10",
       "quantity": 1,
       "instanceIds": [
         "body-0364"
       ],
-      "svg": "2605-B10-P02-R09.svg",
-      "pdf": "2605-B10-P02-R09.pdf",
-      "dxf": "2605-B10-P02-R09.dxf",
+      "svg": "2605-B10-P02-R10.svg",
+      "pdf": "2605-B10-P02-R10.pdf",
+      "dxf": "2605-B10-P02-R10.dxf",
       "boundsInches": [
         28.625000000000043,
         15.000000000000021,
@@ -43693,6 +45821,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 127474,
+              "sourcePoint": [
+                -149.37499999999963,
+                73.85714285714286,
+                -43.000000000001435
+              ],
+              "localPoint": [
+                18.62500000000003,
+                0.0,
+                2.842170943040401e-14
+              ]
+            },
+            {
+              "edgeId": 89323,
+              "sourcePoint": [
+                -138.37499999999963,
+                73.85714285714285,
+                -33.000000000001435
+              ],
+              "localPoint": [
+                28.625000000000043,
+                1.4210854715202004e-14,
+                11.000000000000028
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1067.625,
+              735.0000000000005
+            ],
+            [
+              1247.6250000000005,
+              933.0000000000005
+            ]
+          ],
+          "dimensionX": 1307.6250000000005,
+          "label": "11\" FORM DEPTH",
+          "textBox": [
+            1279.6250000000005,
+            762.9740000000005,
+            1300.6250000000005,
+            905.0260000000004
+          ],
+          "value": 11.000000000000028,
+          "scale": 18.0,
+          "origin": [
+            732.3749999999995,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.050000000000011,
@@ -44399,13 +46583,13 @@
             787.720779386422
           ],
           "elbow": [
-            1450.0,
+            1010.0,
             963.0000000000005
           ],
           "textBox": [
-            1475.0,
+            1035.0,
             948.0000000000005,
-            1592.384,
+            1152.384,
             973.0000000000005
           ],
           "radius": 10.0,
@@ -44426,39 +46610,19 @@
           ]
         }
       ],
-      "lineBreakAudit": [
-        {
-          "role": "leader",
-          "reason": "remaining leader crossing",
-          "point": [
-            1251.0428600788919,
-            826.2942790948634
-          ],
-          "gapPoints": 6,
-          "sourceLine": [
-            [
-              1194.9042206135787,
-              787.720779386422
-            ],
-            [
-              1450.0,
-              963.0000000000005
-            ]
-          ]
-        }
-      ]
+      "lineBreakAudit": []
     },
     "body-0365": {
-      "mark": "2605-B10-P03-R09",
+      "mark": "2605-B10-P03-R10",
       "name": "26-0528_corner stringerJR_TYP Downhill Exterior VERT Wall",
       "bucketId": "2605-56-B10",
       "quantity": 1,
       "instanceIds": [
         "body-0365"
       ],
-      "svg": "2605-B10-P03-R09.svg",
-      "pdf": "2605-B10-P03-R09.pdf",
-      "dxf": "2605-B10-P03-R09.dxf",
+      "svg": "2605-B10-P03-R10.svg",
+      "pdf": "2605-B10-P03-R10.pdf",
+      "dxf": "2605-B10-P03-R10.dxf",
       "boundsInches": [
         26.750000000000057,
         15.000000000000021,
@@ -44910,6 +47074,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 53995,
+              "sourcePoint": [
+                -147.49999999999963,
+                73.85714285714286,
+                -43.000000000001435
+              ],
+              "localPoint": [
+                18.625000000000036,
+                0.0,
+                2.842170943040401e-14
+              ]
+            },
+            {
+              "edgeId": 51810,
+              "sourcePoint": [
+                -138.37499999999963,
+                73.85714285714285,
+                -34.875000000001435
+              ],
+              "localPoint": [
+                26.75000000000005,
+                1.4210854715202004e-14,
+                9.125000000000028
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1084.5000000000002,
+              735.0000000000005
+            ],
+            [
+              1230.7500000000005,
+              899.2500000000005
+            ]
+          ],
+          "dimensionX": 1290.7500000000005,
+          "label": "9-1/8\" FORM DEPTH",
+          "textBox": [
+            1303.7500000000005,
+            805.1250000000005,
+            1465.6410000000005,
+            826.1250000000005
+          ],
+          "value": 9.125000000000028,
+          "scale": 18.0,
+          "origin": [
+            749.2499999999995,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.050000000000011,
@@ -45618,10 +47838,10 @@
       "lineBreakAudit": [
         {
           "role": "leader",
-          "reason": "remaining leader crossing",
+          "reason": "leader crosses dimension",
           "point": [
-            1236.5081668063633,
-            805.9096614703345
+            1290.7500000000005,
+            837.2467199820991
           ],
           "gapPoints": 6,
           "sourceLine": [
@@ -45717,7 +47937,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 36628,
+              "sourcePoint": [
+                -139.37499999999966,
+                70.23214285714285,
+                -33.375000000001435
+              ],
+              "localPoint": [
+                28.250000000000036,
+                9.812499999999972,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0000000000005,
+              803.0000000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999994,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -45909,7 +48161,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 25425,
+              "sourcePoint": [
+                -138.37499999999966,
+                58.982142857142854,
+                -33.375000000001435
+              ],
+              "localPoint": [
+                28.250000000000043,
+                10.624999999999972,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0000000000005,
+              803.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999993,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -46285,7 +48569,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 185265,
+              "sourcePoint": [
+                -150.8749999999996,
+                72.23214285714286,
+                -33.06250000000142
+              ],
+              "localPoint": [
+                28.56250000000003,
+                0.0,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1332.7500000000005,
+              803.0000000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 24.0,
+          "origin": [
+            647.2499999999997,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -46465,16 +48781,16 @@
       ]
     },
     "body-0369": {
-      "mark": "2605-B10-P07-R09",
+      "mark": "2605-B10-P07-R10",
       "name": "26-0528_corner stringerJR_TYP Uphill Interior VERT Wall",
       "bucketId": "2605-56-B10",
       "quantity": 1,
       "instanceIds": [
         "body-0369"
       ],
-      "svg": "2605-B10-P07-R09.svg",
-      "pdf": "2605-B10-P07-R09.pdf",
-      "dxf": "2605-B10-P07-R09.dxf",
+      "svg": "2605-B10-P07-R10.svg",
+      "pdf": "2605-B10-P07-R10.pdf",
+      "dxf": "2605-B10-P07-R10.dxf",
       "boundsInches": [
         28.625000000000057,
         14.999999999999993,
@@ -47074,6 +49390,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 15207,
+              "sourcePoint": [
+                -149.37499999999915,
+                73.85714285714282,
+                -61.625000000001435
+              ],
+              "localPoint": [
+                28.625000000000057,
+                0.0,
+                5.684341886080802e-14
+              ]
+            },
+            {
+              "edgeId": 35,
+              "sourcePoint": [
+                -138.37499999999918,
+                73.85714285714282,
+                -89.8750000000015
+              ],
+              "localPoint": [
+                0.375,
+                0.0,
+                11.000000000000028
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1247.6250000000005,
+              735.000000000001
+            ],
+            [
+              739.1249999999995,
+              933.0000000000005
+            ]
+          ],
+          "dimensionX": 1307.6250000000005,
+          "label": "11\" FORM DEPTH",
+          "textBox": [
+            1279.6250000000005,
+            762.9740000000007,
+            1300.6250000000005,
+            905.0260000000006
+          ],
+          "value": 11.000000000000028,
+          "scale": 18.0,
+          "origin": [
+            732.3749999999995,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.049999999999997,
@@ -47810,16 +50182,16 @@
       "lineBreakAudit": []
     },
     "body-0370": {
-      "mark": "2605-B10-P08-R09",
+      "mark": "2605-B10-P08-R10",
       "name": "26-0528_corner stringerJR_TYP Uphill Exterior VERT Wall",
       "bucketId": "2605-56-B10",
       "quantity": 1,
       "instanceIds": [
         "body-0370"
       ],
-      "svg": "2605-B10-P08-R09.svg",
-      "pdf": "2605-B10-P08-R09.pdf",
-      "dxf": "2605-B10-P08-R09.dxf",
+      "svg": "2605-B10-P08-R10.svg",
+      "pdf": "2605-B10-P08-R10.pdf",
+      "dxf": "2605-B10-P08-R10.dxf",
       "boundsInches": [
         26.750000000000057,
         15.0,
@@ -48271,6 +50643,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 4417,
+              "sourcePoint": [
+                -147.49999999999915,
+                73.85714285714282,
+                -61.625000000001435
+              ],
+              "localPoint": [
+                26.750000000000057,
+                0.0,
+                5.684341886080802e-14
+              ]
+            },
+            {
+              "edgeId": 93048,
+              "sourcePoint": [
+                -138.37499999999918,
+                58.857142857142826,
+                -88.00000000000149
+              ],
+              "localPoint": [
+                0.3750000000000142,
+                14.999999999999993,
+                9.125000000000028
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1230.7500000000005,
+              735.000000000001
+            ],
+            [
+              755.9999999999998,
+              899.2500000000005
+            ]
+          ],
+          "dimensionX": 1290.7500000000005,
+          "label": "9-1/8\" FORM DEPTH",
+          "textBox": [
+            1303.7500000000005,
+            805.1250000000007,
+            1465.6410000000005,
+            826.1250000000007
+          ],
+          "value": 9.125000000000028,
+          "scale": 18.0,
+          "origin": [
+            749.2499999999995,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.049999999999997,
@@ -49058,7 +51486,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 8524,
+              "sourcePoint": [
+                -148.99999999999915,
+                70.23214285714282,
+                -61.62500000000139
+              ],
+              "localPoint": [
+                28.2500000000001,
+                0.1875,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0000000000014,
+              803.0000000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999989,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -49250,7 +51710,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 150482,
+              "sourcePoint": [
+                -147.49999999999918,
+                58.98214285714282,
+                -61.625000000001464
+              ],
+              "localPoint": [
+                28.250000000000014,
+                1.5,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0,
+              803.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999998,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -49626,7 +52118,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 151464,
+              "sourcePoint": [
+                -149.37499999999915,
+                72.23214285714282,
+                -61.62500000000142
+              ],
+              "localPoint": [
+                28.562500000000078,
+                1.5,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1332.750000000001,
+              803.0000000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 24.0,
+          "origin": [
+            647.2499999999991,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -50035,7 +52559,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 92332,
+              "sourcePoint": [
+                -8.750000000000014,
+                141.00000000000023,
+                -88.18749999999952
+              ],
+              "localPoint": [
+                153.43871744526837,
+                12.803335957829631,
+                0.18750000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1680.4742285037078,
+              801.6875000000002
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000005684,
+          "scale": 9.0,
+          "origin": [
+            299.52577149629235,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -51620,7 +54176,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 113698,
+              "sourcePoint": [
+                -8.750000000000036,
+                141.00000000000023,
+                -90.06249999999952
+              ],
+              "localPoint": [
+                153.43871744526834,
+                12.803335957829631,
+                0.18750000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1680.4742285037073,
+              801.6875000000002
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000005684,
+          "scale": 9.0,
+          "origin": [
+            299.52577149629235,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -52003,16 +54591,16 @@
       ]
     },
     "body-0298": {
-      "mark": "2605-B05-P03-R09",
+      "mark": "2605-B05-P03-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 300",
       "bucketId": "2605-56-B05",
       "quantity": 1,
       "instanceIds": [
         "body-0298"
       ],
-      "svg": "2605-B05-P03-R09.svg",
-      "pdf": "2605-B05-P03-R09.pdf",
-      "dxf": "2605-B05-P03-R09.dxf",
+      "svg": "2605-B05-P03-R10.svg",
+      "pdf": "2605-B05-P03-R10.pdf",
+      "dxf": "2605-B05-P03-R10.dxf",
       "boundsInches": [
         128.9780688172989,
         1.5,
@@ -52082,22 +54670,54 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 46608,
+              "sourcePoint": [
+                -20.124749159231037,
+                137.31250000000026,
+                -89.8749999999995
+              ],
+              "localPoint": [
+                128.9253659020432,
+                1.5,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1652.7736953606218,
+              801.9285714285714
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000142,
+          "scale": 10.285714285714286,
+          "origin": [
+            326.68421751103426,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
     },
     "body-0299": {
-      "mark": "2605-B05-P04-R09",
+      "mark": "2605-B05-P04-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 301",
       "bucketId": "2605-56-B05",
       "quantity": 1,
       "instanceIds": [
         "body-0299"
       ],
-      "svg": "2605-B05-P04-R09.svg",
-      "pdf": "2605-B05-P04-R09.pdf",
-      "dxf": "2605-B05-P04-R09.dxf",
+      "svg": "2605-B05-P04-R10.svg",
+      "pdf": "2605-B05-P04-R10.pdf",
+      "dxf": "2605-B05-P04-R10.dxf",
       "boundsInches": [
         8.302953756024692,
         1.5000000000000142,
@@ -52167,7 +54787,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 20449,
+              "sourcePoint": [
+                -130.124749159231,
+                70.16964285714303,
+                -88.3749999999995
+              ],
+              "localPoint": [
+                8.250250840769041,
+                0.0,
+                0.1875000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1285.111725318482,
+              813.500000000001
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000142,
+          "scale": 72.0,
+          "origin": [
+            691.0936647831111,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -52252,22 +54904,54 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 155272,
+              "sourcePoint": [
+                -8.750000000000014,
+                137.31250000000023,
+                -88.37499999999949
+              ],
+              "localPoint": [
+                11.427452074486652,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1401.3882746815193,
+              813.5
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000284,
+          "scale": 72.0,
+          "origin": [
+            578.6117253184805,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
     },
     "body-0301": {
-      "mark": "2605-B05-P06-R09",
+      "mark": "2605-B05-P06-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 303",
       "bucketId": "2605-56-B05",
       "quantity": 1,
       "instanceIds": [
         "body-0301"
       ],
-      "svg": "2605-B05-P06-R09.svg",
-      "pdf": "2605-B05-P06-R09.pdf",
-      "dxf": "2605-B05-P06-R09.dxf",
+      "svg": "2605-B05-P06-R10.svg",
+      "pdf": "2605-B05-P06-R10.pdf",
+      "dxf": "2605-B05-P06-R10.dxf",
       "boundsInches": [
         128.9780688172989,
         1.5000000000000142,
@@ -52337,22 +55021,54 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 33247,
+              "sourcePoint": [
+                -16.997709520728694,
+                126.1875000000002,
+                -88.3749999999995
+              ],
+              "localPoint": [
+                128.92536590204324,
+                1.4210854715202004e-14,
+                0.18750000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1652.7736953606218,
+              801.9285714285717
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000005684,
+          "scale": 10.285714285714286,
+          "origin": [
+            326.68421751103426,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
     },
     "body-0302": {
-      "mark": "2605-B05-P07-R09",
+      "mark": "2605-B05-P07-R10",
       "name": "26-0527_base shoe stringer asmJR_5-6 TOP body 304",
       "bucketId": "2605-56-B05",
       "quantity": 1,
       "instanceIds": [
         "body-0302"
       ],
-      "svg": "2605-B05-P07-R09.svg",
-      "pdf": "2605-B05-P07-R09.pdf",
-      "dxf": "2605-B05-P07-R09.dxf",
+      "svg": "2605-B05-P07-R10.svg",
+      "pdf": "2605-B05-P07-R10.pdf",
+      "dxf": "2605-B05-P07-R10.dxf",
       "boundsInches": [
         11.429993394527003,
         1.5,
@@ -52422,7 +55138,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 95999,
+              "sourcePoint": [
+                -126.99770952072872,
+                59.04464285714303,
+                -88.37499999999949
+              ],
+              "localPoint": [
+                11.377290479271338,
+                0.0,
+                0.1875000000000071
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1397.6851523045643,
+              813.5000000000005
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.3750000000000071,
+          "scale": 72.0,
+          "origin": [
+            578.5202377970279,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -52507,7 +55255,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 174631,
+              "sourcePoint": [
+                -8.750000000000057,
+                126.18750000000021,
+                -88.37499999999949
+              ],
+              "localPoint": [
+                8.300412435984327,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1288.8148476954357,
+              813.5
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 72.0,
+          "origin": [
+            691.1851523045642,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -52881,6 +55661,38 @@
               ]
             ]
           ]
+        },
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 13245,
+              "sourcePoint": [
+                -113.00000000000004,
+                78.94642857142874,
+                -90.34999999999948
+              ],
+              "localPoint": [
+                3.0,
+                0.2874999999999943,
+                0.09375
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1098.0,
+              806.75
+            ]
+          ],
+          "label": "3/16\" THICK",
+          "value": 0.1875,
+          "scale": 72.0,
+          "origin": [
+            882.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
         }
       },
       "calloutAudit": [
@@ -53297,7 +56109,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 122022,
+              "sourcePoint": [
+                -92.6382599120611,
+                81.22547513248045,
+                -92.14999999999954
+              ],
+              "localPoint": [
+                3.000000000000014,
+                2.0875000000000057,
+                0.09375
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1098.000000000001,
+              806.75
+            ]
+          ],
+          "label": "3/16\" THICK",
+          "value": 0.1875000000000142,
+          "scale": 72.0,
+          "origin": [
+            882.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -53458,16 +56302,16 @@
       ]
     },
     "body-0374": {
-      "mark": "2605-B03-P01-R09",
+      "mark": "2605-B03-P01-R10",
       "name": "26-0528_corner stringerJR_TYP Downhill Interior VERT Wall",
       "bucketId": "2605-56-B03",
       "quantity": 1,
       "instanceIds": [
         "body-0374"
       ],
-      "svg": "2605-B03-P01-R09.svg",
-      "pdf": "2605-B03-P01-R09.pdf",
-      "dxf": "2605-B03-P01-R09.dxf",
+      "svg": "2605-B03-P01-R10.svg",
+      "pdf": "2605-B03-P01-R10.pdf",
+      "dxf": "2605-B03-P01-R10.dxf",
       "boundsInches": [
         28.625000000000043,
         15.000000000000014,
@@ -54067,6 +56911,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 15331,
+              "sourcePoint": [
+                -8.749999999999071,
+                141.0000000000002,
+                -89.87500000000023
+              ],
+              "localPoint": [
+                0.3750000000000142,
+                0.0,
+                1.9539925233402755e-14
+              ]
+            },
+            {
+              "edgeId": 65999,
+              "sourcePoint": [
+                2.2500000000009317,
+                126.0000000000002,
+                -61.6250000000002
+              ],
+              "localPoint": [
+                28.625000000000043,
+                15.0,
+                11.00000000000003
+              ]
+            }
+          ],
+          "targets": [
+            [
+              739.1249999999998,
+              735.0000000000003
+            ],
+            [
+              1247.6250000000005,
+              933.0000000000006
+            ]
+          ],
+          "dimensionX": 1307.6250000000005,
+          "label": "11\" FORM DEPTH",
+          "textBox": [
+            1279.6250000000005,
+            762.9740000000005,
+            1300.6250000000005,
+            905.0260000000004
+          ],
+          "value": 11.000000000000032,
+          "scale": 18.0,
+          "origin": [
+            732.3749999999995,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.050000000000011,
@@ -54803,16 +57703,16 @@
       "lineBreakAudit": []
     },
     "body-0375": {
-      "mark": "2605-B03-P02-R09",
+      "mark": "2605-B03-P02-R10",
       "name": "26-0528_corner stringerJR_TYP Downhill Exterior VERT Wall",
       "bucketId": "2605-56-B03",
       "quantity": 1,
       "instanceIds": [
         "body-0375"
       ],
-      "svg": "2605-B03-P02-R09.svg",
-      "pdf": "2605-B03-P02-R09.pdf",
-      "dxf": "2605-B03-P02-R09.dxf",
+      "svg": "2605-B03-P02-R10.svg",
+      "pdf": "2605-B03-P02-R10.pdf",
+      "dxf": "2605-B03-P02-R10.dxf",
       "boundsInches": [
         26.750000000000092,
         15.000000000000057,
@@ -55264,6 +58164,62 @@
         ],
         "drawingKind": "formed",
         "chamfers": [],
+        "depthAnnotation": {
+          "mode": "dimension",
+          "references": [
+            {
+              "edgeId": 97864,
+              "sourcePoint": [
+                -8.74999999999909,
+                126.00000000000018,
+                -88.00000000000021
+              ],
+              "localPoint": [
+                0.37500000000005684,
+                15.000000000000057,
+                0.0
+              ]
+            },
+            {
+              "edgeId": 48622,
+              "sourcePoint": [
+                0.37500000000092104,
+                126.0000000000002,
+                -61.625000000000185
+              ],
+              "localPoint": [
+                26.750000000000092,
+                15.000000000000014,
+                9.12500000000002
+              ]
+            }
+          ],
+          "targets": [
+            [
+              756.0000000000002,
+              735.0
+            ],
+            [
+              1230.750000000001,
+              899.2500000000003
+            ]
+          ],
+          "dimensionX": 1290.750000000001,
+          "label": "9-1/8\" FORM DEPTH",
+          "textBox": [
+            1303.750000000001,
+            805.1250000000002,
+            1465.641000000001,
+            826.1250000000002
+          ],
+          "value": 9.12500000000003,
+          "scale": 18.0,
+          "origin": [
+            749.2499999999992,
+            735
+          ],
+          "axis": "local n / front-view vertical"
+        },
         "section": {
           "axis": 1,
           "offset": 7.05000000000004,
@@ -56066,7 +59022,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 35409,
+              "sourcePoint": [
+                0.37500000000092104,
+                137.37500000000023,
+                -61.625000000000206
+              ],
+              "localPoint": [
+                28.250000000000036,
+                9.124999999999995,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0000000000005,
+              803.0000000000007
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000005684,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999995,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -56278,7 +59266,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 8099,
+              "sourcePoint": [
+                0.37500000000092104,
+                126.12500000000023,
+                -61.625000000000185
+              ],
+              "localPoint": [
+                28.250000000000057,
+                9.124999999999964,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1329.0000000000007,
+              803.0000000000003
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000142,
+          "scale": 24.0,
+          "origin": [
+            650.9999999999993,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -56660,7 +59680,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 44646,
+              "sourcePoint": [
+                2.250000000000914,
+                139.37500000000023,
+                -61.62500000000021
+              ],
+              "localPoint": [
+                28.56250000000003,
+                7.812295091144815,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1332.7500000000005,
+              803.0000000000007
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 24.0,
+          "origin": [
+            647.2499999999997,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -58565,7 +61617,39 @@
         ],
         "drawingKind": "plate",
         "layout": "expanded landing plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 2561,
+              "sourcePoint": [
+                -151.06250000000003,
+                72.23214285714283,
+                -49.656250000000014
+              ],
+              "localPoint": [
+                65.68749999999994,
+                16.71275000000002,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              875.5937499999998,
+              1176.125
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 9.0,
+          "origin": [
+            284.4062500000002,
+            1175
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -60741,7 +63825,39 @@
         ],
         "drawingKind": "plate",
         "layout": "expanded landing plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 29227,
+              "sourcePoint": [
+                -137.131,
+                72.23214285714283,
+                34.375
+              ],
+              "localPoint": [
+                67.256,
+                40.994,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              983.5360000000001,
+              1176.5
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 12.0,
+          "origin": [
+            176.464,
+            1175
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -62504,7 +65620,39 @@
         ],
         "drawingKind": "plate",
         "layout": "expanded landing plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 37624,
+              "sourcePoint": [
+                -212.11899999999997,
+                72.23214285714283,
+                29.187500000000007
+              ],
+              "localPoint": [
+                62.068500000000014,
+                19.25600000000003,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              859.30825,
+              1176.125
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 9.0,
+          "origin": [
+            300.69174999999996,
+            1175
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -64216,7 +67364,39 @@
         ],
         "drawingKind": "plate",
         "layout": "expanded landing plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 1187,
+              "sourcePoint": [
+                -191.119,
+                72.23214285714283,
+                -90.369
+              ],
+              "localPoint": [
+                62.06850000000003,
+                40.256,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              859.30825,
+              1176.125
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 9.0,
+          "origin": [
+            300.6917499999998,
+            1175
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -66769,7 +69949,39 @@
         ],
         "drawingKind": "plate",
         "layout": "expanded landing plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 13557,
+              "sourcePoint": [
+                -165.131,
+                72.23214285714285,
+                -90.369
+              ],
+              "localPoint": [
+                67.25600000000003,
+                13.494,
+                0.1250000000000142
+              ]
+            }
+          ],
+          "targets": [
+            [
+              882.6520000000002,
+              1176.1250000000002
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 9.0,
+          "origin": [
+            277.34799999999984,
+            1175
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -68640,7 +71852,39 @@
               }
             ]
           }
-        ]
+        ],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 90796,
+              "sourcePoint": [
+                -23.125000000000025,
+                -0.3125000000000425,
+                35.25
+              ],
+              "localPoint": [
+                69.0,
+                17.000000000000004,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1404.0,
+              802.25
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000000006,
+          "scale": 12.0,
+          "origin": [
+            576.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -69010,7 +72254,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 96546,
+              "sourcePoint": [
+                5.75,
+                127.25000000000023,
+                -106.37499999999956
+              ],
+              "localPoint": [
+                23.561339672440482,
+                15.812500000000057,
+                0.12500000000005684
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1202.0520570519643,
+              802.250000000001
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000995,
+          "scale": 18.0,
+          "origin": [
+            777.9479429480357,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -69140,7 +72416,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 33957,
+              "sourcePoint": [
+                1.8749999999999187,
+                132.68750000000014,
+                -90.74999999999962
+              ],
+              "localPoint": [
+                15.625000000000014,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1552.5,
+              813.5
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 72.0,
+          "origin": [
+            427.499999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -69225,7 +72533,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 89924,
+              "sourcePoint": [
+                1.687499999999919,
+                132.00000000000014,
+                -90.74999999999962
+              ],
+              "localPoint": [
+                15.625,
+                7.250000000000085,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1271.25,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            708.75,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -69320,7 +72660,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 73454,
+              "sourcePoint": [
+                5.749999999999943,
+                127.25000000000026,
+                -136.43749999999957
+              ],
+              "localPoint": [
+                23.561339672440468,
+                0.18750000000002842,
+                0.12500000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1202.0520570519643,
+              802.2500000000005
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000007105,
+          "scale": 18.0,
+          "origin": [
+            777.9479429480358,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -69450,7 +72822,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 33957,
+              "sourcePoint": [
+                1.8749999999999187,
+                132.68750000000014,
+                -136.43749999999955
+              ],
+              "localPoint": [
+                15.625000000000028,
+                0.0,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1552.500000000001,
+              813.5
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 72.0,
+          "origin": [
+            427.499999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -69535,7 +72939,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 89924,
+              "sourcePoint": [
+                1.687499999999919,
+                132.00000000000014,
+                -136.43749999999955
+              ],
+              "localPoint": [
+                15.625,
+                7.250000000000085,
+                0.1875
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1271.25,
+              806.75
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.375,
+          "scale": 36.0,
+          "origin": [
+            708.75,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [],
       "lineBreakAudit": []
@@ -69993,7 +73429,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 29613,
+              "sourcePoint": [
+                -17.99400000000007,
+                139.37500000000017,
+                -90.43749999999953
+              ],
+              "localPoint": [
+                67.18750000000001,
+                3.5060000000000002,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1393.125,
+              801.5
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.2500000000000284,
+          "scale": 12.0,
+          "origin": [
+            586.8749999999999,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -70308,7 +73776,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 153278,
+              "sourcePoint": [
+                -21.374999999999943,
+                132.7957142857141,
+                -90.43749999999947
+              ],
+              "localPoint": [
+                67.18750000000037,
+                6.6417857142857315,
+                0.12500000000013856
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1594.6875000000027,
+              802.2500000000025
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25000000000027356,
+          "scale": 18.0,
+          "origin": [
+            385.31249999999625,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -70649,7 +74149,39 @@
           ]
         ],
         "drawingKind": "plate",
-        "chamfers": []
+        "chamfers": [],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 11526,
+              "sourcePoint": [
+                -13.000000000000073,
+                139.1250000000002,
+                -90.84999999999953
+              ],
+              "localPoint": [
+                5.000000000000002,
+                0.2874999999999943,
+                0.125
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1170.0,
+              809.0
+            ]
+          ],
+          "label": "1/4\" THICK",
+          "value": 0.25,
+          "scale": 72.0,
+          "origin": [
+            810.0,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -71082,7 +74614,39 @@
               }
             ]
           }
-        ]
+        ],
+        "depthAnnotation": {
+          "mode": "leader",
+          "references": [
+            {
+              "edgeId": 59725,
+              "sourcePoint": [
+                5.937499999999976,
+                134.97695143078238,
+                -152.62499999999903
+              ],
+              "localPoint": [
+                14.96390286156364,
+                0.6600000000000286,
+                0.18750000000002842
+              ]
+            }
+          ],
+          "targets": [
+            [
+              1528.700503016291,
+              813.500000000002
+            ]
+          ],
+          "label": "3/8\" THICK",
+          "value": 0.37500000000005684,
+          "scale": 72.0,
+          "origin": [
+            451.299496983709,
+            800
+          ],
+          "axis": "local n / front-view vertical"
+        }
       },
       "calloutAudit": [
         {
@@ -71174,85 +74738,86 @@
       "name": "BTM RUN",
       "uniqueBodies": 12,
       "quantity": 34,
-      "combinedPdf": "2605-BTM-RUN-review-set-R09.pdf"
+      "combinedPdf": "2605-BTM-RUN-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B01",
       "name": "TOP RUN",
       "uniqueBodies": 11,
       "quantity": 31,
-      "combinedPdf": "2605-TOP-RUN-review-set-R09.pdf"
+      "combinedPdf": "2605-TOP-RUN-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B07",
       "name": "ML LOWER",
       "uniqueBodies": 18,
       "quantity": 33,
-      "combinedPdf": "2605-ML-LOWER-review-set-R09.pdf"
+      "combinedPdf": "2605-ML-LOWER-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B09",
       "name": "ML MIDDLE",
       "uniqueBodies": 3,
       "quantity": 12,
-      "combinedPdf": "2605-ML-MIDDLE-review-set-R09.pdf"
+      "combinedPdf": "2605-ML-MIDDLE-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B08",
       "name": "ML UPPER",
       "uniqueBodies": 13,
       "quantity": 32,
-      "combinedPdf": "2605-ML-UPPER-review-set-R09.pdf"
+      "combinedPdf": "2605-ML-UPPER-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B06",
       "name": "SHOE BTM",
       "uniqueBodies": 7,
       "quantity": 22,
-      "combinedPdf": "2605-SHOE-BTM-review-set-R09.pdf"
+      "combinedPdf": "2605-SHOE-BTM-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B10",
       "name": "SHOE ML",
       "uniqueBodies": 11,
       "quantity": 11,
-      "combinedPdf": "2605-SHOE-ML-review-set-R09.pdf"
+      "combinedPdf": "2605-SHOE-ML-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B05",
       "name": "SHOE TOP",
       "uniqueBodies": 10,
       "quantity": 27,
-      "combinedPdf": "2605-SHOE-TOP-review-set-R09.pdf"
+      "combinedPdf": "2605-SHOE-TOP-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B03",
       "name": "SHOE TOP OG",
       "uniqueBodies": 5,
       "quantity": 5,
-      "combinedPdf": "2605-SHOE-TOP-OG-review-set-R09.pdf"
+      "combinedPdf": "2605-SHOE-TOP-OG-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B04",
       "name": "ML FLAT",
       "uniqueBodies": 5,
       "quantity": 5,
-      "combinedPdf": "2605-ML-FLAT-review-set-R09.pdf"
+      "combinedPdf": "2605-ML-FLAT-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B11",
       "name": "Connection BTM",
       "uniqueBodies": 1,
       "quantity": 1,
-      "combinedPdf": "2605-Connection-BTM-review-set-R09.pdf"
+      "combinedPdf": "2605-Connection-BTM-review-set-R10.pdf"
     },
     {
       "id": "2605-56-B12",
       "name": "Connection TOP",
       "uniqueBodies": 10,
       "quantity": 13,
-      "combinedPdf": "2605-Connection-TOP-review-set-R09.pdf"
+      "combinedPdf": "2605-Connection-TOP-review-set-R10.pdf"
     }
   ],
-  "combinedPdf": "2605-all-buckets-review-set-R09.pdf"
+  "combinedPdf": "2605-all-buckets-review-set-R10.pdf",
+  "revisionNote": "R10 revises physical form-depth dimensions and displaced thickness leaders; unchanged part sheets retain R09."
 }

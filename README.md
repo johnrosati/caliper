@@ -74,3 +74,21 @@ All 12 buckets / 106 drawing types / 118 pages retain their prior geometry,
 quantities, END A / EDGE C datums and 1/32-inch fractional display. SVG, PDF and
 DXF downloads use R08 filenames. Previous R07 assets remain available for rollback.
 Native report files and work-computer paths remain outside the public package.
+
+## Drawing review R09: source projection corner preservation
+
+The edge-view convex hull used an area epsilon before consolidating near-duplicate
+STEP projections. Coordinate roundoff could remove a real corner, producing a
+false diagonal closure (Connection TOP body 195) and clipped plate ends.
+Consolidate coordinate noise at 1e-8 inch first, then test actual turn signs.
+Original source coordinates, bevels and curved boundaries are retained.
+
+Regenerated all 106 unique part sheets / 118 pages across 12 buckets. Eight plate
+front views are corrected; seven formed-body audit hulls retain their corners and
+curved extents (formed views already use actual edges). Five whole-body span
+measurements are corrected by the same shared hull fix. The new projection gate
+checks every source point against the front support outline, ordered top/bottom
+wire closure, formed/isometric edge endpoints and whole-body spans; shuffled
+near-duplicate corners and real bevels are regression fixtures. Native Hole Wizard
+metadata, 73 tap locations, all planning assignments and quantities are retained.
+PDF, SVG and DXF exports use R09; previous R08 exports remain available.

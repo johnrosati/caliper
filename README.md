@@ -61,3 +61,16 @@ Radius callouts choose the closest clear equivalent visible arc rather than the 
 ## Drawing review R07
 
 All 12 buckets / 106 unique parts / 118 pages now use nearest-clear matching hole, slot and mortise leaders and fractional display to 1/32 inch. Exact decimal bores and pitches remain where required. END A / EDGE C location dimensions, source geometry and membership are retained. Selective CAD annotation gaps preserve outlines, dimension lines and arrowheads; ordinary extension crossings remain continuous. These are review drawings, with release material/tolerances still separate. Prior R06 exports remain available for rollback.
+
+## Drawing review R08: native hole manufacturing specifications
+
+SolidWorks Hole Wizard specifications now join the matching STEP part/configuration.
+26 sheets contain 183 matched visible features, including 73 tapped hole locations
+on 13 sheets: 1/4-20 UNC, 5/16-18 UNC and 3/8-16 UNC. Tap drill sizes, through-wall
+scope, countersink angles and counterbore depths remain explicit. Counts and
+locations retain the STEP geometry. No missing thread class is invented.
+
+All 12 buckets / 106 drawing types / 118 pages retain their prior geometry,
+quantities, END A / EDGE C datums and 1/32-inch fractional display. SVG, PDF and
+DXF downloads use R08 filenames. Previous R07 assets remain available for rollback.
+Native report files and work-computer paths remain outside the public package.

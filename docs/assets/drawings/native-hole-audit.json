@@ -1,0 +1,6042 @@
+{
+  "sourceSha256": "13f5c27c29302adcf31ece4545312b69403203f32269eee3104783f11d917442",
+  "nativeReportSha256": "ffd67b487040207ae6d6a467fb0b5b990eb079e4ebebcecec9d7b8e7cdd79f4c",
+  "nativeReportName": "Caliper_assembly_holes_v04_20261014_144356.txt",
+  "mapped": [
+    {
+      "bodyId": "body-0002",
+      "mark": "2605-B02-P03",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0002",
+      "mark": "2605-B02-P03",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0008",
+      "mark": "2605-B02-P06",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 88943,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0502",
+      "mark": "2605-B02-P11",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 23350,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0502",
+      "mark": "2605-B02-P11",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 23350,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0502",
+      "mark": "2605-B02-P11",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 23350,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0189",
+      "mark": "2605-B01-P03",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999997158,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 13,
+          "wizardRecordIds": [
+            54,
+            55
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 27477,
+          "representations": [
+            {
+              "representationEntity": 55350,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0204",
+      "mark": "2605-B01-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0204",
+      "mark": "2605-B01-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0234",
+      "mark": "2605-B01-P10",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 16,
+          "wizardRecordIds": [
+            70
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 87214,
+          "representations": [
+            {
+              "representationEntity": 18064,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0234",
+      "mark": "2605-B01-P10",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 16,
+          "wizardRecordIds": [
+            70
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 87214,
+          "representations": [
+            {
+              "representationEntity": 18064,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0234",
+      "mark": "2605-B01-P10",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 16,
+          "wizardRecordIds": [
+            70
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole2"
+          ],
+          "stepSolidEntity": 87214,
+          "representations": [
+            {
+              "representationEntity": 18064,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 20,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 21,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 22,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 23,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 24,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 25,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 26,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2605-B07-P01",
+      "featureIndex": 27,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer VERT Wall C",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            12
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 22303,
+          "representations": [
+            {
+              "representationEntity": 121697,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0007",
+      "mark": "2605-B07-P03",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 165687,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0007",
+      "mark": "2605-B07-P03",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 165687,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0007",
+      "mark": "2605-B07-P03",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 165687,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0007",
+      "mark": "2605-B07-P03",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 165687,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0007",
+      "mark": "2605-B07-P03",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          "",
+          "1B"
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL",
+          "scopeId": 6,
+          "wizardRecordIds": [
+            19,
+            21
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1",
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 165687,
+          "representations": [
+            {
+              "representationEntity": 178060,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0049",
+      "mark": "2605-B07-P09",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0049",
+      "mark": "2605-B07-P09",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0058",
+      "mark": "2605-B07-P12",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 16366,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0058",
+      "mark": "2605-B07-P12",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 16366,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0058",
+      "mark": "2605-B07-P12",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.24999999999998934,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "BTM  Run 5-6 Stringer BTM Wall CL1",
+          "scopeId": 7,
+          "wizardRecordIds": [
+            26
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole3"
+          ],
+          "stepSolidEntity": 16366,
+          "representations": [
+            {
+              "representationEntity": 136500,
+              "name": "26-0527_stringer plateJR_BTM  Run 5-6 Stringer BTM Wall CL1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0175",
+      "mark": "2605-B07-P18",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7500000000000017,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0175",
+      "mark": "2605-B07-P18",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7500000000000017,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0379",
+      "mark": "2605-B09-P01",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/4-20",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.201,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "Beam Tube Glazed Edge",
+          "scopeId": 2,
+          "wizardRecordIds": [
+            4
+          ],
+          "featureNames": [
+            "1/4-20 Tapped Hole1"
+          ],
+          "stepSolidEntity": 98642,
+          "representations": [
+            {
+              "representationEntity": 192012,
+              "name": "26-0701_mid landing cross beamJR_Beam Tube Glazed Edge"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0380",
+      "mark": "2605-B09-P02",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0701_mid landing cross beamjr.sldprt",
+          "configuration": "MNT Plate",
+          "scopeId": 1,
+          "wizardRecordIds": [
+            1
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 23689,
+          "representations": [
+            {
+              "representationEntity": 169174,
+              "name": "26-0701_mid landing cross beamJR_MNT Plate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0178",
+      "mark": "2605-B08-P03",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0178",
+      "mark": "2605-B08-P03",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 20,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 21,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 22,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 23,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 24,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 25,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 26,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 27,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 28,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 29,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0186",
+      "mark": "2605-B08-P06",
+      "featureIndex": 30,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0527_stringer platejr.sldprt",
+          "configuration": "TOP Run 5-6 Stringer VERT Wall C",
+          "scopeId": 14,
+          "wizardRecordIds": [
+            58
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 89285,
+          "representations": [
+            {
+              "representationEntity": 26962,
+              "name": "26-0527_stringer plateJR_TOP Run 5-6 Stringer VERT Wall C"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0122",
+      "mark": "2605-B06-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.332,
+        "countersinkDiameter": 0.656,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "CSK for 5/16 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 93085,
+          "representations": [
+            {
+              "representationEntity": 48953,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0122",
+      "mark": "2605-B06-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.332,
+        "countersinkDiameter": 0.656,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "CSK for 5/16 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 93085,
+          "representations": [
+            {
+              "representationEntity": 48953,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0125",
+      "mark": "2605-B06-P07",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7500000000000017,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0125",
+      "mark": "2605-B06-P07",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7500000000000017,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0368",
+      "mark": "2605-B10-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0368",
+      "mark": "2605-B10-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0368",
+      "mark": "2605-B10-P06",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0373",
+      "mark": "2605-B10-P11",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Uphill MNT Flange",
+          "scopeId": 40,
+          "wizardRecordIds": [
+            125
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw1"
+          ],
+          "stepSolidEntity": 27130,
+          "representations": [
+            {
+              "representationEntity": 82792,
+              "name": "26-0528_corner stringerJR_TYP Uphill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0373",
+      "mark": "2605-B10-P11",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Uphill MNT Flange",
+          "scopeId": 40,
+          "wizardRecordIds": [
+            125
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw1"
+          ],
+          "stepSolidEntity": 27130,
+          "representations": [
+            {
+              "representationEntity": 82792,
+              "name": "26-0528_corner stringerJR_TYP Uphill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0373",
+      "mark": "2605-B10-P11",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Uphill MNT Flange",
+          "scopeId": 40,
+          "wizardRecordIds": [
+            125
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw1"
+          ],
+          "stepSolidEntity": 27130,
+          "representations": [
+            {
+              "representationEntity": 82792,
+              "name": "26-0528_corner stringerJR_TYP Uphill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0304",
+      "mark": "2605-B05-P09",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.332,
+        "countersinkDiameter": 0.656,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "CSK for 5/16 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 93085,
+          "representations": [
+            {
+              "representationEntity": 48953,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0304",
+      "mark": "2605-B05-P09",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.332,
+        "countersinkDiameter": 0.656,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "CSK for 5/16 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 93085,
+          "representations": [
+            {
+              "representationEntity": 48953,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0307",
+      "mark": "2605-B05-P10",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7499999999999875,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0307",
+      "mark": "2605-B05-P10",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.2812,
+        "slotOverallLength": 0.7499999999999875,
+        "apiLengthConvention": "overall",
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Shoe-Side BTM",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            105
+          ],
+          "featureNames": [
+            "1/4 Clearance Slot1"
+          ],
+          "stepSolidEntity": 17060,
+          "representations": [
+            {
+              "representationEntity": 5757,
+              "name": "26-0701_base shoe top mount plateJR_Shoe-Side BTM"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0378",
+      "mark": "2605-B03-P05",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0378",
+      "mark": "2605-B03-P05",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0378",
+      "mark": "2605-B03-P05",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.2812,
+        "counterboreDiameter": 0.4688,
+        "counterboreDepth": 0.132,
+        "through": true,
+        "source": {
+          "fileName": "26-0528_corner stringerjr.sldprt",
+          "configuration": "TYP Downhill MNT Flange",
+          "scopeId": 42,
+          "wizardRecordIds": [
+            130
+          ],
+          "featureNames": [
+            "CBORE for 1/4 Button Head Cap Screw2"
+          ],
+          "stepSolidEntity": 167463,
+          "representations": [
+            {
+              "representationEntity": 19306,
+              "name": "26-0528_corner stringerJR_TYP Downhill MNT Flange"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 20,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 21,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 22,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 23,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 24,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 25,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0069",
+      "mark": "2605-B04-P01",
+      "featureIndex": 26,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.5625000000000003,
+        "slotOverallLength": 2.0625000000000004,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0527_steel substreadjr.sldprt",
+          "configuration": "5-6 MID Landing",
+          "scopeId": 28,
+          "wizardRecordIds": [
+            109
+          ],
+          "featureNames": [
+            "9/16 (0.5625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 26799,
+          "representations": [
+            {
+              "representationEntity": 201298,
+              "name": "26-0527_steel substreadJR_5-6 MID Landing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "3/8-16",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.3125,
+        "through": true,
+        "materialPenetration": 0.37500000000000006,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            147
+          ],
+          "featureNames": [
+            "3/8-16 Tapped Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0467",
+      "mark": "2605-B11-P01",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0714_base platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 48,
+          "wizardRecordIds": [
+            146
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Hole1"
+          ],
+          "stepSolidEntity": 21245,
+          "representations": [
+            {
+              "representationEntity": 89583,
+              "name": "26-0714_Base PlateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0250",
+      "mark": "2605-B12-P09",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0250",
+      "mark": "2605-B12-P09",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "5/16-18",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.257,
+        "through": true,
+        "materialPenetration": 0.25,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0701_base shoe top mount platejr.sldprt",
+          "configuration": "Tread-Side",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            97
+          ],
+          "featureNames": [
+            "5/16-18 Tapped Hole1"
+          ],
+          "stepSolidEntity": 29222,
+          "representations": [
+            {
+              "representationEntity": 143220,
+              "name": "26-0701_base shoe top mount plateJR_Tread-Side"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0439",
+      "mark": "2605-B12-P10",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.625,
+        "slotOverallLength": 1.625,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0710_top conn mount finjr.sldprt",
+          "configuration": "Default",
+          "scopeId": 47,
+          "wizardRecordIds": [
+            145
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 164657,
+          "representations": [
+            {
+              "representationEntity": 197587,
+              "name": "26-0710_top conn mount finJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0439",
+      "mark": "2605-B12-P10",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "slot",
+        "through": true,
+        "slotWidth": 0.625,
+        "slotOverallLength": 1.625,
+        "apiLengthConvention": "straight-between-end-arcs",
+        "source": {
+          "fileName": "26-0710_top conn mount finjr.sldprt",
+          "configuration": "Default",
+          "scopeId": 47,
+          "wizardRecordIds": [
+            145
+          ],
+          "featureNames": [
+            "5/8 (0.625) Diameter Slot1"
+          ],
+          "stepSolidEntity": 164657,
+          "representations": [
+            {
+              "representationEntity": 197587,
+              "name": "26-0710_top conn mount finJR"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "unmappedGeometryFeatures": [
+    {
+      "bodyId": "body-0185",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0185",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0187",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0187",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0203",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0203",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0203",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0203",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0230",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0230",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0232",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0232",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0247",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0041",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0041",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0041",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0042",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0048",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0048",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0048",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0048",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0179",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0179",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0179",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0180",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0467",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    }
+  ],
+  "unrepresentedActiveWizardRecords": [
+    {
+      "fileName": "26-0713_btm wall mending platejr.sldprt",
+      "configuration": "Default",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 114,
+      "reason": "No matching feature on the included drawing faces"
+    }
+  ],
+  "matchingPolicy": "STEP solid -> representation -> exact native part/configuration -> active Wizard -> type/diameter/exit/depth/angle/slot checks; reject conflicting manufacturing specifications"
+}

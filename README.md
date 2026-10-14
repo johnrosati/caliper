@@ -57,3 +57,7 @@ Callouts follow the side of the face they describe: upper mortises above and low
 ### Drawing revision 06: shorter radius leaders
 
 Radius callouts choose the closest clear equivalent visible arc rather than the first STEP edge. A lower notch corner is preferred for a below-view caption when it shares the same radius as the upper corner. Matching radii use a single TYP callout; distinct sizes remain separate. Source arc identity, points and exact radius are verified for flat, dense and formed views.
+
+## Drawing review R07
+
+All 12 buckets / 106 unique parts / 118 pages now use nearest-clear matching hole, slot and mortise leaders and fractional display to 1/32 inch. Exact decimal bores and pitches remain where required. END A / EDGE C location dimensions, source geometry and membership are retained. Selective CAD annotation gaps preserve outlines, dimension lines and arrowheads; ordinary extension crossings remain continuous. These are review drawings, with release material/tolerances still separate. Prior R06 exports remain available for rollback.

@@ -111,3 +111,8 @@ All 118 review-set pages were rendered and inspected.
 23 revised part sheets use R10; 83 unchanged reviewed sheets retain R09. All 12
 bucket review PDFs and the complete review set are R10 and include those sheet
 revisions. Earlier files remain available for rollback.
+
+
+## Job 2606 · HPC
+
+The job selector links the existing 2605 viewer with `docs/jobs/2606/`. The 2606 public viewer contains the 20-work-order snapshot exported October 19, 2026, in John's current order. QRAIL is vendor supplied and has no drawings. The 19 drawing buckets contain 130 detailed model-review sheets, 13 explicitly limited reference sheets and 19 bucket covers. Native 2606 thread specifications remain unconfirmed. Public viewing preserves the shared assignments.

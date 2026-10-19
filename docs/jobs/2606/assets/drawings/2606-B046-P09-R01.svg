@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2448 1584" width="2448" height="1584"><rect width="100%" height="100%" fill="white"/>
+<polygon points="34.0000,34.0000 2414.0000,34.0000 2414.0000,1550.0000 34.0000,1550.0000" stroke="#b8cad8" stroke-width="1" fill="none"/>
+<text x="66" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" text-anchor="start">CALIPER / 2606</text>
+<text x="66" y="105" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">PLATFORM  |  PART DRAWING PREVIEW</text>
+<text x="2382" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="end">2606-B046-P09</text>
+<text x="2382" y="105" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="end">REVIEW 01  /  2026-10-19</text>
+<polyline points="34.0000,127.0000 2414.0000,127.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="165" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" text-anchor="start">plinth asm body 255</text>
+<text x="66" y="197" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">body-0254  |  QTY 1 IN PLATFORM  |  INCHES  |  TOP / FRONT / BOTTOM SCALE 1:8</text>
+<text x="72" y="244" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">01 / TOP - FACE A</text>
+<polygon points="513.0000,589.5177 1467.0000,589.5177 1467.0000,479.2677 623.2500,479.2677 623.2500,280.4823 513.0000,280.4823 513.0000,589.5177" stroke="#536f85" stroke-width="1.25" fill="none"/>
+<polyline points="513.0000,277.4823 513.0000,234.4823" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1467.0000,277.4823 1467.0000,234.4823" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="513.0000,240.4823 1467.0000,240.4823" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="521.0000,242.9823 513.0000,240.4823 521.0000,237.9823" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1459.0000,237.9823 1467.0000,240.4823 1459.0000,242.9823" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="990.0" y="232.48226786635757" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">106&quot; OVERALL</text>
+<polyline points="510.0000,280.4823 460.0000,280.4823" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="510.0000,589.5177 460.0000,589.5177" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="466.0000,280.4823 466.0000,589.5177" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="463.5000,288.4823 466.0000,280.4823 468.5000,288.4823" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="468.5000,581.5177 466.0000,589.5177 463.5000,581.5177" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="455.0" y="435.00000000000006" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(-90 455.0 435.00000000000006)">34-11/32&quot; OVERALL</text>
+<text x="513.0" y="618.5177321336425" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="start">END A</text>
+<text x="1467.0" y="618.5177321336425" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="end">END B</text>
+<polyline points="990.0000,264.4823 990.0000,604.5177" stroke="#93a8b9" stroke-width="0.9" fill="none" stroke-dasharray="9 5"/>
+<text x="1000.0" y="261.4822678663576" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">A</text>
+<text x="1000.0" y="609.5177321336425" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">A</text>
+<text x="72" y="736" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">02 / FRONT - EDGE VIEW</text>
+<polygon points="513.0000,800.0000 1467.0000,800.0000 1467.0000,802.2500 513.0000,802.2500" stroke="#536f85" stroke-width="1.1" fill="none"/>
+<polyline points="1467.0000,801.1250 1522.0000,775.0000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="1475.2989,799.9507 1467.0000,801.1250 1473.1536,795.4344" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1522.0000,775.0000 1547.0000,775.0000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<text x="1552.0" y="780" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start">1/4&quot; THICK</text>
+<text x="513.0" y="830.25" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="start">END A</text>
+<text x="72" y="860" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">03 / BOTTOM - FACE B</text>
+<polygon points="623.2500,985.7323 1467.0000,985.7323 1467.0000,875.4823 513.0000,875.4823 513.0000,1184.5177 623.2500,1184.5177 623.2500,985.7323" stroke="#536f85" stroke-width="1.25" fill="none"/>
+<text x="513.0" y="1212.5177321336423" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="start">END A</text>
+<text x="1467.0" y="1212.5177321336423" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="end">END B</text>
+<polyline points="1908.0000,225.0000 1908.0000,1450.0000" stroke="#dbe5ed" stroke-width="0.8" fill="none"/>
+<text x="1962" y="247" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">04 / SECTION A-A</text>
+<text x="1962" y="275" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">X = 53&quot; FROM END A</text>
+<polygon points="1992.4823,370.0000 2102.7323,370.0000 2102.7323,372.2500 1992.4823,372.2500" stroke="#536f85" stroke-width="1" fill="#f2f6f9"/>
+<polyline points="1995.4823,372.2500 1997.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2003.4823,372.2500 2005.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2011.4823,372.2500 2013.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2019.4823,372.2500 2021.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2027.4823,372.2500 2029.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2035.4823,372.2500 2037.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2043.4823,372.2500 2045.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2051.4823,372.2500 2053.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2059.4823,372.2500 2061.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2067.4823,372.2500 2069.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2075.4823,372.2500 2077.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2083.4823,372.2500 2085.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2091.4823,372.2500 2093.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2099.4823,372.2500 2101.7323,370.0000" stroke="#dbe5ed" stroke-width="0.65" fill="none"/>
+<polyline points="2147.0000,371.1250 1997.0000,421.2500" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="2138.6201,371.2894 2147.0000,371.1250 2140.2048,376.0316" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1997.0000,421.2500 2022.0000,421.2500" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<text x="2027" y="426.25" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start">1/4&quot; PLATE</text>
+<text x="1962" y="451.25" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="start">SECTION SCALE 1:8</text>
+<text x="1962" y="551" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">05 / ISOMETRIC</text>
+<polyline points="1968.0000,668.8593 1999.2497,686.9019" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2326.0000,774.4086 2055.5943,618.2852" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2294.7503,791.7148 2326.0000,773.6722" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2294.7503,792.4512 2294.7503,791.7148" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2294.7503,791.7148 2055.5943,653.6339" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,618.2852 2055.5943,617.5488" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,654.3704 1999.2497,686.9019" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2326.0000,773.6722 2055.5943,617.5488" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,653.6339 1999.2497,686.1654" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="1999.2497,686.1654 1968.0000,668.1229" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,653.6339 2055.5943,654.3704" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,618.2852 1968.0000,668.8593" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2294.7503,792.4512 2055.5943,654.3704" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2326.0000,774.4086 2294.7503,792.4512" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2326.0000,773.6722 2326.0000,774.4086" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="2055.5943,617.5488 1968.0000,668.1229" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="1968.0000,668.1229 1968.0000,668.8593" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<polyline points="1999.2497,686.9019 1999.2497,686.1654" stroke="#536f85" stroke-width="0.8" fill="none"/>
+<text x="1962" y="845" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="start">ISOMETRIC REFERENCE / NTS</text>
+<text x="1962" y="890" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="start">FEATURE / DATUM NOTES</text>
+<text x="1962" y="918" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="start">HOLES / SLOTS LOCATED ON FACE B</text>
+<text x="1962" y="955" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="start">MAX BODY SPAN (TRUE 3D): 111-7/16&quot;</text>
+<text x="1962" y="985" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">No internal holes in the broad face.</text>
+<text x="1962" y="1375" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="start">DATUM / REVIEW</text>
+<text x="1962" y="1405" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="start">END A is the left material extent in both face views.</text>
+<text x="66" y="1450" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="start">GEOMETRY REVIEW: spline chord error &lt;0.00001 in where recorded; no native thread specifications supplied.</text>
+<text x="1962" y="1428" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="start">Profile views retain the source geometry.</text>
+<text x="1962" y="1450" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="400" text-anchor="start">Fractions to 1/32; exact feature sizes/pitches as needed.</text>
+<polyline points="34.0000,1470.0000 2414.0000,1470.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="1504" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="start">INCHES  |  ANGLES IN DEGREES  |  ANSI D 34 x 22 IN</text>
+<text x="66" y="1532" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">MODEL-DERIVED REVIEW PREVIEW - verify dimensions, material and tolerances before fabrication.</text>
+<text x="2382" y="1504" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">SOURCE: 26-0707_HPC stair installedJR.STEP</text>
+<text x="2382" y="1532" fill="#93a8b9" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="400" text-anchor="end">SHEET 9 OF 30 / VIEWER BODY body-0254 / DO NOT SCALE</text>
+</svg>

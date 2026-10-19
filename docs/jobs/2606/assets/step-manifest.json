@@ -1,0 +1,4894 @@
+{
+  "job": "2606",
+  "sourceName": "26-0707_HPC stair installedJR.STEP",
+  "sourceSha256": "4ab86f28c7f08ae02fe222ee0450457ec5cf508ba8a0bbe6c3103c38f33f0a76",
+  "previousSourceSha256": null,
+  "refresh": null,
+  "format": "STEP AP214",
+  "units": "mm",
+  "conversionSeconds": 6.858,
+  "meshes": 349,
+  "triangles": 228878,
+  "assemblyNodes": 17,
+  "bodies": [
+    {
+      "id": "body-0000",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0001",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0002",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0003",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0004",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0005",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0006",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0007",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0008",
+      "name": "26-0707_stringer platesJR_LHT horiz",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 128,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0009",
+      "name": "26-0707_stair asmJR body 10",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0010",
+      "name": "26-0707_stair asmJR body 11",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0011",
+      "name": "26-0707_stair asmJR body 12",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 852,
+      "color": null
+    },
+    {
+      "id": "body-0012",
+      "name": "26-0707_stair asmJR body 13",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 456,
+      "color": null
+    },
+    {
+      "id": "body-0013",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0014",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0015",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0016",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0017",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0018",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0019",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0020",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0021",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0022",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0023",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0024",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0025",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0026",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0027",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0028",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0029",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0030",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0031",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0032",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0033",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0034",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0035",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0036",
+      "name": "26-0806_treadplate carriersJR_horiz top LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 280,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0037",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0038",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0039",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0040",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0041",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0042",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0043",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0044",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0045",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0046",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0047",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0048",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0049",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0050",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0051",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0052",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0053",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0054",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0055",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0056",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0057",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0058",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0059",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0060",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0061",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0062",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0063",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0064",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0065",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0066",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0067",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0068",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0069",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0070",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0071",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0072",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0073",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0074",
+      "name": "26-0707_treadplatesJR_treadplate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4764,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0075",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0076",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0077",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0078",
+      "name": "26-0707_treadplatesJR_treadplate - top tread",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2220,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0079",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0080",
+      "name": "26-0707_treadplatesJR_underside riser plate - typ top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0081",
+      "name": "26-0707_stringer platesJR_RHT horiz",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0082",
+      "name": "26-0707_stringer platesJR_RHT inside",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1308,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0083",
+      "name": "26-0707_stair asmJR body 84",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0084",
+      "name": "26-0707_stair asmJR body 85",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 28,
+      "color": null
+    },
+    {
+      "id": "body-0085",
+      "name": "26-0707_stair asmJR body 86",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0086",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0087",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0088",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0089",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0090",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0091",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0092",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0093",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0094",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0095",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0096",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0097",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0098",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0099",
+      "name": "26-0806_treadplate carriersJR_vert RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0100",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0101",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0102",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0103",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0104",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0105",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0106",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0107",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0108",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0109",
+      "name": "26-0806_treadplate carriersJR_horiz RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0110",
+      "name": "26-0806_treadplate carriersJR_horiz top RH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 280,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0111",
+      "name": "26-0707_stair asmJR body 112",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0112",
+      "name": "26-0707_stair asmJR body 113",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0113",
+      "name": "26-0707_stair asmJR body 114",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0114",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0115",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0116",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0117",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0118",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0119",
+      "name": "26-0707_treadplatesJR_top horiz wall - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 2028,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0120",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0121",
+      "name": "26-0707_treadplatesJR_BTM OF BTM RISER",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0122",
+      "name": "26-0707_stringer platesJR_LHB horiz",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 108,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0123",
+      "name": "26-0707_stringer platesJR_LHB outside",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 52,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0124",
+      "name": "26-0707_stringer platesJR_LHB inside",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 740,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0125",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0126",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0127",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0128",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0129",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0130",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0131",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0132",
+      "name": "26-0806_treadplate carriersJR_vert LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0133",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0134",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0135",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0136",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0137",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0138",
+      "name": "26-0806_treadplate carriersJR_horiz LH",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 316,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0139",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0140",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0141",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0142",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0143",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0144",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0145",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0146",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0147",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0148",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0149",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0150",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0151",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0152",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0153",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0154",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0155",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0156",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0157",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0158",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0159",
+      "name": "26-0707_treadplatesJR_treadplate - typ btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0160",
+      "name": "26-0707_treadplatesJR_riser plate - top run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 1212,
+      "color": [
+        0.05126945674419403,
+        0.05126945674419403,
+        0.05126945674419403
+      ]
+    },
+    {
+      "id": "body-0161",
+      "name": "26-0707_treadplatesJR_underside riser plate - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 972,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0162",
+      "name": "26-0707_treadplatesJR_top horiz wall - btm run",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 768,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0163",
+      "name": "26-0707_stringer platesJR_RHB horiz",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 168,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0164",
+      "name": "26-0707_stringer platesJR_RHB inside",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 80,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0165",
+      "name": "26-0707_stringer platesJR_RHB outside",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 80,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0166",
+      "name": "26-0707_stair asmJR body 167",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0167",
+      "name": "26-0707_stair asmJR body 168",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0168",
+      "name": "26-0707_stair asmJR body 169",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 108,
+      "color": null
+    },
+    {
+      "id": "body-0169",
+      "name": "26-0707_stair asmJR body 170",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0170",
+      "name": "26-0707_stair asmJR body 171",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0171",
+      "name": "26-0707_stair asmJR body 172",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0172",
+      "name": "26-0707_stair asmJR body 173",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0173",
+      "name": "26-0707_stair asmJR body 174",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0174",
+      "name": "26-0707_stair asmJR body 175",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0175",
+      "name": "26-0707_stair asmJR body 176",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0176",
+      "name": "26-0707_stair asmJR body 177",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0177",
+      "name": "26-0707_stair asmJR body 178",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0178",
+      "name": "26-0707_stair asmJR body 179",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0179",
+      "name": "26-0707_stair asmJR body 180",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0180",
+      "name": "26-0707_stair asmJR body 181",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 408,
+      "color": null
+    },
+    {
+      "id": "body-0181",
+      "name": "26-0707_stair asmJR body 182",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 408,
+      "color": null
+    },
+    {
+      "id": "body-0182",
+      "name": "26-0707_stair asmJR body 183",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 444,
+      "color": null
+    },
+    {
+      "id": "body-0183",
+      "name": "26-0707_stair asmJR body 184",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 180,
+      "color": null
+    },
+    {
+      "id": "body-0184",
+      "name": "26-0707_stair asmJR body 185",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0185",
+      "name": "26-0707_stair asmJR body 186",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0186",
+      "name": "26-0707_stair asmJR body 187",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0187",
+      "name": "26-0707_stair asmJR body 188",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 28,
+      "color": null
+    },
+    {
+      "id": "body-0188",
+      "name": "26-0707_stair asmJR body 189",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0189",
+      "name": "26-0707_stair asmJR body 190",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0190",
+      "name": "26-0707_stair asmJR body 191",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 4772,
+      "color": null
+    },
+    {
+      "id": "body-0191",
+      "name": "26-0707_stair asmJR body 192",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0707_stair asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0192",
+      "name": "26-0708_OG glass asmJR body 193",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 908,
+      "color": null
+    },
+    {
+      "id": "body-0193",
+      "name": "26-0708_OG glass asmJR body 194",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 910,
+      "color": null
+    },
+    {
+      "id": "body-0194",
+      "name": "26-0708_OG glass asmJR body 195",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 4144,
+      "color": null
+    },
+    {
+      "id": "body-0195",
+      "name": "26-0708_OG glass asmJR body 196",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0196",
+      "name": "26-0708_OG glass asmJR body 197",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0197",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0198",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0199",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0200",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0201",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0202",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0203",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0204",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0205",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0206",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0207",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0208",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0209",
+      "name": "26-0708_OG glass asmJR body 210",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0210",
+      "name": "26-0708_OG glass asmJR body 211",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0211",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0212",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0213",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0214",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0215",
+      "name": "26-0729_og mount platesJR_knife plate - south",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0216",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0217",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0218",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0219",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0220",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0221",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0222",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0223",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0224",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0225",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0226",
+      "name": "26-0729_og mount platesJR_knife plate - west",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 16,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0227",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0228",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0229",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0230",
+      "name": "26-0729_og mount platesJR_weld tab",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0231",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0232",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0233",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0234",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0235",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0236",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0237",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0238",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0239",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0240",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0241",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0242",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0243",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0244",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0245",
+      "name": "26-0802_tap blockJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_OG glass asmJR"
+      ],
+      "triangles": 120,
+      "color": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "body-0246",
+      "name": "26-0708_plinth asmJR body 247",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 776,
+      "color": null
+    },
+    {
+      "id": "body-0247",
+      "name": "26-0708_plinth asmJR body 248",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0248",
+      "name": "26-0708_plinth asmJR body 249",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0249",
+      "name": "26-0708_plinth asmJR body 250",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 1480,
+      "color": null
+    },
+    {
+      "id": "body-0250",
+      "name": "26-0708_plinth asmJR body 251",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0251",
+      "name": "26-0708_plinth asmJR body 252",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0252",
+      "name": "26-0708_plinth asmJR body 253",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0253",
+      "name": "26-0708_plinth asmJR body 254",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0254",
+      "name": "26-0708_plinth asmJR body 255",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0255",
+      "name": "26-0708_plinth asmJR body 256",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0256",
+      "name": "26-0708_plinth asmJR body 257",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0257",
+      "name": "26-0708_plinth asmJR body 258",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0258",
+      "name": "26-0708_plinth asmJR body 259",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0259",
+      "name": "26-0708_plinth asmJR body 260",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0260",
+      "name": "26-0708_plinth asmJR body 261",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0261",
+      "name": "26-0708_plinth asmJR body 262",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 28,
+      "color": null
+    },
+    {
+      "id": "body-0262",
+      "name": "26-0805_platform stringer platesJR_2.0",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 340,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0263",
+      "name": "26-0805_platform stringer platesJR_2.0",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 340,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0264",
+      "name": "26-0805_platform stringer platesJR_2.0",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 340,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0265",
+      "name": "26-0805_platform stringer platesJR_02.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 312,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0266",
+      "name": "26-0805_platform stringer platesJR_03",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 52,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0267",
+      "name": "26-0708_plinth asmJR body 268",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 32,
+      "color": null
+    },
+    {
+      "id": "body-0268",
+      "name": "26-0708_plinth asmJR body 269",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0269",
+      "name": "26-0708_plinth asmJR body 270",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0270",
+      "name": "26-0708_plinth asmJR body 271",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 332,
+      "color": null
+    },
+    {
+      "id": "body-0271",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0272",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0273",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0274",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0275",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0276",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0277",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0278",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0279",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0280",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0281",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0282",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0283",
+      "name": "0.375-16 THRD RodJR_0.375-16x4 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0284",
+      "name": "26-0708_plinth asmJR body 285",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 98,
+      "color": null
+    },
+    {
+      "id": "body-0285",
+      "name": "26-0708_plinth asmJR body 286",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 92,
+      "color": null
+    },
+    {
+      "id": "body-0286",
+      "name": "26-0708_plinth asmJR body 287",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0287",
+      "name": "26-0708_plinth asmJR body 288",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 98,
+      "color": null
+    },
+    {
+      "id": "body-0288",
+      "name": "26-0708_plinth asmJR body 289",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 92,
+      "color": null
+    },
+    {
+      "id": "body-0289",
+      "name": "26-0708_plinth asmJR body 290",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0708_plinth asmJR"
+      ],
+      "triangles": 20,
+      "color": null
+    },
+    {
+      "id": "body-0290",
+      "name": "26-0727_hangerJR_HSS",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 400,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0291",
+      "name": "26-0727_hangerJR_trimmed clip angle",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 76,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0292",
+      "name": "26-0727_hangerJR_clip angle - with gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 104,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0293",
+      "name": "26-0727_hanger conn to stringerJR_CL knife plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 68,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0294",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0295",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0296",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0297",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0298",
+      "name": "26-0916_cross bracing^26-0727_hanger asmJR_center plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 508,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0299",
+      "name": "26-0727_hanger asmJR body 300",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0300",
+      "name": "26-0727_hanger asmJR body 301",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0301",
+      "name": "26-0727_hanger asmJR body 302",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 256,
+      "color": null
+    },
+    {
+      "id": "body-0302",
+      "name": "26-0727_hanger asmJR body 303",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0303",
+      "name": "26-0727_hanger asmJR body 304",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0304",
+      "name": "26-0727_hanger asmJR body 305",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0305",
+      "name": "26-0727_hanger asmJR body 306",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0306",
+      "name": "26-0727_hanger asmJR body 307",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 256,
+      "color": null
+    },
+    {
+      "id": "body-0307",
+      "name": "26-0727_hanger asmJR body 308",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0308",
+      "name": "26-0727_hanger asmJR body 309",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0309",
+      "name": "26-0727_hanger asmJR body 310",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0310",
+      "name": "26-0727_hanger asmJR body 311",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0311",
+      "name": "26-0727_hanger asmJR body 312",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 256,
+      "color": null
+    },
+    {
+      "id": "body-0312",
+      "name": "26-0727_hanger asmJR body 313",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0313",
+      "name": "26-0727_hanger asmJR body 314",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0314",
+      "name": "26-0727_hanger asmJR body 315",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0315",
+      "name": "26-0727_hanger asmJR body 316",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 124,
+      "color": null
+    },
+    {
+      "id": "body-0316",
+      "name": "26-0727_hanger asmJR body 317",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 256,
+      "color": null
+    },
+    {
+      "id": "body-0317",
+      "name": "26-0727_hanger asmJR body 318",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0318",
+      "name": "26-0727_hanger asmJR body 319",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 188,
+      "color": null
+    },
+    {
+      "id": "body-0319",
+      "name": "26-0916_cross bracing^26-0727_hanger asmJR_btm gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 136,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0320",
+      "name": "26-0916_cross bracing^26-0727_hanger asmJR_top gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0321",
+      "name": "26-0727_hangerJR_HSS EAST",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 400,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0322",
+      "name": "26-0727_hangerJR_trimmed clip angle",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 76,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0323",
+      "name": "26-0727_hangerJR_clip angle - with gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 104,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0324",
+      "name": "26-0727_hanger conn to stringerJR_CL knife plate",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 68,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0325",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0326",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0327",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0328",
+      "name": "26-0729_stiffener plates for hangersJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 20,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0329",
+      "name": "26-0916_cross bracing^26-0727_hanger asmJR_btm gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 136,
+      "color": [
+        0.2158605009317398,
+        0.2158605009317398,
+        0.2158605009317398
+      ]
+    },
+    {
+      "id": "body-0330",
+      "name": "26-0916_cross bracing^26-0727_hanger asmJR_top gusset",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0727_hanger asmJR_EAST"
+      ],
+      "triangles": 140,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0331",
+      "name": "26-0729_stiffener plates for hangersJR_stringer connection",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0729_stiffener plates for hangersJR_stringer connection"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0332",
+      "name": "26-0729_stiffener plates for hangersJR_stringer connection",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0729_stiffener plates for hangersJR_stringer connection"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0333",
+      "name": "26-0729_stiffener plates for hangersJR_stringer connection",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0729_stiffener plates for hangersJR_stringer connection"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0334",
+      "name": "26-0729_stiffener plates for hangersJR_stringer connection",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0729_stiffener plates for hangersJR_stringer connection"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0335",
+      "name": "26-0731_slab mount plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0336",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0337",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0338",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0339",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0340",
+      "name": "26-0731_slab mount plateJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0341",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0342",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0343",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0344",
+      "name": "0.5-13 THRD RodJR_0.5-13x6 THRD Rod",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_slab mount plate asmJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0345",
+      "name": "26-0731_stringer conn plate_btm",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_stringer conn plate_btm"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0346",
+      "name": "26-0731_stringer conn plate_btm",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_stringer conn plate_btm"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0347",
+      "name": "26-0731_stringer conn plate_btm",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_stringer conn plate_btm"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0348",
+      "name": "26-0731_stringer conn plate_btm",
+      "assemblyPath": [
+        "Assembly",
+        "26-0707_HPC stair installedJR",
+        "26-0731_stringer conn plate_btm"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    }
+  ]
+}

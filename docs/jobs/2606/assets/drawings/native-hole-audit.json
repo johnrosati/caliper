@@ -1,0 +1,4002 @@
+{
+  "sourceSha256": "4ab86f28c7f08ae02fe222ee0450457ec5cf508ba8a0bbe6c3103c38f33f0a76",
+  "nativeReportSha256": "707a1acd79f5aeb819b134dfcdb3e6bff153a310655c6304a7a8a3420095e439",
+  "nativeReportName": "Caliper_2606_assembly_holes_v04_20261020_111704.txt",
+  "mapped": [
+    {
+      "bodyId": "body-0013",
+      "mark": "2606-B001-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz LH",
+          "scopeId": 21,
+          "wizardRecordIds": [
+            64
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 59716,
+          "representations": [
+            {
+              "representationEntity": 15918,
+              "name": "26-0806_treadplate carriersJR_horiz LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0013",
+      "mark": "2606-B001-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz LH",
+          "scopeId": 21,
+          "wizardRecordIds": [
+            64
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 59716,
+          "representations": [
+            {
+              "representationEntity": 15918,
+              "name": "26-0806_treadplate carriersJR_horiz LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0014",
+      "mark": "2606-B001-P07",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert LH",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            66,
+            67
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 21096,
+          "representations": [
+            {
+              "representationEntity": 82894,
+              "name": "26-0806_treadplate carriersJR_vert LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0014",
+      "mark": "2606-B001-P07",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert LH",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            66,
+            67
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 21096,
+          "representations": [
+            {
+              "representationEntity": 82894,
+              "name": "26-0806_treadplate carriersJR_vert LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0036",
+      "mark": "2606-B001-P08",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz top LH",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            68
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 18192,
+          "representations": [
+            {
+              "representationEntity": 70882,
+              "name": "26-0806_treadplate carriersJR_horiz top LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0036",
+      "mark": "2606-B001-P08",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz top LH",
+          "scopeId": 23,
+          "wizardRecordIds": [
+            68
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 18192,
+          "representations": [
+            {
+              "representationEntity": 70882,
+              "name": "26-0806_treadplate carriersJR_horiz top LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0086",
+      "mark": "2606-B002-P06",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz RH",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            70
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 94222,
+          "representations": [
+            {
+              "representationEntity": 34013,
+              "name": "26-0806_treadplate carriersJR_horiz RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0086",
+      "mark": "2606-B002-P06",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz RH",
+          "scopeId": 24,
+          "wizardRecordIds": [
+            70
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 94222,
+          "representations": [
+            {
+              "representationEntity": 34013,
+              "name": "26-0806_treadplate carriersJR_horiz RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0087",
+      "mark": "2606-B002-P07",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert RH",
+          "scopeId": 25,
+          "wizardRecordIds": [
+            72,
+            73
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 96975,
+          "representations": [
+            {
+              "representationEntity": 36922,
+              "name": "26-0806_treadplate carriersJR_vert RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0087",
+      "mark": "2606-B002-P07",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert RH",
+          "scopeId": 25,
+          "wizardRecordIds": [
+            72,
+            73
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 96975,
+          "representations": [
+            {
+              "representationEntity": 36922,
+              "name": "26-0806_treadplate carriersJR_vert RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0110",
+      "mark": "2606-B002-P08",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz top RH",
+          "scopeId": 26,
+          "wizardRecordIds": [
+            74
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28262,
+          "representations": [
+            {
+              "representationEntity": 37548,
+              "name": "26-0806_treadplate carriersJR_horiz top RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0110",
+      "mark": "2606-B002-P08",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz top RH",
+          "scopeId": 26,
+          "wizardRecordIds": [
+            74
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28262,
+          "representations": [
+            {
+              "representationEntity": 37548,
+              "name": "26-0806_treadplate carriersJR_horiz top RH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0125",
+      "mark": "2606-B003-P04",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz LH",
+          "scopeId": 21,
+          "wizardRecordIds": [
+            64
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 59716,
+          "representations": [
+            {
+              "representationEntity": 15918,
+              "name": "26-0806_treadplate carriersJR_horiz LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0125",
+      "mark": "2606-B003-P04",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "horiz LH",
+          "scopeId": 21,
+          "wizardRecordIds": [
+            64
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1"
+          ],
+          "stepSolidEntity": 59716,
+          "representations": [
+            {
+              "representationEntity": 15918,
+              "name": "26-0806_treadplate carriersJR_horiz LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0126",
+      "mark": "2606-B003-P05",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert LH",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            66,
+            67
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 21096,
+          "representations": [
+            {
+              "representationEntity": 82894,
+              "name": "26-0806_treadplate carriersJR_vert LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0126",
+      "mark": "2606-B003-P05",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0806_treadplate carriersjr.sldprt",
+          "configuration": "vert LH",
+          "scopeId": 22,
+          "wizardRecordIds": [
+            66,
+            67
+          ],
+          "featureNames": [
+            "47/64 (0.73438) Diameter Hole1",
+            "47/64 (0.73438) Diameter Hole2"
+          ],
+          "stepSolidEntity": 21096,
+          "representations": [
+            {
+              "representationEntity": 82894,
+              "name": "26-0806_treadplate carriersJR_vert LH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            14
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            14
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            14
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            14
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            10
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 20,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 21,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 22,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0000",
+      "mark": "2606-B005-P01",
+      "featureIndex": 23,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ top run",
+          "scopeId": 5,
+          "wizardRecordIds": [
+            8
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24899,
+          "representations": [
+            {
+              "representationEntity": 27945,
+              "name": "26-0707_treadplatesJR_treadplate - typ top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0003",
+      "mark": "2606-B005-P04",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            29
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            35
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            35
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            35
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0078",
+      "mark": "2606-B005-P05",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - top tread",
+          "scopeId": 8,
+          "wizardRecordIds": [
+            35
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 24721,
+          "representations": [
+            {
+              "representationEntity": 14888,
+              "name": "26-0707_treadplatesJR_treadplate - top tread"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            49
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            49
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            49
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.4062,
+        "countersinkDiameter": 0.7810000000000001,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            49
+          ],
+          "featureNames": [
+            "CSK for 3/8 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 12,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 13,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 15,
+      "manufacturing": {
+        "kind": "counterbore",
+        "throughDiameter": 0.17700000000000002,
+        "counterboreDiameter": 0.3594,
+        "counterboreDepth": 0.115,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            45
+          ],
+          "featureNames": [
+            "CBORE for #8 Pan Head Machine Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 16,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 17,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 18,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 19,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 20,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 21,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 22,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0114",
+      "mark": "2606-B018-P01",
+      "featureIndex": 23,
+      "manufacturing": {
+        "kind": "countersink",
+        "throughDiameter": 0.2812,
+        "countersinkDiameter": 0.531,
+        "includedAngleDeg": 81.99999999999999,
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "treadplate - typ btm run",
+          "scopeId": 10,
+          "wizardRecordIds": [
+            43
+          ],
+          "featureNames": [
+            "CSK for 1/4 Flat Head Socket Cap Screw1"
+          ],
+          "stepSolidEntity": 20179,
+          "representations": [
+            {
+              "representationEntity": 59543,
+              "name": "26-0707_treadplatesJR_treadplate - typ btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0117",
+      "mark": "2606-B018-P04",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - btm run",
+          "scopeId": 11,
+          "wizardRecordIds": [
+            51
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 28810,
+          "representations": [
+            {
+              "representationEntity": 104889,
+              "name": "26-0707_treadplatesJR_top horiz wall - btm run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0119",
+      "mark": "2606-B018-P05",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0707_treadplatesjr.sldprt",
+          "configuration": "top horiz wall - top run",
+          "scopeId": 4,
+          "wizardRecordIds": [
+            2
+          ],
+          "featureNames": [
+            "1/2 (0.5) Diameter Hole1"
+          ],
+          "stepSolidEntity": 54067,
+          "representations": [
+            {
+              "representationEntity": 91691,
+              "name": "26-0707_treadplatesJR_top horiz wall - top run"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0335",
+      "mark": "2606-B043-P01",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0731_slab mount platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 51,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 27894,
+          "representations": [
+            {
+              "representationEntity": 58899,
+              "name": "26-0731_slab mount plateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0335",
+      "mark": "2606-B043-P01",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0731_slab mount platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 51,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 27894,
+          "representations": [
+            {
+              "representationEntity": 58899,
+              "name": "26-0731_slab mount plateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0335",
+      "mark": "2606-B043-P01",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0731_slab mount platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 51,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 27894,
+          "representations": [
+            {
+              "representationEntity": 58899,
+              "name": "26-0731_slab mount plateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0335",
+      "mark": "2606-B043-P01",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0731_slab mount platejr.sldprt",
+          "configuration": "Default",
+          "scopeId": 51,
+          "wizardRecordIds": [
+            101
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 27894,
+          "representations": [
+            {
+              "representationEntity": 58899,
+              "name": "26-0731_slab mount plateJR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 1,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 2,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 3,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 4,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 5,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 6,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 7,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 8,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 9,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 10,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 11,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0249",
+      "mark": "2606-B046-P04",
+      "featureIndex": 14,
+      "manufacturing": {
+        "kind": "hole",
+        "through": true,
+        "source": {
+          "fileName": "26-0805_plinth treadplatesjr.sldprt",
+          "configuration": "01",
+          "scopeId": 70,
+          "wizardRecordIds": [
+            106
+          ],
+          "featureNames": [
+            "1/2 Clearance Hole1"
+          ],
+          "stepSolidEntity": 52977,
+          "representations": [
+            {
+              "representationEntity": 71536,
+              "name": "26-0805_plinth treadplatesJR_01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bodyId": "body-0231",
+      "mark": "2606-B066-P05",
+      "featureIndex": 0,
+      "manufacturing": {
+        "kind": "tap",
+        "threadSize": "1/2-13",
+        "threadSeries": "UNC",
+        "threadClass": null,
+        "tapDrillDiameter": 0.4219,
+        "through": true,
+        "materialPenetration": 1.0,
+        "classResolution": "not supplied consistently; no class inferred",
+        "candidateThreadClasses": [
+          ""
+        ],
+        "source": {
+          "fileName": "26-0802_tap blockjr.sldprt",
+          "configuration": "Default",
+          "scopeId": 52,
+          "wizardRecordIds": [
+            102
+          ],
+          "featureNames": [
+            "1/2-13 Tapped Hole1"
+          ],
+          "stepSolidEntity": 23458,
+          "representations": [
+            {
+              "representationEntity": 45322,
+              "name": "26-0802_tap blockJR"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "unmappedGeometryFeatures": [
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 7,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 8,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0001",
+      "featureIndex": 9,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 7,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 8,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0002",
+      "featureIndex": 9,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 7,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 8,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0115",
+      "featureIndex": 9,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0116",
+      "featureIndex": 7,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0180",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0180",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0180",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0181",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0181",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0181",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 7,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 8,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 9,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 10,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 11,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 12,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 13,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 14,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 15,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 16,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 17,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 18,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 19,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 20,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 21,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 22,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0190",
+      "featureIndex": 23,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0298",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0298",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0298",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0298",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0302",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0303",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0307",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0308",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0312",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0313",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0317",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0318",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0319",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0320",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0329",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0330",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 0,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 1,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 2,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 3,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 4,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 5,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    },
+    {
+      "bodyId": "body-0246",
+      "featureIndex": 6,
+      "reason": "No matching active Wizard in the exact native configuration; retain STEP geometry callout"
+    }
+  ],
+  "unrepresentedActiveWizardRecords": [
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "top horiz wall - top run",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 1,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "treadplate - typ top run",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 11,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "treadplate - typ top run",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 13,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "riser plate - top run",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 15,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "riser plate - top run",
+      "featureName": "CBORE for #8 Pan Head Machine Screw1",
+      "recordId": 17,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "riser plate - top run",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 18,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "riser plate - top run",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 20,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - typ top run",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 22,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - typ top run",
+      "featureName": "CBORE for #8 Pan Head Machine Screw1",
+      "recordId": 24,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - typ top run",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 25,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - typ top run",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 27,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - btm run",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 36,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - btm run",
+      "featureName": "CBORE for #8 Pan Head Machine Screw1",
+      "recordId": 38,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - btm run",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 39,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "underside riser plate - btm run",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 41,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "treadplate - typ btm run",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 46,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "treadplate - typ btm run",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 48,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "top horiz wall - btm run",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 50,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "BTM OF BTM RISER",
+      "featureName": "CSK for 1/4 Flat Head Socket Cap Screw1",
+      "recordId": 57,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "BTM OF BTM RISER",
+      "featureName": "CBORE for #8 Pan Head Machine Screw1",
+      "recordId": 59,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "BTM OF BTM RISER",
+      "featureName": "CBORE SLOT for #8 Binding Head Machine Screw1",
+      "recordId": 60,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "BTM OF BTM RISER",
+      "featureName": "CBORE SLOT for 3/8 Hex Washer Screw1",
+      "recordId": 62,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0707_treadplatesjr.sldprt",
+      "configuration": "BTM OF BTM RISER",
+      "featureName": "CSK for 3/8 Flat Head Socket Cap Screw1",
+      "recordId": 63,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0708_midlanding horiz stringerjr.sldprt",
+      "configuration": "Default",
+      "featureName": "1/2 Clearance Hole1",
+      "recordId": 100,
+      "reason": "No matching feature on the included drawing faces"
+    },
+    {
+      "fileName": "26-0715_og glass shoejr.sldprt",
+      "configuration": "Default",
+      "featureName": "CBORE for 1/2 Heavy Hex Bolt1",
+      "recordId": 103,
+      "reason": "No matching feature on the included drawing faces"
+    }
+  ],
+  "matchingPolicy": "STEP solid -> representation -> exact native part/configuration -> active Wizard -> type/diameter/exit/depth/angle/slot checks; reject conflicting manufacturing specifications"
+}

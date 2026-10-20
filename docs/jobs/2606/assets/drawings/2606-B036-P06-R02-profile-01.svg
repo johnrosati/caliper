@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2448 1584" width="2448" height="1584"><rect width="100%" height="100%" fill="white"/>
+<polygon points="34.0000,34.0000 2414.0000,34.0000 2414.0000,1550.0000 34.0000,1550.0000" stroke="#b8cad8" stroke-width="1" fill="none"/>
+<text x="66" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" text-anchor="start">CALIPER / 2606</text>
+<text x="2382" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="end">2606-B036-P06 / PROFILE</text>
+<text x="66" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">HANGER EAST</text>
+<text x="2382" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end">REVIEW 02 / 2026-10-20</text>
+<polyline points="34.0000,127.0000 2414.0000,127.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="172" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" text-anchor="start">cross bracing^26-0727 hanger asm btm gusset</text>
+<text x="66" y="207" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">body-0329 / QTY 1 / TRUE FACE PLANE / PROFILE DETAIL 1 OF 1</text>
+<text x="66" y="1455" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">INCHES / FRACTIONS NEAREST 1/32 / ANGLES 0.1 DEG / NOT A MANUFACTURING TOLERANCE</text>
+<text x="66" y="1485" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Smaller included angles are between the two actual adjacent edges. Slope to U is the acute angle to the local length axis.</text>
+<text x="66" y="1515" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Retain the accompanying R01 views for drilling, thickness, sections and release limitations. DO NOT SCALE.</text>
+<polyline points="1243.0000,487.5000 1243.0000,892.5000" stroke="#536f85" stroke-width="1.4" fill="none"/>
+<polyline points="883.9645,487.5000 1243.0000,487.5000" stroke="#536f85" stroke-width="1.4" fill="none"/>
+<polyline points="757.0000,785.5873 883.9645,487.5000" stroke="#536f85" stroke-width="1.4" fill="none"/>
+<polyline points="757.0000,892.5000 757.0000,785.5873" stroke="#536f85" stroke-width="1.4" fill="none"/>
+<polyline points="1243.0000,892.5000 757.0000,892.5000" stroke="#536f85" stroke-width="1.4" fill="none"/>
+<polyline points="1240.0000,487.5000 1285.0000,487.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1240.0000,892.5000 1285.0000,892.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1291.0000,487.5000 1291.0000,892.5000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="1288.5000,495.5000 1291.0000,487.5000 1293.5000,495.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1293.5000,884.5000 1291.0000,892.5000 1288.5000,884.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1301.0" y="690.0" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(90.0 1301.0 690.0)">5-5/8&quot;</text>
+<polyline points="883.9645,490.5000 883.9645,445.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1243.0000,490.5000 1243.0000,445.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="883.9645,439.5000 1243.0000,439.5000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="891.9645,442.0000 883.9645,439.5000 891.9645,437.0000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1235.0000,437.0000 1243.0000,439.5000 1235.0000,442.0000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1063.482230178322" y="429.5" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">5&quot;</text>
+<polyline points="759.7601,786.7629 718.3591,769.1289" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="886.7245,488.6756 845.3235,471.0416" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="712.8389,766.7777 839.8034,468.6905" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="718.2739,760.3972 712.8389,766.7777 713.6738,758.4379" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="834.3684,475.0710 839.8034,468.6905 838.9685,477.0303" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="767.1209271760666" y="613.8154335537812" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(-66.92936646578985 767.1209271760666 613.8154335537812)">4-1/2&quot;</text>
+<polyline points="754.0000,785.5873 703.0000,785.5873" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="754.0000,892.5000 703.0000,892.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="709.0000,785.5873 709.0000,892.5000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="706.5000,793.5873 709.0000,785.5873 711.5000,793.5873" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="711.5000,884.5000 709.0000,892.5000 706.5000,884.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="719.0" y="839.0436394200938" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(90.0 719.0 839.0436394200938)">1-1/2&quot;</text>
+<polyline points="757.0000,895.5000 757.0000,946.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1243.0000,895.5000 1243.0000,946.5000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="757.0000,940.5000 1243.0000,940.5000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="765.0000,943.0000 757.0000,940.5000 765.0000,938.0000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1235.0000,938.0000 1243.0000,940.5000 1235.0000,943.0000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1000.0" y="930.5" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">6-3/4&quot;</text>
+<polyline points="776.0447,740.8742 779.4818,742.4999 782.7814,744.3892 785.9232,746.5308 788.8879,748.9114 791.6575,751.5165 794.2149,754.3301 796.5446,757.3351 798.6322,760.5130 800.4650,763.8443 802.0317,767.3087 803.3228,770.8851 804.3304,774.5514 805.0483,778.2852 805.4721,782.0638 805.5992,785.8639 805.4289,789.6623 804.9621,793.4358 804.2017,797.1612 803.1525,800.8158 801.8208,804.3772 800.2147,807.8236 798.3441,811.1338 796.2205,814.2877 793.8568,817.2660 791.2675,820.0503 788.4684,822.6237 785.4768,824.9704 782.3108,827.0761 778.9900,828.9278 775.5345,830.5142 771.9656,831.8257 768.3051,832.8541 764.5754,833.5933 760.7993,834.0385 757.0000,834.1873" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="782.2077,746.5546 776.0447,740.8742 784.3455,742.0347" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="765.0917,836.3724 757.0000,834.1873 764.8961,831.3763" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="829.1133999164476" y="805.305211863902" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">156.9 DEG</text>
+<polyline points="864.9198,532.2131 867.4698,533.2153 870.0723,534.0722 872.7190,534.7811 875.4013,535.3397 878.1109,535.7462 880.8391,535.9994 883.5772,536.0985 886.3166,536.0430 889.0485,535.8333 891.7642,535.4700 894.4551,534.9542 897.1127,534.2876 899.7285,533.4723 902.2942,532.5109 904.8017,531.4064 907.2429,530.1623 909.6101,528.7827 911.8958,527.2718 914.0928,525.6346 916.1939,523.8761 918.1927,522.0020 920.0826,520.0183 921.8578,517.9312 923.5125,515.7474 925.0415,513.4738 926.4400,511.1176 927.7034,508.6864 928.8279,506.1878 929.8097,503.6299 930.6459,501.0206 931.3336,498.3684 931.8708,495.6817 932.2558,492.9690 932.4872,490.2388 932.5645,487.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="871.4510,537.4661 864.9198,532.2131 873.2799,532.8125" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="929.8399,495.4263 932.5645,487.5000 934.8380,495.5673" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="924.5491842058638" y="553.8990243414554" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">113.1 DEG</text>
+<text x="1800" y="300" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" text-anchor="start">PROFILE DATUM</text>
+<text x="1800" y="335" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">U = local length / END A</text>
+<text x="1800" y="364" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">V = local transverse axis</text>
+<text x="1800" y="415" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="600" text-anchor="start">MODEL-EXACT SLOPE CHECK</text>
+<text x="1800" y="452" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="600" text-anchor="start">EDGE 91869</text>
+<text x="1800" y="480" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">66.9 DEG TO U / 4.50000&quot;</text>
+<text x="1800" y="720" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="start">ALL OUTER STRAIGHT EDGES</text>
+<text x="1800" y="750" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Dimensioned at true face scale</text>
+<text x="66" y="1350" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="start">PROFILE SCALE 1:1 / ADJACENT-EDGE INCLUDED ANGLES SHOWN AT SLOPE ENDS</text>
+</svg>

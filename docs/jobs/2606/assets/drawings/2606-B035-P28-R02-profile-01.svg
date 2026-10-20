@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2448 1584" width="2448" height="1584"><rect width="100%" height="100%" fill="white"/>
+<polygon points="34.0000,34.0000 2414.0000,34.0000 2414.0000,1550.0000 34.0000,1550.0000" stroke="#b8cad8" stroke-width="1" fill="none"/>
+<text x="66" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" text-anchor="start">CALIPER / 2606</text>
+<text x="2382" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="end">2606-B035-P28 / PROFILE</text>
+<text x="66" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">HANGER</text>
+<text x="2382" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end">REVIEW 02 / 2026-10-20</text>
+<polyline points="34.0000,127.0000 2414.0000,127.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="172" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" text-anchor="start">cross bracing^26-0727 hanger asm top gusset</text>
+<text x="66" y="207" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">body-0320 / QTY 1 / TRUE FACE PLANE / PROFILE DETAIL 1 OF 1</text>
+<text x="66" y="1455" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">INCHES / FRACTIONS NEAREST 1/32 / ANGLES 0.1 DEG / NOT A MANUFACTURING TOLERANCE</text>
+<text x="66" y="1485" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Smaller included angles are between the two actual adjacent edges. Slope to U is the acute angle to the local length axis.</text>
+<text x="66" y="1515" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">Retain the accompanying R01 views for drilling, thickness, sections and release limitations. DO NOT SCALE.</text>
+<polygon points="75.0000,255.0000 1210.0000,255.0000 1210.0000,785.0000 75.0000,785.0000" stroke="#dbe5ed" stroke-width="0.8" fill="none"/>
+<text x="95" y="290" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="start">SLOPE EDGE 58068 / TRUE FACE / SCALE 2.284:1</text>
+<polyline points="260.0000,470.0000 1000.0000,470.0000" stroke="#536f85" stroke-width="1.5" fill="none"/>
+<polyline points="260.0000,473.0000 260.0000,581.0000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1000.0000,473.0000 1000.0000,581.0000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="260.0000,575.0000 1000.0000,575.0000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="268.0000,577.5000 260.0000,575.0000 268.0000,572.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="992.0000,572.5000 1000.0000,575.0000 992.0000,577.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="630.0" y="565.0" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">4-1/2&quot; TRUE EDGE</text>
+<polyline points="260.0000,470.0000 203.1795,336.5967" stroke="#536f85" stroke-width="1.3" fill="none"/>
+<polyline points="318.0000,470.0000 317.9078,466.7314 317.6316,463.4733 317.1722,460.2358 316.5311,457.0294 315.7103,453.8643 314.7124,450.7504 313.5407,447.6977 312.1988,444.7159 310.6909,441.8144 309.0220,439.0025 307.1972,436.2892 305.2225,433.6830 303.1040,431.1922 300.8485,428.8247 298.4632,426.5882 295.9556,424.4896 293.3337,422.5357 290.6059,420.7326 287.7808,419.0861 284.8675,417.6014 281.8750,416.2833 278.8131,415.1359 275.6914,414.1629 272.5197,413.3674 269.3083,412.7518 266.0674,412.3182 262.8071,412.0680 259.5379,412.0018 256.2702,412.1201 253.0143,412.4222 249.7806,412.9074 246.5794,413.5740 243.4209,414.4200 240.3151,415.4427 237.2718,416.6387" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="320.2735,461.9327 318.0000,470.0000 315.2755,462.0737" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="245.6319,416.0392 237.2718,416.6387 243.8030,411.3857" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="305.76809890604903" y="405.759252441022" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">113.1 DEG</text>
+<text x="95" y="645" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">A: U 0&quot; / V 1.7634&quot;</text>
+<polyline points="1000.0000,470.0000 1133.4033,413.1795" stroke="#536f85" stroke-width="1.3" fill="none"/>
+<polyline points="942.0000,470.0000 942.1775,465.4658 942.7089,460.9594 943.5910,456.5083 944.8184,452.1398 946.3835,447.8806 948.2767,443.7568 950.4866,439.7936 952.9995,436.0154 955.8001,432.4451 958.8713,429.1047 962.1941,426.0146 965.7484,423.1937 969.5124,420.6593 973.4629,418.4269 977.5758,416.5102 981.8261,414.9209 986.1875,413.6687 990.6335,412.7613 995.1368,412.2042 999.6699,412.0009 1004.2050,412.1526 1008.7144,412.6584 1013.1704,413.5151 1017.5459,414.7176 1021.8139,416.2584 1025.9484,418.1282 1029.9241,420.3155 1033.7166,422.8069 1037.3028,425.5871 1040.6606,428.6392 1043.7696,431.9444 1046.6106,435.4826 1049.1664,439.2320 1051.4212,443.1698 1053.3613,447.2718" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="944.8110,462.1039 942.0000,470.0000 939.8149,461.9083" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1052.2008,438.9710 1053.3613,447.2718 1047.6809,441.1088" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="983.4023309651046" y="393.6764647681369" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">156.9 DEG</text>
+<text x="95" y="670" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">B: U 4.1401&quot; / V 0&quot;</text>
+<text x="95" y="700" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="start">23.1 DEG TO LOCAL U / EXACT LENGTH 4.500000&quot;</text>
+<text x="95" y="732" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">Adjacent edges truncated for clarity; smaller included angles measured in the true face plane.</text>
+<text x="95" y="760" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">A/B are this detail edge endpoints; U/V retain the original part frame origin.</text>
+<polygon points="1265.0000,255.0000 2400.0000,255.0000 2400.0000,785.0000 1265.0000,785.0000" stroke="#dbe5ed" stroke-width="0.8" fill="none"/>
+<text x="1285" y="290" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" text-anchor="start">SLOPE EDGE 94007 / TRUE FACE / SCALE 19.380:1</text>
+<polyline points="1450.0000,470.0000 2190.0000,470.0000" stroke="#536f85" stroke-width="1.5" fill="none"/>
+<polyline points="1450.0000,473.0000 1450.0000,581.0000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="2190.0000,473.0000 2190.0000,581.0000" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1450.0000,575.0000 2190.0000,575.0000" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="1458.0000,577.5000 1450.0000,575.0000 1458.0000,572.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="2182.0000,572.5000 2190.0000,575.0000 2182.0000,577.5000" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1820.0" y="565.0" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">17/32&quot; TRUE EDGE</text>
+<polyline points="1450.0000,470.0000 1347.4695,367.4695" stroke="#536f85" stroke-width="1.3" fill="none"/>
+<polyline points="1508.0000,470.0000 1507.8686,466.0984 1507.4751,462.2145 1506.8212,458.3658 1505.9098,454.5699 1504.7452,450.8438 1503.3326,447.2045 1501.6784,443.6686 1499.7900,440.2518 1497.6761,436.9699 1495.3462,433.8376 1492.8109,430.8691 1490.0816,428.0779 1487.1708,425.4766 1484.0915,423.0770 1480.8579,420.8900 1477.4844,418.9255 1473.9864,417.1923 1470.3797,415.6984 1466.6808,414.4505 1462.9062,413.4542 1459.0732,412.7141 1455.1991,412.2335 1451.3014,412.0146 1447.3978,412.0584 1443.5061,412.3647 1439.6437,412.9321 1435.8283,413.7580 1432.0770,414.8387 1428.4070,416.1693 1424.8347,417.7438 1421.3765,419.5550 1418.0480,421.5948 1414.8642,423.8538 1411.8396,426.3219 1408.9878,428.9878" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1510.2294,461.9204 1508.0000,470.0000 1505.2322,462.0887" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1416.5391,425.3508 1408.9878,428.9878 1413.1246,421.6983" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1481.7627248863025" y="398.3179988015632" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">135.0 DEG</text>
+<text x="1285" y="645" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">A: U 5.625&quot; / V 5.25&quot;</text>
+<polyline points="2190.0000,470.0000 2292.5305,367.4695" stroke="#536f85" stroke-width="1.3" fill="none"/>
+<polyline points="2132.0000,470.0000 2132.1314,466.0984 2132.5249,462.2145 2133.1788,458.3658 2134.0902,454.5699 2135.2548,450.8438 2136.6674,447.2045 2138.3216,443.6686 2140.2100,440.2518 2142.3239,436.9699 2144.6538,433.8376 2147.1891,430.8691 2149.9184,428.0779 2152.8292,425.4766 2155.9085,423.0770 2159.1421,420.8900 2162.5156,418.9255 2166.0136,417.1923 2169.6203,415.6984 2173.3192,414.4505 2177.0938,413.4542 2180.9268,412.7141 2184.8009,412.2335 2188.6986,412.0146 2192.6022,412.0584 2196.4939,412.3647 2200.3563,412.9321 2204.1717,413.7580 2207.9230,414.8387 2211.5930,416.1693 2215.1653,417.7438 2218.6235,419.5550 2221.9520,421.5948 2225.1358,423.8538 2228.1604,426.3219 2231.0122,428.9878" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="2134.7678,462.0887 2132.0000,470.0000 2129.7706,461.9204" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="2226.8754,421.6983 2231.0122,428.9878 2223.4609,425.3508" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="2158.2372751136977" y="398.3179988015632" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="middle">135.0 DEG</text>
+<text x="1285" y="670" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">B: U 5.25&quot; / V 5.625&quot;</text>
+<text x="1285" y="700" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="600" text-anchor="start">45.0 DEG TO LOCAL U / EXACT LENGTH 0.530330&quot;</text>
+<text x="1285" y="732" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">Adjacent edges truncated for clarity; smaller included angles measured in the true face plane.</text>
+<text x="1285" y="760" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">A/B are this detail edge endpoints; U/V retain the original part frame origin.</text>
+</svg>

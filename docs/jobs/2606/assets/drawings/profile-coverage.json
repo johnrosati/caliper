@@ -1,0 +1,175 @@
+{
+  "affectedBodies": 28,
+  "slopes": 81,
+  "profilePages": 36,
+  "parts": [
+    {
+      "id": "body-0009",
+      "slopes": 10,
+      "profilePages": 3,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0010",
+      "slopes": 10,
+      "profilePages": 3,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0084",
+      "slopes": 2,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0085",
+      "slopes": 10,
+      "profilePages": 3,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0123",
+      "slopes": 12,
+      "profilePages": 3,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0164",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0165",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0331",
+      "slopes": 4,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0294",
+      "slopes": 4,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0298",
+      "slopes": 4,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0319",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": true
+    },
+    {
+      "id": "body-0320",
+      "slopes": 2,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0325",
+      "slopes": 4,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0329",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": true
+    },
+    {
+      "id": "body-0330",
+      "slopes": 2,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0250",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0255",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0259",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0266",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0284",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0285",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0286",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0287",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0288",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0289",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": false
+    },
+    {
+      "id": "body-0211",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": true
+    },
+    {
+      "id": "body-0212",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": true
+    },
+    {
+      "id": "body-0197",
+      "slopes": 1,
+      "profilePages": 1,
+      "allOuterEdgesDimensioned": true
+    }
+  ]
+}

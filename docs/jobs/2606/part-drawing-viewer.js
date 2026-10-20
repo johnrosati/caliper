@@ -6,7 +6,7 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   panel.setAttribute('aria-label', 'Part drawing preview');
   panel.innerHTML = `<div class="part-drawing-toolbar">
     <div class="part-drawing-label"><small>MODEL REVIEW · INCHES</small><strong></strong></div>
-    <div class="part-drawing-exports"><a download>PDF</a><a download>DXF</a></div>
+    <div class="part-drawing-exports"><button type="button" class="drawing-page" hidden>Views</button><a download>PDF</a><a download>DXF</a></div>
     <div class="part-drawing-zoom"><button type="button" aria-label="Zoom drawing out">−</button><button type="button" aria-label="Fit drawing">Fit</button><button type="button" aria-label="Zoom drawing in">+</button><button type="button" aria-label="Expand drawing">⤢</button></div>
   </div><div class="part-drawing-paper"><div class="part-drawing-sheet"><img alt="" draggable="false"></div></div>`;
   center.querySelector('.bucket-center-head').after(panel);
@@ -14,7 +14,20 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   const sheet = panel.querySelector('.part-drawing-sheet');
   const image = panel.querySelector('img');
   const [pdf, dxf] = panel.querySelectorAll('a');
-  let manifest = null, loading = null, current = null, zoom = 1;
+  let manifest = null, loading = null, current = null, zoom = 1, activeDrawing = null, pageIndex = 0;
+  const pageButton = panel.querySelector(".drawing-page");
+  function renderPage() {
+    const pages = [{ svg: activeDrawing.svg, dxf: activeDrawing.dxf }, ...(activeDrawing.profilePages || [])];
+    const page = pages[pageIndex];
+    image.src = new URL(page.svg, assetRoot).href;
+    image.alt = pageIndex ? `${activeDrawing.name}: true-plane profile with edge lengths and included angle arcs` : `${activeDrawing.name}: original part views`;
+    dxf.href = new URL(page.dxf, assetRoot).href; dxf.download = page.dxf;
+    pageButton.hidden = pages.length === 1;
+    pageButton.textContent = pageIndex ? `Profile ${pageIndex}/${pages.length - 1} · Next` : "Views · Next";
+    pageButton.setAttribute("aria-label", "Next drawing sheet");
+    paper.scrollTop = 0; paper.scrollLeft = 0; zoom = 1; requestAnimationFrame(layout);
+  }
+  pageButton.addEventListener("click", () => { pageIndex = (pageIndex + 1) % (1 + (activeDrawing.profilePages || []).length); renderPage(); });
   function entry(group, bucketId) {
     if (!manifest || !group) return null;
     return Object.values(manifest.drawings).find(d => (!bucketId || !d.bucketId || d.bucketId === bucketId) && d.instanceIds.length === group.ids.length && d.instanceIds.every(id => group.ids.includes(id))) || null;
@@ -43,7 +56,7 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
     if (!drawing) { hide(); return false; }
     panel.hidden = false; center.classList.add('drawing-mode');
     if (current !== drawing.mark) {
-      current = drawing.mark; zoom = 1;
+      current = drawing.mark; zoom = 1; activeDrawing = drawing; pageIndex = drawing.profilePages?.length ? 1 : 0;
       image.src = new URL(drawing.svg, assetRoot).href;
       image.alt = drawing.referenceOnly ? `${drawing.name}: reference geometry; ${drawing.limitation}` : `${drawing.name}: top, front, bottom, section and isometric drawing with dimensions`;
       panel.querySelector('.part-drawing-label strong').textContent = drawing.mark;
@@ -54,12 +67,12 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
         link.download = drawing[format];
         link.title = format === 'dxf' ? 'Download multi-view DXF drawing in inches' : 'Download vector PDF drawing';
       }
-      paper.scrollTop = 0; paper.scrollLeft = 0;
+      renderPage();
     }
     requestAnimationFrame(layout); return true;
   }
   function hide() { panel.hidden = true; panel.classList.remove('drawing-expanded'); center.classList.remove('drawing-mode'); expand.setAttribute('aria-label', 'Expand drawing'); }
-  const [less, fit, more, expand] = panel.querySelectorAll('button');
+  const [less, fit, more, expand] = panel.querySelectorAll('.part-drawing-zoom button');
   less.addEventListener('click', () => { zoom = Math.max(1, zoom - .5); layout(); });
   fit.addEventListener('click', () => { zoom = 1; layout(); paper.scrollTop = 0; paper.scrollLeft = 0; });
   more.addEventListener('click', () => { zoom = Math.min(5, zoom + .5); layout(); });

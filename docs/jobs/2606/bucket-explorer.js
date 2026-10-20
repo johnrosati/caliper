@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
 import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket2';
-import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261020-profile02';
+import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261020-stack03';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
 const cleanName = name => name.replace(/^26-\d+_/, '').replace(/JR_?/g, ' ').replace(/_/g, ' ').trim();

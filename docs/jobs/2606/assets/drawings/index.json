@@ -1,7 +1,7 @@
 {
   "sourceSha256": "4ab86f28c7f08ae02fe222ee0450457ec5cf508ba8a0bbe6c3103c38f33f0a76",
   "planSha256": "95a57a62ebc78d2881f7d64e416a8caf6f50c5308b7b174fb99ab88151a166fc",
-  "revision": "02",
+  "revision": "03",
   "review": true,
   "units": "inches",
   "fractionDenominator": 32,
@@ -175257,7 +175257,7 @@
       "features": []
     },
     "body-0211": {
-      "mark": "2606-B067-P03-R02",
+      "mark": "2606-B067-P03-R03",
       "name": "26-0729_og mount platesJR_knife plate - west",
       "bucketId": "2606-B067",
       "quantity": 6,
@@ -175269,9 +175269,9 @@
         "body-0225",
         "body-0226"
       ],
-      "svg": "2606-B067-P03-R01.svg",
-      "pdf": "2606-B067-P03-R02.pdf",
-      "dxf": "2606-B067-P03-R01.dxf",
+      "svg": "2606-B067-P03-R03.svg",
+      "pdf": "2606-B067-P03-R03.pdf",
+      "dxf": "2606-B067-P03-R03.dxf",
       "review": true,
       "referenceOnly": false,
       "limitation": null,
@@ -175369,13 +175369,7 @@
         "features": []
       },
       "features": [],
-      "profilePages": [
-        {
-          "svg": "2606-B067-P03-R02-profile-01.svg",
-          "pdf": "2606-B067-P03-R02-profile-01.pdf",
-          "dxf": "2606-B067-P03-R02-profile-01.dxf"
-        }
-      ],
+      "profilePages": [],
       "originalPdf": "2606-B067-P03-R01.pdf",
       "profileAudit": {
         "coverage": "all modeled outer straight slopes",
@@ -175412,10 +175406,11 @@
           }
         ],
         "allOuterEdgesDimensioned": true
-      }
+      },
+      "profileIntegrated": true
     },
     "body-0212": {
-      "mark": "2606-B067-P04-R02",
+      "mark": "2606-B067-P04-R03",
       "name": "26-0729_og mount platesJR_knife plate - south",
       "bucketId": "2606-B067",
       "quantity": 4,
@@ -175425,9 +175420,9 @@
         "body-0214",
         "body-0215"
       ],
-      "svg": "2606-B067-P04-R01.svg",
-      "pdf": "2606-B067-P04-R02.pdf",
-      "dxf": "2606-B067-P04-R01.dxf",
+      "svg": "2606-B067-P04-R03.svg",
+      "pdf": "2606-B067-P04-R03.pdf",
+      "dxf": "2606-B067-P04-R03.dxf",
       "review": true,
       "referenceOnly": false,
       "limitation": null,
@@ -175525,13 +175520,7 @@
         "features": []
       },
       "features": [],
-      "profilePages": [
-        {
-          "svg": "2606-B067-P04-R02-profile-01.svg",
-          "pdf": "2606-B067-P04-R02-profile-01.pdf",
-          "dxf": "2606-B067-P04-R02-profile-01.dxf"
-        }
-      ],
+      "profilePages": [],
       "originalPdf": "2606-B067-P04-R01.pdf",
       "profileAudit": {
         "coverage": "all modeled outer straight slopes",
@@ -175568,7 +175557,8 @@
           }
         ],
         "allOuterEdgesDimensioned": true
-      }
+      },
+      "profileIntegrated": true
     },
     "body-0216": {
       "mark": "2606-B067-P05-R01",
@@ -175907,7 +175897,7 @@
       "features": []
     },
     "body-0197": {
-      "mark": "2606-B066-P03-R02",
+      "mark": "2606-B066-P03-R03",
       "name": "26-0729_og mount platesJR_knife plate - south",
       "bucketId": "2606-B066",
       "quantity": 6,
@@ -175919,9 +175909,9 @@
         "body-0201",
         "body-0207"
       ],
-      "svg": "2606-B066-P03-R01.svg",
-      "pdf": "2606-B066-P03-R02.pdf",
-      "dxf": "2606-B066-P03-R01.dxf",
+      "svg": "2606-B066-P03-R03.svg",
+      "pdf": "2606-B066-P03-R03.pdf",
+      "dxf": "2606-B066-P03-R03.dxf",
       "review": true,
       "referenceOnly": false,
       "limitation": null,
@@ -176019,13 +176009,7 @@
         "features": []
       },
       "features": [],
-      "profilePages": [
-        {
-          "svg": "2606-B066-P03-R02-profile-01.svg",
-          "pdf": "2606-B066-P03-R02-profile-01.pdf",
-          "dxf": "2606-B066-P03-R02-profile-01.dxf"
-        }
-      ],
+      "profilePages": [],
       "originalPdf": "2606-B066-P03-R01.pdf",
       "profileAudit": {
         "coverage": "all modeled outer straight slopes",
@@ -176062,7 +176046,8 @@
           }
         ],
         "allOuterEdgesDimensioned": true
-      }
+      },
+      "profileIntegrated": true
     },
     "body-0202": {
       "mark": "2606-B066-P04-R01",
@@ -176949,133 +176934,133 @@
       "name": "TOP LH STRINGER \u00b7 SPLICE REVIEW",
       "uniqueBodies": 8,
       "quantity": 30,
-      "combinedPdf": "2606-TOP-LH-STRINGER-SPLICE-REVIEW-review-set-R02.pdf"
+      "combinedPdf": "2606-TOP-LH-STRINGER-SPLICE-REVIEW-review-set-R03.pdf"
     },
     {
       "id": "2606-B002",
       "name": "TOP RH STRINGER \u00b7 SPLICE REVIEW",
       "uniqueBodies": 8,
       "quantity": 30,
-      "combinedPdf": "2606-TOP-RH-STRINGER-SPLICE-REVIEW-review-set-R02.pdf"
+      "combinedPdf": "2606-TOP-RH-STRINGER-SPLICE-REVIEW-review-set-R03.pdf"
     },
     {
       "id": "2606-B003",
       "name": "BTM LH STRINGER \u00b7 SPLICE REVIEW",
       "uniqueBodies": 5,
       "quantity": 17,
-      "combinedPdf": "2606-BTM-LH-STRINGER-SPLICE-REVIEW-review-set-R02.pdf"
+      "combinedPdf": "2606-BTM-LH-STRINGER-SPLICE-REVIEW-review-set-R03.pdf"
     },
     {
       "id": "2606-B004",
       "name": "BTM RH STRINGER \u00b7 SPLICE REVIEW",
       "uniqueBodies": 3,
       "quantity": 3,
-      "combinedPdf": "2606-BTM-RH-STRINGER-SPLICE-REVIEW-review-set-R02.pdf"
+      "combinedPdf": "2606-BTM-RH-STRINGER-SPLICE-REVIEW-review-set-R03.pdf"
     },
     {
       "id": "2606-B005",
       "name": "Treads - TOP Run",
       "uniqueBodies": 8,
       "quantity": 54,
-      "combinedPdf": "2606-Treads-TOP-Run-review-set-R02.pdf"
+      "combinedPdf": "2606-Treads-TOP-Run-review-set-R03.pdf"
     },
     {
       "id": "2606-B018",
       "name": "Treads - BTM Run",
       "uniqueBodies": 6,
       "quantity": 32,
-      "combinedPdf": "2606-Treads-BTM-Run-review-set-R02.pdf"
+      "combinedPdf": "2606-Treads-BTM-Run-review-set-R03.pdf"
     },
     {
       "id": "2606-B025",
       "name": "TOP CONNECTION",
       "uniqueBodies": 1,
       "quantity": 4,
-      "combinedPdf": "2606-TOP-CONNECTION-review-set-R02.pdf"
+      "combinedPdf": "2606-TOP-CONNECTION-review-set-R03.pdf"
     },
     {
       "id": "2606-B026",
       "name": "BTM END CLOSURE",
       "uniqueBodies": 3,
       "quantity": 3,
-      "combinedPdf": "2606-BTM-END-CLOSURE-review-set-R02.pdf"
+      "combinedPdf": "2606-BTM-END-CLOSURE-review-set-R03.pdf"
     },
     {
       "id": "2606-B027",
       "name": "ML FRONT WEST",
       "uniqueBodies": 4,
       "quantity": 4,
-      "combinedPdf": "2606-ML-FRONT-WEST-review-set-R02.pdf"
+      "combinedPdf": "2606-ML-FRONT-WEST-review-set-R03.pdf"
     },
     {
       "id": "2606-B028",
       "name": "ML FRONT EAST",
       "uniqueBodies": 4,
       "quantity": 4,
-      "combinedPdf": "2606-ML-FRONT-EAST-review-set-R02.pdf"
+      "combinedPdf": "2606-ML-FRONT-EAST-review-set-R03.pdf"
     },
     {
       "id": "2606-B029",
       "name": "ML FRONT CENTER",
       "uniqueBodies": 8,
       "quantity": 8,
-      "combinedPdf": "2606-ML-FRONT-CENTER-review-set-R02.pdf"
+      "combinedPdf": "2606-ML-FRONT-CENTER-review-set-R03.pdf"
     },
     {
       "id": "2606-B030",
       "name": "ML BACK BEAM \u00b7 SPLICE REVIEW",
       "uniqueBodies": 4,
       "quantity": 4,
-      "combinedPdf": "2606-ML-BACK-BEAM-SPLICE-REVIEW-review-set-R02.pdf"
+      "combinedPdf": "2606-ML-BACK-BEAM-SPLICE-REVIEW-review-set-R03.pdf"
     },
     {
       "id": "2606-B032",
       "name": "ML DECK",
       "uniqueBodies": 3,
       "quantity": 3,
-      "combinedPdf": "2606-ML-DECK-review-set-R02.pdf"
+      "combinedPdf": "2606-ML-DECK-review-set-R03.pdf"
     },
     {
       "id": "2606-B035",
       "name": "HANGER",
       "uniqueBodies": 28,
       "quantity": 31,
-      "combinedPdf": "2606-HANGER-review-set-R02.pdf"
+      "combinedPdf": "2606-HANGER-review-set-R03.pdf"
     },
     {
       "id": "2606-B036",
       "name": "HANGER EAST",
       "uniqueBodies": 7,
       "quantity": 10,
-      "combinedPdf": "2606-HANGER-EAST-review-set-R02.pdf"
+      "combinedPdf": "2606-HANGER-EAST-review-set-R03.pdf"
     },
     {
       "id": "2606-B043",
       "name": "BASE CONNECTION",
       "uniqueBodies": 3,
       "quantity": 14,
-      "combinedPdf": "2606-BASE-CONNECTION-review-set-R02.pdf"
+      "combinedPdf": "2606-BASE-CONNECTION-review-set-R03.pdf"
     },
     {
       "id": "2606-B046",
       "name": "PLATFORM",
       "uniqueBodies": 30,
       "quantity": 44,
-      "combinedPdf": "2606-PLATFORM-review-set-R02.pdf"
+      "combinedPdf": "2606-PLATFORM-review-set-R03.pdf"
     },
     {
       "id": "2606-B067",
       "name": "OG WEST",
       "uniqueBodies": 5,
       "quantity": 22,
-      "combinedPdf": "2606-OG-WEST-review-set-R02.pdf"
+      "combinedPdf": "2606-OG-WEST-review-set-R03.pdf"
     },
     {
       "id": "2606-B066",
       "name": "OG SOUTH",
       "uniqueBodies": 5,
       "quantity": 29,
-      "combinedPdf": "2606-OG-SOUTH-review-set-R02.pdf"
+      "combinedPdf": "2606-OG-SOUTH-review-set-R03.pdf"
     }
   ],
   "excludedBuckets": [
@@ -177084,7 +177069,7 @@
       "reason": "Vendor supplied product; user excluded from fabrication drawings."
     }
   ],
-  "combinedPdf": "2606-all-buckets-review-set-R02.pdf",
+  "combinedPdf": "2606-all-buckets-review-set-R03.pdf",
   "revisionDate": "2026-10-20",
-  "revisionNote": "Added exact outer-slope edge lengths and adjacent-edge angle arcs; accompanying unchanged R01 sheets retain checked drilling and formed geometry."
+  "revisionNote": "Integrated knife-plate profile dimensions into the first sheet; viewer stacks remaining multi-sheet parts vertically."
 }

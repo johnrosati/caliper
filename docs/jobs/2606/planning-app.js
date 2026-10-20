@@ -340,7 +340,7 @@ function updateViewControls() {
   button.disabled = Boolean(isolatedBodyId);
   button.setAttribute('aria-pressed', String(Boolean(explosionScope)));
   document.getElementById('explode-distance-control').hidden = !explosionScope;
-  document.getElementById('show-all').hidden = !isolatedBucketId && !isolatedBodyId && !plan?.hiddenBuckets?.length;
+  document.getElementById('show-all').hidden = false;
   syncNudgeGizmo();
 }
 
@@ -970,6 +970,11 @@ function installPlanningUi() {
   document.getElementById('part-search').addEventListener('input', renderParts);
   document.getElementById('hide-hardware').addEventListener('change', renderParts);
   document.getElementById('clear-selection').addEventListener('click', () => { selectedIds.clear(); updateSelection(); });
+  document.getElementById('hide-all').addEventListener('click', () => {
+    plan.hiddenBuckets = plan.buckets.map(bucket => bucket.id);
+    savePlan();
+    setIsolation(null);
+  });
   document.getElementById('show-all').addEventListener('click', () => {
     plan.hiddenBuckets = [];
     savePlan();

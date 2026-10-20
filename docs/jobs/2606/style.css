@@ -77,8 +77,8 @@ main[hidden],#overview[hidden]{display:none}
 .overview-details-explode-control[hidden]{display:none}
 .overview-details-explode-control span{display:flex;justify-content:space-between;margin-bottom:5px;font-size:10px;font-weight:700}
 .overview-details-explode-control input{display:block;width:100%;margin:0;accent-color:#618967}
-#planning-sidebar #show-all{padding:4px 7px;border:1px solid #a8c0a8;border-radius:4px;background:#f8fbf5;color:#3b6747;font-size:10px;font-weight:800;letter-spacing:.02em}
-#planning-sidebar #show-all:hover{background:#e4f0de;border-color:#729c79}
+#planning-sidebar :is(#show-all,#hide-all){padding:4px 7px;border:1px solid #a8c0a8;border-radius:4px;background:#f8fbf5;color:#3b6747;font-size:10px;font-weight:800;letter-spacing:.02em}
+#planning-sidebar :is(#show-all,#hide-all):hover{background:#e4f0de;border-color:#729c79}
 #planning-sidebar{display:grid;grid-template-rows:auto auto auto auto auto minmax(72px,var(--bucket-track,1fr)) auto auto auto auto auto auto minmax(72px,var(--part-track,1fr)) auto auto;min-height:0;overflow:hidden}
 #planning-sidebar .bucket-list,#planning-sidebar .bucket-list:has(.bucket-details){height:auto;max-height:none;min-height:0;overflow:auto}
 #planning-sidebar .part-list{height:auto;min-height:0;overflow:auto}

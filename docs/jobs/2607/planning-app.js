@@ -1,4 +1,4 @@
-import { inBucket } from './bucket-membership.js?v=20261026-2607-easm02';
+import { inBucket } from './bucket-membership.js?v=20261026-2607-step2';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-easm02-buckets01';
-import { createOverview } from './bucket-overview.js?v=20261026-2607-easm02-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-step2-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-2607-step2-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -972,6 +972,30 @@ function installPlanningUi() {
     }
   }
   plan = JSON.parse(saved || JSON.stringify(report.initialPlan || {buckets:[],assignments:{}}));
+  // Revised STEP: preserve browser assignments for surviving stable IDs,
+  // seed only added bodies and drop bodies excluded from the refreshed model.
+  if (plan.sourceSha256 !== report.sourceSha256) {
+    const previous = plan;
+    plan = structuredClone(report.initialPlan);
+    const valid = new Set(report.bodies.map(body => body.id));
+    const added = new Set(report.refresh?.added || []);
+    const bucketIds = new Set(plan.buckets.map(bucket => bucket.id));
+    for (const bucket of previous.buckets || []) {
+      if (!bucketIds.has(bucket.id) && Object.entries(previous.assignments || {}).some(([id, bid]) => bid === bucket.id && valid.has(id))) {
+        plan.buckets.push(bucket); bucketIds.add(bucket.id);
+      } else if (bucketIds.has(bucket.id)) {
+        const target = plan.buckets.find(b => b.id === bucket.id);
+        target.name = bucket.name;
+        if (bucket.stage) target.stage = bucket.stage;
+      }
+    }
+    for (const [id, bid] of Object.entries(previous.assignments || {})) {
+      if (valid.has(id) && !added.has(id) && bucketIds.has(bid)) plan.assignments[id] = bid;
+    }
+    plan.hiddenBuckets = (previous.hiddenBuckets || []).filter(id => bucketIds.has(id));
+    plan.viewNudges = previous.viewNudges || {};
+    savePlan();
+  }
   // R03: consolidate landing components into MOD 3 / MOD 4 and number MOD 1–6.
   if (!plan.appliedMigrations?.includes('2607-six-modules-r03')) {
     const seed = report.initialPlan;
@@ -1101,11 +1125,11 @@ new ResizeObserver(resize).observe(container);
 async function load() {
   try {
     const [gltf, loadedReport] = await Promise.all([
-      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-easm02').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
-      fetch('./assets/step-manifest.json?v=20261026-2607-easm02', {cache:'no-store'}).then(r => r.json())
+      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-step2').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
+      fetch('./assets/step-manifest.json?v=20261026-2607-step2', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-easm02", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-step2", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

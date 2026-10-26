@@ -290,7 +290,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       addProperty('Source name', group.name);
       addProperty('Body IDs', group.ids.join(', '));
       addProperty('Assembly', [...new Set(bodies.map(body => body.assemblyPath?.join(' / ')).filter(Boolean))].join(' · '));
-      addProperty('Model units', report.units);
+      addProperty('Displayed dimensions', 'inches');
       const dimensions = [...new Set(bodies.map(body => body.installedBoundsInches?.map(value => value.toFixed(3)).join(' × ')).filter(Boolean))];
       if (dimensions.length) addProperty('Installed bounds · X × Y × Z (in)', dimensions.join(' · '));
       addProperty('Preview triangles', bodies.reduce((sum, body) => sum + (body.triangles || 0), 0).toLocaleString());

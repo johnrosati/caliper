@@ -21,3 +21,9 @@ body.bucket-mode .view-only-label{color:#91a1ad}
 #bucket-body-properties dt{color:#8194a5;font-weight:500}
 #bucket-body-properties dd{margin:0;color:#425d73;overflow-wrap:anywhere;white-space:pre-wrap}
 @media(max-width:680px){.bucket-focus-caption{flex-basis:210px;min-height:150px;max-height:40vh}#bucket-body-properties{grid-template-columns:95px minmax(0,1fr);gap:8px;font-size:10px}.bucket-center{min-height:620px}}
+
+.bucket-properties-resize{height:16px;flex:0 0 16px;display:flex;align-items:center;justify-content:center;cursor:ns-resize;touch-action:none;background:#f5f8fb;border-top:1px solid #dbe4ec;z-index:4;user-select:none}
+.bucket-properties-resize span{width:52px;height:4px;border-radius:4px;background:#a3b7c7;transition:background .15s,width .15s}
+.bucket-properties-resize:hover span,.bucket-properties-resize.dragging span{background:#527f9f;width:70px}
+.bucket-properties-resize:focus-visible{outline:2px solid #7294ae;outline-offset:-2px}
+.bucket-focus-caption{min-height:140px;max-height:none;resize:none;border-top:0}

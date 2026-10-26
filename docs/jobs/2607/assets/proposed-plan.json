@@ -2,7 +2,7 @@
   "job": "2607",
   "sourceSha256": "58241d08a40ea32baa098200a1a559eb81abe916eaa169e9877f4e8fce357dbe",
   "status": "proposed",
-  "revision": "2607-correct-R01",
+  "revision": "2607-ML-R02",
   "buckets": [
     {
       "id": "2607-B001",
@@ -75,18 +75,44 @@
       "requiresSpliceReview": false
     },
     {
-      "id": "2607-B006",
-      "name": "ML CROSS RIBS",
+      "id": "2607-B023",
+      "name": "ML MODULE 01 \u00b7 LOWER END",
       "proposal": true,
-      "kind": "landing fabrication kit",
-      "reason": "Cross ribs and far-end edge closure; proposed loose landing frame kit.",
+      "kind": "midlanding module ribs",
+      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
+      "elevatorFit": "unverified",
       "envelopeInches": [
-        146.75,
+        18.68,
+        9.4,
+        55.25
+      ]
+    },
+    {
+      "id": "2607-B006",
+      "name": "ML MODULE 02 \u00b7 CENTER",
+      "proposal": true,
+      "kind": "midlanding module ribs",
+      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
+      "envelopeInches": [
+        70.5,
         9.4,
         55.25
       ],
       "elevatorFit": "unverified",
       "requiresSpliceReview": false
+    },
+    {
+      "id": "2607-B024",
+      "name": "ML MODULE 03 \u00b7 UPPER END",
+      "proposal": true,
+      "kind": "midlanding module ribs",
+      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
+      "elevatorFit": "unverified",
+      "envelopeInches": [
+        57.56,
+        9.4,
+        55.25
+      ]
     },
     {
       "id": "2607-B007",
@@ -544,21 +570,21 @@
     "body-0261": "2607-B005",
     "body-0262": "2607-B005",
     "body-0263": "2607-B005",
-    "body-0099": "2607-B006",
+    "body-0099": "2607-B024",
     "body-0100": "2607-B006",
     "body-0101": "2607-B006",
-    "body-0102": "2607-B006",
-    "body-0103": "2607-B006",
-    "body-0104": "2607-B006",
+    "body-0102": "2607-B024",
+    "body-0103": "2607-B024",
+    "body-0104": "2607-B024",
     "body-0105": "2607-B006",
     "body-0106": "2607-B006",
     "body-0107": "2607-B006",
-    "body-0108": "2607-B006",
-    "body-0112": "2607-B006",
-    "body-0113": "2607-B006",
-    "body-0114": "2607-B006",
-    "body-0121": "2607-B006",
-    "body-0122": "2607-B006",
+    "body-0108": "2607-B023",
+    "body-0112": "2607-B023",
+    "body-0113": "2607-B023",
+    "body-0114": "2607-B023",
+    "body-0121": "2607-B024",
+    "body-0122": "2607-B024",
     "body-0109": "2607-B007",
     "body-0110": "2607-B007",
     "body-0111": "2607-B007",
@@ -693,5 +719,24 @@
     "body-0376": "2607-B022"
   },
   "hiddenBuckets": [],
-  "viewNudges": {}
+  "viewNudges": {},
+  "midlandingModuleSeams": {
+    "axis": "X",
+    "inches": [
+      -151.685,
+      -222.185
+    ],
+    "platePairs": [
+      [
+        "body-0107",
+        "body-0108"
+      ],
+      [
+        "body-0100",
+        "body-0102"
+      ]
+    ],
+    "numbering": "lower run toward upper run",
+    "scope": "ribs only; no geometry cut"
+  }
 }

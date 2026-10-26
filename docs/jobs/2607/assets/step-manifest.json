@@ -381,7 +381,24 @@
         55.0001,
         33.93465909091008,
         0.2500000000000143
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "01.2",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.67",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "01.2",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0023",
@@ -401,7 +418,24 @@
         55.0001,
         33.93465909091008,
         0.2500000000000121
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "01.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.67",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "01.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0024",
@@ -469,7 +503,24 @@
         55.0001,
         33.93465909091008,
         0.2500000000000143
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "01.6",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.67",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "01.6",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0028",
@@ -489,7 +540,24 @@
         22.249999999999996,
         0.5,
         18.750000000000007
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stair Base Plate",
+        "part number": "SBP-01",
+        "method": "waterjet",
+        "material": "0.5\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@STAIR BASE PLATE@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "STAIR BASE PLATE",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.5\" HRPO Steel"
     },
     {
       "id": "body-0029",
@@ -509,7 +577,24 @@
         4.4671899334412455,
         2.9795000000000003,
         4.500000000000003
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stair Base Tubes",
+        "part number": "SBP-02",
+        "method": "Stock Cut",
+        "material": "4.5\"OD x 0.5\" Wall CHS",
+        "finish": "none",
+        "weight": "\"SW-Mass@@STRUCTURAL TUBES@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "STRUCTURAL TUBES",
+        "match": "exact part/configuration name"
+      },
+      "material": "4.5\"OD x 0.5\" Wall CHS"
     },
     {
       "id": "body-0030",
@@ -529,7 +614,29 @@
         0.3748786310480292,
         3.0000000000000004,
         0.37329526610384073
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0031",
@@ -549,7 +656,24 @@
         44.143713300488905,
         29.275248110478564,
         3.0000000000000018
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0032",
@@ -1289,7 +1413,24 @@
         66.0001,
         51.33063208629639,
         0.24999999999999642
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "02.2",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.43",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "02.2",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0078",
@@ -1309,7 +1450,24 @@
         66.0001,
         51.33063208629639,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "02.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.48",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "02.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0079",
@@ -1329,7 +1487,24 @@
         66.0001,
         51.33063208629639,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "02.4",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "61.48",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "02.4",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0080",
@@ -1605,7 +1780,24 @@
         65.94670631525578,
         42.975320942329766,
         3.0000000000000018
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "10.66",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 02.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0097",
@@ -1625,7 +1817,24 @@
         65.94670631525578,
         42.975320942329766,
         3.0000000000000018
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "10.66",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 02.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0098",
@@ -2125,7 +2334,24 @@
         178.56249999999997,
         16.770972995386057,
         0.24999999999999642
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "03.2",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "125.62",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "03.2",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0129",
@@ -2145,7 +2371,24 @@
         147.8125,
         16.770972995386057,
         0.2500000000000065
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "03.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "104.07",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "03.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0130",
@@ -2165,7 +2408,24 @@
         147.8125,
         16.770972995386057,
         0.2500000000000065
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "03.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "104.07",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "03.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0131",
@@ -2265,7 +2525,24 @@
         178.56249999999997,
         16.770972995386057,
         0.24999999999999642
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "03.6",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "125.62",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "03.6",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0137",
@@ -2285,7 +2562,24 @@
         0.2500000000000143,
         10.26539152980177,
         1.5625000000000047
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger End Caps",
+        "part number": "SEC-01",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "",
+        "weight": "1.13",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_downhill ML stringer end capJR",
+        "configuration": "ML Extension Cap",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0138",
@@ -2305,7 +2599,24 @@
         0.2500000000000143,
         10.26539152980177,
         1.5625000000000047
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger End Caps",
+        "part number": "SEC-01",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "",
+        "weight": "1.13",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_downhill ML stringer end capJR",
+        "configuration": "ML Extension Cap",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0139",
@@ -2325,7 +2636,24 @@
         3.2499999999999716,
         8.999999999999996,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger Weld Tabs",
+        "part number": "SEC-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@ML Estension Weld Tabs@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "ML Estension Weld Tabs",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0140",
@@ -2345,7 +2673,24 @@
         3.2499999999999716,
         8.999999999999996,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger Weld Tabs",
+        "part number": "SEC-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@ML Estension Weld Tabs@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "ML Estension Weld Tabs",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0141",
@@ -2365,7 +2710,24 @@
         3.2499999999999716,
         8.999999999999996,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger Weld Tabs",
+        "part number": "SEC-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@ML Estension Weld Tabs@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "ML Estension Weld Tabs",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0142",
@@ -2385,7 +2747,24 @@
         3.2499999999999716,
         8.999999999999996,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer Outrigger Weld Tabs",
+        "part number": "SEC-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@ML Estension Weld Tabs@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "ML Estension Weld Tabs",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0143",
@@ -2405,7 +2784,24 @@
         44.14371330048889,
         29.275248110478557,
         3.0000000000000018
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0144",
@@ -2425,7 +2821,24 @@
         44.14371330048889,
         29.275248110478564,
         3.0000000000000018
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0145",
@@ -2973,7 +3386,24 @@
         0.2500000000000143,
         37.506768449932245,
         69.31260000000002
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "05.2",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "57.99",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "05.2",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0179",
@@ -2993,7 +3423,24 @@
         0.2500000000000143,
         37.506768449932245,
         69.31260000000002
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "05.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "58.35",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "05.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0180",
@@ -3013,7 +3460,24 @@
         0.2500000000000143,
         37.506768449932245,
         69.31260000000002
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "05.4",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "58.35",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "05.4",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0181",
@@ -3257,7 +3721,24 @@
         3.000000000000029,
         29.275248110478557,
         44.14371330048892
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0196",
@@ -3277,7 +3758,24 @@
         3.000000000000029,
         29.275248110478557,
         44.14371330048892
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0197",
@@ -4033,7 +4531,24 @@
         0.2500000000000143,
         51.33063208629638,
         68.24999999999996
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "06.2",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "69.07",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "06.2",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0244",
@@ -4053,7 +4568,24 @@
         0.2500000000000143,
         51.33063208629638,
         68.25000000000001
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "06.3",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "69.07",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "06.3",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0245",
@@ -4073,7 +4605,24 @@
         0.2500000000000143,
         51.33063208629638,
         68.25000000000001
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Stringer",
+        "part number": "06.4",
+        "method": "Waterjet",
+        "material": "0.25 in HRPO Steel",
+        "finish": "",
+        "weight": "69.07",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1021_structural stringerJR",
+        "configuration": "06.4",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25 in HRPO Steel"
     },
     {
       "id": "body-0246",
@@ -4381,7 +4930,23 @@
         0.3749999999999857,
         10.0,
         5.906249999999972
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "TOP Connection MNT Fin Stiffener Plate",
+        "part number": "MF01",
+        "method": "waterjet",
+        "material": "3/8\"THK HRPO STL Plate",
+        "finish": "none",
+        "weight": "6.09"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1022_top conn mount fin BJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "3/8\"THK HRPO STL Plate"
     },
     {
       "id": "body-0265",
@@ -4401,7 +4966,23 @@
         0.3749999999999857,
         10.0,
         5.906249999999989
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "TOP Connection MNT Fin Stiffener Plate",
+        "part number": "MF01",
+        "method": "waterjet",
+        "material": "3/8\"THK HRPO STL Plate",
+        "finish": "none",
+        "weight": "6.09"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1022_top conn mount fin BJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "3/8\"THK HRPO STL Plate"
     },
     {
       "id": "body-0266",
@@ -4421,7 +5002,23 @@
         0.3749999999999857,
         10.0,
         5.906249999999989
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "TOP Connection MNT Fin Stiffener Plate",
+        "part number": "MF01",
+        "method": "waterjet",
+        "material": "3/8\"THK HRPO STL Plate",
+        "finish": "none",
+        "weight": "6.09"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1022_top conn mount fin BJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "3/8\"THK HRPO STL Plate"
     },
     {
       "id": "body-0267",
@@ -4441,7 +5038,23 @@
         0.3749999999999857,
         10.0,
         5.906249999999989
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "TOP Connection MNT Fin Stiffener Plate",
+        "part number": "MF01",
+        "method": "waterjet",
+        "material": "3/8\"THK HRPO STL Plate",
+        "finish": "none",
+        "weight": "6.09"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1022_top conn mount fin BJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "3/8\"THK HRPO STL Plate"
     },
     {
       "id": "body-0268",
@@ -4461,7 +5074,24 @@
         3.000000000000029,
         29.275248110478557,
         44.14371330048889
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0269",
@@ -4481,7 +5111,24 @@
         3.000000000000029,
         29.275248110478557,
         44.143713300488905
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Cladding Support Tube - Lower",
+        "part number": "CS-01",
+        "method": "stock cut",
+        "material": "3\"x3\" Aluminum Tube",
+        "finish": "paint black",
+        "weight": "7.05",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-1026_CLADDING SUPPORTJR",
+        "configuration": "BTM Tube - 05.1",
+        "match": "exact part/configuration name"
+      },
+      "material": "3\"x3\" Aluminum Tube"
     },
     {
       "id": "body-0270",
@@ -4501,7 +5148,24 @@
         4.000000000000014,
         130.7175,
         3.9999999999999964
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "HSS Column",
+        "part number": "C-01",
+        "method": "Stock Fabrication ",
+        "material": "4\"X4\"X0.25\" HSS ",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@Default@26-0729_HSS COLUMN.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HSS COLUMNJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "4\"X4\"X0.25\" HSS "
     },
     {
       "id": "body-0271",
@@ -4521,7 +5185,24 @@
         10.0,
         0.37499999999999994,
         10.0
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Base Plate",
+        "part number": "CBP-01",
+        "method": "waterjet",
+        "material": "0.5\" HRPO Steel",
+        "finish": "",
+        "weight": "\"SW-Mass@@COLUMN BASE@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "COLUMN BASE",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.5\" HRPO Steel"
     },
     {
       "id": "body-0272",
@@ -4541,7 +5222,24 @@
         5.999999999999986,
         8.875000000000007,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Top",
+        "part number": "C-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATES TOP@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATES TOP",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0273",
@@ -4561,7 +5259,24 @@
         5.999999999999986,
         8.875000000000007,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Top",
+        "part number": "C-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATES TOP@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATES TOP",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0274",
@@ -4581,7 +5296,24 @@
         5.999999999999986,
         9.250000000000002,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Bottom",
+        "part number": "C-03",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATE BOT@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATE BOT",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0275",
@@ -4601,7 +5333,24 @@
         5.999999999999986,
         9.250000000000005,
         0.2500000000000904
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Bottom",
+        "part number": "C-03",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATE BOT@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATE BOT",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0276",
@@ -4621,7 +5370,27 @@
         0.6439958264617037,
         0.5999789495055708,
         5.4843749999999964
-      ]
+      ],
+      "customProperties": {
+        "Material: ": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Hex Head Screw",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92865A164",
+        "Description": "3/8\"-16 x 5.25\" Hex Bolt",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR",
+        "configuration": "92865A164",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0277",
@@ -4641,7 +5410,28 @@
         0.5625000000000143,
         0.6469084812531617,
         0.32812499999999645
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A031",
+        "Description": "3/8\"-16 Hex Nut",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR",
+        "configuration": "95462A031",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0278",
@@ -4661,7 +5451,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0279",
@@ -4681,7 +5490,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0280",
@@ -4701,7 +5529,27 @@
         1.3024340428166297,
         1.3119999999999994,
         0.0739999999999993
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Grade 8 Steel SAE Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 98023A119",
+        "Description": "5/8\" Washer",
+        "Notes2": "For Screw Size:  5/8\" ",
+        "Notes3": "Washer Thickness: 0.074in to 0.121in",
+        "Notes1": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR",
+        "configuration": "98023A119",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0281",
@@ -4721,7 +5569,27 @@
         1.3024340428166297,
         1.3119999999999994,
         0.0739999999999993
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Grade 8 Steel SAE Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 98023A119",
+        "Description": "5/8\" Washer",
+        "Notes2": "For Screw Size:  5/8\" ",
+        "Notes3": "Washer Thickness: 0.074in to 0.121in",
+        "Notes1": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR",
+        "configuration": "98023A119",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0282",
@@ -4741,7 +5609,28 @@
         1.0781808020890922,
         0.9375000000003637,
         0.5468750000002551
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A535",
+        "Description": "5/8\"-18 Hex Nut",
+        "Thread Size": "5/8\"-18",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A535_Zinc-Plated Medium-Strength Steel Hex Nut 0.625-18JR",
+        "configuration": "95462A535",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0283",
@@ -4761,7 +5650,27 @@
         0.6439958264617037,
         0.5999789495055708,
         5.4843749999999964
-      ]
+      ],
+      "customProperties": {
+        "Material: ": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Hex Head Screw",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92865A164",
+        "Description": "3/8\"-16 x 5.25\" Hex Bolt",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR",
+        "configuration": "92865A164",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0284",
@@ -4781,7 +5690,28 @@
         0.5625000000000143,
         0.6469084812531617,
         0.32812499999999645
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A031",
+        "Description": "3/8\"-16 Hex Nut",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR",
+        "configuration": "95462A031",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0285",
@@ -4801,7 +5731,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0286",
@@ -4821,7 +5770,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0287",
@@ -4841,7 +5809,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0288",
@@ -4861,7 +5851,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0289",
@@ -4881,7 +5893,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0290",
@@ -4901,7 +5935,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0291",
@@ -4921,7 +5977,24 @@
         4.000000000000014,
         130.7175,
         3.9999999999999964
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "HSS Column",
+        "part number": "C-01",
+        "method": "Stock Fabrication ",
+        "material": "4\"X4\"X0.25\" HSS ",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@Default@26-0729_HSS COLUMN.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HSS COLUMNJR",
+        "configuration": "Default",
+        "match": "exact part/configuration name"
+      },
+      "material": "4\"X4\"X0.25\" HSS "
     },
     {
       "id": "body-0292",
@@ -4941,7 +6014,24 @@
         10.0,
         0.37499999999999994,
         10.0
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Base Plate",
+        "part number": "CBP-01",
+        "method": "waterjet",
+        "material": "0.5\" HRPO Steel",
+        "finish": "",
+        "weight": "\"SW-Mass@@COLUMN BASE@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "COLUMN BASE",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.5\" HRPO Steel"
     },
     {
       "id": "body-0293",
@@ -4961,7 +6051,24 @@
         5.999999999999986,
         8.875000000000007,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Top",
+        "part number": "C-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATES TOP@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATES TOP",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0294",
@@ -4981,7 +6088,24 @@
         5.999999999999986,
         8.875000000000007,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Top",
+        "part number": "C-02",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATES TOP@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATES TOP",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0295",
@@ -5001,7 +6125,24 @@
         5.999999999999986,
         9.250000000000002,
         0.2500000000000009
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Bottom",
+        "part number": "C-03",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATE BOT@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATE BOT",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0296",
@@ -5021,7 +6162,24 @@
         5.999999999999986,
         9.250000000000005,
         0.2500000000000904
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Column Knife Plate - Bottom",
+        "part number": "C-03",
+        "method": "waterjet",
+        "material": "0.25\" HRPO Steel",
+        "finish": "Shop Prime",
+        "weight": "\"SW-Mass@@WALL POST KNIFE PLATE BOT@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "WALL POST KNIFE PLATE BOT",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.25\" HRPO Steel"
     },
     {
       "id": "body-0297",
@@ -5041,7 +6199,27 @@
         0.6439958264617037,
         0.5999789495055708,
         5.4843749999999964
-      ]
+      ],
+      "customProperties": {
+        "Material: ": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Hex Head Screw",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92865A164",
+        "Description": "3/8\"-16 x 5.25\" Hex Bolt",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR",
+        "configuration": "92865A164",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0298",
@@ -5061,7 +6239,28 @@
         0.5625000000000143,
         0.6469084812531617,
         0.32812499999999645
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A031",
+        "Description": "3/8\"-16 Hex Nut",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR",
+        "configuration": "95462A031",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0299",
@@ -5081,7 +6280,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0300",
@@ -5101,7 +6319,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0301",
@@ -5121,7 +6358,27 @@
         1.3024340428166297,
         1.3119999999999994,
         0.0739999999999993
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Grade 8 Steel SAE Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 98023A119",
+        "Description": "5/8\" Washer",
+        "Notes2": "For Screw Size:  5/8\" ",
+        "Notes3": "Washer Thickness: 0.074in to 0.121in",
+        "Notes1": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR",
+        "configuration": "98023A119",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0302",
@@ -5141,7 +6398,27 @@
         1.3024340428166297,
         1.3119999999999994,
         0.0739999999999993
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Grade 8 Steel SAE Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 98023A119",
+        "Description": "5/8\" Washer",
+        "Notes2": "For Screw Size:  5/8\" ",
+        "Notes3": "Washer Thickness: 0.074in to 0.121in",
+        "Notes1": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR",
+        "configuration": "98023A119",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0303",
@@ -5161,7 +6438,28 @@
         1.0781808020890922,
         0.9375000000003632,
         0.5468750000002551
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A535",
+        "Description": "5/8\"-18 Hex Nut",
+        "Thread Size": "5/8\"-18",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A535_Zinc-Plated Medium-Strength Steel Hex Nut 0.625-18JR",
+        "configuration": "95462A535",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0304",
@@ -5181,7 +6479,27 @@
         0.6439958264617037,
         0.5999789495055708,
         5.4843749999999964
-      ]
+      ],
+      "customProperties": {
+        "Material: ": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Hex Head Screw",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92865A164",
+        "Description": "3/8\"-16 x 5.25\" Hex Bolt",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR",
+        "configuration": "92865A164",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0305",
@@ -5201,7 +6519,28 @@
         0.5625000000000143,
         0.6469084812531617,
         0.32812499999999645
-      ]
+      ],
+      "customProperties": {
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Strength Steel Hex Nut",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 95462A031",
+        "Description": "3/8\"-16 Hex Nut",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR",
+        "configuration": "95462A031",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0306",
@@ -5221,7 +6560,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0307",
@@ -5241,7 +6599,26 @@
         0.8714407560615999,
         0.8745902847668037,
         0.04999999999999929
-      ]
+      ],
+      "customProperties": {
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Washer",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "MMC: 92141A615",
+        "Description": "Washer for 3/8\" Bolt",
+        "For Screw Size": "3/8\"",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "92141A615_18-8 Stainless Steel Washer 0.375inJR",
+        "configuration": "92141A615",
+        "match": "exact part/configuration name"
+      }
     },
     {
       "id": "body-0308",
@@ -5261,7 +6638,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0309",
@@ -5281,7 +6680,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0310",
@@ -5301,7 +6722,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0311",
@@ -5321,7 +6764,29 @@
         0.37226582778675665,
         2.9999999999999996,
         0.3750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0312",
@@ -5341,7 +6806,24 @@
         2.874999999999999,
         4.000000000000001,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0313",
@@ -5361,7 +6843,24 @@
         2.874999999999999,
         4.000000000000001,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0314",
@@ -5381,7 +6880,24 @@
         2.8749999999999947,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0315",
@@ -5401,7 +6917,24 @@
         2.8750000000000036,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0316",
@@ -5421,7 +6954,24 @@
         2.8750000000000036,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0317",
@@ -5441,7 +6991,24 @@
         2.8750000000000036,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0318",
@@ -5461,7 +7028,24 @@
         2.8750000000000036,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0319",
@@ -5481,7 +7065,24 @@
         2.874999999999986,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0320",
@@ -5501,7 +7102,24 @@
         2.874999999999986,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0321",
@@ -5521,7 +7139,24 @@
         2.874999999999986,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0322",
@@ -5541,7 +7176,24 @@
         2.874999999999986,
         4.000000000000005,
         2.874999999999999
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0323",
@@ -5561,7 +7213,24 @@
         2.874999999999986,
         4.000000000000005,
         2.874999999999999
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0324",
@@ -5581,7 +7250,24 @@
         2.874999999999986,
         4.000000000000005,
         2.874999999999999
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0325",
@@ -5601,7 +7287,24 @@
         2.874999999999986,
         4.000000000000014,
         2.8749999999999947
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0326",
@@ -5621,7 +7324,24 @@
         2.874999999999986,
         4.000000000000014,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0327",
@@ -5641,7 +7361,24 @@
         2.874999999999986,
         4.000000000000014,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0328",
@@ -5661,7 +7398,24 @@
         2.874999999999986,
         4.000000000000014,
         2.8749999999999947
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0329",
@@ -5681,7 +7435,24 @@
         8.000000000000002,
         0.37499999999999994,
         8.000000000000002
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Base Plate",
+        "part number": "HRP-01",
+        "method": "waterjet",
+        "material": "0.375\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@HR BASE PLATE@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "HR BASE PLATE",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.375\" HRPO Steel"
     },
     {
       "id": "body-0330",
@@ -5701,7 +7472,29 @@
         0.37487863104803143,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0331",
@@ -5721,7 +7514,29 @@
         0.3748786310480303,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0332",
@@ -5741,7 +7556,29 @@
         0.3748786310480303,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0333",
@@ -5761,7 +7598,29 @@
         0.37487863104803143,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0334",
@@ -5781,7 +7640,24 @@
         8.000000000000002,
         0.37499999999999994,
         8.000000000000002
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Base Plate",
+        "part number": "HRP-01",
+        "method": "waterjet",
+        "material": "0.375\" HRPO Steel",
+        "finish": "none",
+        "weight": "\"SW-Mass@@HR BASE PLATE@26-0729_PLATE.SLDPRT\"",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_PLATEJR",
+        "configuration": "HR BASE PLATE",
+        "match": "exact part/configuration name"
+      },
+      "material": "0.375\" HRPO Steel"
     },
     {
       "id": "body-0335",
@@ -5801,7 +7677,29 @@
         0.37487863104803143,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0336",
@@ -5821,7 +7719,29 @@
         0.3748786310480303,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0337",
@@ -5841,7 +7761,29 @@
         0.3748786310480303,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0338",
@@ -5861,7 +7803,29 @@
         0.37487863104803143,
         3.0000000000000004,
         0.37329526610383845
-      ]
+      ],
+      "customProperties": {
+        "Finished Material": "Steel",
+        "Material": "Steel",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2026 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc2": "Steel Threaded Rod",
+        "Desc3": "\u00a9 2026 McMaster-Carr Supply Company",
+        "Part Number": "HAS-E-55",
+        "Description": "3/8\" X 3\" Anchor Rod",
+        "Thread Size": "3/8\"-16",
+        "Notes1": "",
+        "Notes2": "",
+        "Notes3": ""
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR",
+        "configuration": "98750A066",
+        "match": "exact part/configuration name"
+      },
+      "material": "Steel"
     },
     {
       "id": "body-0339",
@@ -5881,7 +7845,24 @@
         2.8750000000000036,
         4.000000000000005,
         2.8750000000000036
-      ]
+      ],
+      "customProperties": {
+        "Description": "",
+        "description": "Handrail Post",
+        "part number": "HP01",
+        "method": "Stock Fabrication ",
+        "material": "304 Alloy Stainless",
+        "finish": "",
+        "weight": "3.36",
+        "Body Count": "0"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "26-0729_HR POSTJR",
+        "configuration": "HR SLEEVE",
+        "match": "exact part/configuration name"
+      },
+      "material": "304 Alloy Stainless"
     },
     {
       "id": "body-0340",
@@ -6125,7 +8106,26 @@
         2.385000000007294,
         2.3850000000072757,
         1.7700000000055713
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0355",
@@ -6145,7 +8145,26 @@
         2.385000000007258,
         1.7700000000055893,
         2.3850000000073055
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0356",
@@ -6165,7 +8184,26 @@
         2.385000000007294,
         1.7700000000055534,
         2.385000000007258
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0357",
@@ -6345,7 +8383,26 @@
         2.3850000000074014,
         1.7700000000055713,
         2.3850000000072313
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0368",
@@ -6365,7 +8422,26 @@
         2.385000000007509,
         1.7700000000055802,
         2.3850000000072042
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0369",
@@ -6385,7 +8461,26 @@
         2.385000000007294,
         1.7700000000055713,
         2.3850000000072757
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0370",
@@ -6405,7 +8500,26 @@
         2.385000000007258,
         2.420033205758502,
         2.6128077978581485
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0371",
@@ -6425,7 +8539,26 @@
         2.385000000007258,
         1.7700000000055713,
         2.385000000007294
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0372",
@@ -6445,7 +8578,26 @@
         2.385000000007294,
         2.420033205757974,
         2.6117134071113663
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0373",
@@ -6465,7 +8617,26 @@
         2.385000000007294,
         2.4200332057579916,
         2.611713407111384
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0374",
@@ -6485,7 +8656,26 @@
         2.385000000007294,
         2.4200332057587617,
         2.6117134071109187
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0375",
@@ -6505,7 +8695,26 @@
         2.385000000007258,
         2.385000000007294,
         1.7700000000055713
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     },
     {
       "id": "body-0376",
@@ -6525,7 +8734,33 @@
         2.385000000007294,
         2.3850000000072757,
         1.7700000000055713
-      ]
+      ],
+      "customProperties": {
+        "PartNo": "44605K116",
+        "Description": "Low-Pressure Pipe Fitting",
+        "Material": "Iron",
+        "Vendor": "McMaster-Carr Supply Company",
+        "Copyright": "\u00a9 2021 McMaster-Carr Supply Company",
+        "CAD Model Disclaimer and Terms of Use": "https://www.mcmaster.com/terms",
+        "Desc1": "Low-Pressure",
+        "Desc2": "Pipe Fitting",
+        "Desc3": "\u00a9 2021 McMaster-Carr Supply Company",
+        "Thread Note": "1 NPT Pipe Size, 11 1/2 Threads Per Inch, 0.68\" Thread Engagement"
+      },
+      "propertySource": {
+        "file": "26-0726_2607_INSTALLEDJR.EASM",
+        "part": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR",
+        "configuration": "44605K116",
+        "match": "exact part/configuration name"
+      },
+      "material": "Iron"
     }
-  ]
+  ],
+  "propertyExport": {
+    "file": "26-0726_2607_INSTALLEDJR.EASM",
+    "sha256": "5c2b84bd56aaa408a4d1fcd46682840184dbaa649f087b2508e56707d3d314d8",
+    "records": 146,
+    "matchedBodies": 121,
+    "unmatchedBodies": 256
+  }
 }

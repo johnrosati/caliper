@@ -268,15 +268,15 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     }
     details.replaceChildren();
     const addProperty = (label, value) => {
-      if (value === undefined || value === null || value === '') return;
+      if (value === undefined || value === null) return;
       const dt = document.createElement('dt'), dd = document.createElement('dd');
       dt.textContent = label;
-      dd.textContent = typeof value === 'object' ? JSON.stringify(value) : String(value);
+      dd.textContent = typeof value === 'object' ? JSON.stringify(value) : String(value || '(blank in source)');
       details.append(dt, dd);
     };
     if (group) {
       const bodies = report.bodies.filter(body => group.ids.includes(body.id));
-      addProperty('Material', [...new Set(bodies.map(body => body.material || body.customProperties?.Material || 'Not provided in STEP'))].join(' · '));
+      addProperty('Material', [...new Set(bodies.map(body => body.material || body.customProperties?.Material || 'Not available for this body'))].join(' · '));
       const properties = new Map();
       for (const body of bodies) {
         for (const [key, value] of Object.entries(body.customProperties || {})) {
@@ -285,7 +285,8 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
         }
       }
       for (const [key, values] of properties) addProperty(key, [...values].join(' · '));
-      addProperty('Custom properties', properties.size ? undefined : 'Not included in this STEP export');
+      addProperty('Custom properties', properties.size ? undefined : 'No verified property match for this body');
+      addProperty('Property source', [...new Set(bodies.map(body => body.propertySource ? `${body.propertySource.file} · ${body.propertySource.part} / ${body.propertySource.configuration}` : '').filter(Boolean))].join(' · ') || undefined);
       addProperty('Source name', group.name);
       addProperty('Body IDs', group.ids.join(', '));
       addProperty('Assembly', [...new Set(bodies.map(body => body.assemblyPath?.join(' / ')).filter(Boolean))].join(' · '));

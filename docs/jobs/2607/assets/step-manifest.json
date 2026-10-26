@@ -1,0 +1,4646 @@
+{
+  "job": "2607",
+  "sourceName": "26-0726_2607_INSTALLEDJR.STEP",
+  "sourceSha256": "58241d08a40ea32baa098200a1a559eb81abe916eaa169e9877f4e8fce357dbe",
+  "previousSourceSha256": null,
+  "refresh": null,
+  "format": "STEP AP214",
+  "units": "mm",
+  "conversionSeconds": 34.585,
+  "meshes": 377,
+  "triangles": 100344,
+  "assemblyNodes": 3,
+  "bodies": [
+    {
+      "id": "body-0000",
+      "name": "26-0724_STAIR ASMJR body 1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0001",
+      "name": "26-0724_STAIR ASMJR body 2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0002",
+      "name": "26-0724_STAIR ASMJR body 3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0003",
+      "name": "26-0724_STAIR ASMJR body 4",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0004",
+      "name": "26-0724_STAIR ASMJR body 5",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0005",
+      "name": "26-0724_STAIR ASMJR body 6",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0006",
+      "name": "26-0724_STAIR ASMJR body 7",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0007",
+      "name": "26-0724_STAIR ASMJR body 8",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0008",
+      "name": "26-0724_STAIR ASMJR body 9",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0009",
+      "name": "26-0724_STAIR ASMJR body 10",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0010",
+      "name": "26-0724_STAIR ASMJR body 11",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0011",
+      "name": "26-0724_STAIR ASMJR body 12",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0012",
+      "name": "26-0724_STAIR ASMJR body 13",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 196,
+      "color": null
+    },
+    {
+      "id": "body-0013",
+      "name": "26-0724_STAIR ASMJR body 14",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0014",
+      "name": "26-0724_STAIR ASMJR body 15",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0015",
+      "name": "26-0724_STAIR ASMJR body 16",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0016",
+      "name": "26-0724_STAIR ASMJR body 17",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0017",
+      "name": "26-0724_STAIR ASMJR body 18",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0018",
+      "name": "26-0724_STAIR ASMJR body 19",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0019",
+      "name": "26-0724_STAIR ASMJR body 20",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0020",
+      "name": "26-0724_STAIR ASMJR body 21",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0021",
+      "name": "26-0724_STAIR ASMJR body 22",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 216,
+      "color": null
+    },
+    {
+      "id": "body-0022",
+      "name": "26-1021_structural stringerJR_01.2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 216,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0023",
+      "name": "26-1021_structural stringerJR_01.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 216,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0024",
+      "name": "26-0724_STAIR ASMJR body 25",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0025",
+      "name": "26-0724_STAIR ASMJR body 26",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0026",
+      "name": "26-0724_STAIR ASMJR body 27",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 216,
+      "color": null
+    },
+    {
+      "id": "body-0027",
+      "name": "26-1021_structural stringerJR_01.6",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 216,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0028",
+      "name": "26-0729_PLATEJR_STAIR BASE PLATE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 228,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0029",
+      "name": "26-0729_PLATEJR_STRUCTURAL TUBES",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0030",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0031",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0032",
+      "name": "26-0724_STAIR ASMJR body 33",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0033",
+      "name": "26-0724_STAIR ASMJR body 34",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0034",
+      "name": "26-0724_STAIR ASMJR body 35",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0035",
+      "name": "26-0724_STAIR ASMJR body 36",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0036",
+      "name": "26-0724_STAIR ASMJR body 37",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0037",
+      "name": "26-0724_STAIR ASMJR body 38",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0038",
+      "name": "26-0724_STAIR ASMJR body 39",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0039",
+      "name": "26-0724_STAIR ASMJR body 40",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0040",
+      "name": "26-0724_STAIR ASMJR body 41",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0041",
+      "name": "26-0724_STAIR ASMJR body 42",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 196,
+      "color": null
+    },
+    {
+      "id": "body-0042",
+      "name": "26-0724_STAIR ASMJR body 43",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0043",
+      "name": "26-0724_STAIR ASMJR body 44",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0044",
+      "name": "26-0724_STAIR ASMJR body 45",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0045",
+      "name": "26-0724_STAIR ASMJR body 46",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0046",
+      "name": "26-0724_STAIR ASMJR body 47",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0047",
+      "name": "26-0724_STAIR ASMJR body 48",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0048",
+      "name": "26-0724_STAIR ASMJR body 49",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0049",
+      "name": "26-0724_STAIR ASMJR body 50",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0050",
+      "name": "26-0724_STAIR ASMJR body 51",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0051",
+      "name": "26-0724_STAIR ASMJR body 52",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0052",
+      "name": "26-0724_STAIR ASMJR body 53",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0053",
+      "name": "26-0724_STAIR ASMJR body 54",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0054",
+      "name": "26-0724_STAIR ASMJR body 55",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0055",
+      "name": "26-0724_STAIR ASMJR body 56",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0056",
+      "name": "26-0724_STAIR ASMJR body 57",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0057",
+      "name": "26-0724_STAIR ASMJR body 58",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0058",
+      "name": "26-0724_STAIR ASMJR body 59",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0059",
+      "name": "26-0724_STAIR ASMJR body 60",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0060",
+      "name": "26-0724_STAIR ASMJR body 61",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0061",
+      "name": "26-0724_STAIR ASMJR body 62",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 196,
+      "color": null
+    },
+    {
+      "id": "body-0062",
+      "name": "26-0724_STAIR ASMJR body 63",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0063",
+      "name": "26-0724_STAIR ASMJR body 64",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0064",
+      "name": "26-0724_STAIR ASMJR body 65",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2340,
+      "color": null
+    },
+    {
+      "id": "body-0065",
+      "name": "26-0724_STAIR ASMJR body 66",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0066",
+      "name": "26-0724_STAIR ASMJR body 67",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0067",
+      "name": "26-0724_STAIR ASMJR body 68",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0068",
+      "name": "26-0724_STAIR ASMJR body 69",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0069",
+      "name": "26-0724_STAIR ASMJR body 70",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0070",
+      "name": "26-0724_STAIR ASMJR body 71",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0071",
+      "name": "26-0724_STAIR ASMJR body 72",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0072",
+      "name": "26-0724_STAIR ASMJR body 73",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0073",
+      "name": "26-0724_STAIR ASMJR body 74",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0074",
+      "name": "26-0724_STAIR ASMJR body 75",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0075",
+      "name": "26-0724_STAIR ASMJR body 76",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0076",
+      "name": "26-0724_STAIR ASMJR body 77",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0077",
+      "name": "26-1021_structural stringerJR_02.2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 288,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0078",
+      "name": "26-1021_structural stringerJR_02.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0079",
+      "name": "26-1021_structural stringerJR_02.4",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0080",
+      "name": "26-0724_STAIR ASMJR body 81",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0081",
+      "name": "26-0724_STAIR ASMJR body 82",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0082",
+      "name": "26-0724_STAIR ASMJR body 83",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 288,
+      "color": null
+    },
+    {
+      "id": "body-0083",
+      "name": "26-0724_STAIR ASMJR body 84",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0084",
+      "name": "26-0724_STAIR ASMJR body 85",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0085",
+      "name": "26-0724_STAIR ASMJR body 86",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0086",
+      "name": "26-0724_STAIR ASMJR body 87",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0087",
+      "name": "26-0724_STAIR ASMJR body 88",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0088",
+      "name": "26-0724_STAIR ASMJR body 89",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0089",
+      "name": "26-0724_STAIR ASMJR body 90",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0090",
+      "name": "26-0724_STAIR ASMJR body 91",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0091",
+      "name": "26-0724_STAIR ASMJR body 92",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0092",
+      "name": "26-0724_STAIR ASMJR body 93",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0093",
+      "name": "26-0724_STAIR ASMJR body 94",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0094",
+      "name": "26-0724_STAIR ASMJR body 95",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0095",
+      "name": "26-0724_STAIR ASMJR body 96",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2700,
+      "color": null
+    },
+    {
+      "id": "body-0096",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 02.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0097",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 02.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0098",
+      "name": "26-0724_STAIR ASMJR body 99",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0099",
+      "name": "26-0724_STAIR ASMJR body 100",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0100",
+      "name": "26-0724_STAIR ASMJR body 101",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0101",
+      "name": "26-0724_STAIR ASMJR body 102",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0102",
+      "name": "26-0724_STAIR ASMJR body 103",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0103",
+      "name": "26-0724_STAIR ASMJR body 104",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0104",
+      "name": "26-0724_STAIR ASMJR body 105",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0105",
+      "name": "26-0724_STAIR ASMJR body 106",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0106",
+      "name": "26-0724_STAIR ASMJR body 107",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0107",
+      "name": "26-0724_STAIR ASMJR body 108",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0108",
+      "name": "26-0724_STAIR ASMJR body 109",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0109",
+      "name": "26-0724_STAIR ASMJR body 110",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0110",
+      "name": "26-0724_STAIR ASMJR body 111",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0111",
+      "name": "26-0724_STAIR ASMJR body 112",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0112",
+      "name": "26-0724_STAIR ASMJR body 113",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0113",
+      "name": "26-0724_STAIR ASMJR body 114",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0114",
+      "name": "26-0724_STAIR ASMJR body 115",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0115",
+      "name": "26-0724_STAIR ASMJR body 116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0116",
+      "name": "26-0724_STAIR ASMJR body 117",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0117",
+      "name": "26-0724_STAIR ASMJR body 118",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0118",
+      "name": "26-0724_STAIR ASMJR body 119",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0119",
+      "name": "26-0724_STAIR ASMJR body 120",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0120",
+      "name": "26-0724_STAIR ASMJR body 121",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0121",
+      "name": "26-0724_STAIR ASMJR body 122",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0122",
+      "name": "26-0724_STAIR ASMJR body 123",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0123",
+      "name": "26-0724_STAIR ASMJR body 124",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0124",
+      "name": "26-0724_STAIR ASMJR body 125",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0125",
+      "name": "26-0724_STAIR ASMJR body 126",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0126",
+      "name": "26-0724_STAIR ASMJR body 127",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 64,
+      "color": null
+    },
+    {
+      "id": "body-0127",
+      "name": "26-0724_STAIR ASMJR body 128",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0128",
+      "name": "26-1021_structural stringerJR_03.2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 72,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0129",
+      "name": "26-1021_structural stringerJR_03.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 48,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0130",
+      "name": "26-1021_structural stringerJR_03.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 48,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0131",
+      "name": "26-0724_STAIR ASMJR body 132",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0132",
+      "name": "26-0724_STAIR ASMJR body 133",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0133",
+      "name": "26-0724_STAIR ASMJR body 134",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0134",
+      "name": "26-0724_STAIR ASMJR body 135",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 72,
+      "color": null
+    },
+    {
+      "id": "body-0135",
+      "name": "26-0724_STAIR ASMJR body 136",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0136",
+      "name": "26-1021_structural stringerJR_03.6",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 72,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0137",
+      "name": "26-1021_downhill ML stringer end capJR_ML Extension Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0138",
+      "name": "26-1021_downhill ML stringer end capJR_ML Extension Cap",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0139",
+      "name": "26-0729_PLATEJR_ML Estension Weld Tabs",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0140",
+      "name": "26-0729_PLATEJR_ML Estension Weld Tabs",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0141",
+      "name": "26-0729_PLATEJR_ML Estension Weld Tabs",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0142",
+      "name": "26-0729_PLATEJR_ML Estension Weld Tabs",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0143",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0144",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0145",
+      "name": "26-0724_STAIR ASMJR body 146",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0146",
+      "name": "26-0724_STAIR ASMJR body 147",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0147",
+      "name": "26-0724_STAIR ASMJR body 148",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0148",
+      "name": "26-0724_STAIR ASMJR body 149",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0149",
+      "name": "26-0724_STAIR ASMJR body 150",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0150",
+      "name": "26-0724_STAIR ASMJR body 151",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0151",
+      "name": "26-0724_STAIR ASMJR body 152",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0152",
+      "name": "26-0724_STAIR ASMJR body 153",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0153",
+      "name": "26-0724_STAIR ASMJR body 154",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0154",
+      "name": "26-0724_STAIR ASMJR body 155",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0155",
+      "name": "26-0724_STAIR ASMJR body 156",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0156",
+      "name": "26-0724_STAIR ASMJR body 157",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0157",
+      "name": "26-0724_STAIR ASMJR body 158",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0158",
+      "name": "26-0724_STAIR ASMJR body 159",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0159",
+      "name": "26-0724_STAIR ASMJR body 160",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 196,
+      "color": null
+    },
+    {
+      "id": "body-0160",
+      "name": "26-0724_STAIR ASMJR body 161",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0161",
+      "name": "26-0724_STAIR ASMJR body 162",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0162",
+      "name": "26-0724_STAIR ASMJR body 163",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0163",
+      "name": "26-0724_STAIR ASMJR body 164",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0164",
+      "name": "26-0724_STAIR ASMJR body 165",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0165",
+      "name": "26-0724_STAIR ASMJR body 166",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0166",
+      "name": "26-0724_STAIR ASMJR body 167",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0167",
+      "name": "26-0724_STAIR ASMJR body 168",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2020,
+      "color": null
+    },
+    {
+      "id": "body-0168",
+      "name": "26-0724_STAIR ASMJR body 169",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0169",
+      "name": "26-0724_STAIR ASMJR body 170",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0170",
+      "name": "26-0724_STAIR ASMJR body 171",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0171",
+      "name": "26-0724_STAIR ASMJR body 172",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0172",
+      "name": "26-0724_STAIR ASMJR body 173",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0173",
+      "name": "26-0724_STAIR ASMJR body 174",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0174",
+      "name": "26-0724_STAIR ASMJR body 175",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0175",
+      "name": "26-0724_STAIR ASMJR body 176",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0176",
+      "name": "26-0724_STAIR ASMJR body 177",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 236,
+      "color": null
+    },
+    {
+      "id": "body-0177",
+      "name": "26-0724_STAIR ASMJR body 178",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 236,
+      "color": null
+    },
+    {
+      "id": "body-0178",
+      "name": "26-1021_structural stringerJR_05.2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 380,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0179",
+      "name": "26-1021_structural stringerJR_05.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 180,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0180",
+      "name": "26-1021_structural stringerJR_05.4",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 180,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0181",
+      "name": "26-0724_STAIR ASMJR body 182",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0182",
+      "name": "26-0724_STAIR ASMJR body 183",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0183",
+      "name": "26-0724_STAIR ASMJR body 184",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0184",
+      "name": "26-0724_STAIR ASMJR body 185",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0185",
+      "name": "26-0724_STAIR ASMJR body 186",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 380,
+      "color": null
+    },
+    {
+      "id": "body-0186",
+      "name": "26-0724_STAIR ASMJR body 187",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1780,
+      "color": null
+    },
+    {
+      "id": "body-0187",
+      "name": "26-0724_STAIR ASMJR body 188",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0188",
+      "name": "26-0724_STAIR ASMJR body 189",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0189",
+      "name": "26-0724_STAIR ASMJR body 190",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0190",
+      "name": "26-0724_STAIR ASMJR body 191",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0191",
+      "name": "26-0724_STAIR ASMJR body 192",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0192",
+      "name": "26-0724_STAIR ASMJR body 193",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0193",
+      "name": "26-0724_STAIR ASMJR body 194",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0194",
+      "name": "26-0724_STAIR ASMJR body 195",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0195",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0196",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0197",
+      "name": "26-0724_STAIR ASMJR body 198",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0198",
+      "name": "26-0724_STAIR ASMJR body 199",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0199",
+      "name": "26-0724_STAIR ASMJR body 200",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0200",
+      "name": "26-0724_STAIR ASMJR body 201",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0201",
+      "name": "26-0724_STAIR ASMJR body 202",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0202",
+      "name": "26-0724_STAIR ASMJR body 203",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0203",
+      "name": "26-0724_STAIR ASMJR body 204",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0204",
+      "name": "26-0724_STAIR ASMJR body 205",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0205",
+      "name": "26-0724_STAIR ASMJR body 206",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0206",
+      "name": "26-0724_STAIR ASMJR body 207",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0207",
+      "name": "26-0724_STAIR ASMJR body 208",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0208",
+      "name": "26-0724_STAIR ASMJR body 209",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0209",
+      "name": "26-0724_STAIR ASMJR body 210",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0210",
+      "name": "26-0724_STAIR ASMJR body 211",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0211",
+      "name": "26-0724_STAIR ASMJR body 212",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 196,
+      "color": null
+    },
+    {
+      "id": "body-0212",
+      "name": "26-0724_STAIR ASMJR body 213",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0213",
+      "name": "26-0724_STAIR ASMJR body 214",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0214",
+      "name": "26-0724_STAIR ASMJR body 215",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0215",
+      "name": "26-0724_STAIR ASMJR body 216",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0216",
+      "name": "26-0724_STAIR ASMJR body 217",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0217",
+      "name": "26-0724_STAIR ASMJR body 218",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0218",
+      "name": "26-0724_STAIR ASMJR body 219",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0219",
+      "name": "26-0724_STAIR ASMJR body 220",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0220",
+      "name": "26-0724_STAIR ASMJR body 221",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0221",
+      "name": "26-0724_STAIR ASMJR body 222",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0222",
+      "name": "26-0724_STAIR ASMJR body 223",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 60,
+      "color": null
+    },
+    {
+      "id": "body-0223",
+      "name": "26-0724_STAIR ASMJR body 224",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0224",
+      "name": "26-0724_STAIR ASMJR body 225",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0225",
+      "name": "26-0724_STAIR ASMJR body 226",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 156,
+      "color": null
+    },
+    {
+      "id": "body-0226",
+      "name": "26-0724_STAIR ASMJR body 227",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0227",
+      "name": "26-0724_STAIR ASMJR body 228",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1560,
+      "color": null
+    },
+    {
+      "id": "body-0228",
+      "name": "26-0724_STAIR ASMJR body 229",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0229",
+      "name": "26-0724_STAIR ASMJR body 230",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0230",
+      "name": "26-0724_STAIR ASMJR body 231",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0231",
+      "name": "26-0724_STAIR ASMJR body 232",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0232",
+      "name": "26-0724_STAIR ASMJR body 233",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0233",
+      "name": "26-0724_STAIR ASMJR body 234",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0234",
+      "name": "26-0724_STAIR ASMJR body 235",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0235",
+      "name": "26-0724_STAIR ASMJR body 236",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0236",
+      "name": "26-0724_STAIR ASMJR body 237",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0237",
+      "name": "26-0724_STAIR ASMJR body 238",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0238",
+      "name": "26-0724_STAIR ASMJR body 239",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0239",
+      "name": "26-0724_STAIR ASMJR body 240",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0240",
+      "name": "26-0724_STAIR ASMJR body 241",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0241",
+      "name": "26-0724_STAIR ASMJR body 242",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0242",
+      "name": "26-0724_STAIR ASMJR body 243",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0243",
+      "name": "26-1021_structural stringerJR_06.2",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 264,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0244",
+      "name": "26-1021_structural stringerJR_06.3",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 264,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0245",
+      "name": "26-1021_structural stringerJR_06.4",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 264,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0246",
+      "name": "26-0724_STAIR ASMJR body 247",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0247",
+      "name": "26-0724_STAIR ASMJR body 248",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 264,
+      "color": null
+    },
+    {
+      "id": "body-0248",
+      "name": "26-0724_STAIR ASMJR body 249",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0249",
+      "name": "26-0724_STAIR ASMJR body 250",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0250",
+      "name": "26-0724_STAIR ASMJR body 251",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0251",
+      "name": "26-0724_STAIR ASMJR body 252",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1560,
+      "color": null
+    },
+    {
+      "id": "body-0252",
+      "name": "26-0724_STAIR ASMJR body 253",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0253",
+      "name": "26-0724_STAIR ASMJR body 254",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0254",
+      "name": "26-0724_STAIR ASMJR body 255",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0255",
+      "name": "26-0724_STAIR ASMJR body 256",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0256",
+      "name": "26-0724_STAIR ASMJR body 257",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0257",
+      "name": "26-0724_STAIR ASMJR body 258",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0258",
+      "name": "26-0724_STAIR ASMJR body 259",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0259",
+      "name": "26-0724_STAIR ASMJR body 260",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0260",
+      "name": "26-0724_STAIR ASMJR body 261",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0261",
+      "name": "26-0724_STAIR ASMJR body 262",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 12,
+      "color": null
+    },
+    {
+      "id": "body-0262",
+      "name": "26-0724_STAIR ASMJR body 263",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0263",
+      "name": "26-0724_STAIR ASMJR body 264",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 44,
+      "color": null
+    },
+    {
+      "id": "body-0264",
+      "name": "26-1022_top conn mount fin BJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0265",
+      "name": "26-1022_top conn mount fin BJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0266",
+      "name": "26-1022_top conn mount fin BJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0267",
+      "name": "26-1022_top conn mount fin BJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 248,
+      "color": [
+        0.5647115111351013,
+        0.533276379108429,
+        0.5028864741325378
+      ]
+    },
+    {
+      "id": "body-0268",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0269",
+      "name": "26-1026_CLADDING SUPPORTJR_BTM Tube - 05.1",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 32,
+      "color": [
+        0.7230551242828369,
+        0.7230551242828369,
+        0.7681511640548706
+      ]
+    },
+    {
+      "id": "body-0270",
+      "name": "26-0729_HSS COLUMNJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 952,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0271",
+      "name": "26-0729_PLATEJR_COLUMN BASE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0272",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATES TOP",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0273",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATES TOP",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0274",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATE BOT",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0275",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATE BOT",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0276",
+      "name": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR_92865A164",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 364,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0277",
+      "name": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR_95462A031",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 888,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0278",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0279",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0280",
+      "name": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR_98023A119",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0281",
+      "name": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR_98023A119",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0282",
+      "name": "95462A535_Zinc-Plated Medium-Strength Steel Hex Nut 0.625-18JR_95462A535",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1016,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0283",
+      "name": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR_92865A164",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 364,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0284",
+      "name": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR_95462A031",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 888,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0285",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0286",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0287",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0288",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0289",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0290",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0291",
+      "name": "26-0729_HSS COLUMNJR",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 952,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0292",
+      "name": "26-0729_PLATEJR_COLUMN BASE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0293",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATES TOP",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0294",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATES TOP",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 244,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0295",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATE BOT",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0296",
+      "name": "26-0729_PLATEJR_WALL POST KNIFE PLATE BOT",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 120,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0297",
+      "name": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR_92865A164",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 364,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0298",
+      "name": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR_95462A031",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 888,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0299",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0300",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0301",
+      "name": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR_98023A119",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0302",
+      "name": "98023A119_Zinc Yellow-Chromate Plated Grade 8 Steel SAE Washer 0.625JR_98023A119",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0303",
+      "name": "95462A535_Zinc-Plated Medium-Strength Steel Hex Nut 0.625-18JR_95462A535",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1016,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0304",
+      "name": "92865A164_Medium-Strength Grade 5 Steel Hex Head Screw 0.375-16 x 5.25JR_92865A164",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 364,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0305",
+      "name": "95462A031_Zinc-Plated Medium-Strength Steel Hex Nut 0.375-16JR_95462A031",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 888,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0306",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0307",
+      "name": "92141A615_18-8 Stainless Steel Washer 0.375inJR_92141A615",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 832,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0308",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0309",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0310",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0311",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0312",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0313",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0314",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0315",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0316",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0317",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0318",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0319",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0320",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0321",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0322",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0323",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0324",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0325",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0326",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0327",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0328",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0329",
+      "name": "26-0729_PLATEJR_HR BASE PLATE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0330",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0331",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0332",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0333",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0334",
+      "name": "26-0729_PLATEJR_HR BASE PLATE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 444,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0335",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0336",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0337",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0338",
+      "name": "98750A066_Grade B7 Medium-Strength Steel Threaded Rod 0.375-16 x 3inJR_98750A066",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 204,
+      "color": [
+        0.5271151065826416,
+        0.5271151065826416,
+        0.5271151065826416
+      ]
+    },
+    {
+      "id": "body-0339",
+      "name": "26-0729_HR POSTJR_HR SLEEVE",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 28,
+      "color": [
+        0.5906188488006592,
+        0.637596845626831,
+        0.8549926280975342
+      ]
+    },
+    {
+      "id": "body-0340",
+      "name": "26-0724_STAIR ASMJR body 341",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0341",
+      "name": "26-0724_STAIR ASMJR body 342",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0342",
+      "name": "26-0724_STAIR ASMJR body 343",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0343",
+      "name": "26-0724_STAIR ASMJR body 344",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0344",
+      "name": "26-0724_STAIR ASMJR body 345",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0345",
+      "name": "26-0724_STAIR ASMJR body 346",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0346",
+      "name": "26-0724_STAIR ASMJR body 347",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0347",
+      "name": "26-0724_STAIR ASMJR body 348",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0348",
+      "name": "26-0724_STAIR ASMJR body 349",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0349",
+      "name": "26-0724_STAIR ASMJR body 350",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0350",
+      "name": "26-0724_STAIR ASMJR body 351",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0351",
+      "name": "26-0724_STAIR ASMJR body 352",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0352",
+      "name": "26-0724_STAIR ASMJR body 353",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0353",
+      "name": "26-0724_STAIR ASMJR body 354",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 208,
+      "color": null
+    },
+    {
+      "id": "body-0354",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0355",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0356",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0357",
+      "name": "26-0724_STAIR ASMJR body 358",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 5028,
+      "color": null
+    },
+    {
+      "id": "body-0358",
+      "name": "26-0724_STAIR ASMJR body 359",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 1192,
+      "color": null
+    },
+    {
+      "id": "body-0359",
+      "name": "26-0724_STAIR ASMJR body 360",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 732,
+      "color": null
+    },
+    {
+      "id": "body-0360",
+      "name": "26-0724_STAIR ASMJR body 361",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 896,
+      "color": null
+    },
+    {
+      "id": "body-0361",
+      "name": "26-0724_STAIR ASMJR body 362",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 896,
+      "color": null
+    },
+    {
+      "id": "body-0362",
+      "name": "26-0724_STAIR ASMJR body 363",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 896,
+      "color": null
+    },
+    {
+      "id": "body-0363",
+      "name": "26-0724_STAIR ASMJR body 364",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 800,
+      "color": null
+    },
+    {
+      "id": "body-0364",
+      "name": "26-0724_STAIR ASMJR body 365",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 848,
+      "color": null
+    },
+    {
+      "id": "body-0365",
+      "name": "26-0724_STAIR ASMJR body 366",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 848,
+      "color": null
+    },
+    {
+      "id": "body-0366",
+      "name": "26-0724_STAIR ASMJR body 367",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 920,
+      "color": null
+    },
+    {
+      "id": "body-0367",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0368",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0369",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0370",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0371",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0372",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0373",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0374",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0375",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    },
+    {
+      "id": "body-0376",
+      "name": "1.0_90 Deg Elbow Low-Pressure Iron Pipe FittingJR_44605K116",
+      "assemblyPath": [
+        "Assembly",
+        "26-0726_2607_INSTALLEDJR",
+        "26-0724_STAIR ASMJR"
+      ],
+      "triangles": 2612,
+      "color": [
+        0.05780543014407158,
+        0.05780543014407158,
+        0.05780543014407158
+      ]
+    }
+  ]
+}

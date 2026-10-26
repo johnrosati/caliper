@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2607 · Stair planning</title>
+  <link rel="stylesheet" href="./style.css?v=20261013-bucket2">
+  <link rel="stylesheet" href="./bucket-explorer.css?v=20261013-bucket3">
+  <link rel="stylesheet" href="./light-theme.css?v=20261013-light1">
+  <link rel="stylesheet" href="./part-drawing-viewer.css?v=20261020-stack03">
+  <script type="importmap">
+    {"imports":{"three":"../../vendor/three/three.module.js","three/addons/":"../../vendor/three/addons/"}}
+  </script>
+</head>
+<body>
+  <header>
+    <div class="project"><select aria-label="Job" onchange="location.href=this.value" style="font:inherit;font-weight:700;padding:6px;border:1px solid #ccd3db;border-radius:6px;background:white"><option value="../../">2605 · UMG</option><option value="../2606/">2606 · HPC</option><option value="./" selected>2607 · Centerbridge</option></select><span>Centerbridge stair · first-pass bucket draft</span></div>
+    <nav class="mode-toggle" aria-label="Viewer mode">
+      <button id="mode-planning" type="button" class="active" aria-pressed="true">Planning</button>
+      <button id="mode-overview" type="button" aria-pressed="false" disabled>Overview</button>
+      <button id="mode-bucket" type="button" aria-pressed="false" disabled>Bucket</button>
+    </nav>
+  </header>
+  <main id="planning-view">
+    <section class="viewport" aria-label="3D stair viewer">
+      <div id="canvas"></div>
+      <div class="orientation-widget" aria-label="View orientation">
+        <div id="orientation-cube" class="orientation-cube" title="Click a face to snap · Drag to orbit"></div>
+        <div class="orientation-views">
+          <button type="button" data-view="top" aria-label="Top view" title="Top">T</button>
+          <button type="button" data-view="front" aria-label="Front view" title="Front">F</button>
+          <button type="button" data-view="left" aria-label="Left view" title="Left">L</button>
+          <button type="button" data-view="right" aria-label="Right view" title="Right">R</button>
+          <button type="button" data-view="back" aria-label="Back view" title="Back">B</button>
+          <button type="button" data-view="bottom" aria-label="Bottom view" title="Bottom">D</button>
+        </div>
+      </div>
+      <div id="nudge-help" class="nudge-help" hidden><span>Drag X, Y, or Z to nudge</span><button id="reset-nudge" type="button">Reset nudge</button></div>
+      <div class="view-actions">
+        <button id="fit" type="button" aria-label="Fit model">FIT</button>
+        <button id="measure" type="button" aria-pressed="false">Measure</button>
+        <div class="explode-tool">
+          <button id="explode" type="button" aria-pressed="false">Explode</button>
+          <label id="explode-distance-control" class="explode-distance" hidden>
+            <span>Distance <output id="explode-distance-value" for="explode-distance">1.0×</output></span>
+            <input id="explode-distance" type="range" min="0" max="4" step="0.05" value="1" aria-label="Explode distance">
+          </label>
+        </div>
+      </div>
+      <div id="measure-panel" class="measure-panel" hidden>
+        <div class="measure-heading"><strong id="measure-title">Edge length</strong><span>Drag to move</span><button id="measure-clear" type="button" aria-label="Close edge measurement">×</button></div>
+        <div class="measure-value-wrap">
+          <input id="measure-value" type="text" readonly placeholder="Click an edge in the model" aria-label="Measured value">
+          <button id="measure-copy" type="button" disabled aria-label="Copy measurement" title="Copy measurement">
+            <svg class="copy-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="7" width="11" height="13" rx="1.5"/><path d="M5 16H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg>
+            <svg class="copy-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L19 7"/></svg>
+          </button>
+        </div>
+        <div id="measure-part" class="measure-part">Click one edge for length, then a second for distance.</div>
+      </div>
+      <div class="hint">Click parts to add or remove from selection <span>·</span> Drag to orbit <span>·</span> Scroll to zoom</div>
+      <div id="loading" class="loading">Preparing the stair…</div>
+    </section>
+    <div id="sidebar-width-resize" class="sidebar-width-resize" role="separator" tabindex="0" aria-label="Resize planning panel width" aria-orientation="vertical" title="Drag to widen the planning panel"><span></span></div>
+    <aside id="planning-sidebar" class="parts-collapsed">
+      <div class="stats"><span id="source">—</span><span id="triangles">—</span></div>
+      <div class="rule"></div>
+      <div class="bucket-create"><input id="bucket-name" class="input" type="text" placeholder="New bucket name" aria-label="New bucket name"><button id="add-bucket" type="button">Add</button></div>
+      <div class="bucket-assign"><select id="bucket-select" class="input" aria-label="Choose a bucket"><option value="">Choose a bucket</option></select><button id="assign-bucket" type="button">Assign selected</button></div>
+      <div class="section-heading"><h2>Work order buckets</h2><div class="bucket-heading-actions"><button id="show-all" type="button">SHOW ALL</button><button id="hide-all" type="button">HIDE ALL</button><span id="bucket-count">0</span></div></div>
+      <div id="bucket-list" class="bucket-list"></div>
+      <div id="bucket-list-resize" class="list-resize-handle" role="separator" tabindex="0" aria-label="Resize work order buckets and parts lists" aria-orientation="horizontal" title="Drag to resize the lists"><span></span></div>
+      <button id="export-plan" class="export-plan" type="button">Export bucket plan</button>
+      <div class="rule"></div>
+      <div class="section-heading"><h2><button id="toggle-parts" class="parts-heading-toggle" type="button" aria-expanded="false" aria-controls="part-search hardware-filter part-list part-list-resize selection-panel"><span class="parts-chevron" aria-hidden="true">▾</span>Parts and bodies</button></h2><div class="part-heading-actions"><button id="show-new-bodies" type="button" hidden></button><span id="part-count">—</span></div></div>
+      <input id="part-search" class="input" type="search" placeholder="Search names or assemblies" aria-label="Search parts and bodies">
+      <label id="hardware-filter" class="check-row"><input id="hide-hardware" type="checkbox" checked> Hide small hardware</label>
+      <div id="part-list" class="part-list" aria-label="Parts and bodies"></div>
+      <div id="part-list-resize" class="list-resize-handle" role="separator" tabindex="0" aria-label="Resize parts and bodies and work order buckets lists" aria-orientation="horizontal" title="Drag to resize the lists"><span></span></div>
+      <div id="selection-panel" class="selection"><strong id="selection-count">No parts selected</strong><button id="clear-selection" type="button">Clear</button></div>
+    </aside>
+  </main>
+  <section id="overview" aria-label="Bucket overview" hidden>
+    <canvas id="overview-canvas" aria-hidden="true"></canvas>
+    <div class="overview-content">
+      <div class="overview-toolbar">
+        <div><h1>Bucket overview</h1><span id="overview-count">0 buckets</span></div>
+        <label class="overview-distance">Explode <output id="overview-distance-value" for="overview-distance">0.0×</output>
+          <input id="overview-distance" type="range" min="0" max="4" step="0.05" value="0" aria-label="Explode all buckets">
+        </label>
+      </div>
+      <div id="overview-status-summary" class="overview-status-summary" aria-label="Bucket counts by work stage" aria-live="polite"></div>
+      <div id="overview-grid" class="overview-grid"></div>
+    </div>
+    <div id="overview-details-backdrop" class="overview-details-backdrop" hidden></div>
+    <aside id="overview-details" class="overview-details" role="dialog" aria-modal="true" aria-label="Bucket details" hidden>
+      <div class="overview-details-head">
+        <div class="overview-details-title-row"><div><span id="overview-details-id" class="overview-card-id"></span><h2 id="overview-details-name"></h2></div><button id="overview-details-tile" type="button" aria-pressed="false">TILE</button></div>
+        <div class="overview-details-head-actions">
+          <button id="overview-details-rename" class="overview-details-rename" type="button">Rename bucket</button>
+          <button id="overview-details-close" type="button" aria-label="Close bucket details">×</button>
+        </div>
+      </div>
+      <form id="overview-rename-form" class="overview-rename-form" hidden>
+        <input id="overview-rename-input" type="text" maxlength="100" aria-label="New bucket name">
+        <button type="submit">Save</button>
+        <button id="overview-rename-cancel" type="button">Cancel</button>
+      </form>
+      <div id="overview-details-stage" class="overview-details-stage" aria-label="Orbit view of selected bucket">
+        <button id="overview-details-fit" type="button">FIT</button>
+      </div>
+      <div class="overview-body-tools">
+        <span id="overview-selected-body">Select a body below to inspect it</span>
+        <button id="overview-body-isolate" type="button" disabled>Isolate</button>
+        <button id="overview-body-explode" type="button" aria-pressed="false">Explode</button>
+        <button id="overview-body-hide" class="visibility-eye" type="button" aria-label="Hide selected body" title="Hide selected body" disabled></button>
+        <button id="overview-body-show-all" type="button" hidden>Show all</button>
+      </div>
+      <label id="overview-details-explode-control" class="overview-details-explode-control" hidden>
+        <span>Distance <output id="overview-details-explode-value" for="overview-details-explode-distance">1.0×</output></span>
+        <input id="overview-details-explode-distance" type="range" min="0" max="4" step="0.05" value="1" aria-label="Bucket explode distance">
+      </label>
+      <div id="overview-details-count" class="overview-details-count"></div>
+      <ol id="overview-details-list" class="overview-details-list"></ol>
+      <div id="overview-details-tiles" class="overview-details-tiles" aria-label="Top views of bucket bodies" hidden></div>
+      <div id="overview-tile-focus" class="overview-tile-focus" hidden>
+        <div class="overview-focus-toolbar">
+          <button id="overview-tile-back" type="button">← Tiles</button>
+          <div class="overview-focus-title"><strong id="overview-focus-name"></strong><small id="overview-focus-id"></small></div>
+          <button id="overview-focus-fit" type="button">FIT</button>
+          <button id="overview-focus-measure" type="button" aria-pressed="false">Measure</button>
+        </div>
+        <div id="overview-focus-stage" class="overview-focus-stage" aria-label="Orbit view of selected body">
+          <div id="overview-focus-measure-panel" class="overview-focus-measure-panel" hidden>
+            <div class="overview-focus-measure-head"><strong id="overview-focus-measure-title">Edge length</strong><span>Drag to move</span><button id="overview-focus-measure-close" type="button" aria-label="Close measurement">×</button></div>
+            <div class="overview-focus-measure-value"><input id="overview-focus-measure-readout" type="text" readonly placeholder="Click an edge" aria-label="Measured value"><button id="overview-focus-measure-copy" type="button" aria-label="Copy measurement" title="Copy measurement" disabled>⧉</button></div>
+            <div id="overview-focus-measure-help">Click one edge for length, then a second for distance.</div>
+          </div>
+        </div>
+      </div>
+      <button id="overview-details-open" class="overview-details-open" type="button">Open in planning</button>
+    </aside>
+  </section>
+  <section id="bucket-view" aria-label="Bucket workspace" hidden>
+    <nav class="bucket-nav" aria-label="Work order buckets">
+      <div class="bucket-section-label">Work orders <span id="bucket-nav-count">00</span></div>
+      <div id="bucket-nav-list" class="bucket-nav-list"></div>
+      <div class="bucket-nav-footer">Drag the grip to reorder</div>
+    </nav>
+    <section class="bucket-center" aria-label="Selected bucket viewer">
+      <div class="bucket-center-head"><small id="bucket-view-id"></small><h1 id="bucket-view-name"></h1><p id="bucket-view-count"></p></div>
+      <div id="bucket-stage" class="bucket-stage" aria-label="Orbit view of selected work order"></div>
+      <div class="bucket-explode-bar"><button id="bucket-explode" type="button" aria-pressed="false">Explode</button><input id="bucket-distance" type="range" min="0" max="4" step="0.05" value="0" aria-label="Explode selected bucket"><output id="bucket-distance-value" for="bucket-distance">0.0×</output></div>
+      <div class="bucket-focus-caption" aria-live="polite"><span class="bucket-focus-dot"></span><div><strong id="bucket-focused-name"></strong><small id="bucket-focused-qty"></small></div></div>
+    </section>
+    <aside id="bucket-body-menu" class="bucket-body-menu" aria-label="Unique bodies" tabindex="0">
+      <div class="bucket-section-label">Unique bodies <span id="bucket-unique-count">00</span></div>
+      <div class="bucket-body-subtitle">Scroll or drag to explore</div>
+      <div id="bucket-wheel" class="bucket-wheel"></div><div id="bucket-wheel-empty" class="bucket-wheel-empty" hidden>Assign bodies to this bucket in Planning.</div>
+      <div class="bucket-wheel-controls"><button id="bucket-previous-body" type="button" aria-label="Previous unique body">↑</button><output id="bucket-wheel-position">00 / 00</output><button id="bucket-next-body" type="button" aria-label="Next unique body">↓</button></div>
+    </aside>
+  </section>
+  <script type="module" src="./planning-app.js?v=20261026-2607-correct01-buckets02"></script>
+</body>
+</html>

@@ -259,6 +259,41 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     document.getElementById('bucket-focused-name').textContent = group ? cleanName(group.name) : 'This bucket has no bodies';
     document.getElementById('bucket-focused-name').title = group?.name || '';
     document.getElementById('bucket-focused-qty').textContent = group ? `${group.ids.length} ${group.ids.length === 1 ? 'instance' : 'instances'} highlighted` : '';
+    let details = document.getElementById('bucket-body-properties');
+    if (!details) {
+      details = document.createElement('dl');
+      details.id = 'bucket-body-properties';
+      details.setAttribute('aria-label', 'Body properties');
+      document.getElementById('bucket-focused-qty').after(details);
+    }
+    details.replaceChildren();
+    const addProperty = (label, value) => {
+      if (value === undefined || value === null || value === '') return;
+      const dt = document.createElement('dt'), dd = document.createElement('dd');
+      dt.textContent = label;
+      dd.textContent = typeof value === 'object' ? JSON.stringify(value) : String(value);
+      details.append(dt, dd);
+    };
+    if (group) {
+      const bodies = report.bodies.filter(body => group.ids.includes(body.id));
+      addProperty('Material', [...new Set(bodies.map(body => body.material || body.customProperties?.Material || 'Not provided in STEP'))].join(' · '));
+      const properties = new Map();
+      for (const body of bodies) {
+        for (const [key, value] of Object.entries(body.customProperties || {})) {
+          if (!properties.has(key)) properties.set(key, new Set());
+          properties.get(key).add(typeof value === 'object' ? JSON.stringify(value) : String(value));
+        }
+      }
+      for (const [key, values] of properties) addProperty(key, [...values].join(' · '));
+      addProperty('Custom properties', properties.size ? undefined : 'Not included in this STEP export');
+      addProperty('Source name', group.name);
+      addProperty('Body IDs', group.ids.join(', '));
+      addProperty('Assembly', [...new Set(bodies.map(body => body.assemblyPath?.join(' / ')).filter(Boolean))].join(' · '));
+      addProperty('Model units', report.units);
+      const dimensions = [...new Set(bodies.map(body => body.installedBoundsInches?.map(value => value.toFixed(3)).join(' × ')).filter(Boolean))];
+      if (dimensions.length) addProperty('Installed bounds · X × Y × Z (in)', dimensions.join(' · '));
+      addProperty('Preview triangles', bodies.reduce((sum, body) => sum + (body.triangles || 0), 0).toLocaleString());
+    }
     document.getElementById('bucket-wheel-position').textContent = groups.length ? `${String(focusIndex + 1).padStart(2, '0')} / ${String(groups.length).padStart(2, '0')}` : '00 / 00';
     document.getElementById('bucket-wheel-empty').hidden = groups.length > 0;
     document.getElementById('bucket-previous-body').disabled = groups.length < 2;

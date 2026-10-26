@@ -20,7 +20,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.744099999999998,
+        0.25000000000000094,
+        18.25
+      ]
     },
     {
       "id": "body-0001",
@@ -31,7 +36,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.744099999999998,
+        0.25000000000000094,
+        18.25
+      ]
     },
     {
       "id": "body-0002",
@@ -42,7 +52,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.744099999999998,
+        0.25000000000000094,
+        18.25
+      ]
     },
     {
       "id": "body-0003",
@@ -53,7 +68,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999978,
+        6.1619318181818254,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0004",
@@ -64,7 +84,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999998,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0005",
@@ -75,7 +100,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000009,
+        13.07386363636364,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0006",
@@ -86,7 +116,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        0.24999999999999756,
+        18.25
+      ]
     },
     {
       "id": "body-0007",
@@ -97,7 +132,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        0.24999999999999756,
+        18.25
+      ]
     },
     {
       "id": "body-0008",
@@ -108,7 +148,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.0001,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0009",
@@ -119,7 +164,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0010",
@@ -130,7 +180,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0011",
@@ -141,7 +196,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.25000000000002776,
+        19.985795454545457,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0012",
@@ -152,7 +212,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 196,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999998,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0013",
@@ -163,7 +228,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.744100000000003,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0014",
@@ -174,7 +244,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.744100000000003,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0015",
@@ -185,7 +260,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000904,
+        26.897727272727277,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0016",
@@ -196,7 +276,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000100000000002,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0017",
@@ -207,7 +292,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000001486,
+        33.809659090909086,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0018",
@@ -218,7 +308,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999993,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0019",
@@ -229,7 +324,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        50.53941855278784,
+        31.673241476546046,
+        1.5625
+      ]
     },
     {
       "id": "body-0020",
@@ -240,7 +340,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        39.09212071538513,
+        24.480246735223506,
+        1.5625
+      ]
     },
     {
       "id": "body-0021",
@@ -251,7 +356,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 216,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.0001,
+        33.93465909091008,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0022",
@@ -266,6 +376,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        55.0001,
+        33.93465909091008,
+        0.2500000000000143
       ]
     },
     {
@@ -281,6 +396,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        55.0001,
+        33.93465909091008,
+        0.2500000000000121
       ]
     },
     {
@@ -292,7 +412,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        50.53941855278784,
+        31.673241476546046,
+        1.5625
+      ]
     },
     {
       "id": "body-0025",
@@ -303,7 +428,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        39.09212071538513,
+        24.480246735223506,
+        1.5625
+      ]
     },
     {
       "id": "body-0026",
@@ -314,7 +444,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 216,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.0001,
+        33.93465909091008,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0027",
@@ -329,6 +464,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        55.0001,
+        33.93465909091008,
+        0.2500000000000143
       ]
     },
     {
@@ -344,6 +484,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        22.249999999999996,
+        0.5,
+        18.750000000000007
       ]
     },
     {
@@ -359,6 +504,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        4.4671899334412455,
+        2.9795000000000003,
+        4.500000000000003
       ]
     },
     {
@@ -374,6 +524,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.3748786310480292,
+        3.0000000000000004,
+        0.37329526610384073
       ]
     },
     {
@@ -389,6 +544,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        44.143713300488905,
+        29.275248110478564,
+        3.0000000000000018
       ]
     },
     {
@@ -400,7 +560,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        16.64597299538606,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0033",
@@ -411,7 +576,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0034",
@@ -422,7 +592,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.25
+      ]
     },
     {
       "id": "body-0035",
@@ -433,7 +608,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.25
+      ]
     },
     {
       "id": "body-0036",
@@ -444,7 +624,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999993,
+        0.2500000000000009,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0037",
@@ -455,7 +640,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000054,
+        16.645972995386057,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0038",
@@ -466,7 +656,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497317,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0039",
@@ -477,7 +672,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0040",
@@ -488,7 +688,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0041",
@@ -499,7 +704,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 196,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999993,
+        0.2500000000000054,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0042",
@@ -510,7 +720,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        16.645972995386064,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0043",
@@ -521,7 +736,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0044",
@@ -532,7 +752,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.25
+      ]
     },
     {
       "id": "body-0045",
@@ -543,7 +768,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.7441,
+        6.879236609497313,
+        18.25
+      ]
     },
     {
       "id": "body-0046",
@@ -554,7 +784,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999993,
+        0.2500000000000054,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0047",
@@ -565,7 +800,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        16.64597299538606,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0048",
@@ -576,7 +816,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497308,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0049",
@@ -587,7 +832,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497308,
+        18.25
+      ]
     },
     {
       "id": "body-0050",
@@ -598,7 +848,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497308,
+        18.25
+      ]
     },
     {
       "id": "body-0051",
@@ -609,7 +864,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999984,
+        0.24999999999999642,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0052",
@@ -620,7 +880,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        16.64597299538606,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0053",
@@ -631,7 +896,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0054",
@@ -642,7 +912,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0055",
@@ -653,7 +928,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0056",
@@ -664,7 +944,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999984,
+        0.2500000000000054,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0057",
@@ -675,7 +960,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        16.64597299538605,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0058",
@@ -686,7 +976,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0059",
@@ -697,7 +992,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0060",
@@ -708,7 +1008,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.74409999999999,
+        6.879236609497317,
+        18.25
+      ]
     },
     {
       "id": "body-0061",
@@ -719,7 +1024,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 196,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.000099999999984,
+        0.2500000000000054,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0062",
@@ -730,7 +1040,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.13311041584322,
+        41.683333288667406,
+        1.5625
+      ]
     },
     {
       "id": "body-0063",
@@ -741,7 +1056,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.13311041584322,
+        41.68333328866739,
+        1.5625
+      ]
     },
     {
       "id": "body-0064",
@@ -752,7 +1072,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 2340,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.0001,
+        53.83063208629639,
+        0.2500000000000054
+      ]
     },
     {
       "id": "body-0065",
@@ -763,7 +1088,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181819,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0066",
@@ -774,7 +1104,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.2500000000000054,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0067",
@@ -785,7 +1120,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0068",
@@ -796,7 +1136,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.249999999999982,
+        0.2500000000000054,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0069",
@@ -807,7 +1152,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000054,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0070",
@@ -818,7 +1168,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0071",
@@ -829,7 +1184,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999997852,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0072",
@@ -840,7 +1200,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.249999999999991,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0073",
@@ -851,7 +1216,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181814,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0074",
@@ -862,7 +1232,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181814,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0075",
@@ -873,7 +1248,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0076",
@@ -884,7 +1264,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.2500000000000143,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0077",
@@ -899,6 +1284,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        66.0001,
+        51.33063208629639,
+        0.24999999999999642
       ]
     },
     {
@@ -914,6 +1304,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        66.0001,
+        51.33063208629639,
+        0.2500000000000009
       ]
     },
     {
@@ -929,6 +1324,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        66.0001,
+        51.33063208629639,
+        0.2500000000000009
       ]
     },
     {
@@ -940,7 +1340,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.13311041584322,
+        41.683333288667406,
+        1.5625
+      ]
     },
     {
       "id": "body-0081",
@@ -951,7 +1356,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.13311041584322,
+        41.68333328866739,
+        1.5625
+      ]
     },
     {
       "id": "body-0082",
@@ -962,7 +1372,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 288,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.0001,
+        51.33063208629639,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0083",
@@ -973,7 +1388,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181819,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0084",
@@ -984,7 +1404,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.2500000000000054,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0085",
@@ -995,7 +1420,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.25,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0086",
@@ -1006,7 +1436,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.249999999999982,
+        0.2500000000000054,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0087",
@@ -1017,7 +1452,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000054,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0088",
@@ -1028,7 +1468,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0089",
@@ -1039,7 +1484,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999997852,
+        6.661831818181823,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0090",
@@ -1050,7 +1500,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.249999999999991,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0091",
@@ -1061,7 +1516,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181814,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0092",
@@ -1072,7 +1532,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        6.661831818181814,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0093",
@@ -1083,7 +1548,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.250000000000018,
+        0.24999999999999642,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0094",
@@ -1094,7 +1564,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.250000000000018,
+        0.2500000000000143,
+        1.9999999999999982
+      ]
     },
     {
       "id": "body-0095",
@@ -1105,7 +1580,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 2700,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        66.0001,
+        53.83063208629639,
+        0.2500000000000054
+      ]
     },
     {
       "id": "body-0096",
@@ -1120,6 +1600,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        65.94670631525578,
+        42.975320942329766,
+        3.0000000000000018
       ]
     },
     {
@@ -1135,6 +1620,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        65.94670631525578,
+        42.975320942329766,
+        3.0000000000000018
       ]
     },
     {
@@ -1146,7 +1636,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.24999999999999642,
+        16.64597299538606,
+        55.74999999999999
+      ]
     },
     {
       "id": "body-0099",
@@ -1157,7 +1652,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25000000000001
+      ]
     },
     {
       "id": "body-0100",
@@ -1168,7 +1668,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0101",
@@ -1179,7 +1684,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0102",
@@ -1190,7 +1700,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0103",
@@ -1201,7 +1716,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0104",
@@ -1212,7 +1732,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0105",
@@ -1223,7 +1748,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0106",
@@ -1234,7 +1764,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0107",
@@ -1245,7 +1780,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0108",
@@ -1256,7 +1796,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0109",
@@ -1267,7 +1812,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        29.6875,
+        0.24999999999999642,
+        55.75000000000004
+      ]
     },
     {
       "id": "body-0110",
@@ -1278,7 +1828,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.2500000000000143,
+        80.81259999999997
+      ]
     },
     {
       "id": "body-0111",
@@ -1289,7 +1844,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        70.50000000000001,
+        0.24999999999999642,
+        55.750000000000036
+      ]
     },
     {
       "id": "body-0112",
@@ -1300,7 +1860,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0113",
@@ -1311,7 +1876,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0114",
@@ -1322,7 +1892,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        9.39797299818182,
+        55.25
+      ]
     },
     {
       "id": "body-0115",
@@ -1333,7 +1908,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        155.6815,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0116",
@@ -1344,7 +1924,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        155.6815,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0117",
@@ -1355,7 +1940,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        155.6815,
+        0.24999999999999642,
+        18.25
+      ]
     },
     {
       "id": "body-0118",
@@ -1366,7 +1956,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.095263663072167,
+        6.471535471133317,
+        18.25
+      ]
     },
     {
       "id": "body-0119",
@@ -1377,7 +1972,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.095263663072167,
+        6.471535471133317,
+        18.25
+      ]
     },
     {
       "id": "body-0120",
@@ -1388,7 +1988,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.095263663072167,
+        6.471535471133317,
+        18.250000000000004
+      ]
     },
     {
       "id": "body-0121",
@@ -1399,7 +2004,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8125000000000144,
+        0.24999999999999642,
+        55.25
+      ]
     },
     {
       "id": "body-0122",
@@ -1410,7 +2020,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        3.701200000000006,
+        55.25
+      ]
     },
     {
       "id": "body-0123",
@@ -1421,7 +2036,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.024972477824294,
+        7.05572492007234,
+        1.5625
+      ]
     },
     {
       "id": "body-0124",
@@ -1432,7 +2052,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        169.145596795506,
+        0.2500000000000233,
+        1.5625
+      ]
     },
     {
       "id": "body-0125",
@@ -1443,7 +2068,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        167.42053793801892,
+        0.2500000000000143,
+        1.5625
+      ]
     },
     {
       "id": "body-0126",
@@ -1454,7 +2084,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 64,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        178.56249999999997,
+        16.770972995386057,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0127",
@@ -1465,7 +2100,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        9.299913620337202,
+        5.9717713559540355,
+        1.5625
+      ]
     },
     {
       "id": "body-0128",
@@ -1480,6 +2120,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        178.56249999999997,
+        16.770972995386057,
+        0.24999999999999642
       ]
     },
     {
@@ -1495,6 +2140,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        147.8125,
+        16.770972995386057,
+        0.2500000000000065
       ]
     },
     {
@@ -1510,6 +2160,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        147.8125,
+        16.770972995386057,
+        0.2500000000000065
       ]
     },
     {
@@ -1521,7 +2176,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        11.024972477824294,
+        7.05572492007234,
+        1.5625
+      ]
     },
     {
       "id": "body-0132",
@@ -1532,7 +2192,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        169.145596795506,
+        0.2500000000000233,
+        1.5625
+      ]
     },
     {
       "id": "body-0133",
@@ -1543,7 +2208,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        167.42053793801892,
+        0.2500000000000143,
+        1.5625
+      ]
     },
     {
       "id": "body-0134",
@@ -1554,7 +2224,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 72,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        178.56249999999997,
+        16.770972995386057,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0135",
@@ -1565,7 +2240,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        9.299913620337202,
+        5.9717713559540355,
+        1.5625
+      ]
     },
     {
       "id": "body-0136",
@@ -1580,6 +2260,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        178.56249999999997,
+        16.770972995386057,
+        0.24999999999999642
       ]
     },
     {
@@ -1595,6 +2280,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        10.26539152980177,
+        1.5625000000000047
       ]
     },
     {
@@ -1610,6 +2300,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        10.26539152980177,
+        1.5625000000000047
       ]
     },
     {
@@ -1625,6 +2320,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        3.2499999999999716,
+        8.999999999999996,
+        0.2500000000000009
       ]
     },
     {
@@ -1640,6 +2340,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        3.2499999999999716,
+        8.999999999999996,
+        0.2500000000000009
       ]
     },
     {
@@ -1655,6 +2360,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        3.2499999999999716,
+        8.999999999999996,
+        0.2500000000000009
       ]
     },
     {
@@ -1670,6 +2380,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        3.2499999999999716,
+        8.999999999999996,
+        0.2500000000000009
       ]
     },
     {
@@ -1685,6 +2400,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        44.14371330048889,
+        29.275248110478557,
+        3.0000000000000018
       ]
     },
     {
@@ -1700,6 +2420,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        44.14371330048889,
+        29.275248110478564,
+        3.0000000000000018
       ]
     },
     {
@@ -1711,7 +2436,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0146",
@@ -1722,7 +2452,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0147",
@@ -1733,7 +2468,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0148",
@@ -1744,7 +2484,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0149",
@@ -1755,7 +2500,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.2500000000000143,
+        11.000099999999993
+      ]
     },
     {
       "id": "body-0150",
@@ -1766,7 +2516,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0151",
@@ -1777,7 +2532,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0152",
@@ -1788,7 +2548,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0153",
@@ -1799,7 +2564,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0154",
@@ -1810,7 +2580,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        11.000099999999993
+      ]
     },
     {
       "id": "body-0155",
@@ -1821,7 +2596,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.2500000000000054
+      ]
     },
     {
       "id": "body-0156",
@@ -1832,7 +2612,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0157",
@@ -1843,7 +2628,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0158",
@@ -1854,7 +2644,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.7441
+      ]
     },
     {
       "id": "body-0159",
@@ -1865,7 +2660,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 196,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        11.000099999999993
+      ]
     },
     {
       "id": "body-0160",
@@ -1876,7 +2676,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0161",
@@ -1887,7 +2692,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0162",
@@ -1898,7 +2708,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0163",
@@ -1909,7 +2724,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0164",
@@ -1920,7 +2740,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.2500000000000143,
+        11.000099999999984
+      ]
     },
     {
       "id": "body-0165",
@@ -1931,7 +2756,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.2500000000000054,
+        23.081540483573345
+      ]
     },
     {
       "id": "body-0166",
@@ -1942,7 +2772,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.2500000000000054,
+        25.132436769968425
+      ]
     },
     {
       "id": "body-0167",
@@ -1953,7 +2788,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 2020,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        40.006768449932245,
+        69.31260000000002
+      ]
     },
     {
       "id": "body-0168",
@@ -1964,7 +2804,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0169",
@@ -1975,7 +2820,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0170",
@@ -1986,7 +2836,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0171",
@@ -1997,7 +2852,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.249999999999982
+      ]
     },
     {
       "id": "body-0172",
@@ -2008,7 +2868,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0173",
@@ -2019,7 +2884,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181814,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0174",
@@ -2030,7 +2900,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0175",
@@ -2041,7 +2916,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.249999999999991
+      ]
     },
     {
       "id": "body-0176",
@@ -2052,7 +2932,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 236,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8125000000000144,
+        29.190542575473078,
+        46.25144759566713
+      ]
     },
     {
       "id": "body-0177",
@@ -2063,7 +2948,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 236,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8125000000000144,
+        27.889035638078617,
+        44.180163230031575
+      ]
     },
     {
       "id": "body-0178",
@@ -2078,6 +2968,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        37.506768449932245,
+        69.31260000000002
       ]
     },
     {
@@ -2093,6 +2988,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        37.506768449932245,
+        69.31260000000002
       ]
     },
     {
@@ -2108,6 +3008,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        37.506768449932245,
+        69.31260000000002
       ]
     },
     {
@@ -2119,7 +3024,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.2500000000000054,
+        23.081540483573345
+      ]
     },
     {
       "id": "body-0182",
@@ -2130,7 +3040,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.2500000000000054,
+        25.132436769968425
+      ]
     },
     {
       "id": "body-0183",
@@ -2141,7 +3056,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        29.190542575473078,
+        46.25144759566713
+      ]
     },
     {
       "id": "body-0184",
@@ -2152,7 +3072,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        27.889035638078617,
+        44.180163230031575
+      ]
     },
     {
       "id": "body-0185",
@@ -2163,7 +3088,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 380,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        37.506768449932245,
+        69.31260000000002
+      ]
     },
     {
       "id": "body-0186",
@@ -2174,7 +3104,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 1780,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        40.006768449932245,
+        69.31260000000002
+      ]
     },
     {
       "id": "body-0187",
@@ -2185,7 +3120,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0188",
@@ -2196,7 +3136,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0189",
@@ -2207,7 +3152,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0190",
@@ -2218,7 +3168,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.249999999999982
+      ]
     },
     {
       "id": "body-0191",
@@ -2229,7 +3184,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0192",
@@ -2240,7 +3200,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181814,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0193",
@@ -2251,7 +3216,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0194",
@@ -2262,7 +3232,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        2.000000000000007,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0195",
@@ -2277,6 +3252,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        3.000000000000029,
+        29.275248110478557,
+        44.14371330048892
       ]
     },
     {
@@ -2292,6 +3272,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        3.000000000000029,
+        29.275248110478557,
+        44.14371330048892
       ]
     },
     {
@@ -2303,7 +3288,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0198",
@@ -2314,7 +3304,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0199",
@@ -2325,7 +3320,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0200",
@@ -2336,7 +3336,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0201",
@@ -2347,7 +3352,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.2500000000000143,
+        11.000100000000002
+      ]
     },
     {
       "id": "body-0202",
@@ -2358,7 +3368,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0203",
@@ -2369,7 +3384,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0204",
@@ -2380,7 +3400,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0205",
@@ -2391,7 +3416,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0206",
@@ -2402,7 +3432,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        11.000100000000002
+      ]
     },
     {
       "id": "body-0207",
@@ -2413,7 +3448,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0208",
@@ -2424,7 +3464,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0209",
@@ -2435,7 +3480,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0210",
@@ -2446,7 +3496,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0211",
@@ -2457,7 +3512,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 196,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        11.000100000000002
+      ]
     },
     {
       "id": "body-0212",
@@ -2468,7 +3528,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0213",
@@ -2479,7 +3544,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0214",
@@ -2490,7 +3560,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0215",
@@ -2501,7 +3576,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0216",
@@ -2512,7 +3592,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.2500000000000143,
+        11.000100000000002
+      ]
     },
     {
       "id": "body-0217",
@@ -2523,7 +3608,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        16.64597299538606,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0218",
@@ -2534,7 +3624,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.74409999999999
+      ]
     },
     {
       "id": "body-0219",
@@ -2545,7 +3640,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0220",
@@ -2556,7 +3656,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.24999999999997,
+        6.879236609497317,
+        10.744100000000008
+      ]
     },
     {
       "id": "body-0221",
@@ -2567,7 +3672,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        11.000100000000002
+      ]
     },
     {
       "id": "body-0222",
@@ -2578,7 +3688,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 60,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        19.875828395386073,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0223",
@@ -2589,7 +3704,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        0.24999999999999642,
+        13.18149999999999
+      ]
     },
     {
       "id": "body-0224",
@@ -2600,7 +3720,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        18.250000000000007,
+        0.24999999999999642,
+        13.18149999999999
+      ]
     },
     {
       "id": "body-0225",
@@ -2611,7 +3736,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 156,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        55.74999999999997,
+        0.24999999999999642,
+        13.4375
+      ]
     },
     {
       "id": "body-0226",
@@ -2622,7 +3752,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        41.61538401098145,
+        66.02497247782433
+      ]
     },
     {
       "id": "body-0227",
@@ -2633,7 +3768,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 1560,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.24999999999996
+      ]
     },
     {
       "id": "body-0228",
@@ -2644,7 +3784,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.24999999999999642,
+        3.833096795506065
+      ]
     },
     {
       "id": "body-0229",
@@ -2655,7 +3800,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.24999999999999642,
+        2.1080379380188297
+      ]
     },
     {
       "id": "body-0230",
@@ -2666,7 +3816,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        40.531430446863084,
+        64.2999136203371
+      ]
     },
     {
       "id": "body-0231",
@@ -2677,7 +3832,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0232",
@@ -2688,7 +3848,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0233",
@@ -2699,7 +3864,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.249999999999982
+      ]
     },
     {
       "id": "body-0234",
@@ -2710,7 +3880,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0235",
@@ -2721,7 +3896,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0236",
@@ -2732,7 +3912,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0237",
@@ -2743,7 +3928,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181832,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0238",
@@ -2754,7 +3944,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0239",
@@ -2765,7 +3960,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181796,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0240",
@@ -2776,7 +3976,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0241",
@@ -2787,7 +3992,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0242",
@@ -2798,7 +4008,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.2500000000000143,
+        11.249999999999964
+      ]
     },
     {
       "id": "body-0243",
@@ -2813,6 +4028,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.24999999999996
       ]
     },
     {
@@ -2828,6 +4048,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.25000000000001
       ]
     },
     {
@@ -2843,6 +4068,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.25000000000001
       ]
     },
     {
@@ -2854,7 +4084,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        41.61538401098145,
+        66.02497247782439
+      ]
     },
     {
       "id": "body-0247",
@@ -2865,7 +4100,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 264,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.25000000000001
+      ]
     },
     {
       "id": "body-0248",
@@ -2876,7 +4116,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.24999999999999642,
+        3.833096795506065
+      ]
     },
     {
       "id": "body-0249",
@@ -2887,7 +4132,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        0.24999999999999642,
+        2.1080379380187577
+      ]
     },
     {
       "id": "body-0250",
@@ -2898,7 +4148,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.5625,
+        40.531430446863084,
+        64.29991362033715
+      ]
     },
     {
       "id": "body-0251",
@@ -2909,7 +4164,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 1560,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        0.2500000000000143,
+        51.33063208629638,
+        68.25000000000001
+      ]
     },
     {
       "id": "body-0252",
@@ -2920,7 +4180,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181832,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0253",
@@ -2931,7 +4196,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0254",
@@ -2942,7 +4212,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0255",
@@ -2953,7 +4228,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.249999999999982
+      ]
     },
     {
       "id": "body-0256",
@@ -2964,7 +4244,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.2500000000000143
+      ]
     },
     {
       "id": "body-0257",
@@ -2975,7 +4260,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0258",
@@ -2986,7 +4276,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181832,
+        0.24999999999997852
+      ]
     },
     {
       "id": "body-0259",
@@ -2997,7 +4292,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0260",
@@ -3008,7 +4308,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181796,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0261",
@@ -3019,7 +4324,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 12,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        6.661831818181814,
+        0.24999999999999642
+      ]
     },
     {
       "id": "body-0262",
@@ -3030,7 +4340,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.24999999999999642,
+        11.25
+      ]
     },
     {
       "id": "body-0263",
@@ -3041,7 +4356,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 44,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.875,
+        0.2500000000000143,
+        11.250000000000018
+      ]
     },
     {
       "id": "body-0264",
@@ -3056,6 +4376,11 @@
         0.5647115111351013,
         0.533276379108429,
         0.5028864741325378
+      ],
+      "installedBoundsInches": [
+        0.3749999999999857,
+        10.0,
+        5.906249999999972
       ]
     },
     {
@@ -3071,6 +4396,11 @@
         0.5647115111351013,
         0.533276379108429,
         0.5028864741325378
+      ],
+      "installedBoundsInches": [
+        0.3749999999999857,
+        10.0,
+        5.906249999999989
       ]
     },
     {
@@ -3086,6 +4416,11 @@
         0.5647115111351013,
         0.533276379108429,
         0.5028864741325378
+      ],
+      "installedBoundsInches": [
+        0.3749999999999857,
+        10.0,
+        5.906249999999989
       ]
     },
     {
@@ -3101,6 +4436,11 @@
         0.5647115111351013,
         0.533276379108429,
         0.5028864741325378
+      ],
+      "installedBoundsInches": [
+        0.3749999999999857,
+        10.0,
+        5.906249999999989
       ]
     },
     {
@@ -3116,6 +4456,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        3.000000000000029,
+        29.275248110478557,
+        44.14371330048889
       ]
     },
     {
@@ -3131,6 +4476,11 @@
         0.7230551242828369,
         0.7230551242828369,
         0.7681511640548706
+      ],
+      "installedBoundsInches": [
+        3.000000000000029,
+        29.275248110478557,
+        44.143713300488905
       ]
     },
     {
@@ -3146,6 +4496,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        4.000000000000014,
+        130.7175,
+        3.9999999999999964
       ]
     },
     {
@@ -3161,6 +4516,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        10.0,
+        0.37499999999999994,
+        10.0
       ]
     },
     {
@@ -3176,6 +4536,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        8.875000000000007,
+        0.2500000000000009
       ]
     },
     {
@@ -3191,6 +4556,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        8.875000000000007,
+        0.2500000000000009
       ]
     },
     {
@@ -3206,6 +4576,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        9.250000000000002,
+        0.2500000000000009
       ]
     },
     {
@@ -3221,6 +4596,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        9.250000000000005,
+        0.2500000000000904
       ]
     },
     {
@@ -3236,6 +4616,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.6439958264617037,
+        0.5999789495055708,
+        5.4843749999999964
       ]
     },
     {
@@ -3251,6 +4636,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.5625000000000143,
+        0.6469084812531617,
+        0.32812499999999645
       ]
     },
     {
@@ -3266,6 +4656,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3281,6 +4676,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3296,6 +4696,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.3024340428166297,
+        1.3119999999999994,
+        0.0739999999999993
       ]
     },
     {
@@ -3311,6 +4716,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.3024340428166297,
+        1.3119999999999994,
+        0.0739999999999993
       ]
     },
     {
@@ -3326,6 +4736,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.0781808020890922,
+        0.9375000000003637,
+        0.5468750000002551
       ]
     },
     {
@@ -3341,6 +4756,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.6439958264617037,
+        0.5999789495055708,
+        5.4843749999999964
       ]
     },
     {
@@ -3356,6 +4776,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.5625000000000143,
+        0.6469084812531617,
+        0.32812499999999645
       ]
     },
     {
@@ -3371,6 +4796,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3386,6 +4816,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3401,6 +4836,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3416,6 +4856,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3431,6 +4876,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3446,6 +4896,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3461,6 +4916,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        4.000000000000014,
+        130.7175,
+        3.9999999999999964
       ]
     },
     {
@@ -3476,6 +4936,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        10.0,
+        0.37499999999999994,
+        10.0
       ]
     },
     {
@@ -3491,6 +4956,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        8.875000000000007,
+        0.2500000000000009
       ]
     },
     {
@@ -3506,6 +4976,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        8.875000000000007,
+        0.2500000000000009
       ]
     },
     {
@@ -3521,6 +4996,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        9.250000000000002,
+        0.2500000000000009
       ]
     },
     {
@@ -3536,6 +5016,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        5.999999999999986,
+        9.250000000000005,
+        0.2500000000000904
       ]
     },
     {
@@ -3551,6 +5036,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.6439958264617037,
+        0.5999789495055708,
+        5.4843749999999964
       ]
     },
     {
@@ -3566,6 +5056,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.5625000000000143,
+        0.6469084812531617,
+        0.32812499999999645
       ]
     },
     {
@@ -3581,6 +5076,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3596,6 +5096,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3611,6 +5116,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.3024340428166297,
+        1.3119999999999994,
+        0.0739999999999993
       ]
     },
     {
@@ -3626,6 +5136,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.3024340428166297,
+        1.3119999999999994,
+        0.0739999999999993
       ]
     },
     {
@@ -3641,6 +5156,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        1.0781808020890922,
+        0.9375000000003632,
+        0.5468750000002551
       ]
     },
     {
@@ -3656,6 +5176,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.6439958264617037,
+        0.5999789495055708,
+        5.4843749999999964
       ]
     },
     {
@@ -3671,6 +5196,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.5625000000000143,
+        0.6469084812531617,
+        0.32812499999999645
       ]
     },
     {
@@ -3686,6 +5216,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3701,6 +5236,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.8714407560615999,
+        0.8745902847668037,
+        0.04999999999999929
       ]
     },
     {
@@ -3716,6 +5256,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3731,6 +5276,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3746,6 +5296,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3761,6 +5316,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37226582778675665,
+        2.9999999999999996,
+        0.3750000000000036
       ]
     },
     {
@@ -3776,6 +5336,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999999,
+        4.000000000000001,
+        2.8750000000000036
       ]
     },
     {
@@ -3791,6 +5356,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999999,
+        4.000000000000001,
+        2.8750000000000036
       ]
     },
     {
@@ -3806,6 +5376,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8749999999999947,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3821,6 +5396,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8750000000000036,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3836,6 +5416,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8750000000000036,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3851,6 +5436,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8750000000000036,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3866,6 +5456,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8750000000000036,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3881,6 +5476,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3896,6 +5496,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3911,6 +5516,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -3926,6 +5536,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.874999999999999
       ]
     },
     {
@@ -3941,6 +5556,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.874999999999999
       ]
     },
     {
@@ -3956,6 +5576,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000005,
+        2.874999999999999
       ]
     },
     {
@@ -3971,6 +5596,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000014,
+        2.8749999999999947
       ]
     },
     {
@@ -3986,6 +5616,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000014,
+        2.8750000000000036
       ]
     },
     {
@@ -4001,6 +5636,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000014,
+        2.8750000000000036
       ]
     },
     {
@@ -4016,6 +5656,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.874999999999986,
+        4.000000000000014,
+        2.8749999999999947
       ]
     },
     {
@@ -4031,6 +5676,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        8.000000000000002,
+        0.37499999999999994,
+        8.000000000000002
       ]
     },
     {
@@ -4046,6 +5696,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37487863104803143,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4061,6 +5716,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.3748786310480303,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4076,6 +5736,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.3748786310480303,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4091,6 +5756,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37487863104803143,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4106,6 +5776,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        8.000000000000002,
+        0.37499999999999994,
+        8.000000000000002
       ]
     },
     {
@@ -4121,6 +5796,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37487863104803143,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4136,6 +5816,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.3748786310480303,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4151,6 +5836,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.3748786310480303,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4166,6 +5856,11 @@
         0.5271151065826416,
         0.5271151065826416,
         0.5271151065826416
+      ],
+      "installedBoundsInches": [
+        0.37487863104803143,
+        3.0000000000000004,
+        0.37329526610383845
       ]
     },
     {
@@ -4181,6 +5876,11 @@
         0.5906188488006592,
         0.637596845626831,
         0.8549926280975342
+      ],
+      "installedBoundsInches": [
+        2.8750000000000036,
+        4.000000000000005,
+        2.8750000000000036
       ]
     },
     {
@@ -4192,7 +5892,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        34.75000000000002,
+        1.3054121694389196,
+        1.3150000000000295
+      ]
     },
     {
       "id": "body-0341",
@@ -4203,7 +5908,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.5000000000000218,
+        1.3054121694389196,
+        1.3149999999999848
+      ]
     },
     {
       "id": "body-0342",
@@ -4214,7 +5924,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.3149999999999937,
+        1.3054121694389196,
+        3.5000000000000395
+      ]
     },
     {
       "id": "body-0343",
@@ -4225,7 +5940,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.5000000000000218,
+        1.3054121694389196,
+        1.314999999999976
+      ]
     },
     {
       "id": "body-0344",
@@ -4236,7 +5956,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.314999999999958,
+        1.3054121694389196,
+        44.767705485903996
+      ]
     },
     {
       "id": "body-0345",
@@ -4247,7 +5972,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.314999999999958,
+        1.3054121694389196,
+        13.499999999999986
+      ]
     },
     {
       "id": "body-0346",
@@ -4258,7 +5988,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.5000000000000218,
+        1.3054121694389196,
+        1.3149999999999937
+      ]
     },
     {
       "id": "body-0347",
@@ -4269,7 +6004,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.3054121694389553,
+        2.9755802223649797,
+        3.6631484009929833
+      ]
     },
     {
       "id": "body-0348",
@@ -4280,7 +6020,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.5000000000000573,
+        1.3054121694389196,
+        1.3149999999999937
+      ]
     },
     {
       "id": "body-0349",
@@ -4291,7 +6036,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.3054121694389553,
+        55.913725727964675,
+        87.9116068464028
+      ]
     },
     {
       "id": "body-0350",
@@ -4302,7 +6052,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        10.004599999999952,
+        1.3054121694389196,
+        1.3149999999999842
+      ]
     },
     {
       "id": "body-0351",
@@ -4313,7 +6068,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.3054121694389553,
+        3.5000000000000306,
+        1.3149999999999842
+      ]
     },
     {
       "id": "body-0352",
@@ -4324,7 +6084,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.5000000000000218,
+        1.3054121694389196,
+        1.3149999999999842
+      ]
     },
     {
       "id": "body-0353",
@@ -4335,7 +6100,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 208,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.3054121694389553,
+        4.513700000000017,
+        1.3149999999999842
+      ]
     },
     {
       "id": "body-0354",
@@ -4350,6 +6120,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        2.3850000000072757,
+        1.7700000000055713
       ]
     },
     {
@@ -4365,6 +6140,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007258,
+        1.7700000000055893,
+        2.3850000000073055
       ]
     },
     {
@@ -4380,6 +6160,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        1.7700000000055534,
+        2.385000000007258
       ]
     },
     {
@@ -4391,7 +6176,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 5028,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        2.3500000000000023,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0358",
@@ -4402,7 +6192,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 1192,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        3.237263770499454,
+        1.4449999999999992,
+        3.2483078562309244
+      ]
     },
     {
       "id": "body-0359",
@@ -4413,7 +6208,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 732,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.0974999999999995,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0360",
@@ -4424,7 +6224,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 896,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.1100000000000038,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0361",
@@ -4435,7 +6240,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 896,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.10999999999999485,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0362",
@@ -4446,7 +6256,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 896,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.1100000000000038,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0363",
@@ -4457,7 +6272,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 800,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.10999999999999485,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0364",
@@ -4468,7 +6288,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 848,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.1100000000000038,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0365",
@@ -4479,7 +6304,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 848,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.1100000000000038,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0366",
@@ -4490,7 +6320,12 @@
         "26-0724_STAIR ASMJR"
       ],
       "triangles": 920,
-      "color": null
+      "color": null,
+      "installedBoundsInches": [
+        1.8676521752881605,
+        0.1100000000000038,
+        1.8740237632101364
+      ]
     },
     {
       "id": "body-0367",
@@ -4505,6 +6340,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.3850000000074014,
+        1.7700000000055713,
+        2.3850000000072313
       ]
     },
     {
@@ -4520,6 +6360,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007509,
+        1.7700000000055802,
+        2.3850000000072042
       ]
     },
     {
@@ -4535,6 +6380,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        1.7700000000055713,
+        2.3850000000072757
       ]
     },
     {
@@ -4550,6 +6400,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007258,
+        2.420033205758502,
+        2.6128077978581485
       ]
     },
     {
@@ -4565,6 +6420,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007258,
+        1.7700000000055713,
+        2.385000000007294
       ]
     },
     {
@@ -4580,6 +6440,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        2.420033205757974,
+        2.6117134071113663
       ]
     },
     {
@@ -4595,6 +6460,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        2.4200332057579916,
+        2.611713407111384
       ]
     },
     {
@@ -4610,6 +6480,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        2.4200332057587617,
+        2.6117134071109187
       ]
     },
     {
@@ -4625,6 +6500,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007258,
+        2.385000000007294,
+        1.7700000000055713
       ]
     },
     {
@@ -4640,6 +6520,11 @@
         0.05780543014407158,
         0.05780543014407158,
         0.05780543014407158
+      ],
+      "installedBoundsInches": [
+        2.385000000007294,
+        2.3850000000072757,
+        1.7700000000055713
       ]
     }
   ]

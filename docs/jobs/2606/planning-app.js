@@ -714,11 +714,11 @@ function renderParts() {
   for (const part of report.bodies) {
     const hardware = hardwarePattern.test(part.name);
     const mesh = objectById.get(part.id);
-    const inBucket = !isolatedBucketId || inBucket(plan, part.id, isolatedBucketId);
+    const belongsToIsolatedBucket = !isolatedBucketId || inBucket(plan, part.id, isolatedBucketId);
     const hiddenBucket = !isolatedBucketId && !isolatedBodyId && plan.hiddenBuckets?.some(bucketId => inBucket(plan, part.id, bucketId));
-    if (mesh) mesh.visible = inBucket && (!isolatedBodyId || part.id === isolatedBodyId)
+    if (mesh) mesh.visible = belongsToIsolatedBucket && (!isolatedBodyId || part.id === isolatedBodyId)
       && !hiddenBucket && (isolatedBodyId || isolatedBucketId || !(hideHardware && hardware));
-    if (!inBucket || (!isolatedBucketId && hideHardware && hardware)) continue;
+    if (!belongsToIsolatedBucket || (!isolatedBucketId && hideHardware && hardware)) continue;
     if (showNewBodies && !newBodyIds.has(part.id)) continue;
     if (search && !`${part.name} ${part.assemblyPath.join(' ')}`.toLowerCase().includes(search)) continue;
     shown++;

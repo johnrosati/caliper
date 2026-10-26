@@ -14,7 +14,7 @@ export function createPartDrawingViewer({ center, sourceSha256, onReady }) {
   let manifest = null, loading = null, current = null, zoom = 1;
   function entry(group, bucketId) {
     if (!manifest || !group) return null;
-    return Object.values(manifest.drawings).find(d => (!bucketId || !d.bucketId || d.bucketId === bucketId) && d.instanceIds.length === group.ids.length && d.instanceIds.every(id => group.ids.includes(id))) || null;
+    return Object.values(manifest.drawings).find(d => (!bucketId || !d.bucketId || d.bucketId === bucketId || d.secondaryBucketIds?.includes(bucketId)) && d.instanceIds.length === group.ids.length && d.instanceIds.every(id => group.ids.includes(id))) || null;
   }
   function layout() {
     if (panel.hidden || !paper.clientWidth || !paper.clientHeight) return;

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2448 1584" width="2448" height="1584"><rect width="100%" height="100%" fill="white"/>
+<polygon points="34.0000,34.0000 2414.0000,34.0000 2414.0000,1550.0000 34.0000,1550.0000" stroke="#b8cad8" stroke-width="0.8" fill="none"/>
+<text x="66" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" text-anchor="start">CALIPER / 2606</text>
+<text x="2382" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="end">2606-B046-P23-R08 / 8</text>
+<text x="66" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">PLINTH ASSEMBLY</text>
+<text x="2382" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end">REVIEW 08 / 2026-10-26</text>
+<polyline points="34.0000,127.0000 2414.0000,127.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="170" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" text-anchor="start">plinth asm body 720 / OUTER PROFILE / EDGES 5-8</text>
+<text x="66" y="205" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">body-0270 / QTY 1 / THICKNESS 1/4&quot; / INCHES</text>
+<text x="66" y="1500" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">FRACTIONS NEAREST 1/32 / ANGLES 0.1 DEG / ACTUAL SOURCE CONTOURS / DO NOT SCALE</text>
+<polygon points="359.7495,1045.1129 1775.0000,1045.1129 1775.0000,1045.1129 1775.0000,554.8871 1775.0000,554.8871 880.9913,554.8871 880.9913,554.8871 880.9913,645.6378 880.9913,645.6378 915.7407,645.6378 915.7407,645.6378 915.7407,730.9319 915.7407,730.9319 602.9956,730.9319 602.9956,730.9319 602.9956,821.6825 602.9956,821.6825 637.7451,821.6825 637.7451,821.6825 637.7451,906.9766 637.7451,906.9766 325.0000,906.9766 325.0000,906.9766 325.0000,997.7273 325.0000,997.7273 359.7495,997.7273 359.7495,997.7273 359.7495,1045.1129" stroke="#536f85" stroke-width="1.1" fill="none"/>
+<polyline points="880.9913,648.6378 880.9913,596.6378" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="915.7407,648.6378 915.7407,596.6378" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="880.9913,590.6378 915.7407,590.6378" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="888.9913,593.1378 880.9913,590.6378 888.9913,588.1378" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="907.7407,588.1378 915.7407,590.6378 907.7407,593.1378" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="898.3660130718949" y="580.6377500495148" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(-1.8744972904862154e-13 898.3660130718949 580.6377500495148)">1-3/8&quot;</text>
+<text x="1830" y="1100" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 115092 / LINE</text>
+<polyline points="918.7407,730.9319 831.7407,730.9319" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="918.7407,645.6378 831.7407,645.6378" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="825.7407,730.9319 825.7407,645.6378" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="828.2407,722.9319 825.7407,730.9319 823.2407,722.9319" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="823.2407,653.6378 825.7407,645.6378 828.2407,653.6378" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="815.7407407407405" y="688.2848088730441" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(-90.0 815.7407407407405 688.2848088730441)">3-3/8&quot;</text>
+<text x="1830" y="1132" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 111645 / LINE</text>
+<polyline points="602.9956,733.9319 602.9956,681.9319" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="915.7407,733.9319 915.7407,681.9319" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="602.9956,675.9319 915.7407,675.9319" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="610.9956,678.4319 602.9956,675.9319 610.9956,673.4319" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="907.7407,673.4319 915.7407,675.9319 907.7407,678.4319" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="759.3681917211327" y="665.9318676965736" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(2.082774767206906e-14 759.3681917211327 665.9318676965736)">12-3/8&quot;</text>
+<text x="1830" y="1164" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 55865 / LINE</text>
+<polyline points="599.9956,730.9319 506.9956,730.9319" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="599.9956,821.6825 506.9956,821.6825" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="512.9956,730.9319 512.9956,821.6825" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="510.4956,738.9319 512.9956,730.9319 515.4956,738.9319" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="515.4956,813.6825 512.9956,821.6825 510.4956,813.6825" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="522.995642701525" y="776.3071895424837" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(90.0 522.995642701525 776.3071895424837)">3-19/32&quot;</text>
+<text x="1830" y="1196" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 33200 / LINE</text>
+<text x="120" y="1390" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">UNMARKED ORTHOGONAL CORNERS 90.0 DEG / DIMENSIONS ATTACH TO ACTUAL CONNECTED BOUNDARY</text>
+</svg>

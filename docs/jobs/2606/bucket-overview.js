@@ -1,3 +1,4 @@
+import { inBucket } from './bucket-membership.js?v=20261026';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
@@ -103,7 +104,7 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
 
   function renderTiles(bucketId) {
     const generation = ++tileGeneration;
-    const bodies = report.bodies.filter(body => getPlan().assignments[body.id] === bucketId);
+    const bodies = report.bodies.filter(body => inBucket(getPlan(), body.id, bucketId));
     detailsTiles.replaceChildren();
     const pending = [];
     for (const body of bodies) {
@@ -329,7 +330,7 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
     }
     detailsBucketId = bucketId;
     const card = cards.get(bucketId);
-    const bodies = report.bodies.filter(body => getPlan().assignments[body.id] === bucketId);
+    const bodies = report.bodies.filter(body => inBucket(getPlan(), body.id, bucketId));
     detailsId.textContent = bucket.id;
     detailsName.textContent = bucket.name;
     detailsCount.textContent = `${bodies.length} ${bodies.length === 1 ? 'body' : 'bodies'}`;
@@ -650,7 +651,7 @@ export function createOverview({ objectById, report, getPlan, radialTargets, ope
         button.setAttribute('aria-label', `${workStages.find(stage => stage.id === stageId).name} stage for ${bucket.name}`);
       }
       if (detailsBucketId === bucket.id) detailsScene.background.set(workStage?.background || '#f5f8fa');
-      const ids = report.bodies.filter(body => plan.assignments[body.id] === bucket.id).map(body => body.id);
+      const ids = report.bodies.filter(body => inBucket(plan, body.id, bucket.id)).map(body => body.id);
       card.count.textContent = `${ids.length} bod${ids.length === 1 ? 'y' : 'ies'}`;
       card.stage.classList.toggle('empty', ids.length === 0);
       card.empty.hidden = ids.length > 0;

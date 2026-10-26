@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2448 1584" width="2448" height="1584"><rect width="100%" height="100%" fill="white"/>
+<polygon points="34.0000,34.0000 2414.0000,34.0000 2414.0000,1550.0000 34.0000,1550.0000" stroke="#b8cad8" stroke-width="0.8" fill="none"/>
+<text x="66" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" text-anchor="start">CALIPER / 2606</text>
+<text x="2382" y="76" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="end">2606-B046-P23-R08 / 7</text>
+<text x="66" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="start">PLINTH ASSEMBLY</text>
+<text x="2382" y="108" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" text-anchor="end">REVIEW 08 / 2026-10-26</text>
+<polyline points="34.0000,127.0000 2414.0000,127.0000" stroke="#dbe5ed" stroke-width="1" fill="none"/>
+<text x="66" y="170" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="600" text-anchor="start">plinth asm body 720 / OUTER PROFILE / EDGES 1-4</text>
+<text x="66" y="205" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start">body-0270 / QTY 1 / THICKNESS 1/4&quot; / INCHES</text>
+<text x="66" y="1500" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">FRACTIONS NEAREST 1/32 / ANGLES 0.1 DEG / ACTUAL SOURCE CONTOURS / DO NOT SCALE</text>
+<polygon points="359.7495,1045.1129 1775.0000,1045.1129 1775.0000,1045.1129 1775.0000,554.8871 1775.0000,554.8871 880.9913,554.8871 880.9913,554.8871 880.9913,645.6378 880.9913,645.6378 915.7407,645.6378 915.7407,645.6378 915.7407,730.9319 915.7407,730.9319 602.9956,730.9319 602.9956,730.9319 602.9956,821.6825 602.9956,821.6825 637.7451,821.6825 637.7451,821.6825 637.7451,906.9766 637.7451,906.9766 325.0000,906.9766 325.0000,906.9766 325.0000,997.7273 325.0000,997.7273 359.7495,997.7273 359.7495,997.7273 359.7495,1045.1129" stroke="#536f85" stroke-width="1.1" fill="none"/>
+<polyline points="359.7495,1048.1129 359.7495,1106.1129" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1775.0000,1048.1129 1775.0000,1106.1129" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="359.7495,1100.1129 1775.0000,1100.1129" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="367.7495,1102.6129 359.7495,1100.1129 367.7495,1097.6129" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1767.0000,1097.6129 1775.0000,1100.1129 1767.0000,1102.6129" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1067.3747276688457" y="1090.1128936423056" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">56&quot;</text>
+<text x="1830" y="1100" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 142765 / LINE</text>
+<polyline points="1778.0000,1045.1129 1871.0000,1045.1129" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1778.0000,554.8871 1871.0000,554.8871" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1865.0000,1045.1129 1865.0000,554.8871" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="1867.5000,1037.1129 1865.0000,1045.1129 1862.5000,1037.1129" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1862.5000,562.8871 1865.0000,554.8871 1867.5000,562.8871" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1855.0" y="800.0" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(-90.0 1855.0 800.0)">19-13/32&quot;</text>
+<text x="1830" y="1132" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 92454 / LINE</text>
+<polyline points="880.9913,557.8871 880.9913,505.8871" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="1775.0000,557.8871 1775.0000,505.8871" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="880.9913,499.8871 1775.0000,499.8871" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="888.9913,502.3871 880.9913,499.8871 888.9913,497.3871" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="1767.0000,497.3871 1775.0000,499.8871 1767.0000,502.3871" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="1327.995642701525" y="489.8871063576945" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle">35-3/8&quot;</text>
+<text x="1830" y="1164" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 115116 / LINE</text>
+<polyline points="877.9913,554.8871 784.9913,554.8871" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="877.9913,645.6378 784.9913,645.6378" stroke="#93a8b9" stroke-width="0.7" fill="none"/>
+<polyline points="790.9913,554.8871 790.9913,645.6378" stroke="#93a8b9" stroke-width="0.8" fill="none"/>
+<polyline points="788.4913,562.8871 790.9913,554.8871 793.4913,562.8871" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<polyline points="793.4913,637.6378 790.9913,645.6378 788.4913,637.6378" stroke="#93a8b9" stroke-width="0.9" fill="none"/>
+<text x="800.9912854030499" y="600.2624282036047" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="middle" transform="rotate(90.0 800.9912854030499 600.2624282036047)">3-19/32&quot;</text>
+<text x="1830" y="1196" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">EDGE 125334 / LINE</text>
+<text x="120" y="1390" fill="#617e94" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" text-anchor="start">UNMARKED ORTHOGONAL CORNERS 90.0 DEG / DIMENSIONS ATTACH TO ACTUAL CONNECTED BOUNDARY</text>
+</svg>

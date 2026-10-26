@@ -1,3 +1,4 @@
+import { inBucket } from './bucket-membership.js?v=20261026';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -5,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=20261020-stack03';
-import { createOverview } from './bucket-overview.js?v=20261013-light1';
+import { createBucketExplorer } from './bucket-explorer.js?v=20261026-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -283,7 +284,6 @@ const objectById = new Map();
 const selectedIds = new Set();
 let report;
 let plan;
-let sharedPlan;
 let overview;
 let bucketExplorer;
 let isolatedBucketId = null;
@@ -298,7 +298,7 @@ let renamingBucketId = null;
 let showNewBodies = false;
 
 function renameBucket(bucketId, proposedName) {
-  return 'This is a view-only plan.';
+ return 'This is a view-only plan.';
   const name = proposedName.trim();
   if (!name) return 'Enter a bucket name.';
   if (plan.buckets.some(bucket => bucket.id !== bucketId && bucket.name.toLowerCase() === name.toLowerCase())) {
@@ -332,6 +332,15 @@ function setMode(mode) {
 }
 for (const mode of ['planning', 'overview', 'bucket']) {
   document.getElementById(`mode-${mode}`).addEventListener('click', () => setMode(mode));
+}
+function moveBucket(fromId, targetId, before) {
+  const from = plan.buckets.findIndex(bucket => bucket.id === fromId);
+  if (from < 0 || fromId === targetId) return;
+  const [moved] = plan.buckets.splice(from, 1);
+  const target = plan.buckets.findIndex(bucket => bucket.id === targetId);
+  if (target < 0) { plan.buckets.splice(from, 0, moved); return; }
+  plan.buckets.splice(target + (before ? 0 : 1), 0, moved);
+  savePlan(); renderBuckets(); overview?.refresh(); bucketExplorer?.refresh();
 }
 
 function updateViewControls() {
@@ -436,7 +445,7 @@ function setBodyIsolation(bodyId) {
 }
 
 function savePlan() {
-  // Viewer visibility changes remain temporary.
+  // Public visibility changes are temporary.
 }
 
 function nudgeOffset(bucketId, bodyId) {
@@ -705,8 +714,8 @@ function renderParts() {
   for (const part of report.bodies) {
     const hardware = hardwarePattern.test(part.name);
     const mesh = objectById.get(part.id);
-    const inBucket = !isolatedBucketId || plan.assignments[part.id] === isolatedBucketId;
-    const hiddenBucket = !isolatedBucketId && !isolatedBodyId && plan.hiddenBuckets?.includes(plan.assignments[part.id]);
+    const inBucket = !isolatedBucketId || inBucket(plan, part.id, isolatedBucketId);
+    const hiddenBucket = !isolatedBucketId && !isolatedBodyId && plan.hiddenBuckets?.some(bucketId => inBucket(plan, part.id, bucketId));
     if (mesh) mesh.visible = inBucket && (!isolatedBodyId || part.id === isolatedBodyId)
       && !hiddenBucket && (isolatedBodyId || isolatedBucketId || !(hideHardware && hardware));
     if (!inBucket || (!isolatedBucketId && hideHardware && hardware)) continue;
@@ -767,7 +776,7 @@ function renderBuckets() {
     list.append(empty);
   }
   for (const bucket of plan.buckets) {
-    const members = report.bodies.filter(part => plan.assignments[part.id] === bucket.id);
+    const members = report.bodies.filter(part => inBucket(plan, part.id, bucket.id));
     const count = members.length;
     const item = document.createElement('div'); item.className = 'bucket-item';
     item.dataset.bucketId = bucket.id;
@@ -776,20 +785,20 @@ function renderBuckets() {
     row.classList.toggle('expanded', expandedBucketId === bucket.id);
     const bucketHidden = plan.hiddenBuckets?.includes(bucket.id) || false;
     row.classList.toggle('hidden-bucket', bucketHidden && !isolatedBucketId);
-    row.draggable = false;
+    row.draggable = true;
     row.tabIndex = 0;
     row.setAttribute('role', 'button');
     row.setAttribute('aria-expanded', String(expandedBucketId === bucket.id));
     row.setAttribute('aria-label', `${expandedBucketId === bucket.id ? 'Collapse' : 'Show'} pieces in ${bucket.name}`);
-    row.title = 'Click to show pieces · Drag to reorder';
+    row.title = bucket.reason ? `${bucket.name} · ${bucket.kind} · ${bucket.reason}` : 'Click to show pieces · Drag to reorder';
     const grip = document.createElement('span'); grip.className = 'bucket-grip'; grip.textContent = '⠿';
     grip.setAttribute('aria-hidden', 'true');
     const chevron = document.createElement('span'); chevron.className = 'bucket-chevron';
     chevron.textContent = expandedBucketId === bucket.id ? '▾' : '▸';
     chevron.setAttribute('aria-hidden', 'true');
     const id = document.createElement('strong'); id.textContent = bucket.id;
-    const label = document.createElement('span'); label.className = 'bucket-name'; label.textContent = bucket.name;
-    const tally = document.createElement('small'); tally.textContent = String(count);
+    const label = document.createElement('span'); label.className = 'bucket-name'; label.textContent = bucket.name; label.title = bucket.name;
+    const tally = document.createElement('small'); tally.textContent = bucket.linkedBodyIds ? `${count} shared` : String(count);
     const rename = document.createElement('button');
     rename.type = 'button'; rename.className = 'rename-bucket'; rename.textContent = '✎';
     rename.title = `Rename ${bucket.name}`;
@@ -884,14 +893,16 @@ function renderBuckets() {
         entry.title = part.assemblyPath.join(' / ');
         const choice = document.createElement('label');
         const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox'; checkbox.checked = true; checkbox.disabled = true;
+        checkbox.type = 'checkbox'; checkbox.checked = true;
         checkbox.setAttribute('aria-label', `Keep ${part.name} in ${bucket.name}`);
         const name = document.createElement('span'); name.textContent = part.name;
         const bodyId = document.createElement('small'); bodyId.textContent = part.id;
         choice.append(checkbox, name, bodyId);
         entry.append(choice);
         checkbox.addEventListener('change', () => {
-          if (checkbox.checked) plan.assignments[part.id] = bucket.id;
+          if (bucket.linkedBodyIds) {
+            bucket.linkedBodyIds = checkbox.checked ? [...new Set([...bucket.linkedBodyIds, part.id])] : bucket.linkedBodyIds.filter(id => id !== part.id);
+          } else if (checkbox.checked) plan.assignments[part.id] = bucket.id;
           else {
             delete plan.assignments[part.id];
             delete plan.viewNudges?.[bucket.id]?.[part.id];
@@ -899,7 +910,7 @@ function renderBuckets() {
             if (isolatedBodyId === part.id) isolatedBodyId = null;
           }
           entry.classList.toggle('pending-removal', !checkbox.checked);
-          const remaining = report.bodies.filter(body => plan.assignments[body.id] === bucket.id).length;
+          const remaining = report.bodies.filter(body => inBucket(plan, body.id, bucket.id)).length;
           tally.textContent = String(remaining);
           heading.textContent = `Parts and bodies (${remaining})`;
           isolate.disabled = remaining === 0 && isolatedBucketId !== bucket.id;
@@ -952,7 +963,7 @@ function renderBuckets() {
 }
 
 function installPlanningUi() {
-  plan = structuredClone(sharedPlan);
+  plan = structuredClone(report.initialPlan);
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -993,6 +1004,12 @@ function installPlanningUi() {
   document.getElementById('assign-bucket').addEventListener('click', () => {
     const bucket = document.getElementById('bucket-select').value;
     if (!bucket || !selectedIds.size) return;
+    const target = plan.buckets.find(item => item.id === bucket);
+    if (target?.linkedBodyIds) {
+      target.linkedBodyIds = [...new Set([...target.linkedBodyIds, ...selectedIds])];
+      savePlan(); renderBuckets();
+      return;
+    }
     for (const id of selectedIds) {
       const previous = plan.assignments[id];
       if (previous && previous !== bucket) delete plan.viewNudges?.[previous]?.[id];
@@ -1040,14 +1057,14 @@ new ResizeObserver(resize).observe(container);
 
 async function load() {
   try {
-    const [gltf, loadedReport, publishedPlan] = await Promise.all([
-      new GLTFLoader().loadAsync('./assets/stair-step.gltf'),
-      fetch('./assets/step-manifest.json').then(r => r.json()),
-      fetch('./assets/shared-plan.json').then(r => { if (!r.ok) throw new Error('Published plan is missing'); return r.json(); })
+    const [gltf, loadedReport] = await Promise.all([
+      fetch('./assets/stair-step.gltf.gz?v=20261026-R08').then(async r => new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), '')),
+      fetch('./assets/step-manifest.json?v=20261026', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    if (publishedPlan.sourceSha256 !== report.sourceSha256) throw new Error('Published plan/model source mismatch');
-    sharedPlan = publishedPlan;
+    const seed = await fetch("./assets/shared-plan.json?v=20261026-R08", {cache:"no-store"}).then(r => r.json());
+    if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
+    report.initialPlan = seed;
     model = gltf.scene;
     model.traverse(node => {
       if (!node.isMesh) return;
@@ -1089,7 +1106,6 @@ async function load() {
       openBucket: bucketId => { setMode('planning'); setIsolation(bucketId); },
       renameBucket,
       setBucketStage: (bucketId, stage) => {
-        return;
         const bucket = plan.buckets.find(item => item.id === bucketId);
         if (!bucket) return;
         if (stage) bucket.stage = stage;
@@ -1097,24 +1113,12 @@ async function load() {
         savePlan();
         overview.refresh();
       },
-      moveBucket: (fromId, targetId, before) => {
-        return;
-        const from = plan.buckets.findIndex(bucket => bucket.id === fromId);
-        if (from < 0 || fromId === targetId) return;
-        const [moved] = plan.buckets.splice(from, 1);
-        const target = plan.buckets.findIndex(bucket => bucket.id === targetId);
-        if (target < 0) { plan.buckets.splice(from, 0, moved); return; }
-        plan.buckets.splice(target + (before ? 0 : 1), 0, moved);
-        savePlan();
-        renderBuckets();
-        overview.refresh();
-      }
+      moveBucket
     });
-    bucketExplorer = createBucketExplorer({ objectById, report, getPlan: () => plan, radialTargets, readOnly: true });
+    bucketExplorer = createBucketExplorer({ objectById, report, getPlan: () => plan, radialTargets, moveBucket });
     document.getElementById('mode-bucket').disabled = false;
     document.getElementById('mode-overview').disabled = false;
     document.getElementById('loading').classList.add('hidden');
-    setMode('overview');
   } catch (error) {
     document.getElementById('loading').textContent = `Unable to load model: ${error.message}`;
     console.error(error);
@@ -1220,7 +1224,7 @@ document.getElementById('explode').addEventListener('click', () => {
     if (isolatedBucketId) {
       bucketSpread.clear();
       const meshes = report.bodies
-        .filter(part => plan.assignments[part.id] === isolatedBucketId)
+        .filter(part => inBucket(plan, part.id, isolatedBucketId))
         .map(part => objectById.get(part.id))
         .filter(Boolean);
       radialTargets(meshes).forEach((target, index) => bucketSpread.set(meshes[index].userData.bodyId, target));

@@ -1,0 +1,88 @@
+%PDF-1.4
+%AAAA
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 2448 1584 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 521
+>>
+stream
+Gau1*;/_pX'SYH?($BS+'\>7_^`uG+#)S!A]M6k^LGX6-'-UYe/:W-c)JuSZHWl)5NeP%?cFMO.S0$(]gDquU\@E=c')!8t@L>#GYoX:L#]pIj`[!mT8;00^;;?FJ_V+hWPmUJs$XZ1&!QP[JM2Q8C2195NV11^UV8rLiqlp9&YnA5^$_I)l<;`jYG3\STos>@;Vj7)hm12utHtc:\4<e_"@I_4:h;QU0ajRRGE'lj2r>,)gm(9F9qu=S]rl$5_8.O$AK\"A6(WMJO1?Dq0PQd,N!%GO?&>\=8b+SeMO%07VB)&U!S"`U>juW&.I=*3eK4M\q,@mhpl_La2QMK<HAkqTmZXdY`Gt,GJ@26Ag1bk2HX>1c*?.N#^Bregn^o=HkiE0.kg\id'37glWH\]cBgsh=aE.2m\Nr.:6lYsVBC3RVYi,CeA4Z0XJfQF:g"![C,J;bBsbfA4\!_kZ10J<#dn;5Z%U$g\_dit>/2U,=51\oJOi\O-[79ZEj(h6o5JbL+&huq%~>
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000353 00000 n 
+0000000965 00000 n 
+0000001006 00000 n 
+0000001113 00000 n 
+trailer
+<<
+/Size 9
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+1225
+%%EOF

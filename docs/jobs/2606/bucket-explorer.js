@@ -1,3 +1,4 @@
+import { inBucket } from './bucket-membership.js?v=20261026';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
@@ -179,7 +180,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     document.getElementById('bucket-nav-count').textContent = String(buckets.length).padStart(2, '0');
     document.getElementById('bucket-view-name').textContent = bucket?.name || 'No buckets yet';
     document.getElementById('bucket-view-id').textContent = bucket?.id || 'Create a bucket in Planning';
-    const bodies = report.bodies.filter(b => getPlan().assignments[b.id] === bucketId);
+    const bodies = report.bodies.filter(b => inBucket(getPlan(), b.id, bucketId));
     const key = bucketId + '|' + bodies.map(b => b.id).join('|');
     if (key !== membership) {
       membership = key; generation++;

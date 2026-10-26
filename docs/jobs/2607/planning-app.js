@@ -1,4 +1,4 @@
-import { inBucket } from './bucket-membership.js?v=20261026-2607-ml02';
+import { inBucket } from './bucket-membership.js?v=20261026-2607-mod03';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=20261026-2607-ml02-buckets01';
-import { createOverview } from './bucket-overview.js?v=20261026-2607-ml02-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=20261026-2607-mod03-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-2607-mod03-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -972,22 +972,27 @@ function installPlanningUi() {
     }
   }
   plan = JSON.parse(saved || JSON.stringify(report.initialPlan || {buckets:[],assignments:{}}));
-  // R02: doubled transverse plates define three midlanding rib modules.
-  if (!plan.appliedMigrations?.includes('2607-midlanding-ribs-r02')) {
-    const ids = ['2607-B023', '2607-B006', '2607-B024'];
+  // R03: consolidate landing components into MOD 3 / MOD 4 and number MOD 1–6.
+  if (!plan.appliedMigrations?.includes('2607-six-modules-r03')) {
     const seed = report.initialPlan;
-    const targets = ids.map(id => seed.buckets.find(b => b.id === id));
-    if (targets.every(Boolean)) {
-      const oldIndex = plan.buckets.findIndex(b => b.id === '2607-B006');
-      plan.buckets = plan.buckets.filter(b => !ids.includes(b.id));
-      plan.buckets.splice(oldIndex < 0 ? 5 : oldIndex, 0, ...targets.map(b => structuredClone(b)));
-      for (const [bodyId, bucketId] of Object.entries(seed.assignments)) {
-        if (ids.includes(bucketId) && plan.assignments[bodyId] === '2607-B006') plan.assignments[bodyId] = bucketId;
-      }
-      plan.midlandingModuleSeams = seed.midlandingModuleSeams;
-      plan.appliedMigrations = [...(plan.appliedMigrations || []), '2607-midlanding-ribs-r02'];
-      savePlan();
+    const oldIds = new Set(['2607-B003','2607-B006','2607-B007','2607-B008','2607-B023','2607-B024']);
+    for (const [bodyId, bucketId] of Object.entries(seed.assignments)) {
+      if (['2607-B003','2607-B006'].includes(bucketId) && oldIds.has(plan.assignments[bodyId])) plan.assignments[bodyId] = bucketId;
     }
+    const moduleIds = ['2607-B001','2607-B002','2607-B003','2607-B006','2607-B004','2607-B005'];
+    const removed = new Set(['2607-B007','2607-B008','2607-B023','2607-B024']);
+    for (const id of moduleIds) {
+      const target = seed.buckets.find(b => b.id === id);
+      const current = plan.buckets.find(b => b.id === id);
+      if (current) Object.assign(current, structuredClone(target));
+      else plan.buckets.push(structuredClone(target));
+    }
+    plan.buckets = plan.buckets.filter(b => !removed.has(b.id) || Object.values(plan.assignments).includes(b.id));
+    plan.buckets.sort((a,b) => (moduleIds.includes(a.id) ? moduleIds.indexOf(a.id) : 100) - (moduleIds.includes(b.id) ? moduleIds.indexOf(b.id) : 100));
+    plan.hiddenBuckets = (plan.hiddenBuckets || []).filter(id => !removed.has(id));
+    plan.midlandingModuleSeams = seed.midlandingModuleSeams;
+    plan.appliedMigrations = [...(plan.appliedMigrations || []), '2607-six-modules-r03'];
+    savePlan();
   }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
@@ -1083,11 +1088,11 @@ new ResizeObserver(resize).observe(container);
 async function load() {
   try {
     const [gltf, loadedReport] = await Promise.all([
-      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-ml02').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
-      fetch('./assets/step-manifest.json?v=20261026-2607-ml02', {cache:'no-store'}).then(r => r.json())
+      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-mod03').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
+      fetch('./assets/step-manifest.json?v=20261026-2607-mod03', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-ml02", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-mod03", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

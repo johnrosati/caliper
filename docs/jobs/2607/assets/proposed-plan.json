@@ -2,11 +2,11 @@
   "job": "2607",
   "sourceSha256": "58241d08a40ea32baa098200a1a559eb81abe916eaa169e9877f4e8fce357dbe",
   "status": "proposed",
-  "revision": "2607-ML-R02",
+  "revision": "2607-MOD1-6-R03",
   "buckets": [
     {
       "id": "2607-B001",
-      "name": "LOWER MODULE 01",
+      "name": "MOD 1",
       "proposal": true,
       "kind": "shipping module proposal",
       "reason": "First modeled lower section: tread/riser pans and all structural webs, side tubes and cap plates together. Model seam near X=-56 in.",
@@ -20,7 +20,7 @@
     },
     {
       "id": "2607-B002",
-      "name": "LOWER MODULE 02",
+      "name": "MOD 2",
       "proposal": true,
       "kind": "shipping module proposal",
       "reason": "Second modeled lower section through landing transition; includes treads, risers, carriers and structural stringers. Model seams near X=-56 and -122 in.",
@@ -34,21 +34,35 @@
     },
     {
       "id": "2607-B003",
-      "name": "LOWER MODULE 03 / ML FRAME",
+      "name": "MOD 3",
       "proposal": true,
-      "kind": "shipping module / landing frame",
-      "reason": "Horizontal lower-run continuation into midlanding: paired long stringers, inner webs, end caps and weld tabs. Whole bodies extend about 179 in; transport splice review remains.",
+      "kind": "midlanding shipping module proposal",
+      "reason": "Landing connecting to lower run: ribs, two deck bodies, underside/transition pans and all current landing stringers. Continuous pieces stay here until revised CAD.",
       "envelopeInches": [
-        179.45,
-        16.77,
+        179.56,
+        16.9,
         59.87
       ],
       "elevatorFit": "unverified",
       "requiresSpliceReview": true
     },
     {
+      "id": "2607-B006",
+      "name": "MOD 4",
+      "proposal": true,
+      "kind": "midlanding shipping module proposal",
+      "reason": "Far landing connecting toward upper run: ribs/end closure and the remaining corner deck body. Stringers remain in MOD 3 as instructed.",
+      "envelopeInches": [
+        57.56,
+        9.65,
+        80.81
+      ],
+      "elevatorFit": "unverified",
+      "requiresSpliceReview": false
+    },
+    {
       "id": "2607-B004",
-      "name": "UPPER MODULE 01",
+      "name": "MOD 5",
       "proposal": true,
       "kind": "shipping module proposal",
       "reason": "First upper-run section: treads/risers, carriers and structural plates, approximately 69 in plan length.",
@@ -62,7 +76,7 @@
     },
     {
       "id": "2607-B005",
-      "name": "UPPER MODULE 02",
+      "name": "MOD 6",
       "proposal": true,
       "kind": "shipping module proposal",
       "reason": "Second upper-run section through top termination, approximately 68 in plan length.",
@@ -73,74 +87,6 @@
       ],
       "elevatorFit": "unverified",
       "requiresSpliceReview": false
-    },
-    {
-      "id": "2607-B023",
-      "name": "ML MODULE 01 \u00b7 LOWER END",
-      "proposal": true,
-      "kind": "midlanding module ribs",
-      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
-      "elevatorFit": "unverified",
-      "envelopeInches": [
-        18.68,
-        9.4,
-        55.25
-      ]
-    },
-    {
-      "id": "2607-B006",
-      "name": "ML MODULE 02 \u00b7 CENTER",
-      "proposal": true,
-      "kind": "midlanding module ribs",
-      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
-      "envelopeInches": [
-        70.5,
-        9.4,
-        55.25
-      ],
-      "elevatorFit": "unverified",
-      "requiresSpliceReview": false
-    },
-    {
-      "id": "2607-B024",
-      "name": "ML MODULE 03 \u00b7 UPPER END",
-      "proposal": true,
-      "kind": "midlanding module ribs",
-      "reason": "Rib group between doubled transverse plate seams; numbered from lower-run end toward upper-run end. Continuous longitudinal plates and pans remain in their existing buckets until revised CAD splits them.",
-      "elevatorFit": "unverified",
-      "envelopeInches": [
-        57.56,
-        9.4,
-        55.25
-      ]
-    },
-    {
-      "id": "2607-B007",
-      "name": "ML DECK PANELS",
-      "proposal": true,
-      "kind": "landing deck kit",
-      "reason": "Three modeled landing deck panels kept together for review.",
-      "envelopeInches": [
-        155.94,
-        0.25,
-        80.81
-      ],
-      "elevatorFit": "unverified",
-      "requiresSpliceReview": false
-    },
-    {
-      "id": "2607-B008",
-      "name": "ML UNDERSIDE / TRANSITION",
-      "proposal": true,
-      "kind": "landing pan kit",
-      "reason": "Continuous underside pans and transition tray; long pans remain intact for seam review.",
-      "envelopeInches": [
-        155.69,
-        6.72,
-        55.25
-      ],
-      "elevatorFit": "unverified",
-      "requiresSpliceReview": true
     },
     {
       "id": "2607-B009",
@@ -570,30 +516,30 @@
     "body-0261": "2607-B005",
     "body-0262": "2607-B005",
     "body-0263": "2607-B005",
-    "body-0099": "2607-B024",
-    "body-0100": "2607-B006",
-    "body-0101": "2607-B006",
-    "body-0102": "2607-B024",
-    "body-0103": "2607-B024",
-    "body-0104": "2607-B024",
-    "body-0105": "2607-B006",
-    "body-0106": "2607-B006",
-    "body-0107": "2607-B006",
-    "body-0108": "2607-B023",
-    "body-0112": "2607-B023",
-    "body-0113": "2607-B023",
-    "body-0114": "2607-B023",
-    "body-0121": "2607-B024",
-    "body-0122": "2607-B024",
-    "body-0109": "2607-B007",
-    "body-0110": "2607-B007",
-    "body-0111": "2607-B007",
-    "body-0115": "2607-B008",
-    "body-0116": "2607-B008",
-    "body-0117": "2607-B008",
-    "body-0118": "2607-B008",
-    "body-0119": "2607-B008",
-    "body-0120": "2607-B008",
+    "body-0099": "2607-B006",
+    "body-0100": "2607-B003",
+    "body-0101": "2607-B003",
+    "body-0102": "2607-B006",
+    "body-0103": "2607-B006",
+    "body-0104": "2607-B006",
+    "body-0105": "2607-B003",
+    "body-0106": "2607-B003",
+    "body-0107": "2607-B003",
+    "body-0108": "2607-B003",
+    "body-0112": "2607-B003",
+    "body-0113": "2607-B003",
+    "body-0114": "2607-B003",
+    "body-0121": "2607-B006",
+    "body-0122": "2607-B006",
+    "body-0109": "2607-B003",
+    "body-0110": "2607-B006",
+    "body-0111": "2607-B003",
+    "body-0115": "2607-B003",
+    "body-0116": "2607-B003",
+    "body-0117": "2607-B003",
+    "body-0118": "2607-B003",
+    "body-0119": "2607-B003",
+    "body-0120": "2607-B003",
     "body-0031": "2607-B009",
     "body-0096": "2607-B010",
     "body-0097": "2607-B010",
@@ -723,20 +669,14 @@
   "midlandingModuleSeams": {
     "axis": "X",
     "inches": [
-      -151.685,
       -222.185
     ],
     "platePairs": [
-      [
-        "body-0107",
-        "body-0108"
-      ],
       [
         "body-0100",
         "body-0102"
       ]
     ],
-    "numbering": "lower run toward upper run",
-    "scope": "ribs only; no geometry cut"
+    "scope": "MOD 3 lower-run end; MOD 4 upper-run end; current stringers only in MOD 3"
   }
 }

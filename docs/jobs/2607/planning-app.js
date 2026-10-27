@@ -1,4 +1,4 @@
-import { inBucket } from './bucket-membership.js?v=20261026-2607-openingglass';
+import { inBucket } from './bucket-membership.js?v=20261026-2607-carpet';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-openingglass-buckets01';
-import { createOverview } from './bucket-overview.js?v=20261026-2607-openingglass-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-carpet-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-2607-carpet-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -1058,6 +1058,16 @@ function installPlanningUi() {
     plan.appliedMigrations = [...(plan.appliedMigrations || []),'2607-opening-glass-v1'];
     savePlan();
   }
+  if (!plan.appliedMigrations?.includes('2607-carpet-v1')) {
+    const id = '2607-CARPET';
+    if (!plan.buckets.some(b => b.id === id)) plan.buckets.splice(4,0,structuredClone(report.initialPlan.buckets.find(b => b.id === id)));
+    const carpetIds = ["body-0387", "body-0388", "body-0389", "body-0404", "body-0405", "body-0406", "body-0421", "body-0422", "body-0423", "body-0438", "body-0439", "body-0440", "body-0455", "body-0456", "body-0457", "body-0497", "body-0498", "body-0499", "body-0514", "body-0515", "body-0516", "body-0531", "body-0532", "body-0533", "body-0548", "body-0549", "body-0550", "body-0565", "body-0566", "body-0567", "body-0582", "body-0583", "body-0584", "body-0638", "body-0639", "body-0640", "body-0665", "body-0666", "body-0667", "body-0682", "body-0683", "body-0684", "body-0699", "body-0700", "body-0701", "body-0716", "body-0717", "body-0718", "body-0751", "body-0752", "body-0753", "body-0768", "body-0769", "body-0770", "body-0785", "body-0786", "body-0787", "body-0802", "body-0803", "body-0804", "body-0819", "body-0820", "body-0821", "body-0836", "body-0837", "body-0838"];
+    const wasHidden = (plan.hiddenBuckets || []).includes('2607-NEW-STEP2');
+    for (const bodyId of carpetIds) plan.assignments[bodyId] = id;
+    if (wasHidden) plan.hiddenBuckets = [...new Set([...(plan.hiddenBuckets || []),id])];
+    plan.appliedMigrations = [...(plan.appliedMigrations || []),'2607-carpet-v1'];
+    savePlan();
+  }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -1152,11 +1162,11 @@ new ResizeObserver(resize).observe(container);
 async function load() {
   try {
     const [gltf, loadedReport] = await Promise.all([
-      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-openingglass').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
-      fetch('./assets/step-manifest.json?v=20261026-2607-openingglass', {cache:'no-store'}).then(r => r.json())
+      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-carpet').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
+      fetch('./assets/step-manifest.json?v=20261026-2607-carpet', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-openingglass", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-carpet", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

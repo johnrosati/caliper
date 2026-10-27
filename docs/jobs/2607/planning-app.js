@@ -6,7 +6,7 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=og-north-trial1-handle01-inches-easm02-20261027-2607-og4-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=visibility01-og-north-trial1-handle01-inches-easm02-20261027-2607-og4-buckets01';
 import { createOverview } from './bucket-overview.js?v=20261027-2607-og4-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 

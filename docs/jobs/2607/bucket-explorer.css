@@ -27,3 +27,13 @@ body.bucket-mode .view-only-label{color:#91a1ad}
 .bucket-properties-resize:hover span,.bucket-properties-resize.dragging span{background:#527f9f;width:70px}
 .bucket-properties-resize:focus-visible{outline:2px solid #7294ae;outline-offset:-2px}
 .bucket-focus-caption{min-height:140px;max-height:none;resize:none;border-top:0}
+
+/* Per-group visibility in Bucket view. */
+#bucket-view .bucket-show-all-bodies{align-self:flex-start;margin-top:12px;padding:5px 10px;border:1px solid #d5e1e9;border-radius:5px;background:#f8fafc;color:#5d778c;font-size:10px;line-height:1.4;z-index:3}
+#bucket-view .bucket-show-all-bodies:disabled{opacity:.48}
+#bucket-view .bucket-body-visibility{position:absolute;right:6px;bottom:6px;z-index:4;display:grid;place-items:center;width:26px;height:26px;padding:4px;border:1px solid #d5e1e9;border-radius:5px;background:#fffffff0;color:#6d899e}
+#bucket-view .bucket-body-visibility:hover{background:#e9f2f8;color:#315d7c;border-color:#adc4d4}
+.bucket-body-visibility svg{width:16px;height:16px}
+.bucket-wheel-item.body-hidden .bucket-wheel-preview,.bucket-wheel-item.body-hidden .bucket-wheel-copy{opacity:.45}
+#bucket-view .bucket-body-visibility[aria-pressed=true]{color:#a5763c;background:#fff7e9;border-color:#e8d6b6}
+.bucket-wheel-copy{padding-right:24px}

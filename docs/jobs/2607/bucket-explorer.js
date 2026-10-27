@@ -6,6 +6,8 @@ import { groupUniqueBodies } from './body-groups.js?v=20261027-og-north-trial1';
 import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261020-stack03';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
+const eyeIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
+const eyeOffIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 3l18 18M4.2 8.2C2.7 10 2 12 2 12s3.6 6 10 6c1.8 0 3.4-.5 4.7-1.1M9.4 6.3c.8-.2 1.7-.3 2.6-.3 6.4 0 10 6 10 6s-.7 1.2-2 2.5"/></svg>';
 const cleanName = name => name.replace(/^26-\d+_/, '').replace(/JR_?/g, ' ').replace(/_/g, ' ').trim();
 
 export function createBucketExplorer({ objectById, report, getPlan, radialTargets, moveBucket, readOnly = false }) {
@@ -63,6 +65,16 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     localStorage.setItem(propertiesHeightKey, String(propertiesHeight));
   });
   new ResizeObserver(() => { if (active) setPropertiesHeight(propertiesHeight); }).observe(root.querySelector('.bucket-center'));
+  const hiddenByBucket = new Map();
+  const showAllBodies = document.createElement('button');
+  showAllBodies.type = 'button'; showAllBodies.className = 'bucket-show-all-bodies';
+  showAllBodies.textContent = 'Show all'; showAllBodies.setAttribute('aria-label', 'Show all bodies in this bucket');
+  root.querySelector('.bucket-body-subtitle').after(showAllBodies);
+  function hiddenIds() {
+    if (!hiddenByBucket.has(bucketId)) hiddenByBucket.set(bucketId, new Set());
+    return hiddenByBucket.get(bucketId);
+  }
+  showAllBodies.addEventListener('click', () => { hiddenIds().clear(); updateFocus(); });
   const clones = new Map(), previews = new Map();
   const personalOrderKey = `caliper-bucket-view-order-${report.sourceSha256}`;
   let personalOrder = [];
@@ -259,6 +271,14 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       const name = document.createElement('strong'); name.textContent = cleanName(group.name);
       copy.append(qty, name); button.append(preview, copy); card.append(button); carousel.append(card);
       button.addEventListener('click', () => focusGroup(index));
+      const visibility = document.createElement('button'); visibility.type = 'button'; visibility.className = 'bucket-body-visibility';
+      visibility.addEventListener('click', event => {
+        event.stopPropagation();
+        const hidden = hiddenIds(); const groupHidden = group.ids.every(id => hidden.has(id));
+        for (const id of group.ids) { if (groupHidden) hidden.delete(id); else hidden.add(id); }
+        updateFocus();
+      });
+      card.append(visibility);
       if (drawingViewer.available(group, bucketId)) {
         const pencil = document.createElement('button'); pencil.type = 'button'; pencil.className = 'bucket-drawing-toggle';
         pencil.setAttribute('aria-label', `Drawing for ${cleanName(group.name)}`); pencil.setAttribute('aria-pressed', 'false'); pencil.title = drawingViewer.info(group, bucketId)?.referenceOnly ? 'Reference drawing — detailing required' : 'Toggle part drawing';
@@ -293,7 +313,8 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   }
   function updateFocus() {
     const group = groups[focusIndex]; const ids = new Set(group?.ids || []);
-    meshes.forEach(mesh => { const selected = ids.has(mesh.userData.bodyId); mesh.material = selected ? selectedMaterial : normalMaterial; mesh.children[0].material = selected ? selectedEdges : edgeMaterial; });
+    const hidden = hiddenIds();
+    meshes.forEach(mesh => { mesh.visible = !hidden.has(mesh.userData.bodyId); const selected = ids.has(mesh.userData.bodyId); mesh.material = selected ? selectedMaterial : normalMaterial; mesh.children[0].material = selected ? selectedEdges : edgeMaterial; });
     for (const [index, button] of [...carousel.children].entries()) {
       let delta = index - focusIndex;
       if (groups.length > 5) { if (delta > groups.length / 2) delta -= groups.length; if (delta < -groups.length / 2) delta += groups.length; }
@@ -303,10 +324,18 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       const focus = button.querySelector('.bucket-wheel-focus');
       focus.setAttribute('aria-pressed', String(delta === 0)); focus.tabIndex = delta === 0 ? 0 : -1;
       button.querySelector('.bucket-drawing-toggle')?.setAttribute('aria-pressed', String(drawingMode && delta === 0));
+      const cardGroup = groups[index]; const isHidden = cardGroup.ids.every(id => hidden.has(id));
+      button.classList.toggle('body-hidden', isHidden);
+      const visibility = button.querySelector('.bucket-body-visibility');
+      visibility.innerHTML = isHidden ? eyeOffIcon : eyeIcon;
+      visibility.title = isHidden ? 'Show in bucket view' : 'Hide in bucket view';
+      visibility.setAttribute('aria-label', `${isHidden ? 'Show' : 'Hide'} ${cleanName(cardGroup.name)} in bucket view`);
+      visibility.setAttribute('aria-pressed', String(isHidden));
     }
+    showAllBodies.disabled = hidden.size === 0;
     document.getElementById('bucket-focused-name').textContent = group ? cleanName(group.name) : 'This bucket has no bodies';
     document.getElementById('bucket-focused-name').title = group?.name || '';
-    document.getElementById('bucket-focused-qty').textContent = group ? `${group.ids.length} ${group.ids.length === 1 ? 'instance' : 'instances'} highlighted` : '';
+    document.getElementById('bucket-focused-qty').textContent = group ? `${group.ids.length} ${group.ids.length === 1 ? 'instance' : 'instances'} ${group.ids.every(id => hidden.has(id)) ? 'hidden' : 'highlighted'}` : '';
     let details = document.getElementById('bucket-body-properties');
     if (!details) {
       details = document.createElement('dl');
@@ -364,7 +393,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const bodyMenu = document.getElementById('bucket-body-menu'); let lastWheel = 0, dragStart = null;
   bodyMenu.addEventListener('wheel', e => { e.preventDefault(); if (Math.abs(e.deltaY) < 3 || performance.now() - lastWheel < 150) return; lastWheel = performance.now(); focusGroup(focusIndex + Math.sign(e.deltaY)); }, {passive:false});
   bodyMenu.addEventListener('keydown', e => { if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(e.key)) { e.preventDefault(); focusGroup(focusIndex + (['ArrowUp','ArrowLeft'].includes(e.key) ? -1 : 1)); } });
-  carousel.addEventListener('pointerdown', e => { if (e.button !== 0 || e.target.closest('.bucket-drawing-toggle')) { dragStart = null; return; } e.preventDefault(); carousel.setPointerCapture(e.pointerId); dragStart = {y:e.clientY, index:focusIndex, moved:false, pick:[...carousel.children].findIndex(button => button.contains(e.target))}; });
+  carousel.addEventListener('pointerdown', e => { if (e.button !== 0 || e.target.closest('.bucket-drawing-toggle, .bucket-body-visibility')) { dragStart = null; return; } e.preventDefault(); carousel.setPointerCapture(e.pointerId); dragStart = {y:e.clientY, index:focusIndex, moved:false, pick:[...carousel.children].findIndex(button => button.contains(e.target))}; });
   carousel.addEventListener('pointerup', () => { if (dragStart && !dragStart.moved && dragStart.pick >= 0) focusGroup(dragStart.pick); });
   carousel.addEventListener('pointercancel', () => { dragStart = null; });
   carousel.addEventListener('pointermove', e => { if (!dragStart || !e.buttons) return; const steps = Math.round((dragStart.y - e.clientY) / 70); if (steps) { dragStart.moved = true; focusGroup(dragStart.index + steps); } });
@@ -374,7 +403,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   renderer.domElement.addEventListener('pointerup', e => {
     if (e.button !== 0 || !start || Math.hypot(e.clientX-start[0], e.clientY-start[1]) > 5) return;
     start = null; const rect = stage.getBoundingClientRect(); pointer.set((e.clientX-rect.left)/rect.width*2-1,-(e.clientY-rect.top)/rect.height*2+1);
-    raycaster.setFromCamera(pointer,camera); const hit = raycaster.intersectObjects(meshes,false)[0];
+    raycaster.setFromCamera(pointer,camera); const hit = raycaster.intersectObjects(meshes.filter(mesh => mesh.visible),false)[0];
     if (hit) { const index = groups.findIndex(g => g.ids.includes(hit.object.userData.bodyId)); if (index >= 0) focusGroup(index); }
   });
   return {

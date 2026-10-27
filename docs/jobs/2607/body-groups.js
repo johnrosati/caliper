@@ -27,11 +27,11 @@ function signature(geometry) {
   signatures.set(geometry, result);
   return result;
 }
-function sameShape(a, b) {
+function sameShape(a, b, { strictTriangles = false } = {}) {
   if (a.edges.length !== b.edges.length) return false;
   if (Math.abs(a.area - b.area) > Math.max(0.1, a.area * 0.0001)) return false;
   return a.edges.every((length, i) => Math.abs(length - b.edges[i]) < 0.04) &&
-    a.triangles.every((triangle, i) => triangle.every((length, j) => Math.abs(length - b.triangles[i][j]) < 0.04));
+    (!strictTriangles || a.triangles.every((triangle, i) => triangle.every((length, j) => Math.abs(length - b.triangles[i][j]) < 0.04)));
 }
 export function groupUniqueBodies(bodies, objectById, { groupGenericNames = false } = {}) {
   const groups = [];
@@ -39,10 +39,11 @@ export function groupUniqueBodies(bodies, objectById, { groupGenericNames = fals
     const mesh = objectById.get(body.id);
     if (!mesh) continue;
     const shape = signature(mesh.geometry);
-    const nameKey = groupGenericNames && /\bbody\s+\d+$/i.test(body.name)
+    const isGeneric = groupGenericNames && /\bbody\s+\d+$/i.test(body.name);
+    const nameKey = isGeneric
       ? `generic:${(body.assemblyPath || []).join('/').toLowerCase()}:${body.material || ''}:${JSON.stringify(Object.entries(body.customProperties || {}).sort(([a],[b]) => a.localeCompare(b)))}`
       : body.name.toLowerCase().replace(/\s+/g, ' ').trim();
-    let group = groups.find(item => item.nameKey === nameKey && sameShape(item.shape, shape));
+    let group = groups.find(item => item.nameKey === nameKey && sameShape(item.shape, shape, { strictTriangles: isGeneric }));
     if (!group) {
       group = { id: body.id, name: body.name, nameKey, shape, ids: [], body };
       groups.push(group);

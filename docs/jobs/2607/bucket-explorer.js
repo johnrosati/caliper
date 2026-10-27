@@ -17,6 +17,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const carousel = document.getElementById('bucket-wheel');
   const slider = document.getElementById('bucket-distance');
   const explode = document.getElementById('bucket-explode');
+  const fitButton = document.getElementById('bucket-fit');
   const propertiesPanel = root.querySelector('.bucket-focus-caption');
   const propertiesHandle = document.createElement('div');
   propertiesHandle.className = 'bucket-properties-resize';
@@ -197,7 +198,9 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   function fit() {
     if (!active || !meshes.length) return;
     scene.updateMatrixWorld(true);
-    const box = new THREE.Box3().makeEmpty(); meshes.forEach(mesh => box.expandByObject(mesh));
+    const visibleMeshes = meshes.filter(mesh => mesh.visible);
+    if (!visibleMeshes.length) return;
+    const box = new THREE.Box3().makeEmpty(); visibleMeshes.forEach(mesh => box.expandByObject(mesh));
     const center = box.getCenter(new THREE.Vector3());
     const radius = Math.max(30, box.getSize(new THREE.Vector3()).length() / 2);
     const vertical = THREE.MathUtils.degToRad(camera.fov / 2);
@@ -388,6 +391,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   new ResizeObserver(() => { resize(); if (active) fit(); }).observe(stage);
   slider.addEventListener('input', () => setDistance(Number(slider.value)));
   explode.addEventListener('click', () => setDistance(distance > 0 ? 0 : 1));
+  fitButton.addEventListener('click', fit);
   document.getElementById('bucket-previous-body').addEventListener('click', () => focusGroup(focusIndex - 1));
   document.getElementById('bucket-next-body').addEventListener('click', () => focusGroup(focusIndex + 1));
   const bodyMenu = document.getElementById('bucket-body-menu'); let lastWheel = 0, dragStart = null;

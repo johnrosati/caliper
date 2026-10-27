@@ -1288,8 +1288,12 @@ async function load() {
     bucketExplorer = createBucketExplorer({ objectById, report, getPlan: () => plan, radialTargets, moveBucket });
     document.getElementById('mode-bucket').disabled = false;
     document.getElementById('mode-overview').disabled = false;
+    const requestedView = new URLSearchParams(location.search).get('view');
+    if (['planning', 'overview', 'bucket'].includes(requestedView)) setMode(requestedView);
+    document.documentElement.classList.remove('loading-requested-view');
     document.getElementById('loading').classList.add('hidden');
   } catch (error) {
+    document.documentElement.classList.remove('loading-requested-view');
     document.getElementById('loading').textContent = `Unable to load model: ${error.message}`;
     console.error(error);
   }

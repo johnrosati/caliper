@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>if (['overview','bucket'].includes(new URLSearchParams(location.search).get('view'))) document.documentElement.classList.add('loading-requested-view');</script>
+  <style>html.loading-requested-view body{visibility:hidden}html.loading-requested-view:after{content:'Loading selected view…';position:fixed;inset:0;display:grid;place-items:center;background:#f5f8fa;color:#72899b;font:14px system-ui}</style>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2607 · Stair planning</title>
   <link rel="stylesheet" href="./style.css?v=20261013-bucket2">
@@ -14,7 +17,7 @@
 </head>
 <body>
   <header>
-    <div class="project"><select aria-label="Job" onchange="location.href=this.value" style="font:inherit;font-weight:700;padding:6px;border:1px solid #ccd3db;border-radius:6px;background:white"><option value="https://johnrosati.github.io/caliper/">2605 · UMG</option><option value="https://johnrosati.github.io/caliper/jobs/2606/">2606 · HPC</option><option value="./" selected>2607 · Centerbridge</option></select><span>Centerbridge stair · STEP2 · new bodies for review</span></div>
+    <div class="project"><select aria-label="Job" onchange="location.href=this.value+'?view='+(document.querySelector('.mode-toggle button[aria-pressed=true]')?.id.replace('mode-','')||'planning')" style="font:inherit;font-weight:700;padding:6px;border:1px solid #ccd3db;border-radius:6px;background:white"><option value="https://johnrosati.github.io/caliper/">2605 · UMG</option><option value="https://johnrosati.github.io/caliper/jobs/2606/">2606 · HPC</option><option value="./" selected>2607 · Centerbridge</option></select><span>Centerbridge stair · STEP2 · new bodies for review</span></div>
     <nav class="mode-toggle" aria-label="Viewer mode">
       <button id="mode-planning" type="button" class="active" aria-pressed="true">Planning</button>
       <button id="mode-overview" type="button" aria-pressed="false" disabled>Overview</button>
@@ -160,6 +163,6 @@
       <div class="bucket-wheel-controls"><button id="bucket-previous-body" type="button" aria-label="Previous unique body">↑</button><output id="bucket-wheel-position">00 / 00</output><button id="bucket-next-body" type="button" aria-label="Next unique body">↓</button></div>
     </aside>
   </section>
-  <script type="module" src="./planning-app.js?v=mc01-qrail01-allgroups01-millwork01-fit01-visibility01-og-north-trial1-og4-handrails-trim-carpet-openingglass-openingguard-glass20-STEP2-handle01-inches-easm02-properties01-sleeves04-mod03-ml02-20261026-2607-correct01-buckets02"></script>
+  <script type="module" src="./planning-app.js?v=sharedview03-mc01-qrail01-allgroups01-millwork01-fit01-visibility01-og-north-trial1-og4-handrails-trim-carpet-openingglass-openingguard-glass20-STEP2-handle01-inches-easm02-properties01-sleeves04-mod03-ml02-20261026-2607-correct01-buckets02"></script>
 </body>
 </html>

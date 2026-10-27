@@ -15,6 +15,54 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
   const carousel = document.getElementById('bucket-wheel');
   const slider = document.getElementById('bucket-distance');
   const explode = document.getElementById('bucket-explode');
+  const propertiesPanel = root.querySelector('.bucket-focus-caption');
+  const propertiesHandle = document.createElement('div');
+  propertiesHandle.className = 'bucket-properties-resize';
+  propertiesHandle.setAttribute('role', 'separator');
+  propertiesHandle.setAttribute('aria-label', 'Resize body properties panel');
+  propertiesHandle.setAttribute('aria-orientation', 'horizontal');
+  propertiesHandle.tabIndex = 0;
+  propertiesHandle.title = 'Drag up to show more properties';
+  propertiesHandle.innerHTML = '<span></span>';
+  propertiesPanel.before(propertiesHandle);
+  const propertiesHeightKey = 'caliper-bucket-properties-height';
+  let propertiesHeight = Number(localStorage.getItem(propertiesHeightKey)) || 240;
+  function setPropertiesHeight(value) {
+    const available = root.querySelector('.bucket-center').clientHeight;
+    const maximum = Math.max(140, available - 340);
+    propertiesHeight = Math.max(140, Math.min(maximum, value));
+    propertiesPanel.style.flexBasis = `${propertiesHeight}px`;
+    propertiesPanel.style.height = `${propertiesHeight}px`;
+    propertiesHandle.setAttribute('aria-valuenow', String(Math.round(propertiesHeight)));
+    propertiesHandle.setAttribute('aria-valuemin', '140');
+    propertiesHandle.setAttribute('aria-valuemax', String(Math.round(maximum)));
+  }
+  let propertiesDrag = null;
+  propertiesHandle.addEventListener('pointerdown', event => {
+    if (event.button !== 0) return;
+    propertiesDrag = {y:event.clientY, height:propertiesPanel.getBoundingClientRect().height};
+    propertiesHandle.setPointerCapture(event.pointerId);
+    propertiesHandle.classList.add('dragging');
+    event.preventDefault();
+  });
+  propertiesHandle.addEventListener('pointermove', event => {
+    if (propertiesDrag) setPropertiesHeight(propertiesDrag.height + propertiesDrag.y - event.clientY);
+  });
+  const finishPropertiesDrag = () => {
+    if (!propertiesDrag) return;
+    propertiesDrag = null;
+    propertiesHandle.classList.remove('dragging');
+    localStorage.setItem(propertiesHeightKey, String(propertiesHeight));
+  };
+  propertiesHandle.addEventListener('pointerup', finishPropertiesDrag);
+  propertiesHandle.addEventListener('pointercancel', finishPropertiesDrag);
+  propertiesHandle.addEventListener('keydown', event => {
+    if (!['ArrowUp','ArrowDown','Home','End'].includes(event.key)) return;
+    event.preventDefault();
+    setPropertiesHeight(event.key === 'Home' ? 140 : event.key === 'End' ? Infinity : propertiesHeight + (event.key === 'ArrowUp' ? 40 : -40));
+    localStorage.setItem(propertiesHeightKey, String(propertiesHeight));
+  });
+  new ResizeObserver(() => { if (active) setPropertiesHeight(propertiesHeight); }).observe(root.querySelector('.bucket-center'));
   const clones = new Map(), previews = new Map();
   const personalOrderKey = `caliper-bucket-view-order-${report.sourceSha256}`;
   let personalOrder = [];
@@ -259,6 +307,42 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
     document.getElementById('bucket-focused-name').textContent = group ? cleanName(group.name) : 'This bucket has no bodies';
     document.getElementById('bucket-focused-name').title = group?.name || '';
     document.getElementById('bucket-focused-qty').textContent = group ? `${group.ids.length} ${group.ids.length === 1 ? 'instance' : 'instances'} highlighted` : '';
+    let details = document.getElementById('bucket-body-properties');
+    if (!details) {
+      details = document.createElement('dl');
+      details.id = 'bucket-body-properties';
+      details.setAttribute('aria-label', 'Body properties');
+      document.getElementById('bucket-focused-qty').after(details);
+    }
+    details.replaceChildren();
+    const addProperty = (label, value) => {
+      if (value === undefined || value === null) return;
+      const dt = document.createElement('dt'), dd = document.createElement('dd');
+      dt.textContent = label;
+      dd.textContent = typeof value === 'object' ? JSON.stringify(value) : String(value || '(blank in source)');
+      details.append(dt, dd);
+    };
+    if (group) {
+      const bodies = report.bodies.filter(body => group.ids.includes(body.id));
+      addProperty('Material', [...new Set(bodies.map(body => body.material || body.customProperties?.Material || 'Not available for this body'))].join(' · '));
+      const properties = new Map();
+      for (const body of bodies) {
+        for (const [key, value] of Object.entries(body.customProperties || {})) {
+          if (!properties.has(key)) properties.set(key, new Set());
+          properties.get(key).add(typeof value === 'object' ? JSON.stringify(value) : String(value));
+        }
+      }
+      for (const [key, values] of properties) addProperty(key, [...values].join(' · '));
+      addProperty('Custom properties', properties.size ? undefined : 'No verified property match for this body');
+      addProperty('Property source', [...new Set(bodies.map(body => body.propertySource ? `${body.propertySource.file} · ${body.propertySource.part} / ${body.propertySource.configuration}` : '').filter(Boolean))].join(' · ') || undefined);
+      addProperty('Source name', group.name);
+      addProperty('Body IDs', group.ids.join(', '));
+      addProperty('Assembly', [...new Set(bodies.map(body => body.assemblyPath?.join(' / ')).filter(Boolean))].join(' · '));
+      addProperty('Displayed dimensions', 'inches');
+      const dimensions = [...new Set(bodies.map(body => body.installedBoundsInches?.map(value => value.toFixed(3)).join(' × ')).filter(Boolean))];
+      if (dimensions.length) addProperty('Installed bounds · X × Y × Z (in)', dimensions.join(' · '));
+      addProperty('Preview triangles', bodies.reduce((sum, body) => sum + (body.triangles || 0), 0).toLocaleString());
+    }
     document.getElementById('bucket-wheel-position').textContent = groups.length ? `${String(focusIndex + 1).padStart(2, '0')} / ${String(groups.length).padStart(2, '0')}` : '00 / 00';
     document.getElementById('bucket-wheel-empty').hidden = groups.length > 0;
     document.getElementById('bucket-previous-body').disabled = groups.length < 2;

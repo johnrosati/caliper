@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>if (['overview','bucket'].includes(new URLSearchParams(location.search).get('view'))) document.documentElement.classList.add('loading-requested-view');</script>
+  <style>html.loading-requested-view body{visibility:hidden}html.loading-requested-view:after{content:'Loading selected view…';position:fixed;inset:0;display:grid;place-items:center;background:#f5f8fa;color:#72899b;font:14px system-ui}</style>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>2605 · Stair bucket viewer</title>
   <link rel="stylesheet" href="./style.css?v=20261012-readonly1">
-  <link rel="stylesheet" href="./bucket-explorer.css?v=20261013-bucket3">
+  <link rel="stylesheet" href="./bucket-explorer.css?v=props03-20261013-bucket3">
   <link rel="stylesheet" href="./light-theme.css?v=20261013-light1">
   <link rel="stylesheet" href="./part-drawing-viewer.css?v=20261014-drawing10">
   <script type="importmap">
@@ -14,7 +17,7 @@
 </head>
 <body>
   <header>
-    <div class="project"><select aria-label="Job" onchange="location.href=this.value" style="font:inherit;font-weight:700;padding:6px;border:1px solid #ccd3db;border-radius:6px;background:white"><option value="./" selected>2605 · UMG</option><option value="./jobs/2606/">2606 · HPC</option><option value="./jobs/2607/">2607 · Centerbridge</option></select><span>UMG stair · 5–6 assembly</span></div>
+    <div class="project"><select aria-label="Job" onchange="location.href=this.value+'?view='+(document.querySelector('.mode-toggle button[aria-pressed=true]')?.id.replace('mode-','')||'planning')" style="font:inherit;font-weight:700;padding:6px;border:1px solid #ccd3db;border-radius:6px;background:white"><option value="./" selected>2605 · UMG</option><option value="./jobs/2606/">2606 · HPC</option><option value="./jobs/2607/">2607 · Centerbridge</option></select><span>UMG stair · 5–6 assembly</span></div>
     <span class="view-only-label">VIEW ONLY</span><nav class="mode-toggle" aria-label="Viewer mode">
       <button id="mode-planning" type="button" class="active" aria-pressed="true">Planning</button>
       <button id="mode-overview" type="button" aria-pressed="false" disabled>Overview</button>
@@ -160,6 +163,6 @@
       <div class="bucket-wheel-controls"><button id="bucket-previous-body" type="button" aria-label="Previous unique body">↑</button><output id="bucket-wheel-position">00 / 00</output><button id="bucket-next-body" type="button" aria-label="Next unique body">↓</button></div>
     </aside>
   </section>
-  <script type="module" src="./planning-app.js?v=20261014-drawing10"></script>
+  <script type="module" src="./planning-app.js?v=sharedview03-20261014-drawing10"></script>
 </body>
 </html>

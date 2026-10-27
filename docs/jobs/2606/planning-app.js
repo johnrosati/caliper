@@ -6,7 +6,7 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=20261026-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=props03-20261026-buckets01';
 import { createOverview } from './bucket-overview.js?v=20261026-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
@@ -1118,8 +1118,12 @@ async function load() {
     bucketExplorer = createBucketExplorer({ objectById, report, getPlan: () => plan, radialTargets, moveBucket });
     document.getElementById('mode-bucket').disabled = false;
     document.getElementById('mode-overview').disabled = false;
+    const requestedView = new URLSearchParams(location.search).get('view');
+    if (['planning', 'overview', 'bucket'].includes(requestedView)) setMode(requestedView);
+    document.documentElement.classList.remove('loading-requested-view');
     document.getElementById('loading').classList.add('hidden');
   } catch (error) {
+    document.documentElement.classList.remove('loading-requested-view');
     document.getElementById('loading').textContent = `Unable to load model: ${error.message}`;
     console.error(error);
   }

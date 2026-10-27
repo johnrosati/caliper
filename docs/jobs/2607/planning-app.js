@@ -1223,6 +1223,14 @@ async function load() {
       body.material = 'Aluminum';
       body.propertySource = {file: '26-0726_2607_INSTALLEDJR.EASM', part: '26-0806_BASE SHOEJR', configuration: 'BASE SHOE', match: 'profile geometry and shop detail 1A.102'};
     }
+    // STEP flattened the MC01 clips and adjacent rectangular bodies into generic opening-guard bodies.
+    // Apply the CLIP configuration only to the 76 matching channel-profile bodies.
+    const channelIds = new Set([...Array.from({length: 71}, (_, i) => 1787 + i * 2), 1937, 1939, 1941, 1943, 1945].map(i => `body-${String(i).padStart(4, '0')}`));
+    for (const body of loadedReport.bodies) if (channelIds.has(body.id)) {
+      body.customProperties = {Description: '', description: 'Base Shoe Mount Channel', 'part number': 'MC01', method: 'stock fabrication', material: '1-1/2" X 3" C Channel', finish: 'none', weight: '"SW-Mass@@CLIP@26-0827_SHOE MOUNT CHANNEL.SLDPRT"'};
+      body.material = '1-1/2" X 3" C Channel';
+      body.propertySource = {file: '26-0726_2607_INSTALLEDJR.EASM', part: '26-0827_SHOE MOUNT CHANNELJR', configuration: 'CLIP', match: 'channel geometry and shop detail 1A.102'};
+    }
     report = loadedReport;
     const seed = await fetch("./assets/proposed-plan.json?v=20261027-2607-og-millwork1", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");

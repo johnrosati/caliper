@@ -1110,6 +1110,14 @@ function installPlanningUi() {
     plan.appliedMigrations = [...(plan.appliedMigrations || []), '2607-og-millwork-by-others-v1'];
     savePlan();
   }
+  // HSS4x3 at OG West is provided by the iron worker (shop detail 1A.102).
+  if (!plan.appliedMigrations?.includes('2607-og-hss-by-others-v1')) {
+    for (const id of ['body-1929', 'body-1930']) {
+      if (['2607-OG-NORTH', '2607-OG-SOUTH', '2607-OG-EAST', '2607-OG-WEST'].includes(plan.assignments[id])) delete plan.assignments[id];
+    }
+    plan.appliedMigrations = [...(plan.appliedMigrations || []), '2607-og-hss-by-others-v1'];
+    savePlan();
+  }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -1207,6 +1215,14 @@ async function load() {
       fetch('./assets/stair-step.gltf.gz?v=20261027-2607-og4').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
       fetch('./assets/step-manifest.json?v=20261027-2607-og4', {cache:'no-store'}).then(r => r.json())
     ]);
+    // The updated STEP flattened these recognizable Q-railing profiles into generic assembly bodies.
+    // EASM BASE SHOE configuration and shop detail 1A.102 identify MOD 6960.
+    const qrailIds = new Set(Array.from({length: 7}, (_, i) => `body-${String(991 + i).padStart(4, '0')}`));
+    for (const body of loadedReport.bodies) if (qrailIds.has(body.id)) {
+      body.customProperties = {description: 'Base Shoe', 'part number': 'MOD 6960', method: 'Q-railing', material: 'Aluminum', finish: 'Mill'};
+      body.material = 'Aluminum';
+      body.propertySource = {file: '26-0726_2607_INSTALLEDJR.EASM', part: '26-0806_BASE SHOEJR', configuration: 'BASE SHOE', match: 'profile geometry and shop detail 1A.102'};
+    }
     report = loadedReport;
     const seed = await fetch("./assets/proposed-plan.json?v=20261027-2607-og-millwork1", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");

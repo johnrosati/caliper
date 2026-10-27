@@ -1,4 +1,4 @@
-import { inBucket } from './bucket-membership.js?v=20261026-2607-trim';
+import { inBucket } from './bucket-membership.js?v=20261026-2607-handrails';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-trim-buckets01';
-import { createOverview } from './bucket-overview.js?v=20261026-2607-trim-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-handrails-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-2607-handrails-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -1077,6 +1077,17 @@ function installPlanningUi() {
     plan.appliedMigrations=[...(plan.appliedMigrations||[]),'2607-stair-trim-v1'];
     savePlan();
   }
+  if (!plan.appliedMigrations?.includes('2607-handrail-assembly-v1')) {
+    const id='2607-HANDRAILS';
+    if (!plan.buckets.some(b=>b.id===id)) plan.buckets.splice(6,0,structuredClone(report.initialPlan.buckets.find(b=>b.id===id)));
+    const ids=["body-0890", "body-0891", "body-0892", "body-0893", "body-0894", "body-0895", "body-0896", "body-0897", "body-0898", "body-0899", "body-0900", "body-0901", "body-0902", "body-0903", "body-0904", "body-0905", "body-0906", "body-0907", "body-0908", "body-0909", "body-0910", "body-0911", "body-0912", "body-0913", "body-0914", "body-0915", "body-0916", "body-0917", "body-0918", "body-0919", "body-0920", "body-0921", "body-0922", "body-0923", "body-0924", "body-0925", "body-0926", "body-0927", "body-0928", "body-0929", "body-0930", "body-0931", "body-0932", "body-0933", "body-0934", "body-0935", "body-0936", "body-0937", "body-0938", "body-0939", "body-0940", "body-0941", "body-0942", "body-0943", "body-0944", "body-0945", "body-0946", "body-0947", "body-0948", "body-0949", "body-0950", "body-0951", "body-0952", "body-0953", "body-0954", "body-0955", "body-0956", "body-0957", "body-0958", "body-0959", "body-0960", "body-0961", "body-0962", "body-0963", "body-0964", "body-0965", "body-0329", "body-0330", "body-0331", "body-0332", "body-0333", "body-0334", "body-0335", "body-0336", "body-0337", "body-0338"];
+    for (const bodyId of ids) plan.assignments[bodyId]=id;
+    plan.buckets=plan.buckets.filter(b=>b.id!=='2607-B019');
+    plan.hiddenBuckets=(plan.hiddenBuckets||[]).filter(b=>b!=='2607-B019');
+    if (plan.hiddenBuckets.includes('2607-NEW-STEP2')) plan.hiddenBuckets=[...new Set([...plan.hiddenBuckets,id])];
+    plan.appliedMigrations=[...(plan.appliedMigrations||[]),'2607-handrail-assembly-v1'];
+    savePlan();
+  }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -1171,11 +1182,11 @@ new ResizeObserver(resize).observe(container);
 async function load() {
   try {
     const [gltf, loadedReport] = await Promise.all([
-      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-trim').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
-      fetch('./assets/step-manifest.json?v=20261026-2607-trim', {cache:'no-store'}).then(r => r.json())
+      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-handrails').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
+      fetch('./assets/step-manifest.json?v=20261026-2607-handrails', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-trim", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-handrails", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

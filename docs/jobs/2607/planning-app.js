@@ -444,7 +444,7 @@ function setBodyIsolation(bodyId) {
 }
 
 function savePlan() {
-  if (report) localStorage.setItem(`caliper-buckets-${report.sourceSha256}`, JSON.stringify(plan));
+  // Changes on the shared viewer remain local to this visit.
 }
 
 function nudgeOffset(bucketId, bodyId) {
@@ -962,16 +962,8 @@ function renderBuckets() {
 }
 
 function installPlanningUi() {
-  const currentKey = `caliper-buckets-${report.sourceSha256}`;
-  let saved = localStorage.getItem(currentKey);
-  if (!saved && report.previousSourceSha256) {
-    const previous = localStorage.getItem(`caliper-buckets-${report.previousSourceSha256}`);
-    if (previous) {
-      saved = previous;
-      localStorage.setItem(currentKey, previous);
-    }
-  }
-  plan = JSON.parse(saved || JSON.stringify(report.initialPlan || {buckets:[],assignments:{}}));
+  // The published viewer starts from the shared snapshot on every visit.
+  plan = structuredClone(report.initialPlan);
   // Revised STEP: preserve browser assignments for surviving stable IDs,
   // seed only added bodies and drop bodies excluded from the refreshed model.
   if (plan.sourceSha256 !== report.sourceSha256) {
@@ -1232,7 +1224,7 @@ async function load() {
       body.propertySource = {file: '26-0726_2607_INSTALLEDJR.EASM', part: '26-0827_SHOE MOUNT CHANNELJR', configuration: 'CLIP', match: 'channel geometry and shop detail 1A.102'};
     }
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261027-2607-og-millwork1", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261027-sharedplan01", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

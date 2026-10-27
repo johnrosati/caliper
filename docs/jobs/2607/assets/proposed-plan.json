@@ -3,23 +3,17 @@
   "source": "26-0726_2607_INSTALLEDJR.STEP",
   "sourceSha256": "6a6c17883fa0ac7450ddd9767d9ca502dbccdbeae0255b25d5b83628ac83618b",
   "status": "new bodies pending manual assignment",
-  "revision": "2607-STEP2-stair-glass",
+  "revision": "2607-STEP2-intake",
   "buckets": [
-    {
-      "id": "2607-NEW-STEP2",
-      "name": "NEW BODIES",
-      "kind": "unassigned new model bodies",
-      "reason": "All newly added bodies from STEP2, including handrail/subrail/posts and architectural components. Hide this bucket to reveal the preserved structural skeleton. Assign individual bodies to fabrication buckets during review."
-    },
-    {
-      "id": "2607-STAIR-GLASS",
-      "name": "STAIR GLASS PANELS",
-      "kind": "stair guardrail glass",
-      "reason": "20 stair/midlanding guard panels. Opening-guard glass excluded."
-    },
     {
       "id": "2607-OG-NORTH",
       "name": "OG North",
+      "kind": "opening guard side assembly",
+      "reason": "North is the run at the upper stair landing. Fascia module end plates/hardware stay with their parent side; opening glass remains separate."
+    },
+    {
+      "id": "2607-OG-WEST",
+      "name": "OG West",
       "kind": "opening guard side assembly",
       "reason": "North is the run at the upper stair landing. Fascia module end plates/hardware stay with their parent side; opening glass remains separate."
     },
@@ -34,36 +28,6 @@
       "name": "OG East",
       "kind": "opening guard side assembly",
       "reason": "North is the run at the upper stair landing. Fascia module end plates/hardware stay with their parent side; opening glass remains separate."
-    },
-    {
-      "id": "2607-OG-WEST",
-      "name": "OG West",
-      "kind": "opening guard side assembly",
-      "reason": "North is the run at the upper stair landing. Fascia module end plates/hardware stay with their parent side; opening glass remains separate."
-    },
-    {
-      "id": "2607-OPENING-GLASS",
-      "name": "OPENING GUARD GLASS",
-      "kind": "laminated opening guard glass",
-      "reason": "11 laminated opening-guard panels, each represented by two glass plies and one interlayer: 33 bodies."
-    },
-    {
-      "id": "2607-CARPET",
-      "name": "CARPET",
-      "kind": "carpet pad and substrate assembly",
-      "reason": "22 modeled carpet pads and 44 associated plywood tread/riser substrate bodies; steel treads/risers excluded."
-    },
-    {
-      "id": "2607-STAIR-TRIM",
-      "name": "Stair TRIM",
-      "kind": "stair side edging and trim",
-      "reason": "Layered side trim following stair treads, risers and midlanding: stone edging, 3/4 inch backing strips and 1 inch aluminum angle edge trim. Carpet, structural steel and opening guard excluded."
-    },
-    {
-      "id": "2607-HANDRAILS",
-      "name": "HANDRAILS / POSTS / SUBRAILS / GLASS CAP",
-      "kind": "handrail assembly",
-      "reason": "Handrails, subrails, leather/finish layers, glass caps, 18 posts and associated base plates/fasteners. Shop-welded post sleeves remain in structural modules."
     },
     {
       "id": "2607-B001",
@@ -150,8 +114,78 @@
       "requiresSpliceReview": false
     },
     {
+      "id": "2607-B016",
+      "name": "COLUMN · POSITIVE Z",
+      "proposal": true,
+      "kind": "column / connection assembly",
+      "reason": "One 4 inch HSS column with base, connection knives and local hardware. Full column is 130.7 in; transport review.",
+      "envelopeInches": [
+        10,
+        135.22,
+        10
+      ],
+      "elevatorFit": "unverified",
+      "requiresSpliceReview": true
+    },
+    {
+      "id": "2607-B017",
+      "name": "COLUMN · NEGATIVE Z",
+      "proposal": true,
+      "kind": "column / connection assembly",
+      "reason": "Second 4 inch HSS column with base, connection knives and local hardware. Full column is 130.7 in; transport review.",
+      "envelopeInches": [
+        10,
+        135.22,
+        10
+      ],
+      "elevatorFit": "unverified",
+      "requiresSpliceReview": true
+    },
+    {
+      "id": "2607-HANDRAILS",
+      "name": "HANDRAILS / POSTS / SUBRAILS / GLASS CAP",
+      "kind": "handrail assembly",
+      "reason": "Handrails, subrails, leather/finish layers, glass caps, 18 posts and associated base plates/fasteners. Shop-welded post sleeves remain in structural modules."
+    },
+    {
+      "id": "2607-STAIR-TRIM",
+      "name": "Stair TRIM",
+      "kind": "stair side edging and trim",
+      "reason": "Layered side trim following stair treads, risers and midlanding: stone edging, 3/4 inch backing strips and 1 inch aluminum angle edge trim. Carpet, structural steel and opening guard excluded."
+    },
+    {
+      "id": "2607-OPENING-GLASS",
+      "name": "OPENING GUARD GLASS",
+      "kind": "laminated opening guard glass",
+      "reason": "11 laminated opening-guard panels, each represented by two glass plies and one interlayer: 33 bodies."
+    },
+    {
+      "id": "2607-STAIR-GLASS",
+      "name": "STAIR GLASS PANELS",
+      "kind": "stair guardrail glass",
+      "reason": "20 stair/midlanding guard panels. Opening-guard glass excluded."
+    },
+    {
+      "id": "2607-OG-TRIM",
+      "name": "OG Trim",
+      "kind": "opening guard finish trim",
+      "reason": "Ten-inch top and bottom trim bars, installed later after the opening guard assemblies."
+    },
+    {
+      "id": "2607-CARPET",
+      "name": "CARPET",
+      "kind": "carpet pad and substrate assembly",
+      "reason": "22 modeled carpet pads and 44 associated plywood tread/riser substrate bodies; steel treads/risers excluded."
+    },
+    {
+      "id": "2607-NEW-STEP2",
+      "name": "NEW BODIES",
+      "kind": "unassigned new model bodies",
+      "reason": "All newly added bodies from STEP2, including handrail/subrail/posts and architectural components. Hide this bucket to reveal the preserved structural skeleton. Assign individual bodies to fabrication buckets during review."
+    },
+    {
       "id": "2607-B009",
-      "name": "CLADDING SUPPORT \u00b7 LOWER 01",
+      "name": "CLADDING SUPPORT · LOWER 01",
       "proposal": true,
       "kind": "cladding support",
       "reason": "First lower-run cladding support tube.",
@@ -165,7 +199,7 @@
     },
     {
       "id": "2607-B010",
-      "name": "CLADDING SUPPORT \u00b7 LOWER 02",
+      "name": "CLADDING SUPPORT · LOWER 02",
       "proposal": true,
       "kind": "cladding support",
       "reason": "Paired second lower-run support tubes.",
@@ -179,7 +213,7 @@
     },
     {
       "id": "2607-B011",
-      "name": "CLADDING SUPPORT \u00b7 ML",
+      "name": "CLADDING SUPPORT · ML",
       "proposal": true,
       "kind": "cladding support",
       "reason": "Paired landing-transition support tubes.",
@@ -193,7 +227,7 @@
     },
     {
       "id": "2607-B012",
-      "name": "CLADDING SUPPORT \u00b7 UPPER 01",
+      "name": "CLADDING SUPPORT · UPPER 01",
       "proposal": true,
       "kind": "cladding support",
       "reason": "Paired first upper-run support tubes.",
@@ -207,7 +241,7 @@
     },
     {
       "id": "2607-B013",
-      "name": "CLADDING SUPPORT \u00b7 UPPER 02",
+      "name": "CLADDING SUPPORT · UPPER 02",
       "proposal": true,
       "kind": "cladding support",
       "reason": "Paired second upper-run support tubes.",
@@ -246,34 +280,6 @@
       ],
       "elevatorFit": "unverified",
       "requiresSpliceReview": false
-    },
-    {
-      "id": "2607-B016",
-      "name": "COLUMN \u00b7 POSITIVE Z",
-      "proposal": true,
-      "kind": "column / connection assembly",
-      "reason": "One 4 inch HSS column with base, connection knives and local hardware. Full column is 130.7 in; transport review.",
-      "envelopeInches": [
-        10,
-        135.22,
-        10
-      ],
-      "elevatorFit": "unverified",
-      "requiresSpliceReview": true
-    },
-    {
-      "id": "2607-B017",
-      "name": "COLUMN \u00b7 NEGATIVE Z",
-      "proposal": true,
-      "kind": "column / connection assembly",
-      "reason": "Second 4 inch HSS column with base, connection knives and local hardware. Full column is 130.7 in; transport review.",
-      "envelopeInches": [
-        10,
-        135.22,
-        10
-      ],
-      "elevatorFit": "unverified",
-      "requiresSpliceReview": true
     }
   ],
   "assignments": {
@@ -702,7 +708,7 @@
     "body-0459": "2607-STAIR-TRIM",
     "body-0460": "2607-STAIR-TRIM",
     "body-0461": "2607-STAIR-TRIM",
-    "body-0462": "2607-NEW-STEP2",
+    "body-0462": "2607-B001",
     "body-0463": "2607-STAIR-TRIM",
     "body-0464": "2607-STAIR-TRIM",
     "body-0465": "2607-STAIR-TRIM",
@@ -1207,30 +1213,30 @@
     "body-0964": "2607-HANDRAILS",
     "body-0965": "2607-HANDRAILS",
     "body-0966": "2607-NEW-STEP2",
-    "body-0967": "2607-OG-NORTH",
-    "body-0968": "2607-OG-WEST",
-    "body-0969": "2607-OG-SOUTH",
-    "body-0970": "2607-OG-SOUTH",
-    "body-0971": "2607-OG-EAST",
-    "body-0972": "2607-OG-NORTH",
-    "body-0973": "2607-OG-WEST",
-    "body-0974": "2607-OG-SOUTH",
-    "body-0975": "2607-OG-SOUTH",
-    "body-0976": "2607-OG-EAST",
-    "body-0977": "2607-OG-NORTH",
-    "body-0978": "2607-OG-NORTH",
-    "body-0979": "2607-OG-NORTH",
-    "body-0980": "2607-OG-SOUTH",
-    "body-0981": "2607-OG-WEST",
-    "body-0982": "2607-OG-WEST",
-    "body-0983": "2607-OG-EAST",
-    "body-0984": "2607-OG-NORTH",
-    "body-0985": "2607-OG-NORTH",
-    "body-0986": "2607-OG-EAST",
-    "body-0987": "2607-OG-SOUTH",
-    "body-0988": "2607-OG-SOUTH",
-    "body-0989": "2607-OG-SOUTH",
-    "body-0990": "2607-OG-NORTH",
+    "body-0967": "2607-OG-TRIM",
+    "body-0968": "2607-OG-TRIM",
+    "body-0969": "2607-OG-TRIM",
+    "body-0970": "2607-OG-TRIM",
+    "body-0971": "2607-OG-TRIM",
+    "body-0972": "2607-OG-TRIM",
+    "body-0973": "2607-OG-TRIM",
+    "body-0974": "2607-OG-TRIM",
+    "body-0975": "2607-OG-TRIM",
+    "body-0976": "2607-OG-TRIM",
+    "body-0977": "2607-OG-TRIM",
+    "body-0978": "2607-OG-TRIM",
+    "body-0979": "2607-OG-TRIM",
+    "body-0980": "2607-OG-TRIM",
+    "body-0981": "2607-OG-TRIM",
+    "body-0982": "2607-OG-TRIM",
+    "body-0983": "2607-OG-TRIM",
+    "body-0984": "2607-OG-TRIM",
+    "body-0985": "2607-OG-TRIM",
+    "body-0986": "2607-OG-TRIM",
+    "body-0987": "2607-OG-TRIM",
+    "body-0988": "2607-OG-TRIM",
+    "body-0989": "2607-OG-TRIM",
+    "body-0990": "2607-OG-TRIM",
     "body-0991": "2607-OG-NORTH",
     "body-0992": "2607-OG-NORTH",
     "body-0993": "2607-OG-NORTH",
@@ -2161,8 +2167,6 @@
     "body-1926": "2607-OG-WEST",
     "body-1927": "2607-OG-WEST",
     "body-1928": "2607-OG-WEST",
-    "body-1929": "2607-OG-WEST",
-    "body-1930": "2607-OG-WEST",
     "body-1931": "2607-OG-WEST",
     "body-1932": "2607-OG-WEST",
     "body-1933": "2607-OG-WEST",
@@ -2171,8 +2175,8 @@
     "body-1936": "2607-OG-WEST",
     "body-1937": "2607-OG-NORTH",
     "body-1938": "2607-OG-NORTH",
-    "body-1939": "2607-OG-EAST",
-    "body-1940": "2607-OG-EAST",
+    "body-1939": "2607-OG-NORTH",
+    "body-1940": "2607-OG-NORTH",
     "body-1941": "2607-OG-NORTH",
     "body-1942": "2607-OG-NORTH",
     "body-1943": "2607-OG-WEST",
@@ -2180,9 +2184,7 @@
     "body-1945": "2607-OG-NORTH",
     "body-1946": "2607-OG-NORTH"
   },
-  "hiddenBuckets": [
-    "2607-STAIR-GLASS"
-  ],
+  "hiddenBuckets": [],
   "viewNudges": {},
   "midlandingModuleSeams": {
     "axis": "X",
@@ -2207,7 +2209,10 @@
     "2607-carpet-v1",
     "2607-stair-trim-v1",
     "2607-handrail-assembly-v1",
-    "2607-og-four-sides-v1"
+    "2607-og-four-sides-v1",
+    "2607-og-millwork-by-others-v1",
+    "2607-og-trim-v1",
+    "2607-og-hss-by-others-v1"
   ],
   "sourceRefresh": {
     "matched": 340,

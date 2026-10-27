@@ -252,7 +252,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       meshes.forEach(mesh => { mesh.position.copy(mesh.userData.home); scene.add(mesh); });
       scene.updateMatrixWorld(true); targets = radialTargets(meshes);
       const previousId = groups[focusIndex]?.id;
-      groups = groupUniqueBodies(bodies, objectById, { groupGenericNames: bucketId === '2607-OG-NORTH' });
+      groups = groupUniqueBodies(bodies, objectById, { groupGenericNames: true });
       focusIndex = Math.max(0, groups.findIndex(group => group.id === previousId));
       renderWheel(); positionMeshes(); if (active) { resize(); fit(); }
     }

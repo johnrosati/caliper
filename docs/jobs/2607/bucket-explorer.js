@@ -2,7 +2,7 @@ import { inBucket } from './bucket-membership.js?v=20261026';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { createBodyTileRenderer } from './body-tiles.js?v=20261013-light1';
-import { groupUniqueBodies } from './body-groups.js?v=20261013-bucket2';
+import { groupUniqueBodies } from './body-groups.js?v=20261027-og-north-trial1';
 import { createPartDrawingViewer } from './part-drawing-viewer.js?v=20261020-stack03';
 
 const gripIcon = '<svg viewBox="0 0 16 20" aria-hidden="true"><g fill="currentColor"><circle cx="5" cy="4" r="1.3"/><circle cx="11" cy="4" r="1.3"/><circle cx="5" cy="10" r="1.3"/><circle cx="11" cy="10" r="1.3"/><circle cx="5" cy="16" r="1.3"/><circle cx="11" cy="16" r="1.3"/></g></svg>';
@@ -237,7 +237,7 @@ export function createBucketExplorer({ objectById, report, getPlan, radialTarget
       meshes.forEach(mesh => { mesh.position.copy(mesh.userData.home); scene.add(mesh); });
       scene.updateMatrixWorld(true); targets = radialTargets(meshes);
       const previousId = groups[focusIndex]?.id;
-      groups = groupUniqueBodies(bodies, objectById);
+      groups = groupUniqueBodies(bodies, objectById, { groupGenericNames: bucketId === '2607-OG-NORTH' });
       focusIndex = Math.max(0, groups.findIndex(group => group.id === previousId));
       renderWheel(); positionMeshes(); if (active) { resize(); fit(); }
     }

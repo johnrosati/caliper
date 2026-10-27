@@ -1,4 +1,4 @@
-import { inBucket } from './bucket-membership.js?v=20261026-2607-carpet';
+import { inBucket } from './bucket-membership.js?v=20261026-2607-trim';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,8 +6,8 @@ import { Line2 } from 'three/addons/lines/Line2.js';
 import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
 import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
-import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-carpet-buckets01';
-import { createOverview } from './bucket-overview.js?v=20261026-2607-carpet-buckets01';
+import { createBucketExplorer } from './bucket-explorer.js?v=handle01-inches-easm02-20261026-2607-trim-buckets01';
+import { createOverview } from './bucket-overview.js?v=20261026-2607-trim-buckets01';
 import { closestPointsBetweenSegments } from './measurement-geometry.js?v=20260925-edgegap1';
 
 const eyeOpenIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>';
@@ -1068,6 +1068,15 @@ function installPlanningUi() {
     plan.appliedMigrations = [...(plan.appliedMigrations || []),'2607-carpet-v1'];
     savePlan();
   }
+  if (!plan.appliedMigrations?.includes('2607-stair-trim-v1')) {
+    const id='2607-STAIR-TRIM';
+    if (!plan.buckets.some(b=>b.id===id)) plan.buckets.splice(5,0,structuredClone(report.initialPlan.buckets.find(b=>b.id===id)));
+    const ids=["body-0377", "body-0378", "body-0379", "body-0380", "body-0381", "body-0382", "body-0383", "body-0384", "body-0385", "body-0386", "body-0390", "body-0391", "body-0392", "body-0393", "body-0394", "body-0395", "body-0396", "body-0397", "body-0398", "body-0399", "body-0400", "body-0401", "body-0402", "body-0403", "body-0407", "body-0408", "body-0409", "body-0410", "body-0411", "body-0412", "body-0413", "body-0414", "body-0415", "body-0416", "body-0417", "body-0418", "body-0419", "body-0420", "body-0424", "body-0425", "body-0426", "body-0427", "body-0428", "body-0429", "body-0430", "body-0431", "body-0432", "body-0433", "body-0434", "body-0435", "body-0436", "body-0437", "body-0441", "body-0442", "body-0443", "body-0444", "body-0445", "body-0446", "body-0447", "body-0448", "body-0449", "body-0450", "body-0451", "body-0452", "body-0453", "body-0454", "body-0458", "body-0459", "body-0460", "body-0461", "body-0463", "body-0464", "body-0465", "body-0466", "body-0467", "body-0468", "body-0469", "body-0470", "body-0471", "body-0472", "body-0473", "body-0474", "body-0475", "body-0476", "body-0477", "body-0478", "body-0479", "body-0480", "body-0481", "body-0482", "body-0487", "body-0488", "body-0489", "body-0490", "body-0491", "body-0492", "body-0493", "body-0494", "body-0495", "body-0496", "body-0500", "body-0501", "body-0502", "body-0503", "body-0504", "body-0505", "body-0506", "body-0507", "body-0508", "body-0509", "body-0510", "body-0511", "body-0512", "body-0513", "body-0517", "body-0518", "body-0519", "body-0520", "body-0521", "body-0522", "body-0523", "body-0524", "body-0525", "body-0526", "body-0527", "body-0528", "body-0529", "body-0530", "body-0534", "body-0535", "body-0536", "body-0537", "body-0538", "body-0539", "body-0540", "body-0541", "body-0542", "body-0543", "body-0544", "body-0545", "body-0546", "body-0547", "body-0551", "body-0552", "body-0553", "body-0554", "body-0555", "body-0556", "body-0557", "body-0558", "body-0559", "body-0560", "body-0561", "body-0562", "body-0563", "body-0564", "body-0568", "body-0569", "body-0570", "body-0571", "body-0572", "body-0573", "body-0574", "body-0575", "body-0576", "body-0577", "body-0578", "body-0579", "body-0580", "body-0581", "body-0585", "body-0586", "body-0587", "body-0588", "body-0589", "body-0590", "body-0591", "body-0592", "body-0593", "body-0594", "body-0595", "body-0596", "body-0597", "body-0598", "body-0599", "body-0600", "body-0601", "body-0602", "body-0603", "body-0604", "body-0605", "body-0606", "body-0607", "body-0608", "body-0609", "body-0610", "body-0611", "body-0612", "body-0616", "body-0617", "body-0618", "body-0619", "body-0620", "body-0621", "body-0622", "body-0623", "body-0624", "body-0625", "body-0626", "body-0627", "body-0628", "body-0629", "body-0630", "body-0631", "body-0632", "body-0633", "body-0634", "body-0635", "body-0636", "body-0637", "body-0641", "body-0642", "body-0643", "body-0644", "body-0645", "body-0646", "body-0647", "body-0648", "body-0649", "body-0650", "body-0651", "body-0652", "body-0655", "body-0656", "body-0657", "body-0658", "body-0659", "body-0660", "body-0661", "body-0662", "body-0663", "body-0664", "body-0668", "body-0669", "body-0670", "body-0671", "body-0672", "body-0673", "body-0674", "body-0675", "body-0676", "body-0677", "body-0678", "body-0679", "body-0680", "body-0681", "body-0685", "body-0686", "body-0687", "body-0688", "body-0689", "body-0690", "body-0691", "body-0692", "body-0693", "body-0694", "body-0695", "body-0696", "body-0697", "body-0698", "body-0702", "body-0703", "body-0704", "body-0705", "body-0706", "body-0707", "body-0708", "body-0709", "body-0710", "body-0711", "body-0712", "body-0713", "body-0714", "body-0715", "body-0719", "body-0720", "body-0721", "body-0722", "body-0723", "body-0724", "body-0725", "body-0726", "body-0727", "body-0728", "body-0729", "body-0730", "body-0731", "body-0732", "body-0733", "body-0734", "body-0735", "body-0736", "body-0737", "body-0738", "body-0741", "body-0742", "body-0743", "body-0744", "body-0745", "body-0746", "body-0747", "body-0748", "body-0749", "body-0750", "body-0754", "body-0755", "body-0756", "body-0757", "body-0758", "body-0759", "body-0760", "body-0761", "body-0762", "body-0763", "body-0764", "body-0765", "body-0766", "body-0767", "body-0771", "body-0772", "body-0773", "body-0774", "body-0775", "body-0776", "body-0777", "body-0778", "body-0779", "body-0780", "body-0781", "body-0782", "body-0783", "body-0784", "body-0788", "body-0789", "body-0790", "body-0791", "body-0792", "body-0793", "body-0794", "body-0795", "body-0796", "body-0797", "body-0798", "body-0799", "body-0800", "body-0801", "body-0805", "body-0806", "body-0807", "body-0808", "body-0809", "body-0810", "body-0811", "body-0812", "body-0813", "body-0814", "body-0815", "body-0816", "body-0817", "body-0818", "body-0822", "body-0823", "body-0824", "body-0825", "body-0826", "body-0827", "body-0828", "body-0829", "body-0830", "body-0831", "body-0832", "body-0833", "body-0834", "body-0835", "body-0839", "body-0840", "body-0841", "body-0842", "body-0843", "body-0844", "body-0845", "body-0846", "body-0847", "body-0848", "body-0849", "body-0850", "body-0851", "body-0852", "body-0853", "body-0854", "body-0855", "body-0856", "body-0857", "body-0858", "body-0859", "body-0860", "body-0861", "body-0862", "body-0863", "body-0864", "body-0865", "body-0866", "body-0867", "body-0869"];
+    for (const bodyId of ids) plan.assignments[bodyId]=id;
+    if ((plan.hiddenBuckets||[]).includes('2607-NEW-STEP2')) plan.hiddenBuckets=[...new Set([...plan.hiddenBuckets,id])];
+    plan.appliedMigrations=[...(plan.appliedMigrations||[]),'2607-stair-trim-v1'];
+    savePlan();
+  }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -1162,11 +1171,11 @@ new ResizeObserver(resize).observe(container);
 async function load() {
   try {
     const [gltf, loadedReport] = await Promise.all([
-      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-carpet').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
-      fetch('./assets/step-manifest.json?v=20261026-2607-carpet', {cache:'no-store'}).then(r => r.json())
+      fetch('./assets/stair-step.gltf.gz?v=20261026-2607-trim').then(async r => { if (!r.ok) throw new Error('Model download failed'); return new GLTFLoader().parseAsync(await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text(), ''); }),
+      fetch('./assets/step-manifest.json?v=20261026-2607-trim', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-carpet", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261026-2607-trim", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;

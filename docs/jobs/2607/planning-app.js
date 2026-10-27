@@ -1101,6 +1101,15 @@ function installPlanningUi() {
     plan.appliedMigrations=[...(plan.appliedMigrations||[]),'2607-og-four-sides-v1'];
     savePlan();
   }
+  // Remove by-others millwork from opening guard work orders, preserving other assignments.
+  if (!plan.appliedMigrations?.includes('2607-og-millwork-by-others-v1')) {
+    for (let i = 1779; i <= 1786; i++) {
+      const id = `body-${String(i).padStart(4, '0')}`;
+      if (['2607-OG-NORTH', '2607-OG-SOUTH', '2607-OG-EAST', '2607-OG-WEST'].includes(plan.assignments[id])) delete plan.assignments[id];
+    }
+    plan.appliedMigrations = [...(plan.appliedMigrations || []), '2607-og-millwork-by-others-v1'];
+    savePlan();
+  }
   const newBodiesButton = document.getElementById('show-new-bodies');
   const newCount = report.refresh?.added?.length || 0;
   if (newCount) {
@@ -1199,7 +1208,7 @@ async function load() {
       fetch('./assets/step-manifest.json?v=20261027-2607-og4', {cache:'no-store'}).then(r => r.json())
     ]);
     report = loadedReport;
-    const seed = await fetch("./assets/proposed-plan.json?v=20261027-2607-og4", {cache:"no-store"}).then(r => r.json());
+    const seed = await fetch("./assets/proposed-plan.json?v=20261027-2607-og-millwork1", {cache:"no-store"}).then(r => r.json());
     if (seed.sourceSha256 !== report.sourceSha256) throw new Error("Proposal/model source mismatch");
     report.initialPlan = seed;
     model = gltf.scene;
